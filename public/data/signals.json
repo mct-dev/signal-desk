@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-05-27T23:02:30.037Z",
+  "generatedAt": "2026-05-27T23:10:07.957Z",
   "summary": {
     "opportunityCount": 11,
-    "evidenceCount": 126,
+    "evidenceCount": 127,
     "sourceCount": 7,
     "staleSources": 0
   },
@@ -11,43 +11,43 @@
       "source": "Hacker News",
       "ok": true,
       "itemCount": 80,
-      "fetchedAt": "2026-05-27T23:02:29.092Z"
+      "fetchedAt": "2026-05-27T23:10:06.907Z"
     },
     {
       "source": "Reddit",
       "ok": true,
       "itemCount": 160,
-      "fetchedAt": "2026-05-27T23:02:29.619Z"
+      "fetchedAt": "2026-05-27T23:10:07.094Z"
     },
     {
       "source": "Apple",
       "ok": true,
       "itemCount": 199,
-      "fetchedAt": "2026-05-27T23:02:29.953Z"
+      "fetchedAt": "2026-05-27T23:10:07.619Z"
     },
     {
       "source": "arXiv",
       "ok": true,
       "itemCount": 100,
-      "fetchedAt": "2026-05-27T23:02:29.540Z"
+      "fetchedAt": "2026-05-27T23:10:07.020Z"
     },
     {
       "source": "npm",
       "ok": true,
       "itemCount": 175,
-      "fetchedAt": "2026-05-27T23:02:28.834Z"
+      "fetchedAt": "2026-05-27T23:10:07.113Z"
     },
     {
       "source": "PyPI",
       "ok": true,
       "itemCount": 100,
-      "fetchedAt": "2026-05-27T23:02:28.493Z"
+      "fetchedAt": "2026-05-27T23:10:06.556Z"
     },
     {
       "source": "GitHub",
       "ok": true,
       "itemCount": 17,
-      "fetchedAt": "2026-05-27T23:02:29.995Z"
+      "fetchedAt": "2026-05-27T23:10:07.629Z"
     }
   ],
   "opportunities": [
@@ -64,9 +64,9 @@
         "arXiv",
         "npm"
       ],
-      "whyNow": "48 current mentions versus prior peak 12 across Hacker News, Reddit, Apple, arXiv, npm, PyPI. Public evidence shows repeated attention before any private data or paid API is needed.",
+      "whyNow": "49 current mentions versus prior peak 12 across Hacker News, Reddit, Apple, arXiv, npm, PyPI. Public evidence shows repeated attention before any private data or paid API is needed.",
       "notes": [
-        "48 public artifacts clustered by shared language.",
+        "49 public artifacts clustered by shared language.",
         "6 independent source types reduce single-platform noise.",
         "Pain-language density suggests a problem worth validating.",
         "Monetization terms or ranked app evidence suggest buyer intent.",
@@ -85,9 +85,9 @@
         13,
         27,
         35,
-        43,
-        48,
-        58
+        44,
+        49,
+        59
       ],
       "evidence": [
         {
@@ -178,9 +178,9 @@
         "arXiv",
         "npm"
       ],
-      "whyNow": "192 current mentions versus prior peak 12 across Hacker News, Reddit, Apple, arXiv, npm, PyPI, GitHub. Public evidence shows repeated attention before any private data or paid API is needed.",
+      "whyNow": "198 current mentions versus prior peak 12 across Hacker News, Reddit, Apple, arXiv, npm, PyPI, GitHub. Public evidence shows repeated attention before any private data or paid API is needed.",
       "notes": [
-        "192 public artifacts clustered by shared language.",
+        "198 public artifacts clustered by shared language.",
         "7 independent source types reduce single-platform noise.",
         "Pain-language density suggests a problem worth validating.",
         "Monetization terms or ranked app evidence suggest buyer intent.",
@@ -197,11 +197,11 @@
       "sparkline": [
         12,
         13,
-        92,
-        118,
-        147,
-        192,
-        202
+        95,
+        122,
+        151,
+        198,
+        208
       ],
       "evidence": [
         {
@@ -248,15 +248,15 @@
         },
         {
           "source": "npm",
-          "title": "@llm-ui/code",
-          "url": "https://www.npmjs.com/package/@llm-ui/code",
-          "publishedAt": "2024-06-01T12:13:12.205Z"
-        },
-        {
-          "source": "npm",
           "title": "automation-events",
           "url": "https://www.npmjs.com/package/automation-events",
           "publishedAt": "2026-05-20T19:45:32.201Z"
+        },
+        {
+          "source": "npm",
+          "title": "@llm-ui/code",
+          "url": "https://www.npmjs.com/package/@llm-ui/code",
+          "publishedAt": "2024-06-01T12:13:12.205Z"
         },
         {
           "source": "npm",
@@ -292,9 +292,9 @@
         "arXiv",
         "npm"
       ],
-      "whyNow": "105 current mentions versus prior peak 12 across Hacker News, Reddit, Apple, arXiv, npm, PyPI, GitHub. Public evidence shows repeated attention before any private data or paid API is needed.",
+      "whyNow": "110 current mentions versus prior peak 12 across Hacker News, Reddit, Apple, arXiv, npm, PyPI, GitHub. Public evidence shows repeated attention before any private data or paid API is needed.",
       "notes": [
-        "105 public artifacts clustered by shared language.",
+        "110 public artifacts clustered by shared language.",
         "7 independent source types reduce single-platform noise.",
         "Pain-language density suggests a problem worth validating.",
         "Monetization terms or ranked app evidence suggest buyer intent.",
@@ -311,11 +311,11 @@
       "sparkline": [
         12,
         13,
-        53,
-        68,
-        84,
-        105,
-        115
+        55,
+        71,
+        88,
+        110,
+        120
       ],
       "evidence": [
         {
@@ -389,6 +389,117 @@
           "title": "@traceloop/ai-semantic-conventions",
           "url": "https://www.npmjs.com/package/@traceloop/ai-semantic-conventions",
           "publishedAt": "2026-04-16T11:45:42.461Z"
+        }
+      ]
+    },
+    {
+      "id": "small-business-sales",
+      "title": "Small Business + Sales",
+      "category": "Commerce",
+      "score": 93,
+      "sources": [
+        "Apple",
+        "PyPI",
+        "Reddit",
+        "npm"
+      ],
+      "whyNow": "60 current mentions versus prior peak 12 across Reddit, Apple, npm, PyPI. Public evidence shows repeated attention before any private data or paid API is needed.",
+      "notes": [
+        "60 public artifacts clustered by shared language.",
+        "4 independent source types reduce single-platform noise.",
+        "Pain-language density suggests a problem worth validating.",
+        "Monetization terms or ranked app evidence suggest buyer intent.",
+        "Novelty terms point to fresh tooling or behavior change."
+      ],
+      "metrics": {
+        "velocity": 100,
+        "pain": 100,
+        "money": 100,
+        "novelty": 100,
+        "sourceDiversity": 80,
+        "saturation": 18
+      },
+      "sparkline": [
+        12,
+        13,
+        32,
+        42,
+        52,
+        60,
+        69
+      ],
+      "evidence": [
+        {
+          "source": "npm",
+          "title": "telecom-mas-agent",
+          "url": "https://www.npmjs.com/package/telecom-mas-agent",
+          "publishedAt": "2025-12-09T03:02:18.773Z"
+        },
+        {
+          "source": "Apple",
+          "title": "Indeed Job Search",
+          "url": "https://apps.apple.com/us/app/indeed-job-search/id309735670",
+          "publishedAt": "2009-06-08"
+        },
+        {
+          "source": "Apple",
+          "title": "Cash App",
+          "url": "https://apps.apple.com/us/app/cash-app/id711923939",
+          "publishedAt": "2013-10-16"
+        },
+        {
+          "source": "Apple",
+          "title": "ADP Mobile Solutions",
+          "url": "https://apps.apple.com/us/app/adp-mobile-solutions/id444553167",
+          "publishedAt": "2011-07-13"
+        },
+        {
+          "source": "Apple",
+          "title": "LinkedIn: Community & Network",
+          "url": "https://apps.apple.com/us/app/linkedin-community-network/id288429040",
+          "publishedAt": "2019-02-03"
+        },
+        {
+          "source": "Apple",
+          "title": "Jump Desktop (RDP, VNC, Fluid)",
+          "url": "https://apps.apple.com/us/app/jump-desktop-rdp-vnc-fluid/id364876095",
+          "publishedAt": "2010-04-01"
+        },
+        {
+          "source": "Apple",
+          "title": "FedEx Mobile",
+          "url": "https://apps.apple.com/us/app/fedex-mobile/id1010729050",
+          "publishedAt": "2015-11-10"
+        },
+        {
+          "source": "Apple",
+          "title": "DoorDash - Dasher",
+          "url": "https://apps.apple.com/us/app/doordash-dasher/id1451754591",
+          "publishedAt": "2019-03-13"
+        },
+        {
+          "source": "Reddit",
+          "title": "What’s something in business that became much harder once you started scaling?",
+          "url": "https://www.reddit.com/r/Entrepreneur/comments/1tpf2eh/whats_something_in_business_that_became_much/",
+          "publishedAt": "2026-05-27T18:58:08+00:00"
+        },
+        {
+          "source": "Reddit",
+          "title": "Personality testing for entrepreneurs to find what your flow is and where you're good at",
+          "url": "https://www.reddit.com/r/Entrepreneur/comments/1tp2fzx/personality_testing_for_entrepreneurs_to_find/",
+          "publishedAt": "2026-05-27T11:14:29+00:00"
+        },
+        {
+          "source": "Reddit",
+          "title": "To the startups out there, you need to do more market testing before launch.",
+          "url": "https://www.reddit.com/r/Entrepreneur/comments/1told4x/to_the_startups_out_there_you_need_to_do_more/",
+          "publishedAt": "2026-05-26T21:46:12+00:00"
+        },
+        {
+          "source": "Reddit",
+          "title": "What is more important than past results?",
+          "url": "https://www.reddit.com/r/Entrepreneur/comments/1toknnr/what_is_more_important_than_past_results/",
+          "publishedAt": "2026-05-26T21:20:35+00:00"
         }
       ]
     },
@@ -499,116 +610,6 @@
           "title": "Rips by Triumph",
           "url": "https://apps.apple.com/us/app/rips-by-triumph/id6751921248",
           "publishedAt": "2025-10-22"
-        }
-      ]
-    },
-    {
-      "id": "small-business-sales",
-      "title": "Small Business + Sales",
-      "category": "Commerce",
-      "score": 90,
-      "sources": [
-        "Apple",
-        "Reddit",
-        "npm"
-      ],
-      "whyNow": "59 current mentions versus prior peak 12 across Reddit, Apple, npm. Public evidence shows repeated attention before any private data or paid API is needed.",
-      "notes": [
-        "59 public artifacts clustered by shared language.",
-        "3 independent source types reduce single-platform noise.",
-        "Pain-language density suggests a problem worth validating.",
-        "Monetization terms or ranked app evidence suggest buyer intent.",
-        "Novelty terms point to fresh tooling or behavior change."
-      ],
-      "metrics": {
-        "velocity": 100,
-        "pain": 100,
-        "money": 100,
-        "novelty": 100,
-        "sourceDiversity": 60,
-        "saturation": 18
-      },
-      "sparkline": [
-        12,
-        13,
-        32,
-        41,
-        51,
-        59,
-        68
-      ],
-      "evidence": [
-        {
-          "source": "npm",
-          "title": "telecom-mas-agent",
-          "url": "https://www.npmjs.com/package/telecom-mas-agent",
-          "publishedAt": "2025-12-09T03:02:18.773Z"
-        },
-        {
-          "source": "Apple",
-          "title": "Indeed Job Search",
-          "url": "https://apps.apple.com/us/app/indeed-job-search/id309735670",
-          "publishedAt": "2009-06-08"
-        },
-        {
-          "source": "Apple",
-          "title": "Cash App",
-          "url": "https://apps.apple.com/us/app/cash-app/id711923939",
-          "publishedAt": "2013-10-16"
-        },
-        {
-          "source": "Apple",
-          "title": "ADP Mobile Solutions",
-          "url": "https://apps.apple.com/us/app/adp-mobile-solutions/id444553167",
-          "publishedAt": "2011-07-13"
-        },
-        {
-          "source": "Apple",
-          "title": "LinkedIn: Community & Network",
-          "url": "https://apps.apple.com/us/app/linkedin-community-network/id288429040",
-          "publishedAt": "2019-02-03"
-        },
-        {
-          "source": "Apple",
-          "title": "Jump Desktop (RDP, VNC, Fluid)",
-          "url": "https://apps.apple.com/us/app/jump-desktop-rdp-vnc-fluid/id364876095",
-          "publishedAt": "2010-04-01"
-        },
-        {
-          "source": "Apple",
-          "title": "FedEx Mobile",
-          "url": "https://apps.apple.com/us/app/fedex-mobile/id1010729050",
-          "publishedAt": "2015-11-10"
-        },
-        {
-          "source": "Apple",
-          "title": "DoorDash - Dasher",
-          "url": "https://apps.apple.com/us/app/doordash-dasher/id1451754591",
-          "publishedAt": "2019-03-13"
-        },
-        {
-          "source": "Reddit",
-          "title": "What’s something in business that became much harder once you started scaling?",
-          "url": "https://www.reddit.com/r/Entrepreneur/comments/1tpf2eh/whats_something_in_business_that_became_much/",
-          "publishedAt": "2026-05-27T18:58:08+00:00"
-        },
-        {
-          "source": "Reddit",
-          "title": "Personality testing for entrepreneurs to find what your flow is and where you're good at",
-          "url": "https://www.reddit.com/r/Entrepreneur/comments/1tp2fzx/personality_testing_for_entrepreneurs_to_find/",
-          "publishedAt": "2026-05-27T11:14:29+00:00"
-        },
-        {
-          "source": "Reddit",
-          "title": "To the startups out there, you need to do more market testing before launch.",
-          "url": "https://www.reddit.com/r/Entrepreneur/comments/1told4x/to_the_startups_out_there_you_need_to_do_more/",
-          "publishedAt": "2026-05-26T21:46:12+00:00"
-        },
-        {
-          "source": "Reddit",
-          "title": "What is more important than past results?",
-          "url": "https://www.reddit.com/r/Entrepreneur/comments/1toknnr/what_is_more_important_than_past_results/",
-          "publishedAt": "2026-05-26T21:20:35+00:00"
         }
       ]
     },
@@ -735,9 +736,9 @@
         "arXiv",
         "npm"
       ],
-      "whyNow": "51 current mentions versus prior peak 12 across Hacker News, Reddit, Apple, arXiv, npm, PyPI. Public evidence shows repeated attention before any private data or paid API is needed.",
+      "whyNow": "43 current mentions versus prior peak 12 across Hacker News, Reddit, Apple, arXiv, npm, PyPI. Public evidence shows repeated attention before any private data or paid API is needed.",
       "notes": [
-        "51 public artifacts clustered by shared language.",
+        "43 public artifacts clustered by shared language.",
         "6 independent source types reduce single-platform noise.",
         "Pain-language density suggests a problem worth validating.",
         "Monetization terms or ranked app evidence suggest buyer intent.",
@@ -754,11 +755,11 @@
       "sparkline": [
         12,
         13,
-        28,
-        37,
-        45,
-        51,
-        59
+        25,
+        32,
+        40,
+        43,
+        51
       ],
       "evidence": [
         {
@@ -844,9 +845,9 @@
         "PyPI",
         "arXiv"
       ],
-      "whyNow": "34 current mentions versus prior peak 12 across arXiv, PyPI. Public evidence shows repeated attention before any private data or paid API is needed.",
+      "whyNow": "33 current mentions versus prior peak 12 across arXiv, PyPI. Public evidence shows repeated attention before any private data or paid API is needed.",
       "notes": [
-        "34 public artifacts clustered by shared language.",
+        "33 public artifacts clustered by shared language.",
         "2 independent source types reduce single-platform noise.",
         "Pain-language density suggests a problem worth validating.",
         "Monetization terms or ranked app evidence suggest buyer intent.",
@@ -863,11 +864,11 @@
       "sparkline": [
         12,
         13,
-        21,
-        27,
+        20,
+        26,
+        32,
         33,
-        34,
-        42
+        41
       ],
       "evidence": [
         {
@@ -1062,9 +1063,9 @@
         "Hacker News",
         "Reddit"
       ],
-      "whyNow": "6 current mentions versus prior peak 5 across Hacker News, Reddit, Apple. Public evidence shows repeated attention before any private data or paid API is needed.",
+      "whyNow": "7 current mentions versus prior peak 6 across Hacker News, Reddit, Apple. Public evidence shows repeated attention before any private data or paid API is needed.",
       "notes": [
-        "6 public artifacts clustered by shared language.",
+        "7 public artifacts clustered by shared language.",
         "3 independent source types reduce single-platform noise.",
         "Pain-language density suggests a problem worth validating.",
         "Monetization terms or ranked app evidence suggest buyer intent.",
@@ -1076,16 +1077,16 @@
         "money": 76,
         "novelty": 60,
         "sourceDiversity": 60,
-        "saturation": 12
+        "saturation": 14
       },
       "sparkline": [
-        5,
         6,
-        5,
+        7,
         6,
         8,
-        6,
-        13
+        9,
+        7,
+        14
       ],
       "evidence": [
         {
@@ -1114,6 +1115,12 @@
         },
         {
           "source": "Reddit",
+          "title": "saveVault — I built my own password + bookmark manager because I didn't trust the big ones. Need testers",
+          "url": "https://www.reddit.com/r/SideProject/comments/1tpll14/savevault_i_built_my_own_password_bookmark/",
+          "publishedAt": "2026-05-27T22:58:57+00:00"
+        },
+        {
+          "source": "Reddit",
           "title": "What would you actually want in an EU backup tool?",
           "url": "https://www.reddit.com/r/SideProject/comments/1tpldit/what_would_you_actually_want_in_an_eu_backup_tool/",
           "publishedAt": "2026-05-27T22:50:18+00:00"
@@ -1130,34 +1137,34 @@
       "id": "consumer-finance",
       "title": "Consumer Finance",
       "category": "Consumer apps",
-      "score": 57,
+      "score": 53,
       "sources": [
         "Apple",
         "Hacker News",
         "Reddit"
       ],
-      "whyNow": "14 current mentions versus prior peak 12 across Hacker News, Reddit, Apple. Public evidence shows repeated attention before any private data or paid API is needed.",
+      "whyNow": "13 current mentions versus prior peak 12 across Hacker News, Reddit, Apple. Public evidence shows repeated attention before any private data or paid API is needed.",
       "notes": [
-        "14 public artifacts clustered by shared language.",
+        "13 public artifacts clustered by shared language.",
         "3 independent source types reduce single-platform noise.",
         "Monetization terms or ranked app evidence suggest buyer intent."
       ],
       "metrics": {
-        "velocity": 70,
-        "pain": 34,
+        "velocity": 56,
+        "pain": 30,
         "money": 100,
         "novelty": 24,
         "sourceDiversity": 60,
-        "saturation": 28
+        "saturation": 26
       },
       "sparkline": [
         12,
         13,
-        12,
-        15,
-        19,
+        11,
         14,
-        20
+        18,
+        13,
+        18
       ],
       "evidence": [
         {
