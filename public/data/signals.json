@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T23:10:07.957Z",
+  "generatedAt": "2026-05-27T23:11:22.757Z",
   "summary": {
     "opportunityCount": 11,
     "evidenceCount": 127,
@@ -11,43 +11,43 @@
       "source": "Hacker News",
       "ok": true,
       "itemCount": 80,
-      "fetchedAt": "2026-05-27T23:10:06.907Z"
+      "fetchedAt": "2026-05-27T23:11:21.648Z"
     },
     {
       "source": "Reddit",
       "ok": true,
       "itemCount": 160,
-      "fetchedAt": "2026-05-27T23:10:07.094Z"
+      "fetchedAt": "2026-05-27T23:11:21.860Z"
     },
     {
       "source": "Apple",
       "ok": true,
       "itemCount": 199,
-      "fetchedAt": "2026-05-27T23:10:07.619Z"
+      "fetchedAt": "2026-05-27T23:11:22.594Z"
     },
     {
       "source": "arXiv",
       "ok": true,
       "itemCount": 100,
-      "fetchedAt": "2026-05-27T23:10:07.020Z"
+      "fetchedAt": "2026-05-27T23:11:21.995Z"
     },
     {
       "source": "npm",
       "ok": true,
       "itemCount": 175,
-      "fetchedAt": "2026-05-27T23:10:07.113Z"
+      "fetchedAt": "2026-05-27T23:11:21.996Z"
     },
     {
       "source": "PyPI",
       "ok": true,
       "itemCount": 100,
-      "fetchedAt": "2026-05-27T23:10:06.556Z"
+      "fetchedAt": "2026-05-27T23:11:21.502Z"
     },
     {
       "source": "GitHub",
       "ok": true,
       "itemCount": 17,
-      "fetchedAt": "2026-05-27T23:10:07.629Z"
+      "fetchedAt": "2026-05-27T23:11:22.440Z"
     }
   ],
   "opportunities": [
@@ -178,9 +178,9 @@
         "arXiv",
         "npm"
       ],
-      "whyNow": "198 current mentions versus prior peak 12 across Hacker News, Reddit, Apple, arXiv, npm, PyPI, GitHub. Public evidence shows repeated attention before any private data or paid API is needed.",
+      "whyNow": "197 current mentions versus prior peak 12 across Hacker News, Reddit, Apple, arXiv, npm, PyPI, GitHub. Public evidence shows repeated attention before any private data or paid API is needed.",
       "notes": [
-        "198 public artifacts clustered by shared language.",
+        "197 public artifacts clustered by shared language.",
         "7 independent source types reduce single-platform noise.",
         "Pain-language density suggests a problem worth validating.",
         "Monetization terms or ranked app evidence suggest buyer intent.",
@@ -197,11 +197,11 @@
       "sparkline": [
         12,
         13,
-        95,
-        122,
-        151,
-        198,
-        208
+        94,
+        121,
+        150,
+        197,
+        207
       ],
       "evidence": [
         {
@@ -292,9 +292,9 @@
         "arXiv",
         "npm"
       ],
-      "whyNow": "110 current mentions versus prior peak 12 across Hacker News, Reddit, Apple, arXiv, npm, PyPI, GitHub. Public evidence shows repeated attention before any private data or paid API is needed.",
+      "whyNow": "108 current mentions versus prior peak 12 across Hacker News, Reddit, Apple, arXiv, npm, PyPI, GitHub. Public evidence shows repeated attention before any private data or paid API is needed.",
       "notes": [
-        "110 public artifacts clustered by shared language.",
+        "108 public artifacts clustered by shared language.",
         "7 independent source types reduce single-platform noise.",
         "Pain-language density suggests a problem worth validating.",
         "Monetization terms or ranked app evidence suggest buyer intent.",
@@ -311,11 +311,11 @@
       "sparkline": [
         12,
         13,
-        55,
-        71,
-        88,
-        110,
-        120
+        54,
+        70,
+        86,
+        108,
+        118
       ],
       "evidence": [
         {
@@ -504,116 +504,6 @@
       ]
     },
     {
-      "id": "ecommerce-shopping",
-      "title": "Ecommerce + Shopping",
-      "category": "Commerce",
-      "score": 90,
-      "sources": [
-        "Apple",
-        "Hacker News",
-        "Reddit"
-      ],
-      "whyNow": "38 current mentions versus prior peak 12 across Hacker News, Reddit, Apple. Public evidence shows repeated attention before any private data or paid API is needed.",
-      "notes": [
-        "38 public artifacts clustered by shared language.",
-        "3 independent source types reduce single-platform noise.",
-        "Pain-language density suggests a problem worth validating.",
-        "Monetization terms or ranked app evidence suggest buyer intent.",
-        "Novelty terms point to fresh tooling or behavior change."
-      ],
-      "metrics": {
-        "velocity": 100,
-        "pain": 100,
-        "money": 100,
-        "novelty": 96,
-        "sourceDiversity": 60,
-        "saturation": 18
-      },
-      "sparkline": [
-        12,
-        13,
-        23,
-        29,
-        36,
-        38,
-        47
-      ],
-      "evidence": [
-        {
-          "source": "Apple",
-          "title": "Whatnot: Shop, Sell, Connect",
-          "url": "https://apps.apple.com/us/app/whatnot-shop-sell-connect/id1488269261",
-          "publishedAt": "2019-12-06"
-        },
-        {
-          "source": "Apple",
-          "title": "Shop: All your favorite brands",
-          "url": "https://apps.apple.com/us/app/shop-all-your-favorite-brands/id1223471316",
-          "publishedAt": "2017-11-16"
-        },
-        {
-          "source": "Apple",
-          "title": "Temu: Shop Like a Billionaire",
-          "url": "https://apps.apple.com/us/app/temu-shop-like-a-billionaire/id1641486558",
-          "publishedAt": "2022-08-31"
-        },
-        {
-          "source": "Apple",
-          "title": "Vinted: Pre-loved marketplace",
-          "url": "https://apps.apple.com/us/app/vinted-pre-loved-marketplace/id632064380",
-          "publishedAt": "2013-04-11"
-        },
-        {
-          "source": "Apple",
-          "title": "Depop - Buy & Sell Clothes",
-          "url": "https://apps.apple.com/us/app/depop-buy-sell-clothes/id518684914",
-          "publishedAt": "2012-08-01"
-        },
-        {
-          "source": "Apple",
-          "title": "SHEIN - Shopping Online",
-          "url": "https://apps.apple.com/us/app/shein-shopping-online/id878577184",
-          "publishedAt": "2014-05-20"
-        },
-        {
-          "source": "Apple",
-          "title": "DealSeek: Coupons & Discounts",
-          "url": "https://apps.apple.com/us/app/dealseek-coupons-discounts/id6745274862",
-          "publishedAt": "2025-06-19"
-        },
-        {
-          "source": "Apple",
-          "title": "Sam's Club Shopping & Delivery",
-          "url": "https://apps.apple.com/us/app/sams-club-shopping-delivery/id382497397",
-          "publishedAt": "2010-08-25"
-        },
-        {
-          "source": "Apple",
-          "title": "Walmart: Shopping & Savings",
-          "url": "https://apps.apple.com/us/app/walmart-shopping-savings/id338137227",
-          "publishedAt": "2009-11-02"
-        },
-        {
-          "source": "Apple",
-          "title": "Amazon Prime Video",
-          "url": "https://apps.apple.com/us/app/amazon-prime-video/id545519333",
-          "publishedAt": "2012-07-31"
-        },
-        {
-          "source": "Apple",
-          "title": "Amazon Shopping",
-          "url": "https://apps.apple.com/us/app/amazon-shopping/id297606951",
-          "publishedAt": "2008-12-03"
-        },
-        {
-          "source": "Apple",
-          "title": "Rips by Triumph",
-          "url": "https://apps.apple.com/us/app/rips-by-triumph/id6751921248",
-          "publishedAt": "2025-10-22"
-        }
-      ]
-    },
-    {
       "id": "personal-productivity",
       "title": "Personal Productivity",
       "category": "Productivity",
@@ -724,6 +614,115 @@
       ]
     },
     {
+      "id": "ecommerce-shopping",
+      "title": "Ecommerce + Shopping",
+      "category": "Commerce",
+      "score": 86,
+      "sources": [
+        "Apple",
+        "Reddit"
+      ],
+      "whyNow": "37 current mentions versus prior peak 12 across Reddit, Apple. Public evidence shows repeated attention before any private data or paid API is needed.",
+      "notes": [
+        "37 public artifacts clustered by shared language.",
+        "2 independent source types reduce single-platform noise.",
+        "Pain-language density suggests a problem worth validating.",
+        "Monetization terms or ranked app evidence suggest buyer intent.",
+        "Novelty terms point to fresh tooling or behavior change."
+      ],
+      "metrics": {
+        "velocity": 100,
+        "pain": 100,
+        "money": 100,
+        "novelty": 88,
+        "sourceDiversity": 40,
+        "saturation": 18
+      },
+      "sparkline": [
+        12,
+        13,
+        22,
+        28,
+        35,
+        37,
+        46
+      ],
+      "evidence": [
+        {
+          "source": "Apple",
+          "title": "Whatnot: Shop, Sell, Connect",
+          "url": "https://apps.apple.com/us/app/whatnot-shop-sell-connect/id1488269261",
+          "publishedAt": "2019-12-06"
+        },
+        {
+          "source": "Apple",
+          "title": "Shop: All your favorite brands",
+          "url": "https://apps.apple.com/us/app/shop-all-your-favorite-brands/id1223471316",
+          "publishedAt": "2017-11-16"
+        },
+        {
+          "source": "Apple",
+          "title": "Temu: Shop Like a Billionaire",
+          "url": "https://apps.apple.com/us/app/temu-shop-like-a-billionaire/id1641486558",
+          "publishedAt": "2022-08-31"
+        },
+        {
+          "source": "Apple",
+          "title": "Vinted: Pre-loved marketplace",
+          "url": "https://apps.apple.com/us/app/vinted-pre-loved-marketplace/id632064380",
+          "publishedAt": "2013-04-11"
+        },
+        {
+          "source": "Apple",
+          "title": "Depop - Buy & Sell Clothes",
+          "url": "https://apps.apple.com/us/app/depop-buy-sell-clothes/id518684914",
+          "publishedAt": "2012-08-01"
+        },
+        {
+          "source": "Apple",
+          "title": "SHEIN - Shopping Online",
+          "url": "https://apps.apple.com/us/app/shein-shopping-online/id878577184",
+          "publishedAt": "2014-05-20"
+        },
+        {
+          "source": "Apple",
+          "title": "DealSeek: Coupons & Discounts",
+          "url": "https://apps.apple.com/us/app/dealseek-coupons-discounts/id6745274862",
+          "publishedAt": "2025-06-19"
+        },
+        {
+          "source": "Apple",
+          "title": "Sam's Club Shopping & Delivery",
+          "url": "https://apps.apple.com/us/app/sams-club-shopping-delivery/id382497397",
+          "publishedAt": "2010-08-25"
+        },
+        {
+          "source": "Apple",
+          "title": "Walmart: Shopping & Savings",
+          "url": "https://apps.apple.com/us/app/walmart-shopping-savings/id338137227",
+          "publishedAt": "2009-11-02"
+        },
+        {
+          "source": "Apple",
+          "title": "Amazon Prime Video",
+          "url": "https://apps.apple.com/us/app/amazon-prime-video/id545519333",
+          "publishedAt": "2012-07-31"
+        },
+        {
+          "source": "Apple",
+          "title": "Amazon Shopping",
+          "url": "https://apps.apple.com/us/app/amazon-shopping/id297606951",
+          "publishedAt": "2008-12-03"
+        },
+        {
+          "source": "Apple",
+          "title": "Rips by Triumph",
+          "url": "https://apps.apple.com/us/app/rips-by-triumph/id6751921248",
+          "publishedAt": "2025-10-22"
+        }
+      ]
+    },
+    {
       "id": "developer-infrastructure",
       "title": "Developer Infrastructure",
       "category": "Developer tools",
@@ -736,9 +735,9 @@
         "arXiv",
         "npm"
       ],
-      "whyNow": "43 current mentions versus prior peak 12 across Hacker News, Reddit, Apple, arXiv, npm, PyPI. Public evidence shows repeated attention before any private data or paid API is needed.",
+      "whyNow": "44 current mentions versus prior peak 12 across Hacker News, Reddit, Apple, arXiv, npm, PyPI. Public evidence shows repeated attention before any private data or paid API is needed.",
       "notes": [
-        "43 public artifacts clustered by shared language.",
+        "44 public artifacts clustered by shared language.",
         "6 independent source types reduce single-platform noise.",
         "Pain-language density suggests a problem worth validating.",
         "Monetization terms or ranked app evidence suggest buyer intent.",
@@ -758,8 +757,8 @@
         25,
         32,
         40,
-        43,
-        51
+        44,
+        52
       ],
       "evidence": [
         {
@@ -845,9 +844,9 @@
         "PyPI",
         "arXiv"
       ],
-      "whyNow": "33 current mentions versus prior peak 12 across arXiv, PyPI. Public evidence shows repeated attention before any private data or paid API is needed.",
+      "whyNow": "34 current mentions versus prior peak 12 across arXiv, PyPI. Public evidence shows repeated attention before any private data or paid API is needed.",
       "notes": [
-        "33 public artifacts clustered by shared language.",
+        "34 public artifacts clustered by shared language.",
         "2 independent source types reduce single-platform noise.",
         "Pain-language density suggests a problem worth validating.",
         "Monetization terms or ranked app evidence suggest buyer intent.",
@@ -864,11 +863,11 @@
       "sparkline": [
         12,
         13,
-        20,
-        26,
-        32,
+        21,
+        27,
         33,
-        41
+        34,
+        42
       ],
       "evidence": [
         {
@@ -1057,13 +1056,13 @@
       "id": "privacy-security",
       "title": "Privacy + Security",
       "category": "Developer tools",
-      "score": 65,
+      "score": 61,
       "sources": [
         "Apple",
         "Hacker News",
         "Reddit"
       ],
-      "whyNow": "7 current mentions versus prior peak 6 across Hacker News, Reddit, Apple. Public evidence shows repeated attention before any private data or paid API is needed.",
+      "whyNow": "7 current mentions versus prior peak 7 across Hacker News, Reddit, Apple. Public evidence shows repeated attention before any private data or paid API is needed.",
       "notes": [
         "7 public artifacts clustered by shared language.",
         "3 independent source types reduce single-platform noise.",
@@ -1072,7 +1071,7 @@
         "Novelty terms point to fresh tooling or behavior change."
       ],
       "metrics": {
-        "velocity": 56,
+        "velocity": 42,
         "pain": 100,
         "money": 76,
         "novelty": 60,
@@ -1080,13 +1079,13 @@
         "saturation": 14
       },
       "sparkline": [
-        6,
         7,
+        8,
         6,
         8,
-        9,
+        10,
         7,
-        14
+        13
       ],
       "evidence": [
         {
