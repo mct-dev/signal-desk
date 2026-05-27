@@ -1,0 +1,29 @@
+{
+  "name": "signal-desk",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run build && python3 -m http.server 5173 -d dist",
+    "build": "node scripts/build-site.js",
+    "collect": "node scripts/collect-signals.js",
+    "lint": "eslint .",
+    "preview": "python3 -m http.server 4173 -d dist"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.8.0",
+    "lucide-react": "^1.16.0",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^10.3.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.6.0"
+  },
+  "packageManager": "bun@1.3.11"
+}
