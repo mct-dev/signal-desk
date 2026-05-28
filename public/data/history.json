@@ -1,6 +1,66 @@
 {
   "snapshots": [
     {
+      "at": "2026-05-28T02:48:25.089Z",
+      "clusters": [
+        {
+          "id": "creative-tools",
+          "count": 12,
+          "score": 96
+        },
+        {
+          "id": "ai-agents-automation",
+          "count": 12,
+          "score": 96
+        },
+        {
+          "id": "local-open-models",
+          "count": 12,
+          "score": 96
+        },
+        {
+          "id": "small-business-sales",
+          "count": 12,
+          "score": 90
+        },
+        {
+          "id": "ecommerce-shopping",
+          "count": 12,
+          "score": 90
+        },
+        {
+          "id": "personal-productivity",
+          "count": 12,
+          "score": 88
+        },
+        {
+          "id": "developer-infrastructure",
+          "count": 12,
+          "score": 87
+        },
+        {
+          "id": "model-evals-benchmarks",
+          "count": 12,
+          "score": 75
+        },
+        {
+          "id": "health-fitness-apps",
+          "count": 12,
+          "score": 64
+        },
+        {
+          "id": "privacy-security",
+          "count": 6,
+          "score": 59
+        },
+        {
+          "id": "consumer-finance",
+          "count": 12,
+          "score": 56
+        }
+      ]
+    },
+    {
       "at": "2026-05-27T23:11:22.757Z",
       "clusters": [
         {
