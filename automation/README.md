@@ -11,8 +11,8 @@ seed updates, and commits produced by the automation.
   recent run.
 - `public/data/signals.json` stores current opportunity signal state.
 - `public/data/history.json` stores historical opportunity baselines.
-- `sources/manual-links.json` stores curated public seed links, including X links
-  captured as human-written notes instead of scraped content.
+- `sources/manual-links.json` stores curated public seed links, including public
+  X URLs captured as human-written notes instead of scraped content.
 - `sources/echo-sources.json` stores recurring public echo queries and RSS feeds.
 
 ## Digest Shape
@@ -37,6 +37,10 @@ Each digest should be concise enough to read like an email:
   personal browsing data in the repo.
 - If personal context suggests a lead, store only the public URL, short note,
   tags, and evidence type needed for Signal Desk.
+- Use X only through manual public URL seeds with human-written notes, official X
+  API access, or licensed/approved data sources. Do not scrape X's website, use
+  browser/cookie automation against X, bypass rate limits, or store raw X content
+  in the repo.
 - Run `bun run collect`, `bun run test`, `bun run lint`, and `bun run build`
   after changing sources or signal generation.
 - Commit automation-created changes immediately, staging only files changed by
