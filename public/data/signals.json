@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-05-28T15:04:30.730Z",
+  "generatedAt": "2026-05-28T15:05:27.216Z",
   "cadence": "weekly",
   "summary": {
     "opportunityCount": 5,
     "evidenceCount": 50,
-    "sourceCount": 11,
+    "sourceCount": 12,
     "sourceAlerts": 1,
-    "skippedSources": 1,
+    "skippedSources": 0,
     "highConfidenceCount": 5
   },
   "sourceRuns": [
@@ -16,106 +16,105 @@
       "ok": true,
       "skipped": false,
       "itemCount": 0,
-      "fetchedAt": "2026-05-28T15:04:30.758Z",
-      "startedAt": "2026-05-28T15:04:30.731Z"
+      "fetchedAt": "2026-05-28T15:05:27.359Z",
+      "startedAt": "2026-05-28T15:05:27.222Z"
     },
     {
       "source": "Echo Sources",
       "ok": true,
       "skipped": false,
       "itemCount": 104,
-      "fetchedAt": "2026-05-28T15:04:33.813Z",
-      "startedAt": "2026-05-28T15:04:30.731Z"
+      "fetchedAt": "2026-05-28T15:05:29.723Z",
+      "startedAt": "2026-05-28T15:05:27.223Z"
     },
     {
       "source": "Hacker News",
       "ok": true,
       "skipped": false,
       "itemCount": 80,
-      "fetchedAt": "2026-05-28T15:04:31.985Z",
-      "startedAt": "2026-05-28T15:04:30.731Z"
+      "fetchedAt": "2026-05-28T15:05:28.336Z",
+      "startedAt": "2026-05-28T15:05:27.223Z"
     },
     {
       "source": "Reddit",
       "ok": true,
       "skipped": false,
       "itemCount": 140,
-      "fetchedAt": "2026-05-28T15:04:31.854Z",
-      "startedAt": "2026-05-28T15:04:30.748Z"
+      "fetchedAt": "2026-05-28T15:05:28.170Z",
+      "startedAt": "2026-05-28T15:05:27.316Z"
     },
     {
       "source": "GitHub Issues",
       "ok": true,
       "skipped": false,
       "itemCount": 118,
-      "fetchedAt": "2026-05-28T15:04:32.216Z",
-      "startedAt": "2026-05-28T15:04:30.751Z"
+      "fetchedAt": "2026-05-28T15:05:28.386Z",
+      "startedAt": "2026-05-28T15:05:27.325Z"
     },
     {
       "source": "npm",
       "ok": true,
       "skipped": false,
       "itemCount": 160,
-      "fetchedAt": "2026-05-28T15:04:31.428Z",
-      "startedAt": "2026-05-28T15:04:30.753Z"
+      "fetchedAt": "2026-05-28T15:05:27.868Z",
+      "startedAt": "2026-05-28T15:05:27.331Z"
     },
     {
       "source": "PyPI",
       "ok": true,
       "skipped": false,
       "itemCount": 100,
-      "fetchedAt": "2026-05-28T15:04:31.098Z",
-      "startedAt": "2026-05-28T15:04:30.754Z"
+      "fetchedAt": "2026-05-28T15:05:27.480Z",
+      "startedAt": "2026-05-28T15:05:27.336Z"
     },
     {
       "source": "GitHub Trending",
       "ok": true,
       "skipped": false,
       "itemCount": 21,
-      "fetchedAt": "2026-05-28T15:04:32.280Z",
-      "startedAt": "2026-05-28T15:04:30.755Z"
+      "fetchedAt": "2026-05-28T15:05:28.661Z",
+      "startedAt": "2026-05-28T15:05:27.336Z"
     },
     {
       "source": "GDELT",
       "ok": false,
       "skipped": false,
       "itemCount": 0,
-      "fetchedAt": "2026-05-28T15:04:40.145Z",
-      "startedAt": "2026-05-28T15:04:30.755Z",
-      "error": "429 Too Many Requests"
+      "fetchedAt": "2026-05-28T15:05:37.817Z",
+      "startedAt": "2026-05-28T15:05:27.337Z",
+      "error": "fetch failed"
     },
     {
       "source": "OWID",
       "ok": true,
       "skipped": false,
       "itemCount": 4,
-      "fetchedAt": "2026-05-28T15:04:31.280Z",
-      "startedAt": "2026-05-28T15:04:30.756Z"
+      "fetchedAt": "2026-05-28T15:05:28.365Z",
+      "startedAt": "2026-05-28T15:05:27.339Z"
     },
     {
       "source": "World Bank",
       "ok": true,
       "skipped": false,
       "itemCount": 4,
-      "fetchedAt": "2026-05-28T15:04:31.337Z",
-      "startedAt": "2026-05-28T15:04:30.756Z"
+      "fetchedAt": "2026-05-28T15:05:28.392Z",
+      "startedAt": "2026-05-28T15:05:27.340Z"
     },
     {
       "source": "BLS",
       "ok": true,
       "skipped": false,
       "itemCount": 6,
-      "fetchedAt": "2026-05-28T15:04:32.243Z",
-      "startedAt": "2026-05-28T15:04:30.757Z"
+      "fetchedAt": "2026-05-28T15:05:28.340Z",
+      "startedAt": "2026-05-28T15:05:27.341Z"
     },
     {
       "source": "FRED",
-      "ok": false,
-      "skipped": true,
-      "itemCount": 0,
-      "fetchedAt": "2026-05-28T15:04:30.757Z",
-      "startedAt": "2026-05-28T15:04:30.757Z",
-      "error": "FRED_API_KEY not configured"
+      "ok": true,
+      "skipped": false,
+      "itemCount": 6,
+      "fetchedAt": "2026-05-28T15:05:28.327Z",
+      "startedAt": "2026-05-28T15:05:27.343Z"
     }
   ],
   "opportunities": [
@@ -445,31 +444,27 @@
       ],
       "macroContext": [
         {
-          "source": "BLS",
+          "source": "FRED",
           "sourceType": "macro",
           "evidenceType": "macro",
-          "title": "US unemployment rate",
-          "url": "https://data.bls.gov/timeseries/LNS14000000",
-          "publishedAt": "2026-04-01T00:00:00.000Z",
+          "title": "Initial unemployment claims",
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "publishedAt": "2026-05-23T00:00:00.000Z",
           "metrics": {
-            "year": 2026,
-            "period": "M04",
-            "value": 4.3
+            "value": 215000
           },
           "painTerms": [],
           "spendTerms": []
         },
         {
-          "source": "BLS",
+          "source": "FRED",
           "sourceType": "macro",
           "evidenceType": "macro",
-          "title": "Data processing and hosting employment",
-          "url": "https://data.bls.gov/timeseries/CES5051800001",
-          "publishedAt": "2026-04-01T00:00:00.000Z",
+          "title": "Initial unemployment claims",
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "publishedAt": "2026-05-16T00:00:00.000Z",
           "metrics": {
-            "year": 2026,
-            "period": "M04",
-            "value": 457.7
+            "value": 210000
           },
           "painTerms": [],
           "spendTerms": []
@@ -512,7 +507,7 @@
       },
       "mentionCount": 64,
       "sourceCount": 6,
-      "whyNow": "64 current evidence items versus prior peak 56 across 6 source types, including 33 pain signals and 38 spend signals.",
+      "whyNow": "64 current evidence items versus prior peak 64 across 6 source types, including 33 pain signals and 38 spend signals.",
       "evidence": [
         {
           "source": "GitHub Issues",
@@ -1022,11 +1017,11 @@
         "Stripe may absorb parts of the workflow"
       ],
       "sparkline": [
-        56,
-        59,
-        48,
-        70,
-        90,
+        64,
+        67,
+        51,
+        74,
+        96,
         64,
         72
       ]
@@ -1221,7 +1216,7 @@
           "publishedAt": "2026-05-28T09:07:43.946Z",
           "metrics": {
             "search": "auth0",
-            "score": 215523
+            "score": 215524
           },
           "painTerms": [],
           "spendTerms": []
@@ -1387,7 +1382,7 @@
           "publishedAt": "2026-05-28T09:07:43.946Z",
           "metrics": {
             "search": "auth0",
-            "score": 215523
+            "score": 215524
           },
           "painTerms": [],
           "spendTerms": []
@@ -1451,31 +1446,27 @@
       ],
       "macroContext": [
         {
-          "source": "BLS",
+          "source": "FRED",
           "sourceType": "macro",
           "evidenceType": "macro",
-          "title": "US unemployment rate",
-          "url": "https://data.bls.gov/timeseries/LNS14000000",
-          "publishedAt": "2026-04-01T00:00:00.000Z",
+          "title": "Initial unemployment claims",
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "publishedAt": "2026-05-23T00:00:00.000Z",
           "metrics": {
-            "year": 2026,
-            "period": "M04",
-            "value": 4.3
+            "value": 215000
           },
           "painTerms": [],
           "spendTerms": []
         },
         {
-          "source": "BLS",
+          "source": "FRED",
           "sourceType": "macro",
           "evidenceType": "macro",
-          "title": "Data processing and hosting employment",
-          "url": "https://data.bls.gov/timeseries/CES5051800001",
-          "publishedAt": "2026-04-01T00:00:00.000Z",
+          "title": "Initial unemployment claims",
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "publishedAt": "2026-05-16T00:00:00.000Z",
           "metrics": {
-            "year": 2026,
-            "period": "M04",
-            "value": 457.7
+            "value": 210000
           },
           "painTerms": [],
           "spendTerms": []
@@ -1703,7 +1694,7 @@
           "publishedAt": "2026-05-27T13:03:28.370Z",
           "metrics": {
             "search": "dbt",
-            "score": 39210
+            "score": 39211
           },
           "painTerms": [],
           "spendTerms": []
@@ -1857,7 +1848,7 @@
           "publishedAt": "2026-05-27T13:03:28.370Z",
           "metrics": {
             "search": "dbt",
-            "score": 39210
+            "score": 39211
           },
           "painTerms": [],
           "spendTerms": []
@@ -1893,31 +1884,27 @@
       ],
       "macroContext": [
         {
-          "source": "BLS",
+          "source": "FRED",
           "sourceType": "macro",
           "evidenceType": "macro",
-          "title": "US unemployment rate",
-          "url": "https://data.bls.gov/timeseries/LNS14000000",
-          "publishedAt": "2026-04-01T00:00:00.000Z",
+          "title": "Initial unemployment claims",
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "publishedAt": "2026-05-23T00:00:00.000Z",
           "metrics": {
-            "year": 2026,
-            "period": "M04",
-            "value": 4.3
+            "value": 215000
           },
           "painTerms": [],
           "spendTerms": []
         },
         {
-          "source": "BLS",
+          "source": "FRED",
           "sourceType": "macro",
           "evidenceType": "macro",
-          "title": "Data processing and hosting employment",
-          "url": "https://data.bls.gov/timeseries/CES5051800001",
-          "publishedAt": "2026-04-01T00:00:00.000Z",
+          "title": "Initial unemployment claims",
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "publishedAt": "2026-05-16T00:00:00.000Z",
           "metrics": {
-            "year": 2026,
-            "period": "M04",
-            "value": 457.7
+            "value": 210000
           },
           "painTerms": [],
           "spendTerms": []
@@ -2011,7 +1998,7 @@
           "publishedAt": "2026-05-27T05:13:39.000Z",
           "metrics": {
             "score": 415,
-            "comments": 245,
+            "comments": 246,
             "rank": 57
           },
           "painTerms": [],
@@ -2270,31 +2257,27 @@
       ],
       "macroContext": [
         {
-          "source": "BLS",
+          "source": "FRED",
           "sourceType": "macro",
           "evidenceType": "macro",
-          "title": "US unemployment rate",
-          "url": "https://data.bls.gov/timeseries/LNS14000000",
-          "publishedAt": "2026-04-01T00:00:00.000Z",
+          "title": "Initial unemployment claims",
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "publishedAt": "2026-05-23T00:00:00.000Z",
           "metrics": {
-            "year": 2026,
-            "period": "M04",
-            "value": 4.3
+            "value": 215000
           },
           "painTerms": [],
           "spendTerms": []
         },
         {
-          "source": "BLS",
+          "source": "FRED",
           "sourceType": "macro",
           "evidenceType": "macro",
-          "title": "Data processing and hosting employment",
-          "url": "https://data.bls.gov/timeseries/CES5051800001",
-          "publishedAt": "2026-04-01T00:00:00.000Z",
+          "title": "Initial unemployment claims",
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "publishedAt": "2026-05-16T00:00:00.000Z",
           "metrics": {
-            "year": 2026,
-            "period": "M04",
-            "value": 457.7
+            "value": 210000
           },
           "painTerms": [],
           "spendTerms": []
