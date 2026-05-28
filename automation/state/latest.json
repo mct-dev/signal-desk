@@ -1,0 +1,89 @@
+{
+  "date": "2026-05-28",
+  "generatedAt": "2026-05-28T17:07:10Z",
+  "dataGeneratedAt": "2026-05-28T17:06:28.675Z",
+  "opportunityCount": 5,
+  "highConfidenceCount": 5,
+  "topBriefs": [
+    {
+      "id": "ai-agent-ops",
+      "title": "AI Agent Operations and Recovery",
+      "score": 90,
+      "confidence": "high",
+      "mentionCount": 48,
+      "sourceCount": 7
+    },
+    {
+      "id": "llm-evaluation-regression",
+      "title": "LLM Evaluation Regression Workflows",
+      "score": 90,
+      "confidence": "high",
+      "mentionCount": 33,
+      "sourceCount": 7
+    },
+    {
+      "id": "usage-billing-operations",
+      "title": "Usage-Based Billing Operations",
+      "score": 90,
+      "confidence": "high",
+      "mentionCount": 65,
+      "sourceCount": 6
+    },
+    {
+      "id": "auth-sso-integration-debugging",
+      "title": "Auth and SSO Integration Debugging",
+      "score": 90,
+      "confidence": "high",
+      "mentionCount": 53,
+      "sourceCount": 5
+    },
+    {
+      "id": "data-pipeline-reliability",
+      "title": "Data Pipeline Reliability for Lean Teams",
+      "score": 90,
+      "confidence": "high",
+      "mentionCount": 30,
+      "sourceCount": 4
+    }
+  ],
+  "marketTrendLabels": [
+    "Agent operations and agent security are converging",
+    "AI-native products are exposing agent-friendly primitives",
+    "Model evaluation is becoming workflow infrastructure",
+    "Usage pricing keeps creating billing operations drag",
+    "Enterprise readiness remains a small-team tax"
+  ],
+  "sourceAlerts": [
+    {
+      "source": "GDELT",
+      "severity": "error",
+      "message": "Unexpected token 'Q', \"Queries co\"... is not valid JSON"
+    },
+    {
+      "source": "FRED",
+      "severity": "skipped",
+      "message": "FRED_API_KEY not configured"
+    }
+  ],
+  "sourceChanges": [
+    "Added Printing Press, AI IQ, Perplexity Bumblebee, and Ben's Bites manual seeds",
+    "Added Reddit and Hacker News MCP/agent-native tooling echo queries"
+  ],
+  "verification": {
+    "collect": "passed",
+    "test": "passed",
+    "lint": "passed",
+    "build": "passed"
+  },
+  "filesChanged": [
+    "automation/digests/2026-05-28.md",
+    "automation/state/latest.json",
+    "public/data/signals.json",
+    "public/data/history.json",
+    "sources/manual-links.json",
+    "sources/echo-sources.json"
+  ],
+  "commitSha": null,
+  "commitShaNote": "The commit SHA is reported in the automation result after commit; embedding the same commit's SHA inside the committed state file is not possible without changing the SHA.",
+  "nextRecommendedValidationStep": "Interview teams already using browser/workflow agents and ask where runs fail, who notices, and what recovery data they wish they had."
+}

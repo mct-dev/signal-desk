@@ -29,6 +29,12 @@
       "subreddit": "LocalLLaMA",
       "query": "\"eval\" regression hallucination production",
       "tags": ["llm-evals", "quality"]
+    },
+    {
+      "label": "Reddit MCP security pain",
+      "subreddit": "LocalLLaMA",
+      "query": "\"MCP\" security config credentials",
+      "tags": ["ai-agent-ops", "privacy-security-review", "mcp"]
     }
   ],
   "hackerNewsSearches": [
@@ -51,6 +57,16 @@
       "label": "HN SOC2 evidence",
       "query": "\"SOC 2\" evidence startup",
       "tags": ["soc2", "compliance"]
+    },
+    {
+      "label": "HN MCP security",
+      "query": "\"MCP\" security credentials",
+      "tags": ["ai-agent-ops", "privacy-security-review", "mcp"]
+    },
+    {
+      "label": "HN agent-native tooling",
+      "query": "\"MCP\" \"CLI\" agent",
+      "tags": ["ai-agent-ops", "agent-workflow", "developer-tools"]
     }
   ],
   "rssFeeds": [

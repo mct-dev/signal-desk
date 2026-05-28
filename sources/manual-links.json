@@ -7,5 +7,41 @@
     "evidenceType": "pain",
     "addedAt": "2026-05-28",
     "enabled": false
+  },
+  {
+    "url": "https://printingpress.dev/",
+    "title": "Printing Press: agent-native tooling generator",
+    "note": "Recent local reading signal: product generates agent-native CLIs, skills, and MCP servers from a prompt, pointing toward demand for purpose-built tool surfaces around agents.",
+    "tags": ["ai-agent-ops", "agent-workflow", "mcp", "developer-tools"],
+    "evidenceType": "adoption",
+    "addedAt": "2026-05-28",
+    "enabled": true
+  },
+  {
+    "url": "https://www.aiiq.org/",
+    "title": "AI IQ: model capability and cost benchmarking",
+    "note": "Recent local reading signal: public model ranking and cost view reinforces demand for visible evaluation methodology and tradeoff reporting when teams choose models.",
+    "tags": ["llm-evals", "model-selection", "developer-tools"],
+    "evidenceType": "adoption",
+    "addedAt": "2026-05-28",
+    "enabled": true
+  },
+  {
+    "url": "https://www.perplexity.ai/hub/blog/perplexity-is-open-sourcing-bumblebee",
+    "title": "Perplexity Bumblebee: developer endpoint scanner for AI tool configs",
+    "note": "Public research seed: Perplexity open-sourced a read-only scanner for risky packages, extensions, and AI agent configs, making MCP/developer-machine exposure a visible security surface.",
+    "tags": ["ai-agent-ops", "privacy-security-review", "mcp", "developer-security"],
+    "evidenceType": "pain",
+    "addedAt": "2026-05-28",
+    "enabled": true
+  },
+  {
+    "url": "https://www.bensbites.com/p/is-saas-dead",
+    "title": "Ben's Bites: SaaS unbundling into agent-friendly primitives",
+    "note": "Newsletter reading signal: argument that SaaS may need to expose API, CLI, SDK, and agent-friendly building blocks instead of relying only on fixed application UIs.",
+    "tags": ["ai-agent-ops", "agent-workflow", "developer-tools"],
+    "evidenceType": "context",
+    "addedAt": "2026-05-28",
+    "enabled": true
   }
 ]
