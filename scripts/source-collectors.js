@@ -1,7 +1,10 @@
+import { readFile } from 'node:fs/promises'
 import { XMLParser } from 'fast-xml-parser'
 import { normalizeText, slugify } from './signal-core.js'
 
 const USER_AGENT = 'signal-desk/0.2 opportunity-research'
+const MANUAL_LINKS_PATH = new URL('../sources/manual-links.json', import.meta.url)
+const ECHO_SOURCES_PATH = new URL('../sources/echo-sources.json', import.meta.url)
 
 const parser = new XMLParser({
   ignoreAttributes: false,
@@ -91,6 +94,99 @@ function uniqueByUrl(items) {
   })
 }
 
+function enabledItems(items) {
+  return items.filter((item) => item.enabled !== false)
+}
+
+async function settledFlat(promises) {
+  const results = await Promise.allSettled(promises)
+  return results.flatMap((result) => (result.status === 'fulfilled' ? result.value : []))
+}
+
+async function readJsonFile(path, fallback) {
+  try {
+    return JSON.parse(await readFile(path, 'utf8'))
+  } catch (error) {
+    if (error.code === 'ENOENT') return fallback
+    throw error
+  }
+}
+
+function dateFrom(value) {
+  if (!value) return new Date().toISOString()
+  if (/^\d{4}-\d{2}-\d{2}$/.test(value)) return `${value}T00:00:00.000Z`
+  return new Date(value).toISOString()
+}
+
+function isXUrl(url) {
+  try {
+    const hostname = new URL(url).hostname.replace(/^www\./, '')
+    return hostname === 'x.com' || hostname === 'twitter.com'
+  } catch {
+    return false
+  }
+}
+
+export function manualLinkToEvidence(link) {
+  const source = isXUrl(link.url) ? 'Manual X Seed' : 'Manual Signal'
+  return evidence({
+    source,
+    sourceType: 'curated-link',
+    evidenceType: link.evidenceType ?? 'context',
+    title: link.title,
+    summary: link.note ?? link.summary ?? link.text ?? '',
+    url: link.url,
+    publishedAt: dateFrom(link.addedAt ?? link.publishedAt),
+    tags: link.tags ?? [],
+    metrics: { curated: true },
+  })
+}
+
+export function redditSearchUrl({ subreddit, query, sort = 'new', time = 'month' }) {
+  const base = subreddit ? `https://www.reddit.com/r/${subreddit}/search.rss` : 'https://www.reddit.com/search.rss'
+  const params = new URLSearchParams({
+    q: query,
+    restrict_sr: subreddit ? '1' : '0',
+    sort,
+    t: time,
+  })
+  return `${base}?${params.toString()}`
+}
+
+export function echoFeedToEvidence(item, sourceConfig) {
+  const source = sourceConfig.source ?? sourceConfig.label
+  const label = sourceConfig.label ?? source
+  return evidence({
+    ...item,
+    source,
+    sourceType: 'echo',
+    evidenceType: sourceConfig.evidenceType ?? 'context',
+    summary: [label, item.summary].filter(Boolean).join('. '),
+    tags: sourceConfig.tags ?? [],
+    metrics: { ...(item.metrics ?? {}), echo: true, ...(sourceConfig.metrics ?? {}) },
+  })
+}
+
+export function echoHackerNewsHitToEvidence(hit, sourceConfig) {
+  return evidence({
+    source: 'Hacker News Echo',
+    sourceType: 'echo',
+    evidenceType: sourceConfig.evidenceType ?? 'context',
+    title: hit.title ?? hit.story_title,
+    summary: `${sourceConfig.label}. ${hit.story_text ?? hit.comment_text ?? ''}`,
+    url: hit.url ?? `https://news.ycombinator.com/item?id=${hit.objectID}`,
+    publishedAt: hit.created_at ?? new Date().toISOString(),
+    tags: sourceConfig.tags ?? [],
+    metrics: {
+      echo: true,
+      query: sourceConfig.query,
+      score: hit.points ?? 0,
+      comments: hit.num_comments ?? 0,
+      objectID: hit.objectID,
+    },
+  })
+}
+
 export async function runSource(source, fn) {
   const started = new Date().toISOString()
   try {
@@ -151,52 +247,8 @@ export async function collectHackerNews() {
     )
 }
 
-async function redditAccessToken() {
-  const clientId = process.env.REDDIT_CLIENT_ID
-  const clientSecret = process.env.REDDIT_CLIENT_SECRET
-  if (!clientId || !clientSecret) return ''
-
-  const body = new URLSearchParams({ grant_type: 'client_credentials' })
-  const token = Buffer.from(`${clientId}:${clientSecret}`).toString('base64')
-  const response = await fetchJson('https://www.reddit.com/api/v1/access_token', {
-    method: 'POST',
-    headers: {
-      Authorization: `Basic ${token}`,
-      'Content-Type': 'application/x-www-form-urlencoded',
-    },
-    body,
-  })
-  return response.access_token ?? ''
-}
-
 export async function collectReddit() {
   const subreddits = ['SaaS', 'startups', 'Entrepreneur', 'SideProject', 'webdev', 'devops', 'ExperiencedDevs']
-  const token = await redditAccessToken().catch(() => '')
-
-  if (token) {
-    const results = await Promise.all(
-      subreddits.map(async (subreddit) => {
-        const json = await fetchJson(`https://oauth.reddit.com/r/${subreddit}/new?limit=25`, {
-          headers: { Authorization: `Bearer ${token}` },
-        })
-        return (json.data?.children ?? []).map((child) => {
-          const post = child.data ?? {}
-          return evidence({
-            source: 'Reddit',
-            sourceType: 'discussion',
-            title: post.title,
-            summary: `${post.selftext ?? ''} subreddit:${subreddit}`,
-            url: post.url_overridden_by_dest ?? `https://www.reddit.com${post.permalink}`,
-            publishedAt: new Date((post.created_utc ?? Date.now() / 1000) * 1000).toISOString(),
-            tags: [subreddit],
-            metrics: { comments: post.num_comments ?? 0, score: post.score ?? 0 },
-          })
-        })
-      }),
-    )
-    return uniqueByUrl(results.flat())
-  }
-
   const feeds = await Promise.all(
     subreddits.map(async (subreddit) => {
       const xml = await fetchText(`https://www.reddit.com/r/${subreddit}/.rss`)
@@ -214,48 +266,60 @@ export async function collectReddit() {
   return uniqueByUrl(feeds.flat())
 }
 
-export async function collectStackExchange() {
-  const taggedQueries = [
-    ['soc2', 'security'],
-    ['oauth-2.0', 'auth0'],
-    ['saml', 'single-sign-on'],
-    ['stripe-payments'],
-    ['openai-api'],
-    ['langchain'],
-    ['postgresql'],
-    ['dbt'],
-    ['airflow'],
-  ]
-  const results = await Promise.all(
-    taggedQueries.map(async (tags) => {
-      const url = new URL('https://api.stackexchange.com/2.3/questions')
-      url.searchParams.set('order', 'desc')
-      url.searchParams.set('sort', 'creation')
-      url.searchParams.set('site', 'stackoverflow')
-      url.searchParams.set('pagesize', '20')
-      url.searchParams.set('fromdate', String(Math.floor(Date.parse('2025-01-01T00:00:00.000Z') / 1000)))
-      url.searchParams.set('tagged', tags.join(';'))
-      const json = await fetchJson(url)
-      return (json.items ?? []).map((question) =>
-        evidence({
-          source: 'Stack Exchange',
-          sourceType: 'qa',
-          title: question.title,
-          summary: `Question tagged ${question.tags?.join(', ')}. Answered: ${question.is_answered ? 'yes' : 'no'}.`,
-          url: question.link,
-          publishedAt: new Date((question.creation_date ?? Date.now() / 1000) * 1000).toISOString(),
-          tags: question.tags ?? tags,
-          metrics: {
-            score: question.score ?? 0,
-            answerCount: question.answer_count ?? 0,
-            viewCount: question.view_count ?? 0,
-            isAnswered: Boolean(question.is_answered),
-          },
-        }),
-      )
+export async function collectManualLinks() {
+  const links = await readJsonFile(MANUAL_LINKS_PATH, [])
+  return enabledItems(links).filter((link) => link.url && link.title).map(manualLinkToEvidence)
+}
+
+export async function collectEchoSources() {
+  const config = await readJsonFile(ECHO_SOURCES_PATH, {})
+  const redditSearches = enabledItems(config.redditSearches ?? [])
+  const hackerNewsSearches = enabledItems(config.hackerNewsSearches ?? [])
+  const rssFeeds = enabledItems(config.rssFeeds ?? [])
+
+  const redditResults = await settledFlat(
+    redditSearches.map(async (search) => {
+      const xml = await fetchText(redditSearchUrl(search))
+      return rssItems(xml)
+        .slice(0, search.limit ?? 15)
+        .map((item) =>
+          echoFeedToEvidence(item, {
+            source: 'Reddit Echo',
+            label: search.label ?? 'Reddit Echo',
+            tags: search.tags ?? [],
+            evidenceType: search.evidenceType,
+            metrics: { query: search.query, subreddit: search.subreddit ?? 'all' },
+          }),
+        )
     }),
   )
-  return uniqueByUrl(results.flat())
+
+  const hackerNewsResults = await settledFlat(
+    hackerNewsSearches.map(async (search) => {
+      const url = new URL('https://hn.algolia.com/api/v1/search_by_date')
+      url.searchParams.set('query', search.query)
+      url.searchParams.set('tags', 'story')
+      url.searchParams.set('hitsPerPage', String(search.limit ?? 15))
+      const json = await fetchJson(url)
+      return (json.hits ?? []).map((hit) => echoHackerNewsHitToEvidence(hit, search))
+    }),
+  )
+
+  const rssResults = await settledFlat(
+    rssFeeds.map(async (feed) => {
+      const xml = await fetchText(feed.url)
+      return rssItems(xml)
+        .slice(0, feed.limit ?? 15)
+        .map((item) =>
+          echoFeedToEvidence(item, {
+            ...feed,
+            metrics: { feedUrl: feed.url },
+          }),
+        )
+    }),
+  )
+
+  return uniqueByUrl([...redditResults.flat(), ...hackerNewsResults.flat(), ...rssResults.flat()])
 }
 
 export async function collectGithubIssues() {
@@ -568,9 +632,10 @@ export async function collectFred() {
 
 export function collectors() {
   return [
+    ['Manual Links', collectManualLinks],
+    ['Echo Sources', collectEchoSources],
     ['Hacker News', collectHackerNews],
     ['Reddit', collectReddit],
-    ['Stack Exchange', collectStackExchange],
     ['GitHub Issues', collectGithubIssues],
     ['npm', collectNpm],
     ['PyPI', collectPypi],

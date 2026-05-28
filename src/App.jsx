@@ -43,9 +43,12 @@ const fallbackData = {
 const sourceIcons = {
   'Hacker News': Activity,
   Reddit: Globe2,
-  'Stack Exchange': Layers3,
+  'Reddit Echo': Globe2,
+  'Manual X Seed': Target,
+  'Manual Signal': Target,
   'GitHub Issues': GitBranch,
   'GitHub Trending': GitBranch,
+  'Hacker News Echo': Activity,
   npm: Database,
   PyPI: Database,
   GDELT: BarChart3,

@@ -7,17 +7,18 @@ Signal Desk is a deployed public website that updates without manual work. It co
 - Static React/Vite website with GitHub Pages deployment.
 - Scheduled GitHub Actions collector weekly.
 - Durable JSON snapshots committed into `public/data`.
-- Optional free API keys are allowed for better public-source access. Missing keys degrade source health instead of failing the run.
+- Optional free API keys are allowed only where they do not replace public-source collection. Missing keys degrade source health instead of failing the run.
 - No paid APIs, private scraping, CAPTCHA bypass, or paywall bypass.
-- Sources: Hacker News, Reddit RSS/OAuth, Stack Exchange, GitHub Issues, npm, PyPI, GitHub Trending, GDELT, OWID, World Bank, BLS, and optional FRED.
+- Sources: manual/X seed links, Reddit RSS and search RSS, Hacker News and HN search echoes, curated RSS echoes, GitHub Issues, npm, PyPI, GitHub Trending, GDELT, OWID, World Bank, BLS, and optional FRED.
 
 ## Data Flow
 
 1. `scripts/collect-signals.js` fetches public sources.
 2. Raw items become normalized evidence records with source, title, summary, URL, date, tags, metrics, source type, and evidence type.
-3. Evidence is grouped into narrow opportunity profiles or high-quality fallback clusters.
-4. Score prioritizes pain, spend/adoption evidence, recurrence, source quality, niche specificity, and macro context.
-5. `public/data/signals.json` powers the site; `public/data/history.json` stores recent baselines.
+3. Manual/X links seed hypotheses without scraping X; regular echo sources corroborate those ideas via Reddit RSS, HN search, RSS feeds, and other public surfaces.
+4. Evidence is grouped into narrow opportunity profiles or high-quality fallback clusters.
+5. Score prioritizes pain, spend/adoption evidence, recurrence, source quality, niche specificity, and macro context.
+6. `public/data/signals.json` powers the site; `public/data/history.json` stores recent baselines.
 
 ## UI
 

@@ -1,0 +1,73 @@
+{
+  "redditSearches": [
+    {
+      "label": "Reddit AI agent failures",
+      "subreddit": "SaaS",
+      "query": "\"AI agent\" failed manual review",
+      "tags": ["ai-agent-ops", "support-ops"]
+    },
+    {
+      "label": "Reddit usage billing pain",
+      "subreddit": "SaaS",
+      "query": "\"usage based\" billing invoice credits",
+      "tags": ["usage-billing", "pricing"]
+    },
+    {
+      "label": "Reddit enterprise SSO pain",
+      "subreddit": "startups",
+      "query": "\"SSO\" enterprise customer auth",
+      "tags": ["auth-sso", "enterprise"]
+    },
+    {
+      "label": "Reddit SOC2 evidence pain",
+      "subreddit": "startups",
+      "query": "\"SOC 2\" evidence enterprise sales",
+      "tags": ["soc2", "compliance"]
+    },
+    {
+      "label": "Reddit LLM evaluation pain",
+      "subreddit": "LocalLLaMA",
+      "query": "\"eval\" regression hallucination production",
+      "tags": ["llm-evals", "quality"]
+    }
+  ],
+  "hackerNewsSearches": [
+    {
+      "label": "HN AI agent failures",
+      "query": "\"AI agent\" failed",
+      "tags": ["ai-agent-ops"]
+    },
+    {
+      "label": "HN LLM evals",
+      "query": "\"LLM eval\" regression",
+      "tags": ["llm-evals"]
+    },
+    {
+      "label": "HN usage billing",
+      "query": "\"usage based billing\"",
+      "tags": ["usage-billing"]
+    },
+    {
+      "label": "HN SOC2 evidence",
+      "query": "\"SOC 2\" evidence startup",
+      "tags": ["soc2", "compliance"]
+    }
+  ],
+  "rssFeeds": [
+    {
+      "label": "Lobsters",
+      "url": "https://lobste.rs/rss",
+      "tags": ["developer-pain", "tech-echo"]
+    },
+    {
+      "label": "Simon Willison",
+      "url": "https://simonwillison.net/atom/everything/",
+      "tags": ["ai", "developer-tools"]
+    },
+    {
+      "label": "AI News",
+      "url": "https://buttondown.com/ainews/rss",
+      "tags": ["ai", "market-echo"]
+    }
+  ]
+}

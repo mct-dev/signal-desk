@@ -10,7 +10,10 @@ Default no-key sources:
 
 - Hacker News public Firebase API
 - Reddit public RSS feeds
-- Stack Exchange public API
+- Reddit public search RSS echoes from `sources/echo-sources.json`
+- Hacker News public search echoes from `sources/echo-sources.json`
+- Curated manual/X seed links from `sources/manual-links.json`
+- Curated RSS echo feeds from `sources/echo-sources.json`
 - GitHub public issue search
 - npm public registry search
 - PyPI public RSS feed
@@ -23,9 +26,20 @@ Default no-key sources:
 Optional free API keys:
 
 - `GITHUB_TOKEN` raises GitHub issue-search rate limits.
-- `REDDIT_CLIENT_ID` and `REDDIT_CLIENT_SECRET` enable OAuth collection; RSS remains the fallback.
 - `FRED_API_KEY` enables FRED macro series. Without it, FRED is marked skipped.
 - `BLS_API_KEY` is not required for the current BLS calls, but can be added later if broader BLS ranges are needed.
+
+## Curated Seeds and Echoes
+
+X is treated as a seed source, not a scraped data source. Add high-signal X or other manual links to `sources/manual-links.json` with a title, note, tags, and evidence type. The collector uses your note and link as evidence and does not fetch or scrape X content.
+
+Regular echo collection is configured in `sources/echo-sources.json`:
+
+- `redditSearches` uses public Reddit RSS search URLs.
+- `hackerNewsSearches` uses the public HN Algolia search endpoint.
+- `rssFeeds` uses normal public RSS or Atom feeds.
+
+Echo sources run on every collection. They help corroborate manually observed ideas across public surfaces without relying on Reddit or X APIs.
 
 ## Output
 

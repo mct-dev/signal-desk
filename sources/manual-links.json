@@ -1,0 +1,11 @@
+[
+  {
+    "url": "https://x.com/example/status/0000000000000000000",
+    "title": "Example X seed: AI support agents fail silently",
+    "note": "Replace this with a real curated X link and a short human-written note. The collector will use this note and tags, not scrape X.",
+    "tags": ["ai-agent-ops", "support-ops"],
+    "evidenceType": "pain",
+    "addedAt": "2026-05-28",
+    "enabled": false
+  }
+]

@@ -37,8 +37,6 @@ jobs:
       - name: Collect public signals
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
-          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
           FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
         run: bun run collect
       - name: Commit fresh data

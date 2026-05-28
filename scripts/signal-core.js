@@ -289,8 +289,9 @@ export function classifyEvidence(item) {
 }
 
 function inferSourceType(source) {
-  if (source === 'Stack Exchange') return 'qa'
   if (source === 'GitHub Issues') return 'developer-pain'
+  if (source === 'Manual X Seed' || source === 'Manual Signal') return 'curated-link'
+  if (source.includes('Echo')) return 'echo'
   if (source === 'npm' || source === 'PyPI') return 'package'
   if (source === 'OWID' || source === 'World Bank' || source === 'BLS' || source === 'FRED') return 'macro'
   if (source === 'GDELT') return 'news'
@@ -410,9 +411,12 @@ function evidenceWeight(item) {
   }[item.evidenceType] ?? 10
   const metrics = item.metrics ?? {}
   const sourceWeight = {
-    'Stack Exchange': 18,
     'GitHub Issues': 18,
+    'Manual X Seed': 18,
+    'Manual Signal': 14,
+    'Reddit Echo': 16,
     Reddit: 15,
+    'Hacker News Echo': 12,
     'Hacker News': 10,
     npm: 8,
     PyPI: 7,
