@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-05-28T04:43:11.589Z",
+  "generatedAt": "2026-05-28T10:34:52.330Z",
   "summary": {
-    "opportunityCount": 11,
-    "evidenceCount": 125,
+    "opportunityCount": 13,
+    "evidenceCount": 138,
     "sourceCount": 7,
     "staleSources": 0
   },
@@ -11,43 +11,43 @@
       "source": "Hacker News",
       "ok": true,
       "itemCount": 80,
-      "fetchedAt": "2026-05-28T04:43:10.600Z"
+      "fetchedAt": "2026-05-28T10:34:50.713Z"
     },
     {
       "source": "Reddit",
       "ok": true,
       "itemCount": 160,
-      "fetchedAt": "2026-05-28T04:43:10.997Z"
+      "fetchedAt": "2026-05-28T10:34:51.087Z"
     },
     {
       "source": "Apple",
       "ok": true,
       "itemCount": 200,
-      "fetchedAt": "2026-05-28T04:43:11.000Z"
+      "fetchedAt": "2026-05-28T10:34:51.708Z"
     },
     {
       "source": "arXiv",
       "ok": true,
       "itemCount": 100,
-      "fetchedAt": "2026-05-28T04:43:10.738Z"
+      "fetchedAt": "2026-05-28T10:34:51.033Z"
     },
     {
       "source": "npm",
       "ok": true,
       "itemCount": 175,
-      "fetchedAt": "2026-05-28T04:43:10.664Z"
+      "fetchedAt": "2026-05-28T10:34:51.090Z"
     },
     {
       "source": "PyPI",
       "ok": true,
       "itemCount": 100,
-      "fetchedAt": "2026-05-28T04:43:10.326Z"
+      "fetchedAt": "2026-05-28T10:34:50.709Z"
     },
     {
       "source": "GitHub",
       "ok": true,
       "itemCount": 17,
-      "fetchedAt": "2026-05-28T04:43:11.554Z"
+      "fetchedAt": "2026-05-28T10:34:52.280Z"
     }
   ],
   "opportunities": [
@@ -65,9 +65,9 @@
         "arXiv",
         "npm"
       ],
-      "whyNow": "192 current mentions versus prior peak 12 across Hacker News, Reddit, Apple, arXiv, npm, PyPI, GitHub. Public evidence shows repeated attention before any private data or paid API is needed.",
+      "whyNow": "198 current mentions versus prior peak 12 across Hacker News, Reddit, Apple, arXiv, npm, PyPI, GitHub. Public evidence shows repeated attention before any private data or paid API is needed.",
       "notes": [
-        "192 public artifacts clustered by shared language.",
+        "198 public artifacts clustered by shared language.",
         "7 independent source types reduce single-platform noise.",
         "Pain-language density suggests a problem worth validating.",
         "Monetization terms or ranked app evidence suggest buyer intent.",
@@ -84,11 +84,11 @@
       "sparkline": [
         12,
         13,
-        92,
-        118,
-        147,
-        192,
-        202
+        95,
+        122,
+        151,
+        198,
+        208
       ],
       "evidence": [
         {
@@ -153,15 +153,15 @@
         },
         {
           "source": "npm",
-          "title": "browser-stdout",
-          "url": "https://www.npmjs.com/package/browser-stdout",
-          "publishedAt": "2018-02-27T17:29:13.726Z"
-        },
-        {
-          "source": "npm",
           "title": "universal-user-agent",
           "url": "https://www.npmjs.com/package/universal-user-agent",
           "publishedAt": "2025-05-12T03:35:01.466Z"
+        },
+        {
+          "source": "npm",
+          "title": "browser-stdout",
+          "url": "https://www.npmjs.com/package/browser-stdout",
+          "publishedAt": "2018-02-27T17:29:13.726Z"
         }
       ]
     },
@@ -171,7 +171,6 @@
       "category": "AI workflows",
       "score": 96,
       "sources": [
-        "Apple",
         "GitHub",
         "Hacker News",
         "PyPI",
@@ -179,10 +178,10 @@
         "arXiv",
         "npm"
       ],
-      "whyNow": "107 current mentions versus prior peak 12 across Hacker News, Reddit, Apple, arXiv, npm, PyPI, GitHub. Public evidence shows repeated attention before any private data or paid API is needed.",
+      "whyNow": "103 current mentions versus prior peak 12 across Hacker News, Reddit, arXiv, npm, PyPI, GitHub. Public evidence shows repeated attention before any private data or paid API is needed.",
       "notes": [
-        "107 public artifacts clustered by shared language.",
-        "7 independent source types reduce single-platform noise.",
+        "103 public artifacts clustered by shared language.",
+        "6 independent source types reduce single-platform noise.",
         "Pain-language density suggests a problem worth validating.",
         "Monetization terms or ranked app evidence suggest buyer intent.",
         "Novelty terms point to fresh tooling or behavior change."
@@ -198,11 +197,11 @@
       "sparkline": [
         12,
         13,
-        54,
-        69,
-        86,
-        107,
-        117
+        52,
+        67,
+        83,
+        103,
+        113
       ],
       "evidence": [
         {
@@ -280,243 +279,21 @@
       ]
     },
     {
-      "id": "small-business-sales",
-      "title": "Small Business + Sales",
-      "category": "Commerce",
-      "score": 93,
-      "sources": [
-        "Apple",
-        "PyPI",
-        "Reddit",
-        "npm"
-      ],
-      "whyNow": "56 current mentions versus prior peak 12 across Reddit, Apple, npm, PyPI. Public evidence shows repeated attention before any private data or paid API is needed.",
-      "notes": [
-        "56 public artifacts clustered by shared language.",
-        "4 independent source types reduce single-platform noise.",
-        "Pain-language density suggests a problem worth validating.",
-        "Monetization terms or ranked app evidence suggest buyer intent.",
-        "Novelty terms point to fresh tooling or behavior change."
-      ],
-      "metrics": {
-        "velocity": 100,
-        "pain": 100,
-        "money": 100,
-        "novelty": 100,
-        "sourceDiversity": 80,
-        "saturation": 18
-      },
-      "sparkline": [
-        12,
-        13,
-        31,
-        39,
-        49,
-        56,
-        65
-      ],
-      "evidence": [
-        {
-          "source": "npm",
-          "title": "telecom-mas-agent",
-          "url": "https://www.npmjs.com/package/telecom-mas-agent",
-          "publishedAt": "2025-12-09T03:02:18.773Z"
-        },
-        {
-          "source": "Apple",
-          "title": "Indeed Job Search",
-          "url": "https://apps.apple.com/us/app/indeed-job-search/id309735670",
-          "publishedAt": "2009-06-08"
-        },
-        {
-          "source": "Apple",
-          "title": "Cash App",
-          "url": "https://apps.apple.com/us/app/cash-app/id711923939",
-          "publishedAt": "2013-10-16"
-        },
-        {
-          "source": "Apple",
-          "title": "Jump Desktop (RDP, VNC, Fluid)",
-          "url": "https://apps.apple.com/us/app/jump-desktop-rdp-vnc-fluid/id364876095",
-          "publishedAt": "2010-04-01"
-        },
-        {
-          "source": "Apple",
-          "title": "ADP Mobile Solutions",
-          "url": "https://apps.apple.com/us/app/adp-mobile-solutions/id444553167",
-          "publishedAt": "2011-07-13"
-        },
-        {
-          "source": "Apple",
-          "title": "LinkedIn: Community & Network",
-          "url": "https://apps.apple.com/us/app/linkedin-community-network/id288429040",
-          "publishedAt": "2019-02-03"
-        },
-        {
-          "source": "Apple",
-          "title": "FedEx Mobile",
-          "url": "https://apps.apple.com/us/app/fedex-mobile/id1010729050",
-          "publishedAt": "2015-11-10"
-        },
-        {
-          "source": "Apple",
-          "title": "DoorDash - Dasher",
-          "url": "https://apps.apple.com/us/app/doordash-dasher/id1451754591",
-          "publishedAt": "2019-03-13"
-        },
-        {
-          "source": "Reddit",
-          "title": "What’s something in business that became much harder once you started scaling?",
-          "url": "https://www.reddit.com/r/Entrepreneur/comments/1tpf2eh/whats_something_in_business_that_became_much/",
-          "publishedAt": "2026-05-27T18:58:08+00:00"
-        },
-        {
-          "source": "Reddit",
-          "title": "Personality testing for entrepreneurs to find what your flow is and where you're good at",
-          "url": "https://www.reddit.com/r/Entrepreneur/comments/1tp2fzx/personality_testing_for_entrepreneurs_to_find/",
-          "publishedAt": "2026-05-27T11:14:29+00:00"
-        },
-        {
-          "source": "Reddit",
-          "title": "To the startups out there, you need to do more market testing before launch.",
-          "url": "https://www.reddit.com/r/Entrepreneur/comments/1told4x/to_the_startups_out_there_you_need_to_do_more/",
-          "publishedAt": "2026-05-26T21:46:12+00:00"
-        },
-        {
-          "source": "Reddit",
-          "title": "What is more important than past results?",
-          "url": "https://www.reddit.com/r/Entrepreneur/comments/1toknnr/what_is_more_important_than_past_results/",
-          "publishedAt": "2026-05-26T21:20:35+00:00"
-        }
-      ]
-    },
-    {
-      "id": "creative-tools",
-      "title": "Creative Tools",
-      "category": "Creator tools",
-      "score": 92,
+      "id": "developer-infrastructure",
+      "title": "Developer Infrastructure",
+      "category": "Developer tools",
+      "score": 94,
       "sources": [
         "Apple",
         "Hacker News",
         "PyPI",
         "Reddit",
-        "arXiv",
         "npm"
       ],
-      "whyNow": "47 current mentions versus prior peak 12 across Hacker News, Reddit, Apple, arXiv, npm, PyPI. Public evidence shows repeated attention before any private data or paid API is needed.",
+      "whyNow": "36 current mentions versus prior peak 12 across Hacker News, Reddit, Apple, npm, PyPI. Public evidence shows repeated attention before any private data or paid API is needed.",
       "notes": [
-        "47 public artifacts clustered by shared language.",
-        "6 independent source types reduce single-platform noise.",
-        "Pain-language density suggests a problem worth validating.",
-        "Monetization terms or ranked app evidence suggest buyer intent.",
-        "Novelty terms point to fresh tooling or behavior change."
-      ],
-      "metrics": {
-        "velocity": 100,
-        "pain": 88,
-        "money": 100,
-        "novelty": 84,
-        "sourceDiversity": 100,
-        "saturation": 18
-      },
-      "sparkline": [
-        12,
-        13,
-        27,
-        34,
-        42,
-        47,
-        56
-      ],
-      "evidence": [
-        {
-          "source": "npm",
-          "title": "@react-native-vector-icons/material-design-icons",
-          "url": "https://www.npmjs.com/package/@react-native-vector-icons/material-design-icons",
-          "publishedAt": "2026-05-24T18:59:32.104Z"
-        },
-        {
-          "source": "Hacker News",
-          "title": "YouTube to automatically label AI-generated videos",
-          "url": "https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/",
-          "publishedAt": "2026-05-27T20:00:51.000Z"
-        },
-        {
-          "source": "Apple",
-          "title": "CapCut: Photo & Video Editor",
-          "url": "https://apps.apple.com/us/app/capcut-photo-video-editor/id1500855883",
-          "publishedAt": "2020-04-14"
-        },
-        {
-          "source": "Apple",
-          "title": "Meta AI",
-          "url": "https://apps.apple.com/us/app/meta-ai/id1558240027",
-          "publishedAt": "2021-09-09"
-        },
-        {
-          "source": "Apple",
-          "title": "FL Studio Mobile",
-          "url": "https://apps.apple.com/us/app/fl-studio-mobile/id432850619",
-          "publishedAt": "2011-06-21"
-        },
-        {
-          "source": "Apple",
-          "title": "TikTok - Videos, Shop & LIVE",
-          "url": "https://apps.apple.com/us/app/tiktok-videos-shop-live/id835599320",
-          "publishedAt": "2014-04-02"
-        },
-        {
-          "source": "Apple",
-          "title": "Solocator - GPS Field Camera",
-          "url": "https://apps.apple.com/us/app/solocator-gps-field-camera/id582584117",
-          "publishedAt": "2012-12-09"
-        },
-        {
-          "source": "Apple",
-          "title": "imo video calls and chat HD",
-          "url": "https://apps.apple.com/us/app/imo-video-calls-and-chat-hd/id1400579543",
-          "publishedAt": "2018-09-02"
-        },
-        {
-          "source": "Apple",
-          "title": "Instagram",
-          "url": "https://apps.apple.com/us/app/instagram/id389801252",
-          "publishedAt": "2010-10-06"
-        },
-        {
-          "source": "Hacker News",
-          "title": "Phloto for My Photo Flow",
-          "url": "https://cceckman.com/writing/phloto/",
-          "publishedAt": "2026-05-26T21:11:40.000Z"
-        },
-        {
-          "source": "Apple",
-          "title": "iReal Pro",
-          "url": "https://apps.apple.com/us/app/ireal-pro/id298206806",
-          "publishedAt": "2008-12-02"
-        },
-        {
-          "source": "Apple",
-          "title": "BerryFilm - Korean Style Cam",
-          "url": "https://apps.apple.com/us/app/berryfilm-korean-style-cam/id6741474933",
-          "publishedAt": "2025-02-27"
-        }
-      ]
-    },
-    {
-      "id": "personal-productivity",
-      "title": "Personal Productivity",
-      "category": "Productivity",
-      "score": 90,
-      "sources": [
-        "Apple",
-        "Reddit",
-        "arXiv"
-      ],
-      "whyNow": "44 current mentions versus prior peak 12 across Reddit, Apple, arXiv. Public evidence shows repeated attention before any private data or paid API is needed.",
-      "notes": [
-        "44 public artifacts clustered by shared language.",
-        "3 independent source types reduce single-platform noise.",
+        "36 public artifacts clustered by shared language.",
+        "5 independent source types reduce single-platform noise.",
         "Pain-language density suggests a problem worth validating.",
         "Monetization terms or ranked app evidence suggest buyer intent.",
         "Novelty terms point to fresh tooling or behavior change."
@@ -524,119 +301,9 @@
       "metrics": {
         "velocity": 100,
         "pain": 100,
-        "money": 100,
+        "money": 86,
         "novelty": 100,
-        "sourceDiversity": 60,
-        "saturation": 18
-      },
-      "sparkline": [
-        12,
-        13,
-        25,
-        32,
-        40,
-        44,
-        53
-      ],
-      "evidence": [
-        {
-          "source": "Apple",
-          "title": "Gmail - Email by Google",
-          "url": "https://apps.apple.com/us/app/gmail-email-by-google/id422689480",
-          "publishedAt": "2011-11-02"
-        },
-        {
-          "source": "Apple",
-          "title": "Things 3",
-          "url": "https://apps.apple.com/us/app/things-3/id904237743",
-          "publishedAt": "2017-05-18"
-        },
-        {
-          "source": "Apple",
-          "title": "Microsoft Teams",
-          "url": "https://apps.apple.com/us/app/microsoft-teams/id1113153706",
-          "publishedAt": "2016-11-02"
-        },
-        {
-          "source": "Apple",
-          "title": "Google Chrome",
-          "url": "https://apps.apple.com/us/app/google-chrome/id535886823",
-          "publishedAt": "2012-06-28"
-        },
-        {
-          "source": "Apple",
-          "title": "Goblin Tools",
-          "url": "https://apps.apple.com/us/app/goblin-tools/id6449003064",
-          "publishedAt": "2023-05-31"
-        },
-        {
-          "source": "Apple",
-          "title": "Wipr 2",
-          "url": "https://apps.apple.com/us/app/wipr-2/id1662217862",
-          "publishedAt": "2024-11-12"
-        },
-        {
-          "source": "Apple",
-          "title": "FORScan Lite - for Ford, Mazda",
-          "url": "https://apps.apple.com/us/app/forscan-lite-for-ford-mazda/id892347083",
-          "publishedAt": "2014-11-02"
-        },
-        {
-          "source": "Apple",
-          "title": "Telegram Messenger",
-          "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
-          "publishedAt": "2013-08-14"
-        },
-        {
-          "source": "Apple",
-          "title": "Handy Art Reference Tool",
-          "url": "https://apps.apple.com/us/app/handy-art-reference-tool/id478643661",
-          "publishedAt": "2011-11-11"
-        },
-        {
-          "source": "Apple",
-          "title": "Site Audit Pro",
-          "url": "https://apps.apple.com/us/app/site-audit-pro/id430234732",
-          "publishedAt": "2011-04-26"
-        },
-        {
-          "source": "Apple",
-          "title": "Stylebook",
-          "url": "https://apps.apple.com/us/app/stylebook/id335709058",
-          "publishedAt": "2009-10-29"
-        },
-        {
-          "source": "Apple",
-          "title": "Microsoft Outlook",
-          "url": "https://apps.apple.com/us/app/microsoft-outlook/id951937596",
-          "publishedAt": "2015-01-29"
-        }
-      ]
-    },
-    {
-      "id": "ecommerce-shopping",
-      "title": "Ecommerce + Shopping",
-      "category": "Commerce",
-      "score": 90,
-      "sources": [
-        "Apple",
-        "PyPI",
-        "Reddit"
-      ],
-      "whyNow": "37 current mentions versus prior peak 12 across Reddit, Apple, PyPI. Public evidence shows repeated attention before any private data or paid API is needed.",
-      "notes": [
-        "37 public artifacts clustered by shared language.",
-        "3 independent source types reduce single-platform noise.",
-        "Pain-language density suggests a problem worth validating.",
-        "Monetization terms or ranked app evidence suggest buyer intent.",
-        "Novelty terms point to fresh tooling or behavior change."
-      ],
-      "metrics": {
-        "velocity": 100,
-        "pain": 100,
-        "money": 100,
-        "novelty": 96,
-        "sourceDiversity": 60,
+        "sourceDiversity": 100,
         "saturation": 18
       },
       "sparkline": [
@@ -645,119 +312,8 @@
         22,
         28,
         35,
-        37,
-        46
-      ],
-      "evidence": [
-        {
-          "source": "Apple",
-          "title": "Whatnot: Shop, Sell, Connect",
-          "url": "https://apps.apple.com/us/app/whatnot-shop-sell-connect/id1488269261",
-          "publishedAt": "2019-12-06"
-        },
-        {
-          "source": "Apple",
-          "title": "Shop: All your favorite brands",
-          "url": "https://apps.apple.com/us/app/shop-all-your-favorite-brands/id1223471316",
-          "publishedAt": "2017-11-16"
-        },
-        {
-          "source": "Apple",
-          "title": "Depop - Buy & Sell Clothes",
-          "url": "https://apps.apple.com/us/app/depop-buy-sell-clothes/id518684914",
-          "publishedAt": "2012-08-01"
-        },
-        {
-          "source": "Apple",
-          "title": "Temu: Shop Like a Billionaire",
-          "url": "https://apps.apple.com/us/app/temu-shop-like-a-billionaire/id1641486558",
-          "publishedAt": "2022-08-31"
-        },
-        {
-          "source": "Apple",
-          "title": "Vinted: Pre-loved marketplace",
-          "url": "https://apps.apple.com/us/app/vinted-pre-loved-marketplace/id632064380",
-          "publishedAt": "2013-04-11"
-        },
-        {
-          "source": "Apple",
-          "title": "SHEIN - Shopping Online",
-          "url": "https://apps.apple.com/us/app/shein-shopping-online/id878577184",
-          "publishedAt": "2014-05-20"
-        },
-        {
-          "source": "Apple",
-          "title": "Walmart: Shopping & Savings",
-          "url": "https://apps.apple.com/us/app/walmart-shopping-savings/id338137227",
-          "publishedAt": "2009-11-02"
-        },
-        {
-          "source": "Apple",
-          "title": "DealSeek: Coupons & Discounts",
-          "url": "https://apps.apple.com/us/app/dealseek-coupons-discounts/id6745274862",
-          "publishedAt": "2025-06-19"
-        },
-        {
-          "source": "Apple",
-          "title": "Amazon Prime Video",
-          "url": "https://apps.apple.com/us/app/amazon-prime-video/id545519333",
-          "publishedAt": "2012-07-31"
-        },
-        {
-          "source": "Apple",
-          "title": "Amazon Shopping",
-          "url": "https://apps.apple.com/us/app/amazon-shopping/id297606951",
-          "publishedAt": "2008-12-03"
-        },
-        {
-          "source": "Apple",
-          "title": "Rips by Triumph",
-          "url": "https://apps.apple.com/us/app/rips-by-triumph/id6751921248",
-          "publishedAt": "2025-10-22"
-        },
-        {
-          "source": "Apple",
-          "title": "Sam's Club Shopping & Delivery",
-          "url": "https://apps.apple.com/us/app/sams-club-shopping-delivery/id382497397",
-          "publishedAt": "2010-08-25"
-        }
-      ]
-    },
-    {
-      "id": "developer-infrastructure",
-      "title": "Developer Infrastructure",
-      "category": "Developer tools",
-      "score": 77,
-      "sources": [
-        "Apple",
-        "Hacker News",
-        "PyPI",
-        "Reddit",
-        "npm"
-      ],
-      "whyNow": "51 current mentions versus prior peak 12 across Hacker News, Reddit, Apple, npm, PyPI. Public evidence shows repeated attention before any private data or paid API is needed.",
-      "notes": [
-        "51 public artifacts clustered by shared language.",
-        "5 independent source types reduce single-platform noise.",
-        "Pain-language density suggests a problem worth validating.",
-        "Novelty terms point to fresh tooling or behavior change."
-      ],
-      "metrics": {
-        "velocity": 100,
-        "pain": 66,
-        "money": 38,
-        "novelty": 100,
-        "sourceDiversity": 100,
-        "saturation": 18
-      },
-      "sparkline": [
-        12,
-        13,
-        28,
-        37,
-        45,
-        51,
-        59
+        36,
+        45
       ],
       "evidence": [
         {
@@ -835,18 +391,569 @@
       ]
     },
     {
+      "id": "small-business-sales",
+      "title": "Small Business + Sales",
+      "category": "Commerce",
+      "score": 93,
+      "sources": [
+        "Apple",
+        "Hacker News",
+        "Reddit",
+        "npm"
+      ],
+      "whyNow": "58 current mentions versus prior peak 12 across Hacker News, Reddit, Apple, npm. Public evidence shows repeated attention before any private data or paid API is needed.",
+      "notes": [
+        "58 public artifacts clustered by shared language.",
+        "4 independent source types reduce single-platform noise.",
+        "Pain-language density suggests a problem worth validating.",
+        "Monetization terms or ranked app evidence suggest buyer intent.",
+        "Novelty terms point to fresh tooling or behavior change."
+      ],
+      "metrics": {
+        "velocity": 100,
+        "pain": 100,
+        "money": 100,
+        "novelty": 100,
+        "sourceDiversity": 80,
+        "saturation": 18
+      },
+      "sparkline": [
+        12,
+        13,
+        32,
+        41,
+        50,
+        58,
+        67
+      ],
+      "evidence": [
+        {
+          "source": "npm",
+          "title": "telecom-mas-agent",
+          "url": "https://www.npmjs.com/package/telecom-mas-agent",
+          "publishedAt": "2025-12-09T03:02:18.773Z"
+        },
+        {
+          "source": "Hacker News",
+          "title": "The Problem with the Ferrari Luce EV Offers a Lesson for Every Leader",
+          "url": "https://www.inc.com/connor-jewiss/the-problem-with-the-ferrari-luce-ev-offers-a-lesson-for-every-leader/91351070",
+          "publishedAt": "2026-05-28T09:36:54.000Z"
+        },
+        {
+          "source": "Apple",
+          "title": "Indeed Job Search",
+          "url": "https://apps.apple.com/us/app/indeed-job-search/id309735670",
+          "publishedAt": "2009-06-08"
+        },
+        {
+          "source": "Apple",
+          "title": "Cash App",
+          "url": "https://apps.apple.com/us/app/cash-app/id711923939",
+          "publishedAt": "2013-10-16"
+        },
+        {
+          "source": "Apple",
+          "title": "Jump Desktop (RDP, VNC, Fluid)",
+          "url": "https://apps.apple.com/us/app/jump-desktop-rdp-vnc-fluid/id364876095",
+          "publishedAt": "2010-04-01"
+        },
+        {
+          "source": "Apple",
+          "title": "LinkedIn: Community & Network",
+          "url": "https://apps.apple.com/us/app/linkedin-community-network/id288429040",
+          "publishedAt": "2019-02-03"
+        },
+        {
+          "source": "Apple",
+          "title": "ADP Mobile Solutions",
+          "url": "https://apps.apple.com/us/app/adp-mobile-solutions/id444553167",
+          "publishedAt": "2011-07-13"
+        },
+        {
+          "source": "Apple",
+          "title": "DoorDash - Dasher",
+          "url": "https://apps.apple.com/us/app/doordash-dasher/id1451754591",
+          "publishedAt": "2019-03-13"
+        },
+        {
+          "source": "Apple",
+          "title": "FedEx Mobile",
+          "url": "https://apps.apple.com/us/app/fedex-mobile/id1010729050",
+          "publishedAt": "2015-11-10"
+        },
+        {
+          "source": "Apple",
+          "title": "Southwest Airlines: Travel App",
+          "url": "https://apps.apple.com/us/app/southwest-airlines-travel-app/id344542975",
+          "publishedAt": "2009-12-18"
+        },
+        {
+          "source": "Reddit",
+          "title": "What’s something in business that became much harder once you started scaling?",
+          "url": "https://www.reddit.com/r/Entrepreneur/comments/1tpf2eh/whats_something_in_business_that_became_much/",
+          "publishedAt": "2026-05-27T18:58:08+00:00"
+        },
+        {
+          "source": "Reddit",
+          "title": "Personality testing for entrepreneurs to find what your flow is and where you're good at",
+          "url": "https://www.reddit.com/r/Entrepreneur/comments/1tp2fzx/personality_testing_for_entrepreneurs_to_find/",
+          "publishedAt": "2026-05-27T11:14:29+00:00"
+        }
+      ]
+    },
+    {
+      "id": "personal-productivity",
+      "title": "Personal Productivity",
+      "category": "Productivity",
+      "score": 90,
+      "sources": [
+        "Apple",
+        "Reddit",
+        "arXiv"
+      ],
+      "whyNow": "51 current mentions versus prior peak 12 across Reddit, Apple, arXiv. Public evidence shows repeated attention before any private data or paid API is needed.",
+      "notes": [
+        "51 public artifacts clustered by shared language.",
+        "3 independent source types reduce single-platform noise.",
+        "Pain-language density suggests a problem worth validating.",
+        "Monetization terms or ranked app evidence suggest buyer intent.",
+        "Novelty terms point to fresh tooling or behavior change."
+      ],
+      "metrics": {
+        "velocity": 100,
+        "pain": 100,
+        "money": 100,
+        "novelty": 100,
+        "sourceDiversity": 60,
+        "saturation": 18
+      },
+      "sparkline": [
+        12,
+        13,
+        28,
+        37,
+        45,
+        51,
+        60
+      ],
+      "evidence": [
+        {
+          "source": "Apple",
+          "title": "Microsoft Authenticator",
+          "url": "https://apps.apple.com/us/app/microsoft-authenticator/id983156458",
+          "publishedAt": "2015-05-30"
+        },
+        {
+          "source": "Apple",
+          "title": "QuickBend: Conduit Bending",
+          "url": "https://apps.apple.com/us/app/quickbend-conduit-bending/id1010311475",
+          "publishedAt": "2015-07-28"
+        },
+        {
+          "source": "Apple",
+          "title": "Gmail - Email by Google",
+          "url": "https://apps.apple.com/us/app/gmail-email-by-google/id422689480",
+          "publishedAt": "2011-11-02"
+        },
+        {
+          "source": "Apple",
+          "title": "Things 3",
+          "url": "https://apps.apple.com/us/app/things-3/id904237743",
+          "publishedAt": "2017-05-18"
+        },
+        {
+          "source": "Apple",
+          "title": "Google Chrome",
+          "url": "https://apps.apple.com/us/app/google-chrome/id535886823",
+          "publishedAt": "2012-06-28"
+        },
+        {
+          "source": "Apple",
+          "title": "Goblin Tools",
+          "url": "https://apps.apple.com/us/app/goblin-tools/id6449003064",
+          "publishedAt": "2023-05-31"
+        },
+        {
+          "source": "Apple",
+          "title": "Wipr 2",
+          "url": "https://apps.apple.com/us/app/wipr-2/id1662217862",
+          "publishedAt": "2024-11-12"
+        },
+        {
+          "source": "Apple",
+          "title": "Telegram Messenger",
+          "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+          "publishedAt": "2013-08-14"
+        },
+        {
+          "source": "Apple",
+          "title": "Stylebook",
+          "url": "https://apps.apple.com/us/app/stylebook/id335709058",
+          "publishedAt": "2009-10-29"
+        },
+        {
+          "source": "Apple",
+          "title": "Microsoft Teams",
+          "url": "https://apps.apple.com/us/app/microsoft-teams/id1113153706",
+          "publishedAt": "2016-11-02"
+        },
+        {
+          "source": "Apple",
+          "title": "Handy Art Reference Tool",
+          "url": "https://apps.apple.com/us/app/handy-art-reference-tool/id478643661",
+          "publishedAt": "2011-11-11"
+        },
+        {
+          "source": "Apple",
+          "title": "Grok - AI Chat & Video",
+          "url": "https://apps.apple.com/us/app/grok-ai-chat-video/id6670324846",
+          "publishedAt": "2025-01-08"
+        }
+      ]
+    },
+    {
+      "id": "ecommerce-shopping",
+      "title": "Ecommerce + Shopping",
+      "category": "Commerce",
+      "score": 88,
+      "sources": [
+        "Apple",
+        "PyPI",
+        "Reddit"
+      ],
+      "whyNow": "34 current mentions versus prior peak 12 across Reddit, Apple, PyPI. Public evidence shows repeated attention before any private data or paid API is needed.",
+      "notes": [
+        "34 public artifacts clustered by shared language.",
+        "3 independent source types reduce single-platform noise.",
+        "Pain-language density suggests a problem worth validating.",
+        "Monetization terms or ranked app evidence suggest buyer intent.",
+        "Novelty terms point to fresh tooling or behavior change."
+      ],
+      "metrics": {
+        "velocity": 100,
+        "pain": 100,
+        "money": 100,
+        "novelty": 78,
+        "sourceDiversity": 60,
+        "saturation": 18
+      },
+      "sparkline": [
+        12,
+        13,
+        21,
+        27,
+        33,
+        34,
+        43
+      ],
+      "evidence": [
+        {
+          "source": "Apple",
+          "title": "Whatnot: Shop, Sell, Connect",
+          "url": "https://apps.apple.com/us/app/whatnot-shop-sell-connect/id1488269261",
+          "publishedAt": "2019-12-06"
+        },
+        {
+          "source": "Apple",
+          "title": "Shop: All your favorite brands",
+          "url": "https://apps.apple.com/us/app/shop-all-your-favorite-brands/id1223471316",
+          "publishedAt": "2017-11-16"
+        },
+        {
+          "source": "Apple",
+          "title": "Depop - Buy & Sell Clothes",
+          "url": "https://apps.apple.com/us/app/depop-buy-sell-clothes/id518684914",
+          "publishedAt": "2012-08-01"
+        },
+        {
+          "source": "Apple",
+          "title": "Temu: Shop Like a Billionaire",
+          "url": "https://apps.apple.com/us/app/temu-shop-like-a-billionaire/id1641486558",
+          "publishedAt": "2022-08-31"
+        },
+        {
+          "source": "Apple",
+          "title": "Vinted: Pre-loved marketplace",
+          "url": "https://apps.apple.com/us/app/vinted-pre-loved-marketplace/id632064380",
+          "publishedAt": "2013-04-11"
+        },
+        {
+          "source": "Apple",
+          "title": "SHEIN - Shopping Online",
+          "url": "https://apps.apple.com/us/app/shein-shopping-online/id878577184",
+          "publishedAt": "2014-05-20"
+        },
+        {
+          "source": "Apple",
+          "title": "DealSeek: Coupons & Discounts",
+          "url": "https://apps.apple.com/us/app/dealseek-coupons-discounts/id6745274862",
+          "publishedAt": "2025-06-19"
+        },
+        {
+          "source": "Apple",
+          "title": "Amazon Prime Video",
+          "url": "https://apps.apple.com/us/app/amazon-prime-video/id545519333",
+          "publishedAt": "2012-07-31"
+        },
+        {
+          "source": "Apple",
+          "title": "Walmart: Shopping & Savings",
+          "url": "https://apps.apple.com/us/app/walmart-shopping-savings/id338137227",
+          "publishedAt": "2009-11-02"
+        },
+        {
+          "source": "Apple",
+          "title": "Amazon Shopping",
+          "url": "https://apps.apple.com/us/app/amazon-shopping/id297606951",
+          "publishedAt": "2008-12-03"
+        },
+        {
+          "source": "Apple",
+          "title": "Rips by Triumph",
+          "url": "https://apps.apple.com/us/app/rips-by-triumph/id6751921248",
+          "publishedAt": "2025-10-22"
+        },
+        {
+          "source": "Apple",
+          "title": "Amazon Fire TV",
+          "url": "https://apps.apple.com/us/app/amazon-fire-tv/id947984433",
+          "publishedAt": "2014-12-23"
+        }
+      ]
+    },
+    {
+      "id": "creative-tools",
+      "title": "Creative Tools",
+      "category": "Creator tools",
+      "score": 84,
+      "sources": [
+        "Apple",
+        "Hacker News",
+        "PyPI",
+        "Reddit",
+        "arXiv",
+        "npm"
+      ],
+      "whyNow": "47 current mentions versus prior peak 12 across Hacker News, Reddit, Apple, arXiv, npm, PyPI. Public evidence shows repeated attention before any private data or paid API is needed.",
+      "notes": [
+        "47 public artifacts clustered by shared language.",
+        "6 independent source types reduce single-platform noise.",
+        "Monetization terms or ranked app evidence suggest buyer intent.",
+        "Novelty terms point to fresh tooling or behavior change."
+      ],
+      "metrics": {
+        "velocity": 100,
+        "pain": 38,
+        "money": 100,
+        "novelty": 100,
+        "sourceDiversity": 100,
+        "saturation": 18
+      },
+      "sparkline": [
+        12,
+        13,
+        27,
+        34,
+        42,
+        47,
+        55
+      ],
+      "evidence": [
+        {
+          "source": "npm",
+          "title": "@react-native-vector-icons/material-design-icons",
+          "url": "https://www.npmjs.com/package/@react-native-vector-icons/material-design-icons",
+          "publishedAt": "2026-05-24T18:59:32.104Z"
+        },
+        {
+          "source": "Hacker News",
+          "title": "YouTube to automatically label AI-generated videos",
+          "url": "https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/",
+          "publishedAt": "2026-05-27T20:00:51.000Z"
+        },
+        {
+          "source": "Apple",
+          "title": "CapCut: Photo & Video Editor",
+          "url": "https://apps.apple.com/us/app/capcut-photo-video-editor/id1500855883",
+          "publishedAt": "2020-04-14"
+        },
+        {
+          "source": "Apple",
+          "title": "Meta AI",
+          "url": "https://apps.apple.com/us/app/meta-ai/id1558240027",
+          "publishedAt": "2021-09-09"
+        },
+        {
+          "source": "Apple",
+          "title": "FL Studio Mobile",
+          "url": "https://apps.apple.com/us/app/fl-studio-mobile/id432850619",
+          "publishedAt": "2011-06-21"
+        },
+        {
+          "source": "Apple",
+          "title": "KICK - Live Streaming",
+          "url": "https://apps.apple.com/us/app/kick-live-streaming/id6446202561",
+          "publishedAt": "2023-03-26"
+        },
+        {
+          "source": "Apple",
+          "title": "imo video calls and chat HD",
+          "url": "https://apps.apple.com/us/app/imo-video-calls-and-chat-hd/id1400579543",
+          "publishedAt": "2018-09-02"
+        },
+        {
+          "source": "Apple",
+          "title": "Solocator - GPS Field Camera",
+          "url": "https://apps.apple.com/us/app/solocator-gps-field-camera/id582584117",
+          "publishedAt": "2012-12-09"
+        },
+        {
+          "source": "Apple",
+          "title": "Instagram",
+          "url": "https://apps.apple.com/us/app/instagram/id389801252",
+          "publishedAt": "2010-10-06"
+        },
+        {
+          "source": "Apple",
+          "title": "BerryFilm - Korean Style Cam",
+          "url": "https://apps.apple.com/us/app/berryfilm-korean-style-cam/id6741474933",
+          "publishedAt": "2025-02-27"
+        },
+        {
+          "source": "Apple",
+          "title": "TikTok - Videos, Shop & LIVE",
+          "url": "https://apps.apple.com/us/app/tiktok-videos-shop-live/id835599320",
+          "publishedAt": "2014-04-02"
+        },
+        {
+          "source": "Apple",
+          "title": "Shot Tracer",
+          "url": "https://apps.apple.com/us/app/shot-tracer/id1140451547",
+          "publishedAt": "2016-09-11"
+        }
+      ]
+    },
+    {
+      "id": "health-fitness-apps",
+      "title": "Health + Fitness Apps",
+      "category": "Consumer apps",
+      "score": 74,
+      "sources": [
+        "Apple",
+        "Hacker News",
+        "Reddit"
+      ],
+      "whyNow": "26 current mentions versus prior peak 12 across Hacker News, Reddit, Apple. Public evidence shows repeated attention before any private data or paid API is needed.",
+      "notes": [
+        "26 public artifacts clustered by shared language.",
+        "3 independent source types reduce single-platform noise.",
+        "Pain-language density suggests a problem worth validating.",
+        "Monetization terms or ranked app evidence suggest buyer intent."
+      ],
+      "metrics": {
+        "velocity": 100,
+        "pain": 46,
+        "money": 100,
+        "novelty": 42,
+        "sourceDiversity": 60,
+        "saturation": 18
+      },
+      "sparkline": [
+        12,
+        13,
+        17,
+        22,
+        27,
+        26,
+        33
+      ],
+      "evidence": [
+        {
+          "source": "Hacker News",
+          "title": "MIT president: Why so many optimistic scientists are losing heart",
+          "url": "https://www.bostonglobe.com/2026/05/26/opinion/science-funding-cuts-mit/",
+          "publishedAt": "2026-05-28T04:08:59.000Z"
+        },
+        {
+          "source": "Apple",
+          "title": "AutoSleep: Watch Sleep Tracker",
+          "url": "https://apps.apple.com/us/app/autosleep-watch-sleep-tracker/id1164801111",
+          "publishedAt": "2016-12-20"
+        },
+        {
+          "source": "Apple",
+          "title": "Streaks",
+          "url": "https://apps.apple.com/us/app/streaks/id963034692",
+          "publishedAt": "2015-06-01"
+        },
+        {
+          "source": "Apple",
+          "title": "Planet Fitness",
+          "url": "https://apps.apple.com/us/app/planet-fitness/id399857015",
+          "publishedAt": "2010-11-04"
+        },
+        {
+          "source": "Apple",
+          "title": "AutoSnore: Snoring Recorder",
+          "url": "https://apps.apple.com/us/app/autosnore-snoring-recorder/id6746705608",
+          "publishedAt": "2025-11-02"
+        },
+        {
+          "source": "Apple",
+          "title": "HeartWatch: Heart Rate Monitor",
+          "url": "https://apps.apple.com/us/app/heartwatch-heart-rate-monitor/id1062745479",
+          "publishedAt": "2015-12-07"
+        },
+        {
+          "source": "Apple",
+          "title": "WorkOutDoors",
+          "url": "https://apps.apple.com/us/app/workoutdoors/id1241909999",
+          "publishedAt": "2017-07-13"
+        },
+        {
+          "source": "Apple",
+          "title": "HealthFit",
+          "url": "https://apps.apple.com/us/app/healthfit/id1202650514",
+          "publishedAt": "2017-09-26"
+        },
+        {
+          "source": "Apple",
+          "title": "Strava: Run, Bike, Walk",
+          "url": "https://apps.apple.com/us/app/strava-run-bike-walk/id426826309",
+          "publishedAt": "2011-03-24"
+        },
+        {
+          "source": "Apple",
+          "title": "Vargo Anesthesia Mega App",
+          "url": "https://apps.apple.com/us/app/vargo-anesthesia-mega-app/id791467318",
+          "publishedAt": "2014-01-09"
+        },
+        {
+          "source": "Apple",
+          "title": "MyChart",
+          "url": "https://apps.apple.com/us/app/mychart/id382952264",
+          "publishedAt": "2010-09-14"
+        },
+        {
+          "source": "Apple",
+          "title": "Couch to 5K® - Run training",
+          "url": "https://apps.apple.com/us/app/couch-to-5k-run-training/id448474423",
+          "publishedAt": "2011-08-10"
+        }
+      ]
+    },
+    {
       "id": "model-evals-benchmarks",
       "title": "Model Evals + Benchmarks",
       "category": "Developer tools",
-      "score": 74,
+      "score": 71,
       "sources": [
-        "PyPI",
         "arXiv"
       ],
-      "whyNow": "27 current mentions versus prior peak 12 across arXiv, PyPI. Public evidence shows repeated attention before any private data or paid API is needed.",
+      "whyNow": "25 current mentions versus prior peak 12 across arXiv. Public evidence shows repeated attention before any private data or paid API is needed.",
       "notes": [
-        "27 public artifacts clustered by shared language.",
-        "2 independent source types reduce single-platform noise.",
+        "25 public artifacts clustered by shared language.",
+        "1 independent source types reduce single-platform noise.",
         "Pain-language density suggests a problem worth validating.",
         "Novelty terms point to fresh tooling or behavior change."
       ],
@@ -855,17 +962,17 @@
         "pain": 100,
         "money": 32,
         "novelty": 100,
-        "sourceDiversity": 40,
+        "sourceDiversity": 20,
         "saturation": 18
       },
       "sparkline": [
         12,
         13,
-        18,
-        23,
-        28,
+        17,
+        21,
         27,
-        34
+        25,
+        32
       ],
       "evidence": [
         {
@@ -943,135 +1050,28 @@
       ]
     },
     {
-      "id": "health-fitness-apps",
-      "title": "Health + Fitness Apps",
+      "id": "consumer-finance",
+      "title": "Consumer Finance",
       "category": "Consumer apps",
-      "score": 68,
+      "score": 60,
       "sources": [
         "Apple",
         "Hacker News",
         "Reddit"
       ],
-      "whyNow": "25 current mentions versus prior peak 12 across Hacker News, Reddit, Apple. Public evidence shows repeated attention before any private data or paid API is needed.",
-      "notes": [
-        "25 public artifacts clustered by shared language.",
-        "3 independent source types reduce single-platform noise.",
-        "Monetization terms or ranked app evidence suggest buyer intent."
-      ],
-      "metrics": {
-        "velocity": 100,
-        "pain": 16,
-        "money": 100,
-        "novelty": 42,
-        "sourceDiversity": 60,
-        "saturation": 18
-      },
-      "sparkline": [
-        12,
-        13,
-        17,
-        21,
-        27,
-        25,
-        32
-      ],
-      "evidence": [
-        {
-          "source": "Apple",
-          "title": "Streaks",
-          "url": "https://apps.apple.com/us/app/streaks/id963034692",
-          "publishedAt": "2015-06-01"
-        },
-        {
-          "source": "Apple",
-          "title": "AutoSleep: Watch Sleep Tracker",
-          "url": "https://apps.apple.com/us/app/autosleep-watch-sleep-tracker/id1164801111",
-          "publishedAt": "2016-12-20"
-        },
-        {
-          "source": "Apple",
-          "title": "White Noise",
-          "url": "https://apps.apple.com/us/app/white-noise/id289894882",
-          "publishedAt": "2019-01-31"
-        },
-        {
-          "source": "Apple",
-          "title": "Planet Fitness",
-          "url": "https://apps.apple.com/us/app/planet-fitness/id399857015",
-          "publishedAt": "2010-11-04"
-        },
-        {
-          "source": "Hacker News",
-          "title": "MIT president: Why so many optimistic scientists are losing heart",
-          "url": "https://www.bostonglobe.com/2026/05/26/opinion/science-funding-cuts-mit/",
-          "publishedAt": "2026-05-28T04:08:59.000Z"
-        },
-        {
-          "source": "Apple",
-          "title": "AutoSnore: Snoring Recorder",
-          "url": "https://apps.apple.com/us/app/autosnore-snoring-recorder/id6746705608",
-          "publishedAt": "2025-11-02"
-        },
-        {
-          "source": "Apple",
-          "title": "HeartWatch: Heart Rate Monitor",
-          "url": "https://apps.apple.com/us/app/heartwatch-heart-rate-monitor/id1062745479",
-          "publishedAt": "2015-12-07"
-        },
-        {
-          "source": "Apple",
-          "title": "WorkOutDoors",
-          "url": "https://apps.apple.com/us/app/workoutdoors/id1241909999",
-          "publishedAt": "2017-07-13"
-        },
-        {
-          "source": "Apple",
-          "title": "Pedi STAT",
-          "url": "https://apps.apple.com/us/app/pedi-stat/id327963391",
-          "publishedAt": "2009-08-29"
-        },
-        {
-          "source": "Apple",
-          "title": "Vargo Anesthesia Mega App",
-          "url": "https://apps.apple.com/us/app/vargo-anesthesia-mega-app/id791467318",
-          "publishedAt": "2014-01-09"
-        },
-        {
-          "source": "Apple",
-          "title": "ASCCP Management Guidelines",
-          "url": "https://apps.apple.com/us/app/asccp-management-guidelines/id1498550832",
-          "publishedAt": "2020-06-05"
-        },
-        {
-          "source": "Apple",
-          "title": "Strava: Run, Bike, Walk",
-          "url": "https://apps.apple.com/us/app/strava-run-bike-walk/id426826309",
-          "publishedAt": "2011-03-24"
-        }
-      ]
-    },
-    {
-      "id": "consumer-finance",
-      "title": "Consumer Finance",
-      "category": "Consumer apps",
-      "score": 59,
-      "sources": [
-        "Apple",
-        "Reddit"
-      ],
-      "whyNow": "13 current mentions versus prior peak 12 across Reddit, Apple. Public evidence shows repeated attention before any private data or paid API is needed.",
+      "whyNow": "13 current mentions versus prior peak 12 across Hacker News, Reddit, Apple. Public evidence shows repeated attention before any private data or paid API is needed.",
       "notes": [
         "13 public artifacts clustered by shared language.",
-        "2 independent source types reduce single-platform noise.",
+        "3 independent source types reduce single-platform noise.",
         "Pain-language density suggests a problem worth validating.",
         "Monetization terms or ranked app evidence suggest buyer intent."
       ],
       "metrics": {
         "velocity": 56,
-        "pain": 78,
+        "pain": 56,
         "money": 100,
-        "novelty": 16,
-        "sourceDiversity": 40,
+        "novelty": 42,
+        "sourceDiversity": 60,
         "saturation": 26
       },
       "sparkline": [
@@ -1084,6 +1084,12 @@
         19
       ],
       "evidence": [
+        {
+          "source": "Hacker News",
+          "title": "Hetzner Price Adjustment",
+          "url": "https://www.hetzner.com/pressroom/standardization-and-price-adjustment-of-our-server-products/",
+          "publishedAt": "2026-05-28T08:06:34.000Z"
+        },
         {
           "source": "Apple",
           "title": "PayPal - Pay, Send, Save",
@@ -1104,12 +1110,6 @@
         },
         {
           "source": "Apple",
-          "title": "Chase Mobile®: Bank & Invest",
-          "url": "https://apps.apple.com/us/app/chase-mobile-bank-invest/id298867247",
-          "publishedAt": "2008-12-15"
-        },
-        {
-          "source": "Apple",
           "title": "OnePay – Mobile Banking",
           "url": "https://apps.apple.com/us/app/onepay-mobile-banking/id1494523953",
           "publishedAt": "2020-03-25"
@@ -1122,9 +1122,15 @@
         },
         {
           "source": "Apple",
-          "title": "Progressive",
-          "url": "https://apps.apple.com/us/app/progressive/id349731802",
-          "publishedAt": "2010-01-11"
+          "title": "Chase Mobile®: Bank & Invest",
+          "url": "https://apps.apple.com/us/app/chase-mobile-bank-invest/id298867247",
+          "publishedAt": "2008-12-15"
+        },
+        {
+          "source": "Apple",
+          "title": "Kalshi: Trade News & Sports",
+          "url": "https://apps.apple.com/us/app/kalshi-trade-news-sports/id1632713844",
+          "publishedAt": "2022-09-16"
         },
         {
           "source": "Reddit",
@@ -1134,27 +1140,177 @@
         },
         {
           "source": "Reddit",
-          "title": "Pre-launch pre-sale with refund guarantee, has this worked for anyone?",
-          "url": "https://www.reddit.com/r/SaaS/comments/1tpsfco/prelaunch_presale_with_refund_guarantee_has_this/",
-          "publishedAt": "2026-05-28T04:00:22+00:00"
+          "title": "Experience with payment orchestration for SaaS?",
+          "url": "https://www.reddit.com/r/SaaS/comments/1tpy5t7/experience_with_payment_orchestration_for_saas/",
+          "publishedAt": "2026-05-28T09:10:08+00:00"
         },
         {
           "source": "Reddit",
-          "title": "Reddit roasted my subscription yesterday. I shipped a lifetime tier within hours. First paying customer came overnight. Did I just make a $50k mistake?",
-          "url": "https://www.reddit.com/r/SaaS/comments/1tp0di4/reddit_roasted_my_subscription_yesterday_i/",
-          "publishedAt": "2026-05-27T09:25:52+00:00"
+          "title": "How do I set realistic goals for distribution?",
+          "url": "https://www.reddit.com/r/SaaS/comments/1tpyaj3/how_do_i_set_realistic_goals_for_distribution/",
+          "publishedAt": "2026-05-28T09:17:32+00:00"
         },
         {
           "source": "Reddit",
-          "title": "Do you forget to cancel your subscription or even add subscription tracker in first place?",
-          "url": "https://www.reddit.com/r/SaaS/comments/1tpppnc/do_you_forget_to_cancel_your_subscription_or_even/",
-          "publishedAt": "2026-05-28T01:55:41+00:00"
+          "title": "Is buyer education shifting from a content-based approach to a structural one?",
+          "url": "https://www.reddit.com/r/SaaS/comments/1tpxf1e/is_buyer_education_shifting_from_a_contentbased/",
+          "publishedAt": "2026-05-28T08:26:48+00:00"
+        }
+      ]
+    },
+    {
+      "id": "flexible-means-processing",
+      "title": "Flexible + Means + Processing",
+      "category": "AI workflows",
+      "score": 32,
+      "sources": [
+        "PyPI"
+      ],
+      "whyNow": "12 fresh mentions across PyPI. Public evidence shows repeated attention before any private data or paid API is needed.",
+      "notes": [
+        "12 public artifacts clustered by shared language.",
+        "1 independent source types reduce single-platform noise."
+      ],
+      "metrics": {
+        "velocity": 100,
+        "pain": 5,
+        "money": 5,
+        "novelty": 10,
+        "sourceDiversity": 20,
+        "saturation": 24
+      },
+      "sparkline": [
+        1,
+        1,
+        6,
+        8,
+        9,
+        12,
+        15
+      ],
+      "evidence": [
+        {
+          "source": "PyPI",
+          "title": "trustgraph-vertexai 2.5.3",
+          "url": "https://pypi.org/project/trustgraph-vertexai/2.5.3/",
+          "publishedAt": "Thu, 28 May 2026 10:25:56 GMT"
         },
         {
-          "source": "Reddit",
-          "title": "As the year wraps up: what’s the project you’re most proud of building and why?",
-          "url": "https://www.reddit.com/r/SideProject/comments/1ppr6gh/as_the_year_wraps_up_whats_the_project_youre_most/",
-          "publishedAt": "2025-12-18T13:45:29+00:00"
+          "source": "PyPI",
+          "title": "trustgraph-unstructured 2.5.3",
+          "url": "https://pypi.org/project/trustgraph-unstructured/2.5.3/",
+          "publishedAt": "Thu, 28 May 2026 10:25:55 GMT"
+        },
+        {
+          "source": "PyPI",
+          "title": "trustgraph-ocr 2.5.3",
+          "url": "https://pypi.org/project/trustgraph-ocr/2.5.3/",
+          "publishedAt": "Thu, 28 May 2026 10:25:54 GMT"
+        },
+        {
+          "source": "PyPI",
+          "title": "trustgraph-flow 2.5.3",
+          "url": "https://pypi.org/project/trustgraph-flow/2.5.3/",
+          "publishedAt": "Thu, 28 May 2026 10:25:52 GMT"
+        },
+        {
+          "source": "PyPI",
+          "title": "trustgraph-cli 2.5.3",
+          "url": "https://pypi.org/project/trustgraph-cli/2.5.3/",
+          "publishedAt": "Thu, 28 May 2026 10:25:50 GMT"
+        },
+        {
+          "source": "PyPI",
+          "title": "trustgraph-bedrock 2.5.3",
+          "url": "https://pypi.org/project/trustgraph-bedrock/2.5.3/",
+          "publishedAt": "Thu, 28 May 2026 10:25:49 GMT"
+        },
+        {
+          "source": "PyPI",
+          "title": "trustgraph-base 2.5.3",
+          "url": "https://pypi.org/project/trustgraph-base/2.5.3/",
+          "publishedAt": "Thu, 28 May 2026 10:25:48 GMT"
+        },
+        {
+          "source": "PyPI",
+          "title": "trustgraph 2.5.3",
+          "url": "https://pypi.org/project/trustgraph/2.5.3/",
+          "publishedAt": "Thu, 28 May 2026 10:25:47 GMT"
+        },
+        {
+          "source": "PyPI",
+          "title": "trustgraph-vertexai 2.4.31",
+          "url": "https://pypi.org/project/trustgraph-vertexai/2.4.31/",
+          "publishedAt": "Thu, 28 May 2026 10:24:35 GMT"
+        },
+        {
+          "source": "PyPI",
+          "title": "trustgraph-unstructured 2.4.31",
+          "url": "https://pypi.org/project/trustgraph-unstructured/2.4.31/",
+          "publishedAt": "Thu, 28 May 2026 10:24:34 GMT"
+        },
+        {
+          "source": "PyPI",
+          "title": "trustgraph-ocr 2.4.31",
+          "url": "https://pypi.org/project/trustgraph-ocr/2.4.31/",
+          "publishedAt": "Thu, 28 May 2026 10:24:33 GMT"
+        },
+        {
+          "source": "PyPI",
+          "title": "trustgraph-flow 2.4.31",
+          "url": "https://pypi.org/project/trustgraph-flow/2.4.31/",
+          "publishedAt": "Thu, 28 May 2026 10:24:30 GMT"
+        }
+      ]
+    },
+    {
+      "id": "access-conda-forge-conda-forge-metadata",
+      "title": "Access + Conda + Forge",
+      "category": "Market signal",
+      "score": 30,
+      "sources": [
+        "PyPI"
+      ],
+      "whyNow": "3 fresh mentions across PyPI. Public evidence shows repeated attention before any private data or paid API is needed.",
+      "notes": [
+        "3 public artifacts clustered by shared language.",
+        "1 independent source types reduce single-platform noise."
+      ],
+      "metrics": {
+        "velocity": 84,
+        "pain": 5,
+        "money": 16,
+        "novelty": 10,
+        "sourceDiversity": 20,
+        "saturation": 6
+      },
+      "sparkline": [
+        1,
+        1,
+        2,
+        2,
+        3,
+        3,
+        6
+      ],
+      "evidence": [
+        {
+          "source": "PyPI",
+          "title": "conda-forge-metadata 0.15.0",
+          "url": "https://pypi.org/project/conda-forge-metadata/0.15.0/",
+          "publishedAt": "Thu, 28 May 2026 10:32:36 GMT"
+        },
+        {
+          "source": "PyPI",
+          "title": "conda-forge-metadata 0.14.0",
+          "url": "https://pypi.org/project/conda-forge-metadata/0.14.0/",
+          "publishedAt": "Thu, 28 May 2026 10:30:38 GMT"
+        },
+        {
+          "source": "PyPI",
+          "title": "conda-forge-metadata 0.13.0",
+          "url": "https://pypi.org/project/conda-forge-metadata/0.13.0/",
+          "publishedAt": "Thu, 28 May 2026 10:29:16 GMT"
         }
       ]
     },
@@ -1162,35 +1318,33 @@
       "id": "privacy-security",
       "title": "Privacy + Security",
       "category": "Developer tools",
-      "score": 57,
+      "score": 22,
       "sources": [
         "Apple",
         "Hacker News",
-        "Reddit"
+        "PyPI"
       ],
-      "whyNow": "5 current mentions versus prior peak 7 across Hacker News, Reddit, Apple. Public evidence shows repeated attention before any private data or paid API is needed.",
+      "whyNow": "3 current mentions versus prior peak 7 across Hacker News, Apple, PyPI. Public evidence shows repeated attention before any private data or paid API is needed.",
       "notes": [
-        "5 public artifacts clustered by shared language.",
-        "3 independent source types reduce single-platform noise.",
-        "Pain-language density suggests a problem worth validating.",
-        "Monetization terms or ranked app evidence suggest buyer intent."
+        "3 public artifacts clustered by shared language.",
+        "3 independent source types reduce single-platform noise."
       ],
       "metrics": {
         "velocity": 20,
-        "pain": 100,
-        "money": 100,
+        "pain": 5,
+        "money": 22,
         "novelty": 24,
         "sourceDiversity": 60,
-        "saturation": 10
+        "saturation": 6
       },
       "sparkline": [
         7,
         8,
         5,
+        6,
         7,
-        9,
-        5,
-        11
+        3,
+        5
       ],
       "evidence": [
         {
@@ -1201,27 +1355,15 @@
         },
         {
           "source": "Apple",
-          "title": "Microsoft Authenticator",
-          "url": "https://apps.apple.com/us/app/microsoft-authenticator/id983156458",
-          "publishedAt": "2015-05-30"
-        },
-        {
-          "source": "Apple",
           "title": "Google Authenticator",
           "url": "https://apps.apple.com/us/app/google-authenticator/id388497605",
           "publishedAt": "2010-09-20"
         },
         {
-          "source": "Reddit",
-          "title": "I built a free marketplace for trading unused work perks — no revenue, no investors, just a dumb idea I had to try",
-          "url": "https://www.reddit.com/r/SideProject/comments/1tpnrra/i_built_a_free_marketplace_for_trading_unused/",
-          "publishedAt": "2026-05-28T00:30:15+00:00"
-        },
-        {
-          "source": "Reddit",
-          "title": "After 9 out of 10 friends said my V1 was bad, I rebuilt it in 12 hours and shipped V2.1 in 6 days. Solo.",
-          "url": "https://www.reddit.com/r/SideProject/comments/1tpppir/after_9_out_of_10_friends_said_my_v1_was_bad_i/",
-          "publishedAt": "2026-05-28T01:55:33+00:00"
+          "source": "PyPI",
+          "title": "psamvault 0.4.1",
+          "url": "https://pypi.org/project/psamvault/0.4.1/",
+          "publishedAt": "Thu, 28 May 2026 10:25:02 GMT"
         }
       ]
     }
