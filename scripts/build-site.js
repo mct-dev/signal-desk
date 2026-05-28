@@ -41,7 +41,7 @@ await writeFile(
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Autonomous opportunity detection from public no-key internet sources."
+      content="Weekly opportunity briefs from public market, pain, spend, adoption, and macro signals."
     />
     <base href="${normalizedBase}" />
     <title>Signal Desk</title>
