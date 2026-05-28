@@ -16,6 +16,7 @@ import {
   Globe2,
   Layers3,
   Lightbulb,
+  LockKeyhole,
   RefreshCw,
   Search,
   ShieldCheck,
@@ -65,6 +66,51 @@ const evidenceLabels = {
   macro: 'Macro',
   attention: 'Attention',
   context: 'Context',
+}
+
+function bytesFromBase64(value) {
+  const binary = atob(value)
+  const bytes = new Uint8Array(binary.length)
+  for (let index = 0; index < binary.length; index += 1) {
+    bytes[index] = binary.charCodeAt(index)
+  }
+  return bytes
+}
+
+function appendBytes(first, second) {
+  const combined = new Uint8Array(first.length + second.length)
+  combined.set(first)
+  combined.set(second, first.length)
+  return combined
+}
+
+async function decryptSignals(envelope, password) {
+  const passwordBytes = new TextEncoder().encode(password)
+  const keyMaterial = await crypto.subtle.importKey('raw', passwordBytes, 'PBKDF2', false, ['deriveKey'])
+  const key = await crypto.subtle.deriveKey(
+    {
+      name: 'PBKDF2',
+      hash: envelope.kdf.hash,
+      iterations: envelope.kdf.iterations,
+      salt: bytesFromBase64(envelope.kdf.salt),
+    },
+    keyMaterial,
+    { name: 'AES-GCM', length: 256 },
+    false,
+    ['decrypt'],
+  )
+  const ciphertext = bytesFromBase64(envelope.ciphertext)
+  const tag = bytesFromBase64(envelope.cipher.tag)
+  const decrypted = await crypto.subtle.decrypt(
+    {
+      name: 'AES-GCM',
+      iv: bytesFromBase64(envelope.cipher.iv),
+      tagLength: tag.length * 8,
+    },
+    key,
+    appendBytes(ciphertext, tag),
+  )
+  return JSON.parse(new TextDecoder().decode(decrypted))
 }
 
 function formatDate(value) {
@@ -160,8 +206,8 @@ function OpportunityRow({ item, selected, onSelect }) {
 function EvidenceList({ evidence }) {
   return (
     <div className="evidence-list">
-      {evidence.slice(0, 10).map((item) => (
-        <a key={`${item.source}-${item.url}`} href={item.url} target="_blank" rel="noreferrer">
+      {evidence.slice(0, 10).map((item, index) => (
+        <a key={`${item.source}-${item.url}-${index}`} href={item.url} target="_blank" rel="noreferrer">
           <div>
             <span>
               {item.source}
@@ -217,30 +263,123 @@ function ScoreBreakdown({ metrics }) {
   )
 }
 
+function LoginGate({ error, unlocking, onUnlock }) {
+  const [password, setPassword] = useState('')
+
+  function submit(event) {
+    event.preventDefault()
+    if (!password.trim()) return
+    onUnlock(password)
+  }
+
+  return (
+    <main className="auth-shell">
+      <form className="auth-panel" onSubmit={submit}>
+        <div className="brand-mark">SD</div>
+        <div>
+          <h1>Signal Desk</h1>
+          <p>Private opportunity dashboard</p>
+        </div>
+        <input
+          aria-hidden="true"
+          autoComplete="username"
+          className="auth-username"
+          readOnly
+          tabIndex={-1}
+          type="text"
+          value="signal-desk"
+        />
+        <label>
+          <span>Password</span>
+          <input
+            aria-label="Password"
+            autoComplete="current-password"
+            autoFocus
+            onChange={(event) => setPassword(event.target.value)}
+            type="password"
+            value={password}
+          />
+        </label>
+        {error ? (
+          <p className="auth-error" role="alert">
+            {error}
+          </p>
+        ) : null}
+        <button type="submit" disabled={unlocking || !password.trim()}>
+          <LockKeyhole size={16} />
+          {unlocking ? 'Unlocking' : 'Unlock'}
+        </button>
+      </form>
+    </main>
+  )
+}
+
 function App() {
   const [data, setData] = useState(fallbackData)
   const [loading, setLoading] = useState(true)
+  const [authMode, setAuthMode] = useState('checking')
+  const [encryptedPayload, setEncryptedPayload] = useState(null)
+  const [authError, setAuthError] = useState('')
+  const [unlocking, setUnlocking] = useState(false)
   const [query, setQuery] = useState('')
   const [sourceFilter, setSourceFilter] = useState('All')
   const [confidenceFilter, setConfidenceFilter] = useState('All')
   const [selectedId, setSelectedId] = useState('')
 
   useEffect(() => {
-    const dataUrl = new URL('data/signals.json', document.baseURI).href
-    fetch(dataUrl)
-      .then((response) => {
+    let cancelled = false
+
+    async function loadData() {
+      try {
+        const encryptedUrl = new URL('data/signals.enc.json', document.baseURI).href
+        const encryptedResponse = await fetch(encryptedUrl, { cache: 'no-store' })
+        if (encryptedResponse.ok) {
+          const envelope = await encryptedResponse.json()
+          if (!cancelled) {
+            setEncryptedPayload(envelope)
+            setAuthMode('locked')
+          }
+          return
+        }
+
+        const dataUrl = new URL('data/signals.json', document.baseURI).href
+        const response = await fetch(dataUrl)
         if (!response.ok) throw new Error(`Data fetch failed: ${response.status}`)
-        return response.json()
-      })
-      .then((payload) => {
+        const payload = await response.json()
+        if (cancelled) return
         setData(payload)
         setSelectedId(payload.opportunities?.[0]?.id ?? '')
-      })
-      .catch(() => {
+        setAuthMode('open')
+      } catch {
+        if (cancelled) return
         setData(fallbackData)
-      })
-      .finally(() => setLoading(false))
+        setAuthMode('open')
+      } finally {
+        if (!cancelled) setLoading(false)
+      }
+    }
+
+    loadData()
+    return () => {
+      cancelled = true
+    }
   }, [])
+
+  async function handleUnlock(password) {
+    if (!encryptedPayload) return
+    setUnlocking(true)
+    setAuthError('')
+    try {
+      const payload = await decryptSignals(encryptedPayload, password)
+      setData(payload)
+      setSelectedId(payload.opportunities?.[0]?.id ?? '')
+      setAuthMode('open')
+    } catch {
+      setAuthError('Password did not unlock Signal Desk.')
+    } finally {
+      setUnlocking(false)
+    }
+  }
 
   const allSources = useMemo(() => {
     const names = new Set()
@@ -263,6 +402,10 @@ function App() {
   const selected = useMemo(() => {
     return opportunities.find((item) => item.id === selectedId) ?? opportunities[0]
   }, [opportunities, selectedId])
+
+  if (authMode === 'locked') {
+    return <LoginGate error={authError} unlocking={unlocking} onUnlock={handleUnlock} />
+  }
 
   return (
     <div className="app-shell">

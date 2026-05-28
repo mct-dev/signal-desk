@@ -53,6 +53,8 @@ jobs:
       - name: Build
         env:
           BASE_PATH: /${{ github.event.repository.name }}/
+          REQUIRE_SIGNAL_DESK_PASSWORD: "true"
+          SIGNAL_DESK_PASSWORD: ${{ secrets.SIGNAL_DESK_PASSWORD }}
         run: bun run build
       - name: Configure Pages
         uses: actions/configure-pages@v5

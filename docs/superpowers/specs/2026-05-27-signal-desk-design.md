@@ -10,6 +10,7 @@ Signal Desk is a deployed public website that updates without manual work. It co
 - Optional free API keys are allowed only where they do not replace public-source collection. Missing keys degrade source health instead of failing the run.
 - No paid APIs, private scraping, CAPTCHA bypass, or paywall bypass.
 - Sources: manual/X seed links, Reddit RSS and search RSS, Hacker News and HN search echoes, curated RSS echoes, GitHub Issues, npm, PyPI, GitHub Trending, GDELT, OWID, World Bank, BLS, and optional FRED.
+- Production Pages builds require `SIGNAL_DESK_PASSWORD`, encrypt the signal payload, and remove cleartext data files from the published artifact.
 
 ## Data Flow
 
@@ -18,7 +19,8 @@ Signal Desk is a deployed public website that updates without manual work. It co
 3. Manual/X links seed hypotheses without scraping X; regular echo sources corroborate those ideas via Reddit RSS, HN search, RSS feeds, and other public surfaces.
 4. Evidence is grouped into narrow opportunity profiles or high-quality fallback clusters.
 5. Score prioritizes pain, spend/adoption evidence, recurrence, source quality, niche specificity, and macro context.
-6. `public/data/signals.json` powers the site; `public/data/history.json` stores recent baselines.
+6. `public/data/signals.json` powers local/source data; `public/data/history.json` stores recent baselines.
+7. Production builds publish `data/signals.enc.json` and require a browser password unlock before evidence is decrypted.
 
 ## UI
 

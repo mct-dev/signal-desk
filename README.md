@@ -29,6 +29,13 @@ Optional free API keys:
 - `FRED_API_KEY` enables FRED macro series. Without it, FRED is marked skipped.
 - `BLS_API_KEY` is not required for the current BLS calls, but can be added later if broader BLS ranges are needed.
 
+Production privacy:
+
+- `SIGNAL_DESK_PASSWORD` is required by the GitHub Pages build.
+- The production build encrypts `signals.json` into `signals.enc.json` and removes cleartext signal/history JSON from the Pages artifact.
+- The static app shell remains public on GitHub Pages, but the opportunity data requires the password to decrypt in the browser.
+- Set or rotate the password with `gh secret set SIGNAL_DESK_PASSWORD --repo mct-dev/signal-desk`, then rerun the deploy workflow.
+
 ## Curated Seeds and Echoes
 
 X is treated as a seed source, not a scraped data source. Add high-signal X or other manual links to `sources/manual-links.json` with a title, note, tags, and evidence type. The collector uses your note and link as evidence and does not fetch or scrape X content.

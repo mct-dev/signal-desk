@@ -1,5 +1,6 @@
 import { cp, mkdir, rm, writeFile } from 'node:fs/promises'
 import { spawnSync } from 'node:child_process'
+import { writePrivateDataBundle } from './private-data.js'
 
 const root = new URL('../', import.meta.url)
 const dist = new URL('../dist/', import.meta.url)
@@ -31,6 +32,11 @@ if (result.status !== 0) {
 }
 
 await cp(publicDir, dist, { recursive: true })
+const privateData = await writePrivateDataBundle({
+  dist,
+  password: process.env.SIGNAL_DESK_PASSWORD,
+  requirePassword: process.env.REQUIRE_SIGNAL_DESK_PASSWORD === 'true',
+})
 
 await writeFile(
   new URL('index.html', dist),
@@ -56,4 +62,4 @@ await writeFile(
 `,
 )
 
-console.log(`Built Signal Desk with base path ${normalizedBase}`)
+console.log(`Built Signal Desk with base path ${normalizedBase}${privateData.protected ? ' and encrypted data' : ''}`)
