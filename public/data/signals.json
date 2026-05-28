@@ -1,14 +1,14 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-05-28T12:19:54.234Z",
+  "generatedAt": "2026-05-28T12:46:57.300Z",
   "cadence": "weekly",
   "summary": {
     "opportunityCount": 7,
-    "evidenceCount": 64,
-    "sourceCount": 10,
+    "evidenceCount": 65,
+    "sourceCount": 11,
     "sourceAlerts": 1,
-    "skippedSources": 1,
-    "highConfidenceCount": 5
+    "skippedSources": 0,
+    "highConfidenceCount": 4
   },
   "sourceRuns": [
     {
@@ -16,98 +16,97 @@
       "ok": true,
       "skipped": false,
       "itemCount": 80,
-      "fetchedAt": "2026-05-28T12:19:55.478Z",
-      "startedAt": "2026-05-28T12:19:54.235Z"
+      "fetchedAt": "2026-05-28T12:46:58.152Z",
+      "startedAt": "2026-05-28T12:46:57.305Z"
     },
     {
       "source": "Reddit",
       "ok": true,
       "skipped": false,
       "itemCount": 140,
-      "fetchedAt": "2026-05-28T12:19:56.049Z",
-      "startedAt": "2026-05-28T12:19:54.254Z"
+      "fetchedAt": "2026-05-28T12:46:58.754Z",
+      "startedAt": "2026-05-28T12:46:57.369Z"
     },
     {
       "source": "Stack Exchange",
       "ok": true,
       "skipped": false,
       "itemCount": 129,
-      "fetchedAt": "2026-05-28T12:19:54.596Z",
-      "startedAt": "2026-05-28T12:19:54.254Z"
+      "fetchedAt": "2026-05-28T12:46:57.718Z",
+      "startedAt": "2026-05-28T12:46:57.369Z"
     },
     {
       "source": "GitHub Issues",
       "ok": true,
       "skipped": false,
       "itemCount": 119,
-      "fetchedAt": "2026-05-28T12:19:55.406Z",
-      "startedAt": "2026-05-28T12:19:54.258Z"
+      "fetchedAt": "2026-05-28T12:46:58.694Z",
+      "startedAt": "2026-05-28T12:46:57.380Z"
     },
     {
       "source": "npm",
       "ok": true,
       "skipped": false,
       "itemCount": 160,
-      "fetchedAt": "2026-05-28T12:19:55.203Z",
-      "startedAt": "2026-05-28T12:19:54.260Z"
+      "fetchedAt": "2026-05-28T12:46:58.050Z",
+      "startedAt": "2026-05-28T12:46:57.384Z"
     },
     {
       "source": "PyPI",
       "ok": true,
       "skipped": false,
       "itemCount": 100,
-      "fetchedAt": "2026-05-28T12:19:54.742Z",
-      "startedAt": "2026-05-28T12:19:54.262Z"
+      "fetchedAt": "2026-05-28T12:46:57.699Z",
+      "startedAt": "2026-05-28T12:46:57.388Z"
     },
     {
       "source": "GitHub Trending",
       "ok": true,
       "skipped": false,
       "itemCount": 21,
-      "fetchedAt": "2026-05-28T12:19:55.825Z",
-      "startedAt": "2026-05-28T12:19:54.262Z"
+      "fetchedAt": "2026-05-28T12:46:58.615Z",
+      "startedAt": "2026-05-28T12:46:57.388Z"
     },
     {
       "source": "GDELT",
       "ok": false,
       "skipped": false,
       "itemCount": 0,
-      "fetchedAt": "2026-05-28T12:20:02.486Z",
-      "startedAt": "2026-05-28T12:19:54.263Z",
-      "error": "Unexpected token 'Q', \"Queries co\"... is not valid JSON"
+      "fetchedAt": "2026-05-28T12:47:07.035Z",
+      "startedAt": "2026-05-28T12:46:57.389Z",
+      "error": "429 Too Many Requests"
     },
     {
       "source": "OWID",
       "ok": true,
       "skipped": false,
       "itemCount": 4,
-      "fetchedAt": "2026-05-28T12:19:55.554Z",
-      "startedAt": "2026-05-28T12:19:54.263Z"
+      "fetchedAt": "2026-05-28T12:46:57.826Z",
+      "startedAt": "2026-05-28T12:46:57.391Z"
     },
     {
       "source": "World Bank",
       "ok": true,
       "skipped": false,
       "itemCount": 4,
-      "fetchedAt": "2026-05-28T12:19:54.847Z",
-      "startedAt": "2026-05-28T12:19:54.264Z"
+      "fetchedAt": "2026-05-28T12:46:58.399Z",
+      "startedAt": "2026-05-28T12:46:57.392Z"
     },
     {
       "source": "BLS",
       "ok": true,
       "skipped": false,
       "itemCount": 6,
-      "fetchedAt": "2026-05-28T12:19:55.613Z",
-      "startedAt": "2026-05-28T12:19:54.264Z"
+      "fetchedAt": "2026-05-28T12:46:58.173Z",
+      "startedAt": "2026-05-28T12:46:57.393Z"
     },
     {
       "source": "FRED",
-      "ok": false,
-      "skipped": true,
-      "itemCount": 0,
-      "fetchedAt": "2026-05-28T12:19:54.265Z",
-      "startedAt": "2026-05-28T12:19:54.265Z",
-      "error": "FRED_API_KEY not configured"
+      "ok": true,
+      "skipped": false,
+      "itemCount": 6,
+      "fetchedAt": "2026-05-28T12:46:58.184Z",
+      "startedAt": "2026-05-28T12:46:57.394Z"
     }
   ],
   "opportunities": [
@@ -459,7 +458,7 @@
           "publishedAt": "2026-05-27T13:03:28.370Z",
           "metrics": {
             "search": "dbt",
-            "score": 39212
+            "score": 39217
           },
           "painTerms": [],
           "spendTerms": []
@@ -473,7 +472,7 @@
           "publishedAt": "2026-05-22T12:29:45.926Z",
           "metrics": {
             "search": "dbt",
-            "score": 23801
+            "score": 23783
           },
           "painTerms": [],
           "spendTerms": []
@@ -487,7 +486,7 @@
           "publishedAt": "2026-05-22T07:13:00.896Z",
           "metrics": {
             "search": "dbt",
-            "score": 36600
+            "score": 35787
           },
           "painTerms": [],
           "spendTerms": []
@@ -495,31 +494,27 @@
       ],
       "macroContext": [
         {
-          "source": "BLS",
+          "source": "FRED",
           "sourceType": "macro",
           "evidenceType": "macro",
-          "title": "US unemployment rate",
-          "url": "https://data.bls.gov/timeseries/LNS14000000",
-          "publishedAt": "2026-04-01T00:00:00.000Z",
+          "title": "Initial unemployment claims",
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "publishedAt": "2026-05-23T00:00:00.000Z",
           "metrics": {
-            "year": 2026,
-            "period": "M04",
-            "value": 4.3
+            "value": 215000
           },
           "painTerms": [],
           "spendTerms": []
         },
         {
-          "source": "BLS",
+          "source": "FRED",
           "sourceType": "macro",
           "evidenceType": "macro",
-          "title": "Data processing and hosting employment",
-          "url": "https://data.bls.gov/timeseries/CES5051800001",
-          "publishedAt": "2026-04-01T00:00:00.000Z",
+          "title": "Initial unemployment claims",
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "publishedAt": "2026-05-16T00:00:00.000Z",
           "metrics": {
-            "year": 2026,
-            "period": "M04",
-            "value": 457.7
+            "value": 210000
           },
           "painTerms": [],
           "spendTerms": []
@@ -560,10 +555,33 @@
         "nicheSpecificity": 8,
         "macro": 7
       },
-      "mentionCount": 62,
+      "mentionCount": 63,
       "sourceCount": 4,
-      "whyNow": "62 current evidence items versus prior peak 116 across 4 source types, including 14 pain signals and 6 spend signals.",
+      "whyNow": "63 current evidence items versus prior peak 116 across 4 source types, including 16 pain signals and 7 spend signals.",
       "evidence": [
+        {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "Meta SSOT: AgentOS roadmap sequencing (#920–#960)",
+          "url": "https://github.com/Q00/ouroboros/issues/961",
+          "publishedAt": "2026-05-12T20:28:51Z",
+          "metrics": {
+            "comments": 62,
+            "score": 1
+          },
+          "painTerms": [
+            "bug",
+            "hard",
+            "manual",
+            "missing"
+          ],
+          "spendTerms": [
+            "budget",
+            "contract",
+            "pay"
+          ]
+        },
         {
           "source": "GitHub Issues",
           "sourceType": "developer-pain",
@@ -729,25 +747,32 @@
           },
           "painTerms": [],
           "spendTerms": []
-        },
-        {
-          "source": "Stack Exchange",
-          "sourceType": "qa",
-          "evidenceType": "pain",
-          "title": "Need help to integrate SSO with SAML for one of the applications through Chrome extension",
-          "url": "https://stackoverflow.com/questions/79831342/need-help-to-integrate-sso-with-saml-for-one-of-the-applications-through-chrome",
-          "publishedAt": "2025-11-27T04:47:46.000Z",
-          "metrics": {
-            "score": 0,
-            "answerCount": 0,
-            "viewCount": 50,
-            "isAnswered": false
-          },
-          "painTerms": [],
-          "spendTerms": []
         }
       ],
       "spendSignals": [
+        {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "Meta SSOT: AgentOS roadmap sequencing (#920–#960)",
+          "url": "https://github.com/Q00/ouroboros/issues/961",
+          "publishedAt": "2026-05-12T20:28:51Z",
+          "metrics": {
+            "comments": 62,
+            "score": 1
+          },
+          "painTerms": [
+            "bug",
+            "hard",
+            "manual",
+            "missing"
+          ],
+          "spendTerms": [
+            "budget",
+            "contract",
+            "pay"
+          ]
+        },
         {
           "source": "GitHub Issues",
           "sourceType": "developer-pain",
@@ -872,7 +897,7 @@
           "publishedAt": "2026-05-28T09:07:43.946Z",
           "metrics": {
             "search": "auth0",
-            "score": 215472
+            "score": 215490
           },
           "painTerms": [],
           "spendTerms": []
@@ -886,7 +911,7 @@
           "publishedAt": "2026-05-24T05:04:24.300Z",
           "metrics": {
             "search": "auth0",
-            "score": 39528
+            "score": 39536
           },
           "painTerms": [],
           "spendTerms": []
@@ -900,7 +925,7 @@
           "publishedAt": "2026-05-22T13:23:18.091Z",
           "metrics": {
             "search": "auth0",
-            "score": 54541
+            "score": 54552
           },
           "painTerms": [],
           "spendTerms": []
@@ -914,21 +939,7 @@
           "publishedAt": "2026-05-22T12:22:27.878Z",
           "metrics": {
             "search": "auth0",
-            "score": 58157
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "auth0-deploy-cli",
-          "url": "https://www.npmjs.com/package/auth0-deploy-cli",
-          "publishedAt": "2026-05-22T10:18:19.862Z",
-          "metrics": {
-            "search": "auth0",
-            "score": 37352
+            "score": 58166
           },
           "painTerms": [],
           "spendTerms": []
@@ -936,31 +947,27 @@
       ],
       "macroContext": [
         {
-          "source": "BLS",
+          "source": "FRED",
           "sourceType": "macro",
           "evidenceType": "macro",
-          "title": "US unemployment rate",
-          "url": "https://data.bls.gov/timeseries/LNS14000000",
-          "publishedAt": "2026-04-01T00:00:00.000Z",
+          "title": "Initial unemployment claims",
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "publishedAt": "2026-05-23T00:00:00.000Z",
           "metrics": {
-            "year": 2026,
-            "period": "M04",
-            "value": 4.3
+            "value": 215000
           },
           "painTerms": [],
           "spendTerms": []
         },
         {
-          "source": "BLS",
+          "source": "FRED",
           "sourceType": "macro",
           "evidenceType": "macro",
-          "title": "Data processing and hosting employment",
-          "url": "https://data.bls.gov/timeseries/CES5051800001",
-          "publishedAt": "2026-04-01T00:00:00.000Z",
+          "title": "Initial unemployment claims",
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "publishedAt": "2026-05-16T00:00:00.000Z",
           "metrics": {
-            "year": 2026,
-            "period": "M04",
-            "value": 457.7
+            "value": 210000
           },
           "painTerms": [],
           "spendTerms": []
@@ -974,11 +981,11 @@
       "sparkline": [
         116,
         122,
-        71,
-        103,
+        72,
+        104,
         134,
-        62,
-        70
+        63,
+        71
       ]
     },
     {
@@ -1570,7 +1577,7 @@
           "publishedAt": "2026-05-17T02:54:35.301Z",
           "metrics": {
             "search": "soc2",
-            "score": 10248
+            "score": 10250
           },
           "painTerms": [],
           "spendTerms": [
@@ -1587,7 +1594,7 @@
           "publishedAt": "2026-05-11T15:35:30.803Z",
           "metrics": {
             "search": "soc2",
-            "score": 9684
+            "score": 9685
           },
           "painTerms": [],
           "spendTerms": [
@@ -1604,7 +1611,7 @@
           "publishedAt": "2026-05-11T07:10:28.412Z",
           "metrics": {
             "search": "soc2",
-            "score": 13479
+            "score": 13482
           },
           "painTerms": [
             "hard"
@@ -1623,7 +1630,7 @@
           "publishedAt": "2026-05-09T11:30:39.120Z",
           "metrics": {
             "search": "soc2",
-            "score": 8869
+            "score": 8871
           },
           "painTerms": [],
           "spendTerms": [
@@ -1640,7 +1647,7 @@
           "publishedAt": "2026-05-07T15:34:15.411Z",
           "metrics": {
             "search": "soc2",
-            "score": 8174
+            "score": 8175
           },
           "painTerms": [],
           "spendTerms": [
@@ -1657,7 +1664,7 @@
           "publishedAt": "2026-05-04T23:29:40.506Z",
           "metrics": {
             "search": "soc2",
-            "score": 7591
+            "score": 7593
           },
           "painTerms": [],
           "spendTerms": [
@@ -1673,7 +1680,7 @@
           "publishedAt": "2026-05-04T17:24:54.956Z",
           "metrics": {
             "search": "soc2",
-            "score": 14881
+            "score": 14884
           },
           "painTerms": [],
           "spendTerms": [
@@ -1690,7 +1697,7 @@
           "publishedAt": "2026-05-04T15:35:24.075Z",
           "metrics": {
             "search": "soc2",
-            "score": 10354
+            "score": 10355
           },
           "painTerms": [],
           "spendTerms": [
@@ -1750,7 +1757,7 @@
           "publishedAt": "2026-05-17T02:54:35.301Z",
           "metrics": {
             "search": "soc2",
-            "score": 10248
+            "score": 10250
           },
           "painTerms": [],
           "spendTerms": [
@@ -1767,7 +1774,7 @@
           "publishedAt": "2026-05-11T15:35:30.803Z",
           "metrics": {
             "search": "soc2",
-            "score": 9684
+            "score": 9685
           },
           "painTerms": [],
           "spendTerms": [
@@ -1784,7 +1791,7 @@
           "publishedAt": "2026-05-11T07:10:28.412Z",
           "metrics": {
             "search": "soc2",
-            "score": 13479
+            "score": 13482
           },
           "painTerms": [
             "hard"
@@ -1803,7 +1810,7 @@
           "publishedAt": "2026-05-09T11:30:39.120Z",
           "metrics": {
             "search": "soc2",
-            "score": 8869
+            "score": 8871
           },
           "painTerms": [],
           "spendTerms": [
@@ -1820,7 +1827,7 @@
           "publishedAt": "2026-05-07T15:34:15.411Z",
           "metrics": {
             "search": "soc2",
-            "score": 8174
+            "score": 8175
           },
           "painTerms": [],
           "spendTerms": [
@@ -1837,7 +1844,7 @@
           "publishedAt": "2026-05-04T23:29:40.506Z",
           "metrics": {
             "search": "soc2",
-            "score": 7591
+            "score": 7593
           },
           "painTerms": [],
           "spendTerms": [
@@ -1853,7 +1860,7 @@
           "publishedAt": "2026-05-04T17:24:54.956Z",
           "metrics": {
             "search": "soc2",
-            "score": 14881
+            "score": 14884
           },
           "painTerms": [],
           "spendTerms": [
@@ -1870,7 +1877,7 @@
           "publishedAt": "2026-05-04T15:35:24.075Z",
           "metrics": {
             "search": "soc2",
-            "score": 10354
+            "score": 10355
           },
           "painTerms": [],
           "spendTerms": [
@@ -1881,31 +1888,27 @@
       ],
       "macroContext": [
         {
-          "source": "BLS",
+          "source": "FRED",
           "sourceType": "macro",
           "evidenceType": "macro",
-          "title": "US unemployment rate",
-          "url": "https://data.bls.gov/timeseries/LNS14000000",
-          "publishedAt": "2026-04-01T00:00:00.000Z",
+          "title": "Initial unemployment claims",
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "publishedAt": "2026-05-23T00:00:00.000Z",
           "metrics": {
-            "year": 2026,
-            "period": "M04",
-            "value": 4.3
+            "value": 215000
           },
           "painTerms": [],
           "spendTerms": []
         },
         {
-          "source": "BLS",
+          "source": "FRED",
           "sourceType": "macro",
           "evidenceType": "macro",
-          "title": "Data processing and hosting employment",
-          "url": "https://data.bls.gov/timeseries/CES5051800001",
-          "publishedAt": "2026-04-01T00:00:00.000Z",
+          "title": "Initial unemployment claims",
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "publishedAt": "2026-05-16T00:00:00.000Z",
           "metrics": {
-            "year": 2026,
-            "period": "M04",
-            "value": 457.7
+            "value": 210000
           },
           "painTerms": [],
           "spendTerms": []
@@ -1935,20 +1938,20 @@
       "wedge": "A small-team eval runner that turns production failures into regression suites with plain-language reports.",
       "businessModel": "Seat-based SaaS with paid CI usage for teams shipping LLM workflows.",
       "validationStep": "Collect 15 examples of teams reverting prompts or models because tests missed a regression.",
-      "score": 80,
-      "confidence": "high",
+      "score": 75,
+      "confidence": "medium",
       "isFallback": false,
       "scoreBreakdown": {
         "pain": 30,
-        "spend": 10,
+        "spend": 5,
         "recurrence": 15,
         "sourceQuality": 10,
         "nicheSpecificity": 8,
         "macro": 7
       },
-      "mentionCount": 26,
-      "sourceCount": 4,
-      "whyNow": "26 current evidence items versus prior peak 44 across 4 source types, including 5 pain signals and 2 spend signals.",
+      "mentionCount": 25,
+      "sourceCount": 3,
+      "whyNow": "25 current evidence items versus prior peak 44 across 3 source types, including 5 pain signals and 1 spend signals.",
       "evidence": [
         {
           "source": "GitHub Issues",
@@ -2030,7 +2033,7 @@
           "publishedAt": "2026-05-21T06:27:04.900Z",
           "metrics": {
             "search": "llm eval",
-            "score": 66459
+            "score": 66456
           },
           "painTerms": [],
           "spendTerms": []
@@ -2044,7 +2047,7 @@
           "publishedAt": "2026-04-24T08:21:07.075Z",
           "metrics": {
             "search": "llm eval",
-            "score": 13289
+            "score": 13290
           },
           "painTerms": [
             "flaky"
@@ -2060,7 +2063,7 @@
           "publishedAt": "2026-04-02T08:29:39.300Z",
           "metrics": {
             "search": "llm eval",
-            "score": 10991
+            "score": 10989
           },
           "painTerms": [],
           "spendTerms": []
@@ -2088,7 +2091,7 @@
           "publishedAt": "2026-03-10T15:42:56.793Z",
           "metrics": {
             "search": "llm eval",
-            "score": 8277
+            "score": 8276
           },
           "painTerms": [],
           "spendTerms": []
@@ -2102,7 +2105,7 @@
           "publishedAt": "2026-02-07T06:00:57.021Z",
           "metrics": {
             "search": "llm eval",
-            "score": 8582
+            "score": 8584
           },
           "painTerms": [],
           "spendTerms": []
@@ -2118,7 +2121,7 @@
           "publishedAt": "2026-05-21T06:27:04.900Z",
           "metrics": {
             "search": "llm eval",
-            "score": 66459
+            "score": 66456
           },
           "painTerms": [],
           "spendTerms": []
@@ -2132,7 +2135,7 @@
           "publishedAt": "2026-04-24T08:21:07.075Z",
           "metrics": {
             "search": "llm eval",
-            "score": 13289
+            "score": 13290
           },
           "painTerms": [
             "flaky"
@@ -2148,7 +2151,7 @@
           "publishedAt": "2026-04-02T08:29:39.300Z",
           "metrics": {
             "search": "llm eval",
-            "score": 10991
+            "score": 10989
           },
           "painTerms": [],
           "spendTerms": []
@@ -2176,7 +2179,7 @@
           "publishedAt": "2026-03-10T15:42:56.793Z",
           "metrics": {
             "search": "llm eval",
-            "score": 8277
+            "score": 8276
           },
           "painTerms": [],
           "spendTerms": []
@@ -2190,7 +2193,7 @@
           "publishedAt": "2026-02-07T06:00:57.021Z",
           "metrics": {
             "search": "llm eval",
-            "score": 8582
+            "score": 8584
           },
           "painTerms": [],
           "spendTerms": []
@@ -2204,7 +2207,7 @@
           "publishedAt": "2026-02-02T12:43:10.921Z",
           "metrics": {
             "search": "llm eval",
-            "score": 9524
+            "score": 9519
           },
           "painTerms": [],
           "spendTerms": []
@@ -2232,7 +2235,7 @@
           "publishedAt": "2025-12-16T07:52:28.300Z",
           "metrics": {
             "search": "llm eval",
-            "score": 8256
+            "score": 8255
           },
           "painTerms": [],
           "spendTerms": [
@@ -2248,7 +2251,7 @@
           "publishedAt": "2025-09-28T16:24:09.459Z",
           "metrics": {
             "search": "llm eval",
-            "score": 8548
+            "score": 8546
           },
           "painTerms": [],
           "spendTerms": []
@@ -2256,31 +2259,27 @@
       ],
       "macroContext": [
         {
-          "source": "BLS",
+          "source": "FRED",
           "sourceType": "macro",
           "evidenceType": "macro",
-          "title": "US unemployment rate",
-          "url": "https://data.bls.gov/timeseries/LNS14000000",
-          "publishedAt": "2026-04-01T00:00:00.000Z",
+          "title": "Initial unemployment claims",
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "publishedAt": "2026-05-23T00:00:00.000Z",
           "metrics": {
-            "year": 2026,
-            "period": "M04",
-            "value": 4.3
+            "value": 215000
           },
           "painTerms": [],
           "spendTerms": []
         },
         {
-          "source": "BLS",
+          "source": "FRED",
           "sourceType": "macro",
           "evidenceType": "macro",
-          "title": "Data processing and hosting employment",
-          "url": "https://data.bls.gov/timeseries/CES5051800001",
-          "publishedAt": "2026-04-01T00:00:00.000Z",
+          "title": "Initial unemployment claims",
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "publishedAt": "2026-05-16T00:00:00.000Z",
           "metrics": {
-            "year": 2026,
-            "period": "M04",
-            "value": 457.7
+            "value": 210000
           },
           "painTerms": [],
           "spendTerms": []
@@ -2295,10 +2294,10 @@
         44,
         46,
         28,
-        41,
-        53,
-        26,
-        33
+        40,
+        52,
+        25,
+        31
       ]
     },
     {
@@ -2310,20 +2309,20 @@
       "wedge": "An operations layer for agent runs: checkpoints, human handoff, replay, and failure taxonomies.",
       "businessModel": "Usage-based SaaS priced by agent run volume.",
       "validationStep": "Interview teams running agents against real browsers, support queues, or internal workflows.",
-      "score": 75,
+      "score": 70,
       "confidence": "medium",
       "isFallback": false,
       "scoreBreakdown": {
         "pain": 30,
-        "spend": 5,
+        "spend": 0,
         "recurrence": 15,
         "sourceQuality": 10,
         "nicheSpecificity": 8,
         "macro": 7
       },
-      "mentionCount": 34,
+      "mentionCount": 29,
       "sourceCount": 5,
-      "whyNow": "34 current evidence items versus prior peak 92 across 5 source types, including 4 pain signals and 1 spend signals.",
+      "whyNow": "29 current evidence items versus prior peak 92 across 5 source types, including 4 pain signals and 0 spend signals.",
       "evidence": [
         {
           "source": "GitHub Issues",
@@ -2383,9 +2382,9 @@
           "url": "https://arps18.github.io/posts/claude-code-mastery/",
           "publishedAt": "2026-05-27T05:13:39.000Z",
           "metrics": {
-            "score": 407,
-            "comments": 243,
-            "rank": 51
+            "score": 408,
+            "comments": 244,
+            "rank": 52
           },
           "painTerms": [],
           "spendTerms": []
@@ -2399,7 +2398,7 @@
           "publishedAt": "2026-05-25T10:20:22.598Z",
           "metrics": {
             "search": "rag",
-            "score": 20945
+            "score": 20947
           },
           "painTerms": [],
           "spendTerms": []
@@ -2413,7 +2412,7 @@
           "publishedAt": "2026-05-23T12:04:07.893Z",
           "metrics": {
             "search": "rag",
-            "score": 24193
+            "score": 24197
           },
           "painTerms": [],
           "spendTerms": []
@@ -2427,7 +2426,7 @@
           "publishedAt": "2026-05-23T05:51:11.499Z",
           "metrics": {
             "search": "mcp agent",
-            "score": 13625
+            "score": 13619
           },
           "painTerms": [],
           "spendTerms": []
@@ -2441,7 +2440,7 @@
           "publishedAt": "2026-05-13T03:43:15.236Z",
           "metrics": {
             "search": "mcp agent",
-            "score": 14004
+            "score": 13998
           },
           "painTerms": [],
           "spendTerms": []
@@ -2455,7 +2454,7 @@
           "publishedAt": "2026-05-07T07:09:20.325Z",
           "metrics": {
             "search": "mcp agent",
-            "score": 12156
+            "score": 12152
           },
           "painTerms": [],
           "spendTerms": []
@@ -2469,7 +2468,7 @@
           "publishedAt": "2026-04-14T16:29:54.339Z",
           "metrics": {
             "search": "mcp agent",
-            "score": 16870
+            "score": 16863
           },
           "painTerms": [],
           "spendTerms": []
@@ -2485,7 +2484,7 @@
           "publishedAt": "2026-05-25T10:20:22.598Z",
           "metrics": {
             "search": "rag",
-            "score": 20945
+            "score": 20947
           },
           "painTerms": [],
           "spendTerms": []
@@ -2499,7 +2498,7 @@
           "publishedAt": "2026-05-23T12:04:07.893Z",
           "metrics": {
             "search": "rag",
-            "score": 24193
+            "score": 24197
           },
           "painTerms": [],
           "spendTerms": []
@@ -2513,7 +2512,7 @@
           "publishedAt": "2026-05-23T05:51:11.499Z",
           "metrics": {
             "search": "mcp agent",
-            "score": 13625
+            "score": 13619
           },
           "painTerms": [],
           "spendTerms": []
@@ -2527,7 +2526,7 @@
           "publishedAt": "2026-05-13T03:43:15.236Z",
           "metrics": {
             "search": "mcp agent",
-            "score": 14004
+            "score": 13998
           },
           "painTerms": [],
           "spendTerms": []
@@ -2541,7 +2540,7 @@
           "publishedAt": "2026-05-07T07:09:20.325Z",
           "metrics": {
             "search": "mcp agent",
-            "score": 12156
+            "score": 12152
           },
           "painTerms": [],
           "spendTerms": []
@@ -2555,7 +2554,7 @@
           "publishedAt": "2026-04-14T16:29:54.339Z",
           "metrics": {
             "search": "mcp agent",
-            "score": 16870
+            "score": 16863
           },
           "painTerms": [],
           "spendTerms": []
@@ -2569,7 +2568,7 @@
           "publishedAt": "2026-03-23T19:56:42.393Z",
           "metrics": {
             "search": "mcp agent",
-            "score": 14460
+            "score": 14455
           },
           "painTerms": [],
           "spendTerms": []
@@ -2583,7 +2582,7 @@
           "publishedAt": "2026-03-20T02:09:41.885Z",
           "metrics": {
             "search": "mcp agent",
-            "score": 12370
+            "score": 12366
           },
           "painTerms": [
             "mess"
@@ -2599,7 +2598,7 @@
           "publishedAt": "2026-01-28T19:43:12.885Z",
           "metrics": {
             "search": "mcp agent",
-            "score": 21069
+            "score": 21058
           },
           "painTerms": [],
           "spendTerms": []
@@ -2613,7 +2612,7 @@
           "publishedAt": "2026-01-28T19:43:11.012Z",
           "metrics": {
             "search": "mcp agent",
-            "score": 14194
+            "score": 14189
           },
           "painTerms": [],
           "spendTerms": []
@@ -2621,31 +2620,27 @@
       ],
       "macroContext": [
         {
-          "source": "BLS",
+          "source": "FRED",
           "sourceType": "macro",
           "evidenceType": "macro",
-          "title": "US unemployment rate",
-          "url": "https://data.bls.gov/timeseries/LNS14000000",
-          "publishedAt": "2026-04-01T00:00:00.000Z",
+          "title": "Initial unemployment claims",
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "publishedAt": "2026-05-23T00:00:00.000Z",
           "metrics": {
-            "year": 2026,
-            "period": "M04",
-            "value": 4.3
+            "value": 215000
           },
           "painTerms": [],
           "spendTerms": []
         },
         {
-          "source": "BLS",
+          "source": "FRED",
           "sourceType": "macro",
           "evidenceType": "macro",
-          "title": "Data processing and hosting employment",
-          "url": "https://data.bls.gov/timeseries/CES5051800001",
-          "publishedAt": "2026-04-01T00:00:00.000Z",
+          "title": "Initial unemployment claims",
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "publishedAt": "2026-05-16T00:00:00.000Z",
           "metrics": {
-            "year": 2026,
-            "period": "M04",
-            "value": 457.7
+            "value": 210000
           },
           "painTerms": [],
           "spendTerms": []
@@ -2658,11 +2653,11 @@
       "sparkline": [
         92,
         97,
-        50,
-        73,
-        95,
-        34,
-        40
+        48,
+        70,
+        91,
+        29,
+        35
       ]
     },
     {
@@ -2674,20 +2669,20 @@
       "wedge": "A reusable questionnaire answer bank connected to live policies and evidence.",
       "businessModel": "SaaS priced by workspace and questionnaire volume.",
       "validationStep": "Review recent founder complaints about security questionnaires and ask where deals slowed down.",
-      "score": 56,
+      "score": 58,
       "confidence": "low",
       "isFallback": false,
       "scoreBreakdown": {
         "pain": 20,
         "spend": 5,
-        "recurrence": 9,
+        "recurrence": 10,
         "sourceQuality": 10,
         "nicheSpecificity": 8,
-        "macro": 4
+        "macro": 5
       },
-      "mentionCount": 4,
-      "sourceCount": 3,
-      "whyNow": "4 current evidence items versus prior peak 6 across 3 source types, including 2 pain signals and 1 spend signals.",
+      "mentionCount": 5,
+      "sourceCount": 4,
+      "whyNow": "5 current evidence items versus prior peak 6 across 4 source types, including 2 pain signals and 1 spend signals.",
       "evidence": [
         {
           "source": "GitHub Issues",
@@ -2726,6 +2721,17 @@
           "spendTerms": []
         },
         {
+          "source": "PyPI",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "policyengine 4.12.0",
+          "url": "https://pypi.org/project/policyengine/4.12.0/",
+          "publishedAt": "Thu, 28 May 2026 12:37:41 GMT",
+          "metrics": {},
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
           "source": "Hacker News",
           "sourceType": "discussion",
           "evidenceType": "context",
@@ -2733,9 +2739,9 @@
           "url": "https://github.com/BurntSushi/ripgrep/blob/master/AI_POLICY.md",
           "publishedAt": "2026-05-27T11:40:49.000Z",
           "metrics": {
-            "score": 76,
+            "score": 77,
             "comments": 11,
-            "rank": 54
+            "rank": 56
           },
           "painTerms": [],
           "spendTerms": []
@@ -2750,7 +2756,7 @@
           "metrics": {
             "score": 63,
             "comments": 7,
-            "rank": 62
+            "rank": 67
           },
           "painTerms": [],
           "spendTerms": []
@@ -2774,35 +2780,42 @@
           "spendTerms": [
             "enterprise"
           ]
+        },
+        {
+          "source": "PyPI",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "policyengine 4.12.0",
+          "url": "https://pypi.org/project/policyengine/4.12.0/",
+          "publishedAt": "Thu, 28 May 2026 12:37:41 GMT",
+          "metrics": {},
+          "painTerms": [],
+          "spendTerms": []
         }
       ],
       "macroContext": [
         {
-          "source": "BLS",
+          "source": "FRED",
           "sourceType": "macro",
           "evidenceType": "macro",
-          "title": "US unemployment rate",
-          "url": "https://data.bls.gov/timeseries/LNS14000000",
-          "publishedAt": "2026-04-01T00:00:00.000Z",
+          "title": "Initial unemployment claims",
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "publishedAt": "2026-05-23T00:00:00.000Z",
           "metrics": {
-            "year": 2026,
-            "period": "M04",
-            "value": 4.3
+            "value": 215000
           },
           "painTerms": [],
           "spendTerms": []
         },
         {
-          "source": "BLS",
+          "source": "FRED",
           "sourceType": "macro",
           "evidenceType": "macro",
-          "title": "Data processing and hosting employment",
-          "url": "https://data.bls.gov/timeseries/CES5051800001",
-          "publishedAt": "2026-04-01T00:00:00.000Z",
+          "title": "Initial unemployment claims",
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "publishedAt": "2026-05-16T00:00:00.000Z",
           "metrics": {
-            "year": 2026,
-            "period": "M04",
-            "value": 457.7
+            "value": 210000
           },
           "painTerms": [],
           "spendTerms": []
@@ -2819,8 +2832,8 @@
         4,
         6,
         8,
-        4,
-        9
+        5,
+        10
       ]
     }
   ]
