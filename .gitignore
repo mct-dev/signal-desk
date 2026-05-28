@@ -23,3 +23,6 @@ output
 *.njsproj
 *.sln
 *.sw?
+
+# env vars
+.env*
