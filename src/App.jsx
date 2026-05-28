@@ -3,7 +3,11 @@ import {
   Activity,
   AlertTriangle,
   ArrowUpRight,
+  BadgeDollarSign,
+  BarChart3,
+  BriefcaseBusiness,
   CalendarClock,
+  CheckCircle2,
   Database,
   ExternalLink,
   Filter,
@@ -11,20 +15,26 @@ import {
   GitBranch,
   Globe2,
   Layers3,
+  Lightbulb,
   RefreshCw,
   Search,
-  Sparkles,
+  ShieldCheck,
+  Target,
   TrendingUp,
 } from 'lucide-react'
 import './App.css'
 
 const fallbackData = {
+  schemaVersion: 2,
   generatedAt: new Date().toISOString(),
+  cadence: 'weekly',
   summary: {
     opportunityCount: 0,
     evidenceCount: 0,
     sourceCount: 0,
-    staleSources: 0,
+    sourceAlerts: 0,
+    skippedSources: 0,
+    highConfidenceCount: 0,
   },
   sourceRuns: [],
   opportunities: [],
@@ -33,11 +43,25 @@ const fallbackData = {
 const sourceIcons = {
   'Hacker News': Activity,
   Reddit: Globe2,
-  Apple: Sparkles,
-  arXiv: Layers3,
+  'Stack Exchange': Layers3,
+  'GitHub Issues': GitBranch,
+  'GitHub Trending': GitBranch,
   npm: Database,
   PyPI: Database,
-  GitHub: GitBranch,
+  GDELT: BarChart3,
+  OWID: Globe2,
+  'World Bank': Globe2,
+  BLS: BriefcaseBusiness,
+  FRED: BarChart3,
+}
+
+const evidenceLabels = {
+  pain: 'Pain',
+  spend: 'Spend',
+  adoption: 'Adoption',
+  macro: 'Macro',
+  attention: 'Attention',
+  context: 'Context',
 }
 
 function formatDate(value) {
@@ -56,6 +80,12 @@ function scoreTone(score) {
   return 'watch'
 }
 
+function confidenceTone(confidence) {
+  if (confidence === 'high') return 'hot'
+  if (confidence === 'medium') return 'warm'
+  return 'watch'
+}
+
 function Metric({ label, value, icon: Icon }) {
   return (
     <div className="metric">
@@ -66,18 +96,12 @@ function Metric({ label, value, icon: Icon }) {
   )
 }
 
-function SourceChip({ name }) {
-  const Icon = sourceIcons[name] ?? Globe2
-  return (
-    <span className="source-chip">
-      <Icon size={13} />
-      {name}
-    </span>
-  )
+function EvidenceType({ type }) {
+  return <span className={`evidence-type ${type}`}>{evidenceLabels[type] ?? type}</span>
 }
 
 function Sparkline({ values }) {
-  const points = values?.length ? values : [12, 18, 16, 24, 33, 41, 56]
+  const points = values?.length ? values : [2, 4, 5, 7, 9, 11, 13]
   const max = Math.max(...points)
   const min = Math.min(...points)
   const range = max - min || 1
@@ -90,7 +114,7 @@ function Sparkline({ values }) {
     .join(' ')
 
   return (
-    <svg className="sparkline" viewBox="0 0 100 38" role="img" aria-label="Signal trend">
+    <svg className="sparkline" viewBox="0 0 100 38" role="img" aria-label="Evidence trend">
       <polyline points={coordinates} fill="none" stroke="currentColor" strokeWidth="3" />
     </svg>
   )
@@ -107,13 +131,19 @@ function OpportunityRow({ item, selected, onSelect }) {
       <div className="row-main">
         <div className="row-title">
           <h3>{item.title}</h3>
-          <span>{item.category}</span>
+          <span className={`confidence-pill ${confidenceTone(item.confidence)}`}>{item.confidence}</span>
         </div>
-        <p>{item.whyNow}</p>
+        <p>{item.customer}</p>
+        <strong className="row-pain">{item.pain}</strong>
         <div className="chip-row">
-          {item.sources.slice(0, 4).map((source) => (
-            <SourceChip key={source} name={source} />
-          ))}
+          <span className="source-chip">
+            <Layers3 size={13} />
+            {item.sourceCount} sources
+          </span>
+          <span className="source-chip">
+            <Activity size={13} />
+            {item.mentionCount} signals
+          </span>
         </div>
       </div>
       <div className="row-side">
@@ -130,7 +160,10 @@ function EvidenceList({ evidence }) {
       {evidence.slice(0, 10).map((item) => (
         <a key={`${item.source}-${item.url}`} href={item.url} target="_blank" rel="noreferrer">
           <div>
-            <span>{item.source}</span>
+            <span>
+              {item.source}
+              <EvidenceType type={item.evidenceType} />
+            </span>
             <strong>{item.title}</strong>
           </div>
           <ExternalLink size={15} />
@@ -140,15 +173,43 @@ function EvidenceList({ evidence }) {
   )
 }
 
+function TextStack({ title, children, icon: Icon }) {
+  return (
+    <section className="brief-section">
+      <h3>
+        <Icon size={16} />
+        {title}
+      </h3>
+      <p>{children}</p>
+    </section>
+  )
+}
+
 function SourceRun({ run }) {
-  const status = run.ok ? 'ok' : 'error'
+  const status = run.ok ? 'ok' : run.skipped ? 'skipped' : 'error'
+  const label = run.ok ? 'Live' : run.skipped ? 'Skipped' : 'Failed'
+  const Icon = sourceIcons[run.source] ?? Globe2
   return (
     <div className={`source-run ${status}`}>
       <div>
-        <strong>{run.source}</strong>
-        <span>{run.itemCount} items</span>
+        <strong>
+          <Icon size={13} />
+          {run.source}
+        </strong>
+        <span>{run.ok ? `${run.itemCount} items` : run.error}</span>
       </div>
-      <span>{run.ok ? 'Live' : 'Failed'}</span>
+      <span>{label}</span>
+    </div>
+  )
+}
+
+function ScoreBreakdown({ metrics }) {
+  return (
+    <div className="score-grid">
+      <Metric label="Pain" value={metrics.pain} icon={AlertTriangle} />
+      <Metric label="Spend" value={metrics.spend} icon={BadgeDollarSign} />
+      <Metric label="Recurrence" value={metrics.recurrence} icon={RefreshCw} />
+      <Metric label="Source quality" value={metrics.sourceQuality} icon={ShieldCheck} />
     </div>
   )
 }
@@ -158,6 +219,7 @@ function App() {
   const [loading, setLoading] = useState(true)
   const [query, setQuery] = useState('')
   const [sourceFilter, setSourceFilter] = useState('All')
+  const [confidenceFilter, setConfidenceFilter] = useState('All')
   const [selectedId, setSelectedId] = useState('')
 
   useEffect(() => {
@@ -179,18 +241,21 @@ function App() {
 
   const allSources = useMemo(() => {
     const names = new Set()
-    data.opportunities.forEach((item) => item.sources.forEach((source) => names.add(source)))
+    data.opportunities.forEach((item) => {
+      item.evidence.forEach((entry) => names.add(entry.source))
+    })
     return ['All', ...Array.from(names).sort()]
   }, [data.opportunities])
 
   const opportunities = useMemo(() => {
     const normalizedQuery = query.trim().toLowerCase()
     return data.opportunities.filter((item) => {
-      const matchesSource = sourceFilter === 'All' || item.sources.includes(sourceFilter)
-      const haystack = `${item.title} ${item.category} ${item.whyNow}`.toLowerCase()
-      return matchesSource && (!normalizedQuery || haystack.includes(normalizedQuery))
+      const matchesSource = sourceFilter === 'All' || item.evidence.some((entry) => entry.source === sourceFilter)
+      const matchesConfidence = confidenceFilter === 'All' || item.confidence === confidenceFilter
+      const haystack = `${item.title} ${item.customer} ${item.pain} ${item.wedge} ${item.businessModel}`.toLowerCase()
+      return matchesSource && matchesConfidence && (!normalizedQuery || haystack.includes(normalizedQuery))
     })
-  }, [data.opportunities, query, sourceFilter])
+  }, [data.opportunities, query, sourceFilter, confidenceFilter])
 
   const selected = useMemo(() => {
     return opportunities.find((item) => item.id === selectedId) ?? opportunities[0]
@@ -217,7 +282,7 @@ function App() {
         <header className="topbar">
           <div>
             <h1>Signal Desk</h1>
-            <p>Autonomous opportunity detection from public no-key sources.</p>
+            <p>Weekly opportunity briefs from public market, pain, spend, and macro signals.</p>
           </div>
           <div className="updated">
             <CalendarClock size={16} />
@@ -227,9 +292,9 @@ function App() {
 
         <section className="summary-grid" aria-label="Summary">
           <Metric label="Opportunities" value={data.summary.opportunityCount} icon={Gauge} />
+          <Metric label="High confidence" value={data.summary.highConfidenceCount} icon={CheckCircle2} />
           <Metric label="Evidence links" value={data.summary.evidenceCount} icon={Layers3} />
-          <Metric label="Live sources" value={data.summary.sourceCount} icon={Database} />
-          <Metric label="Source alerts" value={data.summary.staleSources} icon={AlertTriangle} />
+          <Metric label="Source alerts" value={data.summary.sourceAlerts} icon={AlertTriangle} />
         </section>
 
         <section className="desk-layout">
@@ -238,10 +303,10 @@ function App() {
               <div className="search-box">
                 <Search size={17} />
                 <input
-                  aria-label="Search opportunities"
+                  aria-label="Search opportunity briefs"
                   value={query}
                   onChange={(event) => setQuery(event.target.value)}
-                  placeholder="Search signal"
+                  placeholder="Search opportunity"
                 />
               </div>
               <label className="source-select">
@@ -258,15 +323,29 @@ function App() {
                   ))}
                 </select>
               </label>
+              <label className="source-select">
+                <ShieldCheck size={16} />
+                <select
+                  value={confidenceFilter}
+                  onChange={(event) => setConfidenceFilter(event.target.value)}
+                  aria-label="Filter by confidence"
+                >
+                  {['All', 'high', 'medium', 'low'].map((confidence) => (
+                    <option key={confidence} value={confidence}>
+                      {confidence}
+                    </option>
+                  ))}
+                </select>
+              </label>
             </div>
 
             <div className="list-header">
-              <span>Ranked signal</span>
+              <span>Weekly opportunity brief</span>
               <span>Evidence</span>
             </div>
 
             {loading ? (
-              <div className="empty-state">Loading latest signal file.</div>
+              <div className="empty-state">Loading latest opportunity file.</div>
             ) : opportunities.length ? (
               opportunities.map((item) => (
                 <OpportunityRow
@@ -277,7 +356,7 @@ function App() {
                 />
               ))
             ) : (
-              <div className="empty-state">No signals match current filters.</div>
+              <div className="empty-state">No opportunities match current filters.</div>
             )}
           </div>
 
@@ -288,44 +367,73 @@ function App() {
                   <div>
                     <span className={`score-badge ${scoreTone(selected.score)}`}>{selected.score}</span>
                     <h2>{selected.title}</h2>
+                    <p>{selected.customer}</p>
                   </div>
                   <Sparkline values={selected.sparkline} />
                 </div>
 
                 <p className="why-now">{selected.whyNow}</p>
 
-                <div className="score-grid">
-                  <Metric label="Velocity" value={selected.metrics.velocity} icon={TrendingUp} />
-                  <Metric label="Pain" value={selected.metrics.pain} icon={AlertTriangle} />
-                  <Metric label="Money" value={selected.metrics.money} icon={Gauge} />
-                  <Metric label="Novelty" value={selected.metrics.novelty} icon={Sparkles} />
-                </div>
+                <ScoreBreakdown metrics={selected.scoreBreakdown} />
 
-                <section>
-                  <h3>Source mix</h3>
-                  <div className="chip-row">
-                    {selected.sources.map((source) => (
-                      <SourceChip key={source} name={source} />
-                    ))}
-                  </div>
-                </section>
+                <TextStack title="Pain" icon={AlertTriangle}>
+                  {selected.pain}
+                </TextStack>
+                <TextStack title="Current workaround" icon={RefreshCw}>
+                  {selected.currentWorkaround}
+                </TextStack>
+                <TextStack title="Product wedge" icon={Lightbulb}>
+                  {selected.wedge}
+                </TextStack>
+                <TextStack title="Business model" icon={BadgeDollarSign}>
+                  {selected.businessModel}
+                </TextStack>
+                <TextStack title="Validation step" icon={Target}>
+                  {selected.validationStep}
+                </TextStack>
 
-                <section>
-                  <h3>Opportunity notes</h3>
+                <section className="brief-section">
+                  <h3>
+                    <ShieldCheck size={16} />
+                    Risks
+                  </h3>
                   <ul className="notes-list">
-                    {selected.notes.map((note) => (
-                      <li key={note}>{note}</li>
+                    {selected.risks.map((risk) => (
+                      <li key={risk}>{risk}</li>
                     ))}
                   </ul>
                 </section>
 
-                <section>
-                  <h3>Evidence</h3>
+                <section className="brief-section">
+                  <h3>
+                    <BadgeDollarSign size={16} />
+                    Spend and adoption signals
+                  </h3>
+                  <EvidenceList evidence={selected.spendSignals.length ? selected.spendSignals : selected.evidence} />
+                </section>
+
+                <section className="brief-section">
+                  <h3>
+                    <BarChart3 size={16} />
+                    Macro context
+                  </h3>
+                  {selected.macroContext.length ? (
+                    <EvidenceList evidence={selected.macroContext} />
+                  ) : (
+                    <p>No matching macro context in this run.</p>
+                  )}
+                </section>
+
+                <section className="brief-section">
+                  <h3>
+                    <Layers3 size={16} />
+                    Evidence trail
+                  </h3>
                   <EvidenceList evidence={selected.evidence} />
                 </section>
               </>
             ) : (
-              <div className="empty-state">Select signal for details.</div>
+              <div className="empty-state">Select an opportunity for details.</div>
             )}
           </aside>
         </section>
@@ -333,7 +441,7 @@ function App() {
         <section className="source-status" id="sources">
           <div>
             <h2>Source health</h2>
-            <p>No developer integrations, no paid data access, no private scraping.</p>
+            <p>Public sources plus optional free API keys. Missing keys degrade confidence instead of stopping the run.</p>
           </div>
           <div className="source-grid">
             {data.sourceRuns.map((run) => (
@@ -343,9 +451,9 @@ function App() {
         </section>
 
         <footer id="refresh">
-          <span>Automation target: GitHub Actions scheduled collector commits fresh JSON and redeploys GitHub Pages.</span>
-          <a href="https://github.com" target="_blank" rel="noreferrer">
-            Deployment docs <ArrowUpRight size={14} />
+          <span>Automation target: weekly GitHub Actions collector commits opportunity JSON and redeploys GitHub Pages.</span>
+          <a href="https://github.com/mct-dev/signal-desk" target="_blank" rel="noreferrer">
+            Repository <ArrowUpRight size={14} />
           </a>
         </footer>
       </main>
