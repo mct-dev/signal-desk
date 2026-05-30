@@ -1,24 +1,16 @@
 {
-  "date": "2026-05-28",
-  "generatedAt": "2026-05-28T17:07:10Z",
-  "dataGeneratedAt": "2026-05-28T17:06:28.675Z",
-  "opportunityCount": 5,
-  "highConfidenceCount": 5,
+  "date": "2026-05-30",
+  "generatedAt": "2026-05-30T15:05:00Z",
+  "dataGeneratedAt": "2026-05-30T15:00:08.189Z",
+  "opportunityCount": 7,
+  "highConfidenceCount": 6,
   "topBriefs": [
-    {
-      "id": "ai-agent-ops",
-      "title": "AI Agent Operations and Recovery",
-      "score": 90,
-      "confidence": "high",
-      "mentionCount": 48,
-      "sourceCount": 7
-    },
     {
       "id": "llm-evaluation-regression",
       "title": "LLM Evaluation Regression Workflows",
       "score": 90,
       "confidence": "high",
-      "mentionCount": 33,
+      "mentionCount": 35,
       "sourceCount": 7
     },
     {
@@ -26,7 +18,15 @@
       "title": "Usage-Based Billing Operations",
       "score": 90,
       "confidence": "high",
-      "mentionCount": 65,
+      "mentionCount": 63,
+      "sourceCount": 6
+    },
+    {
+      "id": "ai-agent-ops",
+      "title": "AI Agent Operations and Recovery",
+      "score": 90,
+      "confidence": "high",
+      "mentionCount": 47,
       "sourceCount": 6
     },
     {
@@ -34,30 +34,46 @@
       "title": "Auth and SSO Integration Debugging",
       "score": 90,
       "confidence": "high",
-      "mentionCount": 53,
-      "sourceCount": 5
+      "mentionCount": 52,
+      "sourceCount": 4
+    },
+    {
+      "id": "soc2-evidence-automation",
+      "title": "SOC2 Evidence Automation for Small AI Vendors",
+      "score": 90,
+      "confidence": "high",
+      "mentionCount": 29,
+      "sourceCount": 3
     },
     {
       "id": "data-pipeline-reliability",
       "title": "Data Pipeline Reliability for Lean Teams",
-      "score": 90,
+      "score": 88,
       "confidence": "high",
-      "mentionCount": 30,
-      "sourceCount": 4
+      "mentionCount": 29,
+      "sourceCount": 3
+    },
+    {
+      "id": "privacy-security-review",
+      "title": "Lightweight Privacy and Security Review",
+      "score": 68,
+      "confidence": "medium",
+      "mentionCount": 5,
+      "sourceCount": 3
     }
   ],
   "marketTrendLabels": [
-    "Agent operations and agent security are converging",
-    "AI-native products are exposing agent-friendly primitives",
-    "Model evaluation is becoming workflow infrastructure",
-    "Usage pricing keeps creating billing operations drag",
+    "Agent workspaces are becoming a product category",
+    "Agent operations and security are merging",
+    "Evaluation is becoming workflow infrastructure",
+    "Usage pricing creates a back-office wedge",
     "Enterprise readiness remains a small-team tax"
   ],
   "sourceAlerts": [
     {
       "source": "GDELT",
       "severity": "error",
-      "message": "Unexpected token 'Q', \"Queries co\"... is not valid JSON"
+      "message": "429 Too Many Requests"
     },
     {
       "source": "FRED",
@@ -66,8 +82,8 @@
     }
   ],
   "sourceChanges": [
-    "Added Printing Press, AI IQ, Perplexity Bumblebee, and Ben's Bites manual seeds",
-    "Added Reddit and Hacker News MCP/agent-native tooling echo queries"
+    "Added MagicPath manual seed for shared human/agent workspaces",
+    "Added OpenAI Developers Appshots manual X seed for Codex context capture"
   ],
   "verification": {
     "collect": "passed",
@@ -76,14 +92,13 @@
     "build": "passed"
   },
   "filesChanged": [
-    "automation/digests/2026-05-28.md",
+    "automation/digests/2026-05-30.md",
     "automation/state/latest.json",
     "public/data/signals.json",
     "public/data/history.json",
-    "sources/manual-links.json",
-    "sources/echo-sources.json"
+    "sources/manual-links.json"
   ],
   "commitSha": null,
   "commitShaNote": "The commit SHA is reported in the automation result after commit; embedding the same commit's SHA inside the committed state file is not possible without changing the SHA.",
-  "nextRecommendedValidationStep": "Interview teams already using browser/workflow agents and ask where runs fail, who notices, and what recovery data they wish they had."
+  "nextRecommendedValidationStep": "Interview teams using coding, browser, or workflow agents and ask where app context, run recovery, and human handoff break."
 }

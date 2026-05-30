@@ -43,5 +43,23 @@
     "evidenceType": "context",
     "addedAt": "2026-05-28",
     "enabled": true
+  },
+  {
+    "url": "https://www.magicpath.ai/",
+    "title": "MagicPath: shared workspace for humans and agents",
+    "note": "Recent local reading signal: public product positioning around a shared workspace where humans and agents create UI assets and components together, reinforcing demand for agent workflow coordination surfaces.",
+    "tags": ["ai-agent-ops", "agent-workflow", "developer-tools", "design-tools"],
+    "evidenceType": "adoption",
+    "addedAt": "2026-05-30",
+    "enabled": true
+  },
+  {
+    "url": "https://x.com/OpenAIDevs/status/2057530207976989179",
+    "title": "OpenAI Developers: Appshots context capture for Codex",
+    "note": "Recent public X seed from OpenAI Developers: Appshots points to coding agents needing richer app-window context capture as part of normal agent workflows.",
+    "tags": ["ai-agent-ops", "agent-workflow", "developer-tools", "context-engineering"],
+    "evidenceType": "adoption",
+    "addedAt": "2026-05-30",
+    "enabled": true
   }
 ]
