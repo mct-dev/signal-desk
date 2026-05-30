@@ -1,16 +1,24 @@
 {
   "date": "2026-05-30",
-  "generatedAt": "2026-05-30T15:05:00Z",
-  "dataGeneratedAt": "2026-05-30T15:00:08.189Z",
-  "opportunityCount": 7,
+  "generatedAt": "2026-05-30T16:04:58Z",
+  "dataGeneratedAt": "2026-05-30T16:04:11.567Z",
+  "opportunityCount": 6,
   "highConfidenceCount": 6,
   "topBriefs": [
+    {
+      "id": "ai-agent-ops",
+      "title": "AI Agent Operations and Recovery",
+      "score": 90,
+      "confidence": "high",
+      "mentionCount": 50,
+      "sourceCount": 7
+    },
     {
       "id": "llm-evaluation-regression",
       "title": "LLM Evaluation Regression Workflows",
       "score": 90,
       "confidence": "high",
-      "mentionCount": 35,
+      "mentionCount": 33,
       "sourceCount": 7
     },
     {
@@ -22,19 +30,11 @@
       "sourceCount": 6
     },
     {
-      "id": "ai-agent-ops",
-      "title": "AI Agent Operations and Recovery",
-      "score": 90,
-      "confidence": "high",
-      "mentionCount": 47,
-      "sourceCount": 6
-    },
-    {
       "id": "auth-sso-integration-debugging",
       "title": "Auth and SSO Integration Debugging",
       "score": 90,
       "confidence": "high",
-      "mentionCount": 52,
+      "mentionCount": 53,
       "sourceCount": 4
     },
     {
@@ -42,38 +42,30 @@
       "title": "SOC2 Evidence Automation for Small AI Vendors",
       "score": 90,
       "confidence": "high",
-      "mentionCount": 29,
-      "sourceCount": 3
+      "mentionCount": 30,
+      "sourceCount": 4
     },
     {
       "id": "data-pipeline-reliability",
       "title": "Data Pipeline Reliability for Lean Teams",
       "score": 88,
       "confidence": "high",
-      "mentionCount": 29,
-      "sourceCount": 3
-    },
-    {
-      "id": "privacy-security-review",
-      "title": "Lightweight Privacy and Security Review",
-      "score": 68,
-      "confidence": "medium",
-      "mentionCount": 5,
+      "mentionCount": 28,
       "sourceCount": 3
     }
   ],
   "marketTrendLabels": [
-    "Agent workspaces are becoming a product category",
-    "Agent operations and security are merging",
-    "Evaluation is becoming workflow infrastructure",
-    "Usage pricing creates a back-office wedge",
-    "Enterprise readiness remains a small-team tax"
+    "Agent work is becoming an operations problem",
+    "Agent governance is moving into developer workflow",
+    "Evaluation needs product judgment",
+    "Usage pricing keeps creating back-office pain",
+    "Enterprise readiness is shifting earlier"
   ],
   "sourceAlerts": [
     {
       "source": "GDELT",
       "severity": "error",
-      "message": "429 Too Many Requests"
+      "message": "fetch failed"
     },
     {
       "source": "FRED",
@@ -82,8 +74,9 @@
     }
   ],
   "sourceChanges": [
-    "Added MagicPath manual seed for shared human/agent workspaces",
-    "Added OpenAI Developers Appshots manual X seed for Codex context capture"
+    "Added Addy Osmani orchestration-tax seed for agent supervision and review bottlenecks",
+    "Added Mitchell Hashimoto public X seed for agent benchmark-gaming and eval regression pain",
+    "Added Simon Willison SQLite AGENTS.md seed for agent contribution governance"
   ],
   "verification": {
     "collect": "passed",
@@ -100,5 +93,5 @@
   ],
   "commitSha": null,
   "commitShaNote": "The commit SHA is reported in the automation result after commit; embedding the same commit's SHA inside the committed state file is not possible without changing the SHA.",
-  "nextRecommendedValidationStep": "Interview teams using coding, browser, or workflow agents and ask where app context, run recovery, and human handoff break."
+  "nextRecommendedValidationStep": "Interview teams using coding, browser, or workflow agents and ask where review, app context, recovery, and human handoff break."
 }

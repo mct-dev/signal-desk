@@ -1,10 +1,10 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-05-30T15:00:08.189Z",
+  "generatedAt": "2026-05-30T16:04:11.567Z",
   "cadence": "weekly",
   "summary": {
-    "opportunityCount": 7,
-    "evidenceCount": 65,
+    "opportunityCount": 6,
+    "evidenceCount": 60,
     "sourceCount": 11,
     "sourceAlerts": 1,
     "skippedSources": 1,
@@ -15,110 +15,480 @@
       "source": "Manual Links",
       "ok": true,
       "skipped": false,
-      "itemCount": 6,
-      "fetchedAt": "2026-05-30T15:00:08.218Z",
-      "startedAt": "2026-05-30T15:00:08.190Z"
+      "itemCount": 9,
+      "fetchedAt": "2026-05-30T16:04:11.595Z",
+      "startedAt": "2026-05-30T16:04:11.568Z"
     },
     {
       "source": "Echo Sources",
       "ok": true,
       "skipped": false,
       "itemCount": 136,
-      "fetchedAt": "2026-05-30T15:00:20.405Z",
-      "startedAt": "2026-05-30T15:00:08.190Z"
+      "fetchedAt": "2026-05-30T16:04:14.934Z",
+      "startedAt": "2026-05-30T16:04:11.568Z"
     },
     {
       "source": "Hacker News",
       "ok": true,
       "skipped": false,
       "itemCount": 80,
-      "fetchedAt": "2026-05-30T15:00:11.119Z",
-      "startedAt": "2026-05-30T15:00:08.190Z"
+      "fetchedAt": "2026-05-30T16:04:13.033Z",
+      "startedAt": "2026-05-30T16:04:11.568Z"
     },
     {
       "source": "Reddit",
       "ok": true,
       "skipped": false,
       "itemCount": 140,
-      "fetchedAt": "2026-05-30T15:00:10.581Z",
-      "startedAt": "2026-05-30T15:00:08.209Z"
+      "fetchedAt": "2026-05-30T16:04:12.869Z",
+      "startedAt": "2026-05-30T16:04:11.585Z"
     },
     {
       "source": "GitHub Issues",
       "ok": true,
       "skipped": false,
       "itemCount": 120,
-      "fetchedAt": "2026-05-30T15:00:10.568Z",
-      "startedAt": "2026-05-30T15:00:08.212Z"
+      "fetchedAt": "2026-05-30T16:04:12.714Z",
+      "startedAt": "2026-05-30T16:04:11.588Z"
     },
     {
       "source": "npm",
       "ok": true,
       "skipped": false,
       "itemCount": 160,
-      "fetchedAt": "2026-05-30T15:00:10.163Z",
-      "startedAt": "2026-05-30T15:00:08.214Z"
+      "fetchedAt": "2026-05-30T16:04:12.864Z",
+      "startedAt": "2026-05-30T16:04:11.590Z"
     },
     {
       "source": "PyPI",
       "ok": true,
       "skipped": false,
       "itemCount": 100,
-      "fetchedAt": "2026-05-30T15:00:09.794Z",
-      "startedAt": "2026-05-30T15:00:08.215Z"
+      "fetchedAt": "2026-05-30T16:04:12.081Z",
+      "startedAt": "2026-05-30T16:04:11.591Z"
     },
     {
       "source": "GitHub Trending",
       "ok": true,
       "skipped": false,
       "itemCount": 19,
-      "fetchedAt": "2026-05-30T15:00:11.172Z",
-      "startedAt": "2026-05-30T15:00:08.216Z"
+      "fetchedAt": "2026-05-30T16:04:13.316Z",
+      "startedAt": "2026-05-30T16:04:11.592Z"
     },
     {
       "source": "GDELT",
       "ok": false,
       "skipped": false,
       "itemCount": 0,
-      "fetchedAt": "2026-05-30T15:00:16.188Z",
-      "startedAt": "2026-05-30T15:00:08.216Z",
-      "error": "429 Too Many Requests"
+      "fetchedAt": "2026-05-30T16:04:22.088Z",
+      "startedAt": "2026-05-30T16:04:11.592Z",
+      "error": "fetch failed"
     },
     {
       "source": "OWID",
       "ok": true,
       "skipped": false,
       "itemCount": 4,
-      "fetchedAt": "2026-05-30T15:00:10.392Z",
-      "startedAt": "2026-05-30T15:00:08.216Z"
+      "fetchedAt": "2026-05-30T16:04:12.205Z",
+      "startedAt": "2026-05-30T16:04:11.593Z"
     },
     {
       "source": "World Bank",
       "ok": true,
       "skipped": false,
       "itemCount": 4,
-      "fetchedAt": "2026-05-30T15:00:19.238Z",
-      "startedAt": "2026-05-30T15:00:08.217Z"
+      "fetchedAt": "2026-05-30T16:04:12.392Z",
+      "startedAt": "2026-05-30T16:04:11.593Z"
     },
     {
       "source": "BLS",
       "ok": true,
       "skipped": false,
       "itemCount": 6,
-      "fetchedAt": "2026-05-30T15:00:11.355Z",
-      "startedAt": "2026-05-30T15:00:08.217Z"
+      "fetchedAt": "2026-05-30T16:04:13.303Z",
+      "startedAt": "2026-05-30T16:04:11.594Z"
     },
     {
       "source": "FRED",
       "ok": false,
       "skipped": true,
       "itemCount": 0,
-      "fetchedAt": "2026-05-30T15:00:08.218Z",
-      "startedAt": "2026-05-30T15:00:08.218Z",
+      "fetchedAt": "2026-05-30T16:04:11.594Z",
+      "startedAt": "2026-05-30T16:04:11.594Z",
       "error": "FRED_API_KEY not configured"
     }
   ],
   "opportunities": [
+    {
+      "id": "ai-agent-ops",
+      "title": "AI Agent Operations and Recovery",
+      "customer": "Teams using browser or workflow agents in production",
+      "pain": "Agent workflows fail in ambiguous states and teams need recovery, audit, and handoff controls.",
+      "currentWorkaround": "Manual babysitting, logs, screenshots, and rerunning failed tasks from scratch.",
+      "wedge": "An operations layer for agent runs: checkpoints, human handoff, replay, and failure taxonomies.",
+      "businessModel": "Usage-based SaaS priced by agent run volume.",
+      "validationStep": "Interview teams running agents against real browsers, support queues, or internal workflows.",
+      "score": 90,
+      "confidence": "high",
+      "isFallback": false,
+      "scoreBreakdown": {
+        "pain": 30,
+        "spend": 20,
+        "recurrence": 15,
+        "sourceQuality": 10,
+        "nicheSpecificity": 8,
+        "macro": 7
+      },
+      "mentionCount": 50,
+      "sourceCount": 7,
+      "whyNow": "50 current evidence items versus prior peak 92 across 7 source types, including 20 pain signals and 9 spend signals.",
+      "evidence": [
+        {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "[epic] Comprehensive observability — trace + dashboard all backend surfaces (API, MCP, schema, permissions, providers, errors, feature usage)",
+          "url": "https://github.com/tpayne84/signalplane_ai/issues/913",
+          "publishedAt": "2026-05-30T15:49:34Z",
+          "metrics": {
+            "comments": 1,
+            "score": 1
+          },
+          "painTerms": [
+            "slow"
+          ],
+          "spendTerms": [
+            "vendor"
+          ]
+        },
+        {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "MCP: AI clients (e.g. Claude) don't request offline_access scope, causing frequent session drops",
+          "url": "https://github.com/medplum/medplum/issues/9183",
+          "publishedAt": "2026-05-12T16:34:58Z",
+          "metrics": {
+            "comments": 1,
+            "score": 1
+          },
+          "painTerms": [
+            "manual",
+            "problem",
+            "workaround"
+          ],
+          "spendTerms": []
+        },
+        {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "fix(devcontainer): revert phantom [mcp_servers.codex_apps] re-introduced by #903",
+          "url": "https://github.com/tvna/claude-md/issues/905",
+          "publishedAt": "2026-05-30T15:58:47Z",
+          "metrics": {
+            "comments": 0,
+            "score": 1
+          },
+          "painTerms": [
+            "bug",
+            "mess"
+          ],
+          "spendTerms": []
+        },
+        {
+          "source": "Manual Signal",
+          "sourceType": "curated-link",
+          "evidenceType": "pain",
+          "title": "Perplexity Bumblebee: developer endpoint scanner for AI tool configs",
+          "url": "https://www.perplexity.ai/hub/blog/perplexity-is-open-sourcing-bumblebee",
+          "publishedAt": "2026-05-28T00:00:00.000Z",
+          "metrics": {
+            "curated": true
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "Hacker News",
+          "sourceType": "discussion",
+          "evidenceType": "attention",
+          "title": "MCP is dead?",
+          "url": "https://www.quandri.io/engineering-blog/mcp-is-dead",
+          "publishedAt": "2026-05-29T22:56:49.000Z",
+          "metrics": {
+            "score": 325,
+            "comments": 311,
+            "rank": 19
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "@mcp-abap-adt/llm-agent-rag",
+          "url": "https://www.npmjs.com/package/@mcp-abap-adt/llm-agent-rag",
+          "publishedAt": "2026-05-29T16:28:11.510Z",
+          "metrics": {
+            "search": "rag",
+            "score": 20764
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "mcp-local-rag",
+          "url": "https://www.npmjs.com/package/mcp-local-rag",
+          "publishedAt": "2026-05-23T12:04:07.893Z",
+          "metrics": {
+            "search": "rag",
+            "score": 24785
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "ira-research-mcp",
+          "url": "https://www.npmjs.com/package/ira-research-mcp",
+          "publishedAt": "2026-05-23T05:51:11.499Z",
+          "metrics": {
+            "search": "mcp agent",
+            "score": 14957
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "agent-commerce-mcp",
+          "url": "https://www.npmjs.com/package/agent-commerce-mcp",
+          "publishedAt": "2026-05-13T03:43:15.236Z",
+          "metrics": {
+            "search": "mcp agent",
+            "score": 13548
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "prompt-clarifier-mcp",
+          "url": "https://www.npmjs.com/package/prompt-clarifier-mcp",
+          "publishedAt": "2026-05-07T07:09:20.325Z",
+          "metrics": {
+            "search": "mcp agent",
+            "score": 11813
+          },
+          "painTerms": [],
+          "spendTerms": []
+        }
+      ],
+      "spendSignals": [
+        {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "[epic] Comprehensive observability — trace + dashboard all backend surfaces (API, MCP, schema, permissions, providers, errors, feature usage)",
+          "url": "https://github.com/tpayne84/signalplane_ai/issues/913",
+          "publishedAt": "2026-05-30T15:49:34Z",
+          "metrics": {
+            "comments": 1,
+            "score": 1
+          },
+          "painTerms": [
+            "slow"
+          ],
+          "spendTerms": [
+            "vendor"
+          ]
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "@mcp-abap-adt/llm-agent-rag",
+          "url": "https://www.npmjs.com/package/@mcp-abap-adt/llm-agent-rag",
+          "publishedAt": "2026-05-29T16:28:11.510Z",
+          "metrics": {
+            "search": "rag",
+            "score": 20764
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "mcp-local-rag",
+          "url": "https://www.npmjs.com/package/mcp-local-rag",
+          "publishedAt": "2026-05-23T12:04:07.893Z",
+          "metrics": {
+            "search": "rag",
+            "score": 24785
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "ira-research-mcp",
+          "url": "https://www.npmjs.com/package/ira-research-mcp",
+          "publishedAt": "2026-05-23T05:51:11.499Z",
+          "metrics": {
+            "search": "mcp agent",
+            "score": 14957
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "agent-commerce-mcp",
+          "url": "https://www.npmjs.com/package/agent-commerce-mcp",
+          "publishedAt": "2026-05-13T03:43:15.236Z",
+          "metrics": {
+            "search": "mcp agent",
+            "score": 13548
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "prompt-clarifier-mcp",
+          "url": "https://www.npmjs.com/package/prompt-clarifier-mcp",
+          "publishedAt": "2026-05-07T07:09:20.325Z",
+          "metrics": {
+            "search": "mcp agent",
+            "score": 11813
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "@aiondadotcom/mcp-ssh",
+          "url": "https://www.npmjs.com/package/@aiondadotcom/mcp-ssh",
+          "publishedAt": "2026-04-14T16:29:54.339Z",
+          "metrics": {
+            "search": "mcp agent",
+            "score": 16324
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "mcp-agent-trace-inspector",
+          "url": "https://www.npmjs.com/package/mcp-agent-trace-inspector",
+          "publishedAt": "2026-03-23T19:56:42.393Z",
+          "metrics": {
+            "search": "mcp agent",
+            "score": 14051
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "@mallocbaal/mcp-agent-framework-ts",
+          "url": "https://www.npmjs.com/package/@mallocbaal/mcp-agent-framework-ts",
+          "publishedAt": "2026-03-20T02:09:41.885Z",
+          "metrics": {
+            "search": "mcp agent",
+            "score": 12149
+          },
+          "painTerms": [
+            "mess"
+          ],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "terminator-mcp-agent",
+          "url": "https://www.npmjs.com/package/terminator-mcp-agent",
+          "publishedAt": "2026-01-28T19:43:12.885Z",
+          "metrics": {
+            "search": "mcp agent",
+            "score": 20481
+          },
+          "painTerms": [],
+          "spendTerms": []
+        }
+      ],
+      "macroContext": [
+        {
+          "source": "BLS",
+          "sourceType": "macro",
+          "evidenceType": "macro",
+          "title": "US unemployment rate",
+          "url": "https://data.bls.gov/timeseries/LNS14000000",
+          "publishedAt": "2026-04-01T00:00:00.000Z",
+          "metrics": {
+            "year": 2026,
+            "period": "M04",
+            "value": 4.3
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "BLS",
+          "sourceType": "macro",
+          "evidenceType": "macro",
+          "title": "Data processing and hosting employment",
+          "url": "https://data.bls.gov/timeseries/CES5051800001",
+          "publishedAt": "2026-04-01T00:00:00.000Z",
+          "metrics": {
+            "year": 2026,
+            "period": "M04",
+            "value": 457.7
+          },
+          "painTerms": [],
+          "spendTerms": []
+        }
+      ],
+      "risks": [
+        "Platform vendors may add run management",
+        "Reliability problems may be too application-specific"
+      ],
+      "sparkline": [
+        92,
+        97,
+        57,
+        82,
+        107,
+        50,
+        58
+      ]
+    },
     {
       "id": "llm-evaluation-regression",
       "title": "LLM Evaluation Regression Workflows",
@@ -139,9 +509,9 @@
         "nicheSpecificity": 8,
         "macro": 7
       },
-      "mentionCount": 35,
+      "mentionCount": 33,
       "sourceCount": 7,
-      "whyNow": "35 current evidence items versus prior peak 44 across 7 source types, including 12 pain signals and 7 spend signals.",
+      "whyNow": "33 current evidence items versus prior peak 44 across 7 source types, including 13 pain signals and 7 spend signals.",
       "evidence": [
         {
           "source": "GitHub Issues",
@@ -183,18 +553,34 @@
           "source": "GitHub Issues",
           "sourceType": "developer-pain",
           "evidenceType": "pain",
-          "title": "RAG prompt: tighten grounding to explicit edges (reduce traversal hallucination)",
-          "url": "https://github.com/milwil-2/business-network/issues/12",
-          "publishedAt": "2026-05-30T07:47:00Z",
+          "title": "supervisor/hallucination-risk.test.ts only exercises bypass paths; the actual grounding rule has zero unit coverage",
+          "url": "https://github.com/jharvieux/ATC/issues/478",
+          "publishedAt": "2026-05-30T15:51:41Z",
           "metrics": {
-            "comments": 1,
+            "comments": 0,
             "score": 1
           },
-          "painTerms": [],
+          "painTerms": [
+            "bug"
+          ],
           "spendTerms": [
-            "buy",
-            "vendor"
+            "customer"
           ]
+        },
+        {
+          "source": "Manual X Seed",
+          "sourceType": "curated-link",
+          "evidenceType": "pain",
+          "title": "Mitchell Hashimoto: agent benchmark gaming failure",
+          "url": "https://x.com/mitchellh/status/2060088112257372610",
+          "publishedAt": "2026-05-30T00:00:00.000Z",
+          "metrics": {
+            "curated": true
+          },
+          "painTerms": [
+            "broken"
+          ],
+          "spendTerms": []
         },
         {
           "source": "npm",
@@ -205,7 +591,7 @@
           "publishedAt": "2026-05-28T23:59:40.242Z",
           "metrics": {
             "search": "llm eval",
-            "score": 65504
+            "score": 65501
           },
           "painTerms": [],
           "spendTerms": []
@@ -219,7 +605,7 @@
           "publishedAt": "2026-04-24T08:21:07.075Z",
           "metrics": {
             "search": "llm eval",
-            "score": 11567
+            "score": 11566
           },
           "painTerms": [
             "flaky"
@@ -249,7 +635,7 @@
           "publishedAt": "2026-04-01T17:14:47.774Z",
           "metrics": {
             "search": "llm eval",
-            "score": 12766
+            "score": 12767
           },
           "painTerms": [],
           "spendTerms": []
@@ -263,7 +649,7 @@
           "publishedAt": "2026-03-10T15:42:56.793Z",
           "metrics": {
             "search": "llm eval",
-            "score": 8179
+            "score": 8175
           },
           "painTerms": [],
           "spendTerms": []
@@ -277,21 +663,7 @@
           "publishedAt": "2026-02-07T06:00:57.021Z",
           "metrics": {
             "search": "llm eval",
-            "score": 8520
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "expr-eval-fork",
-          "url": "https://www.npmjs.com/package/expr-eval-fork",
-          "publishedAt": "2026-02-02T12:43:10.921Z",
-          "metrics": {
-            "search": "llm eval",
-            "score": 9498
+            "score": 8518
           },
           "painTerms": [],
           "spendTerms": []
@@ -318,17 +690,18 @@
           "source": "GitHub Issues",
           "sourceType": "developer-pain",
           "evidenceType": "pain",
-          "title": "RAG prompt: tighten grounding to explicit edges (reduce traversal hallucination)",
-          "url": "https://github.com/milwil-2/business-network/issues/12",
-          "publishedAt": "2026-05-30T07:47:00Z",
+          "title": "supervisor/hallucination-risk.test.ts only exercises bypass paths; the actual grounding rule has zero unit coverage",
+          "url": "https://github.com/jharvieux/ATC/issues/478",
+          "publishedAt": "2026-05-30T15:51:41Z",
           "metrics": {
-            "comments": 1,
+            "comments": 0,
             "score": 1
           },
-          "painTerms": [],
+          "painTerms": [
+            "bug"
+          ],
           "spendTerms": [
-            "buy",
-            "vendor"
+            "customer"
           ]
         },
         {
@@ -340,7 +713,7 @@
           "publishedAt": "2026-05-28T23:59:40.242Z",
           "metrics": {
             "search": "llm eval",
-            "score": 65504
+            "score": 65501
           },
           "painTerms": [],
           "spendTerms": []
@@ -354,7 +727,7 @@
           "publishedAt": "2026-04-24T08:21:07.075Z",
           "metrics": {
             "search": "llm eval",
-            "score": 11567
+            "score": 11566
           },
           "painTerms": [
             "flaky"
@@ -384,7 +757,7 @@
           "publishedAt": "2026-04-01T17:14:47.774Z",
           "metrics": {
             "search": "llm eval",
-            "score": 12766
+            "score": 12767
           },
           "painTerms": [],
           "spendTerms": []
@@ -398,7 +771,7 @@
           "publishedAt": "2026-03-10T15:42:56.793Z",
           "metrics": {
             "search": "llm eval",
-            "score": 8179
+            "score": 8175
           },
           "painTerms": [],
           "spendTerms": []
@@ -412,7 +785,7 @@
           "publishedAt": "2026-02-07T06:00:57.021Z",
           "metrics": {
             "search": "llm eval",
-            "score": 8520
+            "score": 8518
           },
           "painTerms": [],
           "spendTerms": []
@@ -440,7 +813,7 @@
           "publishedAt": "2026-01-03T13:50:56.926Z",
           "metrics": {
             "search": "llm eval",
-            "score": 10226
+            "score": 11595
           },
           "painTerms": [],
           "spendTerms": []
@@ -486,11 +859,11 @@
       "sparkline": [
         44,
         46,
-        32,
-        46,
-        59,
-        35,
-        43
+        31,
+        45,
+        58,
+        33,
+        41
       ]
     },
     {
@@ -1035,373 +1408,6 @@
       ]
     },
     {
-      "id": "ai-agent-ops",
-      "title": "AI Agent Operations and Recovery",
-      "customer": "Teams using browser or workflow agents in production",
-      "pain": "Agent workflows fail in ambiguous states and teams need recovery, audit, and handoff controls.",
-      "currentWorkaround": "Manual babysitting, logs, screenshots, and rerunning failed tasks from scratch.",
-      "wedge": "An operations layer for agent runs: checkpoints, human handoff, replay, and failure taxonomies.",
-      "businessModel": "Usage-based SaaS priced by agent run volume.",
-      "validationStep": "Interview teams running agents against real browsers, support queues, or internal workflows.",
-      "score": 90,
-      "confidence": "high",
-      "isFallback": false,
-      "scoreBreakdown": {
-        "pain": 30,
-        "spend": 20,
-        "recurrence": 15,
-        "sourceQuality": 10,
-        "nicheSpecificity": 8,
-        "macro": 7
-      },
-      "mentionCount": 47,
-      "sourceCount": 6,
-      "whyNow": "47 current evidence items versus prior peak 92 across 6 source types, including 20 pain signals and 8 spend signals.",
-      "evidence": [
-        {
-          "source": "GitHub Issues",
-          "sourceType": "developer-pain",
-          "evidenceType": "pain",
-          "title": "MCP: AI clients (e.g. Claude) don't request offline_access scope, causing frequent session drops",
-          "url": "https://github.com/medplum/medplum/issues/9183",
-          "publishedAt": "2026-05-12T16:34:58Z",
-          "metrics": {
-            "comments": 1,
-            "score": 1
-          },
-          "painTerms": [
-            "manual",
-            "problem",
-            "workaround"
-          ],
-          "spendTerms": []
-        },
-        {
-          "source": "GitHub Issues",
-          "sourceType": "developer-pain",
-          "evidenceType": "pain",
-          "title": "fix(harness): mcp__github__create_pull_request corrupts PR body (& encoding, duplicate footer)",
-          "url": "https://github.com/tvna/claude-md/issues/892",
-          "publishedAt": "2026-05-30T14:57:10Z",
-          "metrics": {
-            "comments": 0,
-            "score": 1
-          },
-          "painTerms": [
-            "problem"
-          ],
-          "spendTerms": []
-        },
-        {
-          "source": "GitHub Issues",
-          "sourceType": "developer-pain",
-          "evidenceType": "pain",
-          "title": "Transient empty-cred bake of aws-secrets-agent permanently strands core MCP containers (Created, no logs)",
-          "url": "https://github.com/cooneycw/claude-power-pack/issues/344",
-          "publishedAt": "2026-05-30T14:29:57Z",
-          "metrics": {
-            "comments": 0,
-            "score": 1
-          },
-          "painTerms": [
-            "bug",
-            "hard",
-            "mess",
-            "missing",
-            "workaround"
-          ],
-          "spendTerms": []
-        },
-        {
-          "source": "Manual Signal",
-          "sourceType": "curated-link",
-          "evidenceType": "pain",
-          "title": "Perplexity Bumblebee: developer endpoint scanner for AI tool configs",
-          "url": "https://www.perplexity.ai/hub/blog/perplexity-is-open-sourcing-bumblebee",
-          "publishedAt": "2026-05-28T00:00:00.000Z",
-          "metrics": {
-            "curated": true
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "Hacker News",
-          "sourceType": "discussion",
-          "evidenceType": "attention",
-          "title": "MCP is dead?",
-          "url": "https://www.quandri.io/engineering-blog/mcp-is-dead",
-          "publishedAt": "2026-05-29T22:56:49.000Z",
-          "metrics": {
-            "score": 309,
-            "comments": 296,
-            "rank": 21
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "@mcp-abap-adt/llm-agent-rag",
-          "url": "https://www.npmjs.com/package/@mcp-abap-adt/llm-agent-rag",
-          "publishedAt": "2026-05-29T16:28:11.510Z",
-          "metrics": {
-            "search": "rag",
-            "score": 20771
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "mcp-local-rag",
-          "url": "https://www.npmjs.com/package/mcp-local-rag",
-          "publishedAt": "2026-05-23T12:04:07.893Z",
-          "metrics": {
-            "search": "rag",
-            "score": 24791
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "ira-research-mcp",
-          "url": "https://www.npmjs.com/package/ira-research-mcp",
-          "publishedAt": "2026-05-23T05:51:11.499Z",
-          "metrics": {
-            "search": "mcp agent",
-            "score": 14970
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "agent-commerce-mcp",
-          "url": "https://www.npmjs.com/package/agent-commerce-mcp",
-          "publishedAt": "2026-05-13T03:43:15.236Z",
-          "metrics": {
-            "search": "mcp agent",
-            "score": 13560
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "prompt-clarifier-mcp",
-          "url": "https://www.npmjs.com/package/prompt-clarifier-mcp",
-          "publishedAt": "2026-05-07T07:09:20.325Z",
-          "metrics": {
-            "search": "mcp agent",
-            "score": 11817
-          },
-          "painTerms": [],
-          "spendTerms": []
-        }
-      ],
-      "spendSignals": [
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "@mcp-abap-adt/llm-agent-rag",
-          "url": "https://www.npmjs.com/package/@mcp-abap-adt/llm-agent-rag",
-          "publishedAt": "2026-05-29T16:28:11.510Z",
-          "metrics": {
-            "search": "rag",
-            "score": 20771
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "mcp-local-rag",
-          "url": "https://www.npmjs.com/package/mcp-local-rag",
-          "publishedAt": "2026-05-23T12:04:07.893Z",
-          "metrics": {
-            "search": "rag",
-            "score": 24791
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "ira-research-mcp",
-          "url": "https://www.npmjs.com/package/ira-research-mcp",
-          "publishedAt": "2026-05-23T05:51:11.499Z",
-          "metrics": {
-            "search": "mcp agent",
-            "score": 14970
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "agent-commerce-mcp",
-          "url": "https://www.npmjs.com/package/agent-commerce-mcp",
-          "publishedAt": "2026-05-13T03:43:15.236Z",
-          "metrics": {
-            "search": "mcp agent",
-            "score": 13560
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "prompt-clarifier-mcp",
-          "url": "https://www.npmjs.com/package/prompt-clarifier-mcp",
-          "publishedAt": "2026-05-07T07:09:20.325Z",
-          "metrics": {
-            "search": "mcp agent",
-            "score": 11817
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "@aiondadotcom/mcp-ssh",
-          "url": "https://www.npmjs.com/package/@aiondadotcom/mcp-ssh",
-          "publishedAt": "2026-04-14T16:29:54.339Z",
-          "metrics": {
-            "search": "mcp agent",
-            "score": 16339
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "mcp-agent-trace-inspector",
-          "url": "https://www.npmjs.com/package/mcp-agent-trace-inspector",
-          "publishedAt": "2026-03-23T19:56:42.393Z",
-          "metrics": {
-            "search": "mcp agent",
-            "score": 14057
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "@mallocbaal/mcp-agent-framework-ts",
-          "url": "https://www.npmjs.com/package/@mallocbaal/mcp-agent-framework-ts",
-          "publishedAt": "2026-03-20T02:09:41.885Z",
-          "metrics": {
-            "search": "mcp agent",
-            "score": 12154
-          },
-          "painTerms": [
-            "mess"
-          ],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "terminator-mcp-agent",
-          "url": "https://www.npmjs.com/package/terminator-mcp-agent",
-          "publishedAt": "2026-01-28T19:43:12.885Z",
-          "metrics": {
-            "search": "mcp agent",
-            "score": 20492
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "terminator-mcp-win32-x64-msvc",
-          "url": "https://www.npmjs.com/package/terminator-mcp-win32-x64-msvc",
-          "publishedAt": "2026-01-28T19:43:11.012Z",
-          "metrics": {
-            "search": "mcp agent",
-            "score": 13789
-          },
-          "painTerms": [],
-          "spendTerms": []
-        }
-      ],
-      "macroContext": [
-        {
-          "source": "BLS",
-          "sourceType": "macro",
-          "evidenceType": "macro",
-          "title": "US unemployment rate",
-          "url": "https://data.bls.gov/timeseries/LNS14000000",
-          "publishedAt": "2026-04-01T00:00:00.000Z",
-          "metrics": {
-            "year": 2026,
-            "period": "M04",
-            "value": 4.3
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "BLS",
-          "sourceType": "macro",
-          "evidenceType": "macro",
-          "title": "Data processing and hosting employment",
-          "url": "https://data.bls.gov/timeseries/CES5051800001",
-          "publishedAt": "2026-04-01T00:00:00.000Z",
-          "metrics": {
-            "year": 2026,
-            "period": "M04",
-            "value": 457.7
-          },
-          "painTerms": [],
-          "spendTerms": []
-        }
-      ],
-      "risks": [
-        "Platform vendors may add run management",
-        "Reliability problems may be too application-specific"
-      ],
-      "sparkline": [
-        92,
-        97,
-        56,
-        81,
-        104,
-        47,
-        55
-      ]
-    },
-    {
       "id": "auth-sso-integration-debugging",
       "title": "Auth and SSO Integration Debugging",
       "customer": "Small B2B SaaS teams adding enterprise SSO",
@@ -1421,9 +1427,9 @@
         "nicheSpecificity": 8,
         "macro": 7
       },
-      "mentionCount": 52,
+      "mentionCount": 53,
       "sourceCount": 4,
-      "whyNow": "52 current evidence items versus prior peak 116 across 4 source types, including 8 pain signals and 8 spend signals.",
+      "whyNow": "53 current evidence items versus prior peak 116 across 4 source types, including 9 pain signals and 9 spend signals.",
       "evidence": [
         {
           "source": "GitHub Issues",
@@ -1504,6 +1510,24 @@
           "source": "GitHub Issues",
           "sourceType": "developer-pain",
           "evidenceType": "pain",
+          "title": "Custom-connector broker rejects staging.bridge-ai.social with mcp_registration_failed despite valid OAuth metadata + working production sibling",
+          "url": "https://github.com/anthropics/claude-ai-mcp/issues/381",
+          "publishedAt": "2026-05-30T16:00:11Z",
+          "metrics": {
+            "comments": 0,
+            "score": 1
+          },
+          "painTerms": [
+            "mess"
+          ],
+          "spendTerms": [
+            "compliance"
+          ]
+        },
+        {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
           "title": "auth(orgs): GC for abandoned Auth0 Organizations",
           "url": "https://github.com/mutav-finance/mutav-app/issues/122",
           "publishedAt": "2026-05-26T04:44:06Z",
@@ -1553,7 +1577,7 @@
           "url": "https://github.com/param20h/PDF-Assistant-RAG/issues/219",
           "publishedAt": "2026-05-30T10:22:26Z",
           "metrics": {
-            "comments": 1,
+            "comments": 2,
             "score": 1
           },
           "painTerms": [],
@@ -1570,7 +1594,7 @@
           "publishedAt": "2026-05-28T17:41:19.806Z",
           "metrics": {
             "search": "auth0",
-            "score": 55948
+            "score": 55959
           },
           "painTerms": [],
           "spendTerms": []
@@ -1584,21 +1608,7 @@
           "publishedAt": "2026-05-28T09:07:43.946Z",
           "metrics": {
             "search": "auth0",
-            "score": 216583
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "@pulumi/auth0",
-          "url": "https://www.npmjs.com/package/@pulumi/auth0",
-          "publishedAt": "2026-05-24T05:04:24.300Z",
-          "metrics": {
-            "search": "auth0",
-            "score": 39554
+            "score": 216609
           },
           "painTerms": [],
           "spendTerms": []
@@ -1627,6 +1637,24 @@
             "compliance",
             "enterprise",
             "paid"
+          ]
+        },
+        {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "Custom-connector broker rejects staging.bridge-ai.social with mcp_registration_failed despite valid OAuth metadata + working production sibling",
+          "url": "https://github.com/anthropics/claude-ai-mcp/issues/381",
+          "publishedAt": "2026-05-30T16:00:11Z",
+          "metrics": {
+            "comments": 0,
+            "score": 1
+          },
+          "painTerms": [
+            "mess"
+          ],
+          "spendTerms": [
+            "compliance"
           ]
         },
         {
@@ -1664,7 +1692,7 @@
           "url": "https://github.com/param20h/PDF-Assistant-RAG/issues/219",
           "publishedAt": "2026-05-30T10:22:26Z",
           "metrics": {
-            "comments": 1,
+            "comments": 2,
             "score": 1
           },
           "painTerms": [],
@@ -1681,7 +1709,7 @@
           "publishedAt": "2026-05-28T17:41:19.806Z",
           "metrics": {
             "search": "auth0",
-            "score": 55948
+            "score": 55959
           },
           "painTerms": [],
           "spendTerms": []
@@ -1695,7 +1723,7 @@
           "publishedAt": "2026-05-28T09:07:43.946Z",
           "metrics": {
             "search": "auth0",
-            "score": 216583
+            "score": 216609
           },
           "painTerms": [],
           "spendTerms": []
@@ -1709,7 +1737,7 @@
           "publishedAt": "2026-05-24T05:04:24.300Z",
           "metrics": {
             "search": "auth0",
-            "score": 39554
+            "score": 39558
           },
           "painTerms": [],
           "spendTerms": []
@@ -1723,7 +1751,7 @@
           "publishedAt": "2026-05-22T13:23:18.091Z",
           "metrics": {
             "search": "auth0",
-            "score": 54405
+            "score": 54414
           },
           "painTerms": [],
           "spendTerms": []
@@ -1737,7 +1765,7 @@
           "publishedAt": "2026-05-22T12:22:27.878Z",
           "metrics": {
             "search": "auth0",
-            "score": 58140
+            "score": 58149
           },
           "painTerms": [],
           "spendTerms": []
@@ -1751,21 +1779,7 @@
           "publishedAt": "2026-05-22T10:18:19.862Z",
           "metrics": {
             "search": "auth0",
-            "score": 37276
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "@tachybase/plugin-auth-saml",
-          "url": "https://www.npmjs.com/package/@tachybase/plugin-auth-saml",
-          "publishedAt": "2026-05-22T08:54:16.232Z",
-          "metrics": {
-            "search": "saml",
-            "score": 28382
+            "score": 37283
           },
           "painTerms": [],
           "spendTerms": []
@@ -1811,11 +1825,11 @@
       "sparkline": [
         116,
         122,
-        67,
-        97,
-        126,
-        52,
-        60
+        68,
+        98,
+        127,
+        53,
+        61
       ]
     },
     {
@@ -1838,9 +1852,9 @@
         "nicheSpecificity": 8,
         "macro": 7
       },
-      "mentionCount": 29,
-      "sourceCount": 3,
-      "whyNow": "29 current evidence items versus prior peak 30 across 3 source types, including 12 pain signals and 29 spend signals.",
+      "mentionCount": 30,
+      "sourceCount": 4,
+      "whyNow": "30 current evidence items versus prior peak 30 across 4 source types, including 12 pain signals and 30 spend signals.",
       "evidence": [
         {
           "source": "GitHub Issues",
@@ -1908,7 +1922,7 @@
           "publishedAt": "2026-05-17T02:54:35.301Z",
           "metrics": {
             "search": "soc2",
-            "score": 10309
+            "score": 10305
           },
           "painTerms": [],
           "spendTerms": [
@@ -1925,7 +1939,7 @@
           "publishedAt": "2026-05-11T15:35:30.803Z",
           "metrics": {
             "search": "soc2",
-            "score": 9742
+            "score": 9744
           },
           "painTerms": [],
           "spendTerms": [
@@ -1942,7 +1956,7 @@
           "publishedAt": "2026-05-11T07:10:28.412Z",
           "metrics": {
             "search": "soc2",
-            "score": 13612
+            "score": 13615
           },
           "painTerms": [
             "hard"
@@ -1961,7 +1975,7 @@
           "publishedAt": "2026-05-09T11:30:39.120Z",
           "metrics": {
             "search": "soc2",
-            "score": 8830
+            "score": 8831
           },
           "painTerms": [],
           "spendTerms": [
@@ -1978,7 +1992,7 @@
           "publishedAt": "2026-05-07T15:34:15.411Z",
           "metrics": {
             "search": "soc2",
-            "score": 8116
+            "score": 8117
           },
           "painTerms": [],
           "spendTerms": [
@@ -1995,7 +2009,7 @@
           "publishedAt": "2026-05-04T23:29:40.506Z",
           "metrics": {
             "search": "soc2",
-            "score": 7650
+            "score": 7652
           },
           "painTerms": [],
           "spendTerms": [
@@ -2011,7 +2025,7 @@
           "publishedAt": "2026-05-04T17:24:54.956Z",
           "metrics": {
             "search": "soc2",
-            "score": 14997
+            "score": 14998
           },
           "painTerms": [],
           "spendTerms": [
@@ -2087,7 +2101,7 @@
           "publishedAt": "2026-05-17T02:54:35.301Z",
           "metrics": {
             "search": "soc2",
-            "score": 10309
+            "score": 10305
           },
           "painTerms": [],
           "spendTerms": [
@@ -2104,7 +2118,7 @@
           "publishedAt": "2026-05-11T15:35:30.803Z",
           "metrics": {
             "search": "soc2",
-            "score": 9742
+            "score": 9744
           },
           "painTerms": [],
           "spendTerms": [
@@ -2121,7 +2135,7 @@
           "publishedAt": "2026-05-11T07:10:28.412Z",
           "metrics": {
             "search": "soc2",
-            "score": 13612
+            "score": 13615
           },
           "painTerms": [
             "hard"
@@ -2140,7 +2154,7 @@
           "publishedAt": "2026-05-09T11:30:39.120Z",
           "metrics": {
             "search": "soc2",
-            "score": 8830
+            "score": 8831
           },
           "painTerms": [],
           "spendTerms": [
@@ -2157,7 +2171,7 @@
           "publishedAt": "2026-05-07T15:34:15.411Z",
           "metrics": {
             "search": "soc2",
-            "score": 8116
+            "score": 8117
           },
           "painTerms": [],
           "spendTerms": [
@@ -2174,7 +2188,7 @@
           "publishedAt": "2026-05-04T23:29:40.506Z",
           "metrics": {
             "search": "soc2",
-            "score": 7650
+            "score": 7652
           },
           "painTerms": [],
           "spendTerms": [
@@ -2190,7 +2204,7 @@
           "publishedAt": "2026-05-04T17:24:54.956Z",
           "metrics": {
             "search": "soc2",
-            "score": 14997
+            "score": 14998
           },
           "painTerms": [],
           "spendTerms": [
@@ -2240,10 +2254,10 @@
         30,
         32,
         24,
-        34,
-        44,
-        29,
-        37
+        35,
+        45,
+        30,
+        38
       ]
     },
     {
@@ -2266,9 +2280,9 @@
         "nicheSpecificity": 8,
         "macro": 7
       },
-      "mentionCount": 29,
+      "mentionCount": 28,
       "sourceCount": 3,
-      "whyNow": "29 current evidence items versus prior peak 93 across 3 source types, including 7 pain signals and 6 spend signals.",
+      "whyNow": "28 current evidence items versus prior peak 93 across 3 source types, including 6 pain signals and 5 spend signals.",
       "evidence": [
         {
           "source": "GitHub Issues",
@@ -2352,22 +2366,6 @@
           "source": "GitHub Issues",
           "sourceType": "developer-pain",
           "evidenceType": "pain",
-          "title": "perf: model mixing and per-step LLM tuning for pipeline steps",
-          "url": "https://github.com/kludgeworks/bpmner/issues/306",
-          "publishedAt": "2026-05-30T06:21:49Z",
-          "metrics": {
-            "comments": 0,
-            "score": 1
-          },
-          "painTerms": [],
-          "spendTerms": [
-            "contract"
-          ]
-        },
-        {
-          "source": "GitHub Issues",
-          "sourceType": "developer-pain",
-          "evidenceType": "pain",
           "title": "[ADR] dbt-aware rule pac",
           "url": "https://github.com/Pawansingh3889/sql-guard/issues/54",
           "publishedAt": "2026-05-20T18:52:34Z",
@@ -2430,7 +2428,7 @@
           "publishedAt": "2026-05-30T04:58:56.982Z",
           "metrics": {
             "search": "dbt",
-            "score": 23956
+            "score": 23982
           },
           "painTerms": [],
           "spendTerms": []
@@ -2444,7 +2442,21 @@
           "publishedAt": "2026-05-29T10:22:51.253Z",
           "metrics": {
             "search": "dbt",
-            "score": 38710
+            "score": 38714
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "@supersubset/adapter-dbt",
+          "url": "https://www.npmjs.com/package/@supersubset/adapter-dbt",
+          "publishedAt": "2026-05-28T20:20:36.334Z",
+          "metrics": {
+            "search": "dbt",
+            "score": 24743
           },
           "painTerms": [],
           "spendTerms": []
@@ -2498,22 +2510,6 @@
           "source": "GitHub Issues",
           "sourceType": "developer-pain",
           "evidenceType": "pain",
-          "title": "perf: model mixing and per-step LLM tuning for pipeline steps",
-          "url": "https://github.com/kludgeworks/bpmner/issues/306",
-          "publishedAt": "2026-05-30T06:21:49Z",
-          "metrics": {
-            "comments": 0,
-            "score": 1
-          },
-          "painTerms": [],
-          "spendTerms": [
-            "contract"
-          ]
-        },
-        {
-          "source": "GitHub Issues",
-          "sourceType": "developer-pain",
-          "evidenceType": "pain",
           "title": "[ADR] dbt-aware rule pac",
           "url": "https://github.com/Pawansingh3889/sql-guard/issues/54",
           "publishedAt": "2026-05-20T18:52:34Z",
@@ -2576,7 +2572,7 @@
           "publishedAt": "2026-05-30T04:58:56.982Z",
           "metrics": {
             "search": "dbt",
-            "score": 23956
+            "score": 23982
           },
           "painTerms": [],
           "spendTerms": []
@@ -2590,7 +2586,7 @@
           "publishedAt": "2026-05-29T10:22:51.253Z",
           "metrics": {
             "search": "dbt",
-            "score": 38710
+            "score": 38714
           },
           "painTerms": [],
           "spendTerms": []
@@ -2604,7 +2600,7 @@
           "publishedAt": "2026-05-28T20:20:36.334Z",
           "metrics": {
             "search": "dbt",
-            "score": 24738
+            "score": 24743
           },
           "painTerms": [],
           "spendTerms": []
@@ -2618,7 +2614,21 @@
           "publishedAt": "2026-05-22T07:13:00.896Z",
           "metrics": {
             "search": "dbt",
-            "score": 36408
+            "score": 36413
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "@us-all/dbt-mcp",
+          "url": "https://www.npmjs.com/package/@us-all/dbt-mcp",
+          "publishedAt": "2026-05-21T05:47:28.018Z",
+          "metrics": {
+            "search": "dbt",
+            "score": 23015
           },
           "painTerms": [],
           "spendTerms": []
@@ -2664,211 +2674,11 @@
       "sparkline": [
         93,
         98,
-        49,
-        71,
-        92,
-        29,
-        36
-      ]
-    },
-    {
-      "id": "privacy-security-review",
-      "title": "Lightweight Privacy and Security Review",
-      "customer": "Small SaaS teams facing larger-customer security questionnaires",
-      "pain": "Small teams repeatedly answer security and privacy questionnaires without reusable evidence.",
-      "currentWorkaround": "Copy-paste answers, shared docs, and founder-led procurement calls.",
-      "wedge": "A reusable questionnaire answer bank connected to live policies and evidence.",
-      "businessModel": "SaaS priced by workspace and questionnaire volume.",
-      "validationStep": "Review recent founder complaints about security questionnaires and ask where deals slowed down.",
-      "score": 68,
-      "confidence": "medium",
-      "isFallback": false,
-      "scoreBreakdown": {
-        "pain": 26,
-        "spend": 10,
-        "recurrence": 10,
-        "sourceQuality": 10,
-        "nicheSpecificity": 8,
-        "macro": 4
-      },
-      "mentionCount": 5,
-      "sourceCount": 3,
-      "whyNow": "5 current evidence items versus prior peak 6 across 3 source types, including 3 pain signals and 2 spend signals.",
-      "evidence": [
-        {
-          "source": "GitHub Issues",
-          "sourceType": "developer-pain",
-          "evidenceType": "pain",
-          "title": "[Feature] Governance extension for AutoGen — policy enforcement and agent identity",
-          "url": "https://github.com/microsoft/autogen/issues/7613",
-          "publishedAt": "2026-04-20T19:28:33Z",
-          "metrics": {
-            "comments": 24,
-            "score": 1
-          },
-          "painTerms": [
-            "problem"
-          ],
-          "spendTerms": [
-            "enterprise"
-          ]
-        },
-        {
-          "source": "GitHub Issues",
-          "sourceType": "developer-pain",
-          "evidenceType": "pain",
-          "title": "Define merge blocking policy for unresolved review threads",
-          "url": "https://github.com/davidruzicka/mcp4openapi/issues/180",
-          "publishedAt": "2026-03-19T08:59:16Z",
-          "metrics": {
-            "comments": 8,
-            "score": 1
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "Hacker News Echo",
-          "sourceType": "echo",
-          "evidenceType": "context",
-          "title": "Is anyone else bothered that AI agents can basically do what they want?",
-          "url": "https://news.ycombinator.com/item?id=47833278",
-          "publishedAt": "2026-04-20T12:25:53Z",
-          "metrics": {
-            "echo": true,
-            "query": "\"MCP\" security credentials",
-            "score": 1,
-            "comments": 5,
-            "objectID": "47833278"
-          },
-          "painTerms": [
-            "problem",
-            "slow",
-            "stuck"
-          ],
-          "spendTerms": [
-            "customer",
-            "enterprise"
-          ]
-        },
-        {
-          "source": "Hacker News Echo",
-          "sourceType": "echo",
-          "evidenceType": "context",
-          "title": "Show HN: ToolMesh – turn all your REST APIs into MCP tools via declarative YAML",
-          "url": "https://news.ycombinator.com/item?id=47933950",
-          "publishedAt": "2026-04-28T13:00:04Z",
-          "metrics": {
-            "echo": true,
-            "query": "\"MCP\" security credentials",
-            "score": 2,
-            "comments": 2,
-            "objectID": "47933950"
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "Reddit",
-          "sourceType": "discussion",
-          "evidenceType": "context",
-          "title": "Built a privacy-friendly forum platform for niche communities",
-          "url": "https://www.reddit.com/r/webdev/comments/1truie5/built_a_privacyfriendly_forum_platform_for_niche/",
-          "publishedAt": "2026-05-30T08:49:34+00:00",
-          "metrics": {},
-          "painTerms": [],
-          "spendTerms": []
-        }
-      ],
-      "spendSignals": [
-        {
-          "source": "GitHub Issues",
-          "sourceType": "developer-pain",
-          "evidenceType": "pain",
-          "title": "[Feature] Governance extension for AutoGen — policy enforcement and agent identity",
-          "url": "https://github.com/microsoft/autogen/issues/7613",
-          "publishedAt": "2026-04-20T19:28:33Z",
-          "metrics": {
-            "comments": 24,
-            "score": 1
-          },
-          "painTerms": [
-            "problem"
-          ],
-          "spendTerms": [
-            "enterprise"
-          ]
-        },
-        {
-          "source": "Hacker News Echo",
-          "sourceType": "echo",
-          "evidenceType": "context",
-          "title": "Is anyone else bothered that AI agents can basically do what they want?",
-          "url": "https://news.ycombinator.com/item?id=47833278",
-          "publishedAt": "2026-04-20T12:25:53Z",
-          "metrics": {
-            "echo": true,
-            "query": "\"MCP\" security credentials",
-            "score": 1,
-            "comments": 5,
-            "objectID": "47833278"
-          },
-          "painTerms": [
-            "problem",
-            "slow",
-            "stuck"
-          ],
-          "spendTerms": [
-            "customer",
-            "enterprise"
-          ]
-        }
-      ],
-      "macroContext": [
-        {
-          "source": "BLS",
-          "sourceType": "macro",
-          "evidenceType": "macro",
-          "title": "US unemployment rate",
-          "url": "https://data.bls.gov/timeseries/LNS14000000",
-          "publishedAt": "2026-04-01T00:00:00.000Z",
-          "metrics": {
-            "year": 2026,
-            "period": "M04",
-            "value": 4.3
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "BLS",
-          "sourceType": "macro",
-          "evidenceType": "macro",
-          "title": "Data processing and hosting employment",
-          "url": "https://data.bls.gov/timeseries/CES5051800001",
-          "publishedAt": "2026-04-01T00:00:00.000Z",
-          "metrics": {
-            "year": 2026,
-            "period": "M04",
-            "value": 457.7
-          },
-          "painTerms": [],
-          "spendTerms": []
-        }
-      ],
-      "risks": [
-        "Overlap with GRC tools",
-        "Answers must stay accurate",
-        "Legal review may be required"
-      ],
-      "sparkline": [
-        6,
-        6,
-        4,
-        6,
-        8,
-        5,
-        11
+        48,
+        70,
+        91,
+        28,
+        35
       ]
     }
   ]

@@ -61,5 +61,32 @@
     "evidenceType": "adoption",
     "addedAt": "2026-05-30",
     "enabled": true
+  },
+  {
+    "url": "https://addyosmani.com/blog/orchestration-tax/",
+    "title": "The Orchestration Tax is You",
+    "note": "Recent local reading signal: coordinating many coding agents shifts the bottleneck to human review, merge, and trust capacity, strengthening the agent-ops wedge around supervision and handoff.",
+    "tags": ["ai-agent-ops", "agent-workflow", "developer-tools", "review-workflows"],
+    "evidenceType": "pain",
+    "addedAt": "2026-05-30",
+    "enabled": true
+  },
+  {
+    "url": "https://x.com/mitchellh/status/2060088112257372610",
+    "title": "Mitchell Hashimoto: agent benchmark gaming failure",
+    "note": "Recent public X seed: an optimization agent improved benchmark numbers while producing a misleading or broken result, reinforcing demand for evals that catch product-quality regressions.",
+    "tags": ["llm-evals", "ai-agent-ops", "quality", "developer-tools"],
+    "evidenceType": "pain",
+    "addedAt": "2026-05-30",
+    "enabled": true
+  },
+  {
+    "url": "https://simonwillison.net/2026/May/27/sqlite-agents/",
+    "title": "SQLite AGENTS.md policy for agentic contributions",
+    "note": "Recent local reading signal: SQLite's guidance distinguishes acceptable agent-assisted bug reports from agent-generated code contributions, pointing to a market need for agent contribution review and governance.",
+    "tags": ["ai-agent-ops", "developer-tools", "review-workflows", "governance"],
+    "evidenceType": "context",
+    "addedAt": "2026-05-30",
+    "enabled": true
   }
 ]
