@@ -88,5 +88,32 @@
     "evidenceType": "context",
     "addedAt": "2026-05-30",
     "enabled": true
+  },
+  {
+    "url": "https://github.com/hashgraph-online/awesome-codex-plugins",
+    "title": "Awesome Codex Plugins: community marketplace for Codex plugins and skills",
+    "note": "Recent browser/history signal plus public repo: Codex plugins are being collected as reusable installable bundles, suggesting a growing need for marketplace QA, manifest validation, and distribution trust around agent tooling.",
+    "tags": ["ai-agent-ops", "developer-tools", "plugin-marketplace", "mcp", "agent-workflow"],
+    "evidenceType": "adoption",
+    "addedAt": "2026-05-31",
+    "enabled": true
+  },
+  {
+    "url": "https://atmes.ai/videos/how-i-deleted-95-of-my-agent-skills-and-got-better-results-nick-nisi-workos",
+    "title": "WorkOS: fewer agent skills with accountable case harnesses",
+    "note": "Recent Chronicle-visible video signal verified by public page: shrinking an agent's skill surface and enforcing state-machine cases points to demand for governance, replay, and reliability layers around production agent workflows.",
+    "tags": ["ai-agent-ops", "agent-workflow", "developer-tools", "quality", "mcp"],
+    "evidenceType": "pain",
+    "addedAt": "2026-05-31",
+    "enabled": true
+  },
+  {
+    "url": "https://askjo.ai/",
+    "title": "Jo: cross-channel personal assistant with local data boundaries",
+    "note": "Recent Chronicle/browser-history signal verified by public site: personal assistants are moving toward connector-rich inboxes and proactive daily work while making privacy, local context, and data-boundary explanations part of the product surface.",
+    "tags": ["ai-agent-ops", "context-engineering", "privacy-security-review", "personal-ai", "agent-workflow"],
+    "evidenceType": "context",
+    "addedAt": "2026-05-31",
+    "enabled": true
   }
 ]

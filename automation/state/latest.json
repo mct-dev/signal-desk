@@ -1,32 +1,32 @@
 {
-  "date": "2026-05-30",
-  "generatedAt": "2026-05-30T16:04:58Z",
-  "dataGeneratedAt": "2026-05-30T16:04:11.567Z",
+  "date": "2026-05-31",
+  "generatedAt": "2026-05-31T21:15:42Z",
+  "dataGeneratedAt": "2026-05-31T21:14:14.828Z",
   "opportunityCount": 6,
   "highConfidenceCount": 6,
   "topBriefs": [
-    {
-      "id": "ai-agent-ops",
-      "title": "AI Agent Operations and Recovery",
-      "score": 90,
-      "confidence": "high",
-      "mentionCount": 50,
-      "sourceCount": 7
-    },
-    {
-      "id": "llm-evaluation-regression",
-      "title": "LLM Evaluation Regression Workflows",
-      "score": 90,
-      "confidence": "high",
-      "mentionCount": 33,
-      "sourceCount": 7
-    },
     {
       "id": "usage-billing-operations",
       "title": "Usage-Based Billing Operations",
       "score": 90,
       "confidence": "high",
       "mentionCount": 63,
+      "sourceCount": 8
+    },
+    {
+      "id": "llm-evaluation-regression",
+      "title": "LLM Evaluation Regression Workflows",
+      "score": 90,
+      "confidence": "high",
+      "mentionCount": 35,
+      "sourceCount": 7
+    },
+    {
+      "id": "ai-agent-ops",
+      "title": "AI Agent Operations and Recovery",
+      "score": 90,
+      "confidence": "high",
+      "mentionCount": 52,
       "sourceCount": 6
     },
     {
@@ -34,38 +34,39 @@
       "title": "Auth and SSO Integration Debugging",
       "score": 90,
       "confidence": "high",
-      "mentionCount": 53,
-      "sourceCount": 4
+      "mentionCount": 52,
+      "sourceCount": 6
     },
     {
-      "id": "soc2-evidence-automation",
-      "title": "SOC2 Evidence Automation for Small AI Vendors",
-      "score": 90,
+      "id": "privacy-security-review",
+      "title": "Lightweight Privacy and Security Review",
+      "score": 87,
       "confidence": "high",
-      "mentionCount": 30,
+      "mentionCount": 8,
       "sourceCount": 4
     },
     {
       "id": "data-pipeline-reliability",
       "title": "Data Pipeline Reliability for Lean Teams",
-      "score": 88,
+      "score": 86,
       "confidence": "high",
-      "mentionCount": 28,
+      "mentionCount": 26,
       "sourceCount": 3
     }
   ],
   "marketTrendLabels": [
-    "Agent work is becoming an operations problem",
-    "Agent governance is moving into developer workflow",
-    "Evaluation needs product judgment",
+    "Agent work is becoming an operations discipline",
+    "Agent ecosystems need distribution trust",
+    "Evaluation needs product judgment beyond metrics",
+    "Connector-rich assistants are becoming privacy products",
     "Usage pricing keeps creating back-office pain",
-    "Enterprise readiness is shifting earlier"
+    "Enterprise readiness still shifts earlier"
   ],
   "sourceAlerts": [
     {
       "source": "GDELT",
       "severity": "error",
-      "message": "fetch failed"
+      "message": "429 Too Many Requests"
     },
     {
       "source": "FRED",
@@ -74,9 +75,9 @@
     }
   ],
   "sourceChanges": [
-    "Added Addy Osmani orchestration-tax seed for agent supervision and review bottlenecks",
-    "Added Mitchell Hashimoto public X seed for agent benchmark-gaming and eval regression pain",
-    "Added Simon Willison SQLite AGENTS.md seed for agent contribution governance"
+    "Added Awesome Codex Plugins seed for plugin marketplace and distribution-trust signal",
+    "Added WorkOS/ATMES agent skill-surface seed for accountable case harnesses",
+    "Added Jo public site seed for cross-channel assistant privacy and local-context positioning"
   ],
   "verification": {
     "collect": "passed",
@@ -85,7 +86,7 @@
     "build": "passed"
   },
   "filesChanged": [
-    "automation/digests/2026-05-30.md",
+    "automation/digests/2026-05-31.md",
     "automation/state/latest.json",
     "public/data/signals.json",
     "public/data/history.json",
