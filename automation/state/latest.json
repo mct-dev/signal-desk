@@ -1,7 +1,7 @@
 {
   "date": "2026-06-01",
-  "generatedAt": "2026-06-01T18:56:04Z",
-  "dataGeneratedAt": "2026-06-01T18:55:20.856Z",
+  "generatedAt": "2026-06-01T18:59:29Z",
+  "dataGeneratedAt": "2026-06-01T18:58:02.079Z",
   "opportunityCount": 5,
   "highConfidenceCount": 5,
   "topBriefs": [
@@ -10,7 +10,7 @@
       "title": "Usage-Based Billing Operations",
       "score": 90,
       "confidence": "high",
-      "mentionCount": 62,
+      "mentionCount": 63,
       "sourceCount": 8
     },
     {
@@ -18,7 +18,7 @@
       "title": "LLM Evaluation Regression Workflows",
       "score": 90,
       "confidence": "high",
-      "mentionCount": 37,
+      "mentionCount": 35,
       "sourceCount": 8
     },
     {
@@ -26,7 +26,7 @@
       "title": "AI Agent Operations and Recovery",
       "score": 90,
       "confidence": "high",
-      "mentionCount": 51,
+      "mentionCount": 49,
       "sourceCount": 6
     },
     {
@@ -34,15 +34,15 @@
       "title": "Auth and SSO Integration Debugging",
       "score": 90,
       "confidence": "high",
-      "mentionCount": 49,
-      "sourceCount": 4
+      "mentionCount": 50,
+      "sourceCount": 5
     },
     {
       "id": "data-pipeline-reliability",
       "title": "Data Pipeline Reliability for Lean Teams",
       "score": 88,
       "confidence": "high",
-      "mentionCount": 26,
+      "mentionCount": 27,
       "sourceCount": 3
     }
   ],
@@ -58,11 +58,6 @@
       "source": "GDELT",
       "severity": "error",
       "message": "429 Too Many Requests"
-    },
-    {
-      "source": "FRED",
-      "severity": "skipped",
-      "message": "FRED_API_KEY not configured"
     }
   ],
   "sourceChanges": [
@@ -81,7 +76,8 @@
     "public/data/signals.json",
     "public/data/history.json"
   ],
-  "commitSha": null,
-  "commitShaNote": "The commit SHA is reported in the automation result after commit; embedding the same commit's SHA inside the committed state file is not possible without changing the SHA.",
+  "commitSha": "4d310ac4a6d8396423d8c958739adcfa0cda02f2",
+  "deployDataCommitSha": "e56f0e90d6717593e2ded373516b451d38749cb4",
+  "commitShaNote": "commitSha is the automation digest commit; deployDataCommitSha is the GitHub Actions data refresh commit created during Pages deploy.",
   "nextRecommendedValidationStep": "Interview teams using coding, browser, or workflow agents and ask where review, app context, recovery, and human handoff break."
 }
