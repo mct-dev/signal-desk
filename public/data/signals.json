@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-06-01T18:55:20.856Z",
+  "generatedAt": "2026-06-01T18:58:02.079Z",
   "cadence": "weekly",
   "summary": {
     "opportunityCount": 5,
     "evidenceCount": 50,
-    "sourceCount": 11,
+    "sourceCount": 12,
     "sourceAlerts": 1,
-    "skippedSources": 1,
+    "skippedSources": 0,
     "highConfidenceCount": 5
   },
   "sourceRuns": [
@@ -16,72 +16,72 @@
       "ok": true,
       "skipped": false,
       "itemCount": 12,
-      "fetchedAt": "2026-06-01T18:55:20.884Z",
-      "startedAt": "2026-06-01T18:55:20.857Z"
+      "fetchedAt": "2026-06-01T18:58:02.196Z",
+      "startedAt": "2026-06-01T18:58:02.088Z"
     },
     {
       "source": "Echo Sources",
       "ok": true,
       "skipped": false,
       "itemCount": 133,
-      "fetchedAt": "2026-06-01T18:55:25.100Z",
-      "startedAt": "2026-06-01T18:55:20.857Z"
+      "fetchedAt": "2026-06-01T18:58:03.820Z",
+      "startedAt": "2026-06-01T18:58:02.088Z"
     },
     {
       "source": "Hacker News",
       "ok": true,
       "skipped": false,
       "itemCount": 80,
-      "fetchedAt": "2026-06-01T18:55:23.043Z",
-      "startedAt": "2026-06-01T18:55:20.857Z"
+      "fetchedAt": "2026-06-01T18:58:02.959Z",
+      "startedAt": "2026-06-01T18:58:02.089Z"
     },
     {
       "source": "Reddit",
       "ok": true,
       "skipped": false,
       "itemCount": 140,
-      "fetchedAt": "2026-06-01T18:55:21.933Z",
-      "startedAt": "2026-06-01T18:55:20.873Z"
+      "fetchedAt": "2026-06-01T18:58:02.908Z",
+      "startedAt": "2026-06-01T18:58:02.155Z"
     },
     {
       "source": "GitHub Issues",
       "ok": true,
       "skipped": false,
       "itemCount": 119,
-      "fetchedAt": "2026-06-01T18:55:21.919Z",
-      "startedAt": "2026-06-01T18:55:20.875Z"
+      "fetchedAt": "2026-06-01T18:58:03.074Z",
+      "startedAt": "2026-06-01T18:58:02.162Z"
     },
     {
       "source": "npm",
       "ok": true,
       "skipped": false,
       "itemCount": 160,
-      "fetchedAt": "2026-06-01T18:55:21.584Z",
-      "startedAt": "2026-06-01T18:55:20.877Z"
+      "fetchedAt": "2026-06-01T18:58:02.988Z",
+      "startedAt": "2026-06-01T18:58:02.170Z"
     },
     {
       "source": "PyPI",
       "ok": true,
       "skipped": false,
       "itemCount": 100,
-      "fetchedAt": "2026-06-01T18:55:21.340Z",
-      "startedAt": "2026-06-01T18:55:20.879Z"
+      "fetchedAt": "2026-06-01T18:58:02.303Z",
+      "startedAt": "2026-06-01T18:58:02.174Z"
     },
     {
       "source": "GitHub Trending",
       "ok": true,
       "skipped": false,
       "itemCount": 20,
-      "fetchedAt": "2026-06-01T18:55:22.692Z",
-      "startedAt": "2026-06-01T18:55:20.880Z"
+      "fetchedAt": "2026-06-01T18:58:03.334Z",
+      "startedAt": "2026-06-01T18:58:02.174Z"
     },
     {
       "source": "GDELT",
       "ok": false,
       "skipped": false,
       "itemCount": 0,
-      "fetchedAt": "2026-06-01T18:55:27.677Z",
-      "startedAt": "2026-06-01T18:55:20.880Z",
+      "fetchedAt": "2026-06-01T18:58:09.162Z",
+      "startedAt": "2026-06-01T18:58:02.175Z",
       "error": "429 Too Many Requests"
     },
     {
@@ -89,33 +89,32 @@
       "ok": true,
       "skipped": false,
       "itemCount": 4,
-      "fetchedAt": "2026-06-01T18:55:21.930Z",
-      "startedAt": "2026-06-01T18:55:20.881Z"
+      "fetchedAt": "2026-06-01T18:58:03.061Z",
+      "startedAt": "2026-06-01T18:58:02.177Z"
     },
     {
       "source": "World Bank",
       "ok": true,
       "skipped": false,
       "itemCount": 4,
-      "fetchedAt": "2026-06-01T18:55:21.696Z",
-      "startedAt": "2026-06-01T18:55:20.881Z"
+      "fetchedAt": "2026-06-01T18:58:03.046Z",
+      "startedAt": "2026-06-01T18:58:02.178Z"
     },
     {
       "source": "BLS",
       "ok": true,
       "skipped": false,
       "itemCount": 6,
-      "fetchedAt": "2026-06-01T18:55:22.583Z",
-      "startedAt": "2026-06-01T18:55:20.882Z"
+      "fetchedAt": "2026-06-01T18:58:02.960Z",
+      "startedAt": "2026-06-01T18:58:02.179Z"
     },
     {
       "source": "FRED",
-      "ok": false,
-      "skipped": true,
-      "itemCount": 0,
-      "fetchedAt": "2026-06-01T18:55:20.882Z",
-      "startedAt": "2026-06-01T18:55:20.882Z",
-      "error": "FRED_API_KEY not configured"
+      "ok": true,
+      "skipped": false,
+      "itemCount": 6,
+      "fetchedAt": "2026-06-01T18:58:03.005Z",
+      "startedAt": "2026-06-01T18:58:02.181Z"
     }
   ],
   "opportunities": [
@@ -139,10 +138,29 @@
         "nicheSpecificity": 8,
         "macro": 7
       },
-      "mentionCount": 62,
+      "mentionCount": 63,
       "sourceCount": 8,
-      "whyNow": "62 current evidence items versus prior peak 65 across 8 source types, including 26 pain signals and 36 spend signals.",
+      "whyNow": "63 current evidence items versus prior peak 65 across 8 source types, including 27 pain signals and 37 spend signals.",
       "evidence": [
+        {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "Replace default Anthropic API-key usage with Codex subscription-backed gpt-5.5",
+          "url": "https://github.com/promptdriven/pdd/issues/1318",
+          "publishedAt": "2026-06-01T18:03:51Z",
+          "metrics": {
+            "comments": 36,
+            "score": 1
+          },
+          "painTerms": [
+            "manual",
+            "problem"
+          ],
+          "spendTerms": [
+            "subscription"
+          ]
+        },
         {
           "source": "Hacker News",
           "sourceType": "discussion",
@@ -326,27 +344,30 @@
           "spendTerms": [
             "invoice",
             "pricing"
-          ]
-        },
-        {
-          "source": "GitHub Issues",
-          "sourceType": "developer-pain",
-          "evidenceType": "spend",
-          "title": "Cloud: accurate usage-based billing metering",
-          "url": "https://github.com/MukundaKatta/karna/issues/614",
-          "publishedAt": "2026-05-29T19:53:55Z",
-          "metrics": {
-            "comments": 0,
-            "score": 1
-          },
-          "painTerms": [],
-          "spendTerms": [
-            "pay"
           ]
         }
       ],
       "spendSignals": [
         {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "Replace default Anthropic API-key usage with Codex subscription-backed gpt-5.5",
+          "url": "https://github.com/promptdriven/pdd/issues/1318",
+          "publishedAt": "2026-06-01T18:03:51Z",
+          "metrics": {
+            "comments": 36,
+            "score": 1
+          },
+          "painTerms": [
+            "manual",
+            "problem"
+          ],
+          "spendTerms": [
+            "subscription"
+          ]
+        },
+        {
           "source": "Hacker News",
           "sourceType": "discussion",
           "evidenceType": "spend",
@@ -529,22 +550,6 @@
           "spendTerms": [
             "invoice",
             "pricing"
-          ]
-        },
-        {
-          "source": "GitHub Issues",
-          "sourceType": "developer-pain",
-          "evidenceType": "spend",
-          "title": "Cloud: accurate usage-based billing metering",
-          "url": "https://github.com/MukundaKatta/karna/issues/614",
-          "publishedAt": "2026-05-29T19:53:55Z",
-          "metrics": {
-            "comments": 0,
-            "score": 1
-          },
-          "painTerms": [],
-          "spendTerms": [
-            "pay"
           ]
         }
       ],
@@ -605,9 +610,9 @@
         68,
         51,
         74,
-        95,
-        62,
-        70
+        96,
+        63,
+        71
       ]
     },
     {
@@ -630,9 +635,9 @@
         "nicheSpecificity": 8,
         "macro": 7
       },
-      "mentionCount": 37,
+      "mentionCount": 35,
       "sourceCount": 8,
-      "whyNow": "37 current evidence items versus prior peak 44 across 8 source types, including 15 pain signals and 9 spend signals.",
+      "whyNow": "35 current evidence items versus prior peak 44 across 8 source types, including 14 pain signals and 9 spend signals.",
       "evidence": [
         {
           "source": "GitHub Issues",
@@ -706,23 +711,6 @@
           "source": "GitHub Issues",
           "sourceType": "developer-pain",
           "evidenceType": "pain",
-          "title": "[aw] Red-Team Benchmark failed",
-          "url": "https://github.com/github/gh-aw-firewall/issues/4131",
-          "publishedAt": "2026-06-01T18:47:43Z",
-          "metrics": {
-            "comments": 0,
-            "score": 1
-          },
-          "painTerms": [
-            "bug",
-            "manual"
-          ],
-          "spendTerms": []
-        },
-        {
-          "source": "GitHub Issues",
-          "sourceType": "developer-pain",
-          "evidenceType": "pain",
           "title": "🏛️ AMA Evaluation Report — 2026-06-01",
           "url": "https://github.com/KietNhiTran/avis-prototype/issues/203",
           "publishedAt": "2026-06-01T16:37:49Z",
@@ -782,7 +770,7 @@
           "publishedAt": "2026-05-28T23:59:40.242Z",
           "metrics": {
             "search": "llm eval",
-            "score": 64914
+            "score": 64838
           },
           "painTerms": [],
           "spendTerms": []
@@ -796,7 +784,7 @@
           "publishedAt": "2026-04-24T08:21:07.075Z",
           "metrics": {
             "search": "llm eval",
-            "score": 11445
+            "score": 11439
           },
           "painTerms": [
             "flaky"
@@ -812,7 +800,21 @@
           "publishedAt": "2026-04-02T08:29:39.300Z",
           "metrics": {
             "search": "llm eval",
-            "score": 10658
+            "score": 10650
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "llm-eval-cli",
+          "url": "https://www.npmjs.com/package/llm-eval-cli",
+          "publishedAt": "2026-04-01T17:14:47.774Z",
+          "metrics": {
+            "search": "llm eval",
+            "score": 12618
           },
           "painTerms": [],
           "spendTerms": []
@@ -898,7 +900,7 @@
           "publishedAt": "2026-05-28T23:59:40.242Z",
           "metrics": {
             "search": "llm eval",
-            "score": 64914
+            "score": 64838
           },
           "painTerms": [],
           "spendTerms": []
@@ -912,7 +914,7 @@
           "publishedAt": "2026-04-24T08:21:07.075Z",
           "metrics": {
             "search": "llm eval",
-            "score": 11445
+            "score": 11439
           },
           "painTerms": [
             "flaky"
@@ -928,7 +930,7 @@
           "publishedAt": "2026-04-02T08:29:39.300Z",
           "metrics": {
             "search": "llm eval",
-            "score": 10658
+            "score": 10650
           },
           "painTerms": [],
           "spendTerms": []
@@ -942,7 +944,7 @@
           "publishedAt": "2026-04-01T17:14:47.774Z",
           "metrics": {
             "search": "llm eval",
-            "score": 12626
+            "score": 12618
           },
           "painTerms": [],
           "spendTerms": []
@@ -956,7 +958,7 @@
           "publishedAt": "2026-03-10T15:42:56.793Z",
           "metrics": {
             "search": "llm eval",
-            "score": 8092
+            "score": 8090
           },
           "painTerms": [],
           "spendTerms": []
@@ -970,7 +972,7 @@
           "publishedAt": "2026-02-07T06:00:57.021Z",
           "metrics": {
             "search": "llm eval",
-            "score": 8430
+            "score": 8428
           },
           "painTerms": [],
           "spendTerms": []
@@ -984,7 +986,7 @@
           "publishedAt": "2026-02-02T12:43:10.921Z",
           "metrics": {
             "search": "llm eval",
-            "score": 9406
+            "score": 9409
           },
           "painTerms": [],
           "spendTerms": []
@@ -992,31 +994,27 @@
       ],
       "macroContext": [
         {
-          "source": "BLS",
+          "source": "FRED",
           "sourceType": "macro",
           "evidenceType": "macro",
-          "title": "US unemployment rate",
-          "url": "https://data.bls.gov/timeseries/LNS14000000",
-          "publishedAt": "2026-04-01T00:00:00.000Z",
+          "title": "Initial unemployment claims",
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "publishedAt": "2026-05-23T00:00:00.000Z",
           "metrics": {
-            "year": 2026,
-            "period": "M04",
-            "value": 4.3
+            "value": 215000
           },
           "painTerms": [],
           "spendTerms": []
         },
         {
-          "source": "BLS",
+          "source": "FRED",
           "sourceType": "macro",
           "evidenceType": "macro",
-          "title": "Data processing and hosting employment",
-          "url": "https://data.bls.gov/timeseries/CES5051800001",
-          "publishedAt": "2026-04-01T00:00:00.000Z",
+          "title": "Initial unemployment claims",
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "publishedAt": "2026-05-16T00:00:00.000Z",
           "metrics": {
-            "year": 2026,
-            "period": "M04",
-            "value": 457.7
+            "value": 210000
           },
           "painTerms": [],
           "spendTerms": []
@@ -1031,10 +1029,10 @@
         44,
         46,
         32,
-        47,
-        61,
-        37,
-        45
+        46,
+        59,
+        35,
+        43
       ]
     },
     {
@@ -1057,9 +1055,9 @@
         "nicheSpecificity": 8,
         "macro": 7
       },
-      "mentionCount": 51,
+      "mentionCount": 49,
       "sourceCount": 6,
-      "whyNow": "51 current evidence items versus prior peak 92 across 6 source types, including 20 pain signals and 9 spend signals.",
+      "whyNow": "49 current evidence items versus prior peak 92 across 6 source types, including 19 pain signals and 9 spend signals.",
       "evidence": [
         {
           "source": "GitHub Issues",
@@ -1114,7 +1112,7 @@
           "publishedAt": "2026-06-01T14:49:37.698Z",
           "metrics": {
             "search": "rag",
-            "score": 20381
+            "score": 20380
           },
           "painTerms": [],
           "spendTerms": []
@@ -1128,7 +1126,7 @@
           "publishedAt": "2026-05-23T12:04:07.893Z",
           "metrics": {
             "search": "rag",
-            "score": 24103
+            "score": 24102
           },
           "painTerms": [],
           "spendTerms": []
@@ -1142,7 +1140,7 @@
           "publishedAt": "2026-05-23T05:51:11.499Z",
           "metrics": {
             "search": "mcp agent",
-            "score": 14527
+            "score": 14525
           },
           "painTerms": [],
           "spendTerms": []
@@ -1170,7 +1168,7 @@
           "publishedAt": "2026-05-13T03:43:15.236Z",
           "metrics": {
             "search": "mcp agent",
-            "score": 13154
+            "score": 13152
           },
           "painTerms": [],
           "spendTerms": []
@@ -1198,7 +1196,7 @@
           "publishedAt": "2026-04-14T16:29:54.339Z",
           "metrics": {
             "search": "mcp agent",
-            "score": 15860
+            "score": 15857
           },
           "painTerms": [],
           "spendTerms": []
@@ -1214,7 +1212,7 @@
           "publishedAt": "2026-06-01T14:49:37.698Z",
           "metrics": {
             "search": "rag",
-            "score": 20381
+            "score": 20380
           },
           "painTerms": [],
           "spendTerms": []
@@ -1228,7 +1226,7 @@
           "publishedAt": "2026-05-23T12:04:07.893Z",
           "metrics": {
             "search": "rag",
-            "score": 24103
+            "score": 24102
           },
           "painTerms": [],
           "spendTerms": []
@@ -1242,7 +1240,7 @@
           "publishedAt": "2026-05-23T05:51:11.499Z",
           "metrics": {
             "search": "mcp agent",
-            "score": 14527
+            "score": 14525
           },
           "painTerms": [],
           "spendTerms": []
@@ -1270,7 +1268,7 @@
           "publishedAt": "2026-05-13T03:43:15.236Z",
           "metrics": {
             "search": "mcp agent",
-            "score": 13154
+            "score": 13152
           },
           "painTerms": [],
           "spendTerms": []
@@ -1298,7 +1296,7 @@
           "publishedAt": "2026-04-14T16:29:54.339Z",
           "metrics": {
             "search": "mcp agent",
-            "score": 15860
+            "score": 15857
           },
           "painTerms": [],
           "spendTerms": []
@@ -1326,7 +1324,7 @@
           "publishedAt": "2026-03-20T02:09:41.885Z",
           "metrics": {
             "search": "mcp agent",
-            "score": 11930
+            "score": 11946
           },
           "painTerms": [
             "mess"
@@ -1342,7 +1340,7 @@
           "publishedAt": "2026-01-28T19:43:12.885Z",
           "metrics": {
             "search": "mcp agent",
-            "score": 20004
+            "score": 20002
           },
           "painTerms": [],
           "spendTerms": []
@@ -1350,31 +1348,27 @@
       ],
       "macroContext": [
         {
-          "source": "BLS",
+          "source": "FRED",
           "sourceType": "macro",
           "evidenceType": "macro",
-          "title": "US unemployment rate",
-          "url": "https://data.bls.gov/timeseries/LNS14000000",
-          "publishedAt": "2026-04-01T00:00:00.000Z",
+          "title": "Initial unemployment claims",
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "publishedAt": "2026-05-23T00:00:00.000Z",
           "metrics": {
-            "year": 2026,
-            "period": "M04",
-            "value": 4.3
+            "value": 215000
           },
           "painTerms": [],
           "spendTerms": []
         },
         {
-          "source": "BLS",
+          "source": "FRED",
           "sourceType": "macro",
           "evidenceType": "macro",
-          "title": "Data processing and hosting employment",
-          "url": "https://data.bls.gov/timeseries/CES5051800001",
-          "publishedAt": "2026-04-01T00:00:00.000Z",
+          "title": "Initial unemployment claims",
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "publishedAt": "2026-05-16T00:00:00.000Z",
           "metrics": {
-            "year": 2026,
-            "period": "M04",
-            "value": 457.7
+            "value": 210000
           },
           "painTerms": [],
           "spendTerms": []
@@ -1387,11 +1381,11 @@
       "sparkline": [
         92,
         97,
-        57,
-        83,
-        107,
-        51,
-        59
+        56,
+        82,
+        106,
+        49,
+        57
       ]
     },
     {
@@ -1414,9 +1408,9 @@
         "nicheSpecificity": 8,
         "macro": 7
       },
-      "mentionCount": 49,
-      "sourceCount": 4,
-      "whyNow": "49 current evidence items versus prior peak 116 across 4 source types, including 6 pain signals and 7 spend signals.",
+      "mentionCount": 50,
+      "sourceCount": 5,
+      "whyNow": "50 current evidence items versus prior peak 116 across 5 source types, including 6 pain signals and 7 spend signals.",
       "evidence": [
         {
           "source": "GitHub Issues",
@@ -1506,7 +1500,7 @@
           "publishedAt": "2026-06-01T09:51:19.314Z",
           "metrics": {
             "search": "auth0",
-            "score": 50573
+            "score": 50598
           },
           "painTerms": [],
           "spendTerms": []
@@ -1520,7 +1514,7 @@
           "publishedAt": "2026-06-01T09:27:56.758Z",
           "metrics": {
             "search": "auth0",
-            "score": 58040
+            "score": 58041
           },
           "painTerms": [],
           "spendTerms": []
@@ -1534,7 +1528,7 @@
           "publishedAt": "2026-06-01T07:24:43.455Z",
           "metrics": {
             "search": "auth0",
-            "score": 43561
+            "score": 43563
           },
           "painTerms": [],
           "spendTerms": []
@@ -1548,7 +1542,7 @@
           "publishedAt": "2026-06-01T05:42:52.993Z",
           "metrics": {
             "search": "auth0",
-            "score": 39350
+            "score": 39351
           },
           "painTerms": [],
           "spendTerms": []
@@ -1562,7 +1556,7 @@
           "publishedAt": "2026-05-28T17:41:19.806Z",
           "metrics": {
             "search": "auth0",
-            "score": 55908
+            "score": 55941
           },
           "painTerms": [],
           "spendTerms": []
@@ -1576,7 +1570,7 @@
           "publishedAt": "2026-05-28T09:07:43.946Z",
           "metrics": {
             "search": "auth0",
-            "score": 212577
+            "score": 212579
           },
           "painTerms": [],
           "spendTerms": []
@@ -1636,7 +1630,7 @@
           "publishedAt": "2026-06-01T09:51:19.314Z",
           "metrics": {
             "search": "auth0",
-            "score": 50573
+            "score": 50598
           },
           "painTerms": [],
           "spendTerms": []
@@ -1650,7 +1644,7 @@
           "publishedAt": "2026-06-01T09:27:56.758Z",
           "metrics": {
             "search": "auth0",
-            "score": 58040
+            "score": 58041
           },
           "painTerms": [],
           "spendTerms": []
@@ -1664,7 +1658,7 @@
           "publishedAt": "2026-06-01T07:24:43.455Z",
           "metrics": {
             "search": "auth0",
-            "score": 43561
+            "score": 43563
           },
           "painTerms": [],
           "spendTerms": []
@@ -1678,7 +1672,7 @@
           "publishedAt": "2026-06-01T05:42:52.993Z",
           "metrics": {
             "search": "auth0",
-            "score": 39350
+            "score": 39351
           },
           "painTerms": [],
           "spendTerms": []
@@ -1692,7 +1686,7 @@
           "publishedAt": "2026-05-28T17:41:19.806Z",
           "metrics": {
             "search": "auth0",
-            "score": 55908
+            "score": 55941
           },
           "painTerms": [],
           "spendTerms": []
@@ -1706,7 +1700,7 @@
           "publishedAt": "2026-05-28T09:07:43.946Z",
           "metrics": {
             "search": "auth0",
-            "score": 212577
+            "score": 212579
           },
           "painTerms": [],
           "spendTerms": []
@@ -1720,7 +1714,7 @@
           "publishedAt": "2026-05-22T13:23:18.091Z",
           "metrics": {
             "search": "auth0",
-            "score": 54612
+            "score": 54613
           },
           "painTerms": [],
           "spendTerms": []
@@ -1734,7 +1728,7 @@
           "publishedAt": "2026-05-22T10:18:19.862Z",
           "metrics": {
             "search": "auth0",
-            "score": 37427
+            "score": 37428
           },
           "painTerms": [],
           "spendTerms": []
@@ -1742,31 +1736,27 @@
       ],
       "macroContext": [
         {
-          "source": "BLS",
+          "source": "FRED",
           "sourceType": "macro",
           "evidenceType": "macro",
-          "title": "US unemployment rate",
-          "url": "https://data.bls.gov/timeseries/LNS14000000",
-          "publishedAt": "2026-04-01T00:00:00.000Z",
+          "title": "Initial unemployment claims",
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "publishedAt": "2026-05-23T00:00:00.000Z",
           "metrics": {
-            "year": 2026,
-            "period": "M04",
-            "value": 4.3
+            "value": 215000
           },
           "painTerms": [],
           "spendTerms": []
         },
         {
-          "source": "BLS",
+          "source": "FRED",
           "sourceType": "macro",
           "evidenceType": "macro",
-          "title": "Data processing and hosting employment",
-          "url": "https://data.bls.gov/timeseries/CES5051800001",
-          "publishedAt": "2026-04-01T00:00:00.000Z",
+          "title": "Initial unemployment claims",
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "publishedAt": "2026-05-16T00:00:00.000Z",
           "metrics": {
-            "year": 2026,
-            "period": "M04",
-            "value": 457.7
+            "value": 210000
           },
           "painTerms": [],
           "spendTerms": []
@@ -1782,9 +1772,9 @@
         122,
         66,
         96,
-        124,
-        49,
-        57
+        125,
+        50,
+        58
       ]
     },
     {
@@ -1807,9 +1797,9 @@
         "nicheSpecificity": 8,
         "macro": 7
       },
-      "mentionCount": 26,
+      "mentionCount": 27,
       "sourceCount": 3,
-      "whyNow": "26 current evidence items versus prior peak 93 across 3 source types, including 5 pain signals and 5 spend signals.",
+      "whyNow": "27 current evidence items versus prior peak 93 across 3 source types, including 5 pain signals and 5 spend signals.",
       "evidence": [
         {
           "source": "GitHub Issues",
@@ -1965,7 +1955,7 @@
           "publishedAt": "2026-05-28T20:20:36.334Z",
           "metrics": {
             "search": "dbt",
-            "score": 25008
+            "score": 25020
           },
           "painTerms": [],
           "spendTerms": []
@@ -2140,7 +2130,7 @@
           "publishedAt": "2026-05-28T20:20:36.334Z",
           "metrics": {
             "search": "dbt",
-            "score": 25008
+            "score": 25020
           },
           "painTerms": [],
           "spendTerms": []
@@ -2162,31 +2152,27 @@
       ],
       "macroContext": [
         {
-          "source": "BLS",
+          "source": "FRED",
           "sourceType": "macro",
           "evidenceType": "macro",
-          "title": "US unemployment rate",
-          "url": "https://data.bls.gov/timeseries/LNS14000000",
-          "publishedAt": "2026-04-01T00:00:00.000Z",
+          "title": "Initial unemployment claims",
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "publishedAt": "2026-05-23T00:00:00.000Z",
           "metrics": {
-            "year": 2026,
-            "period": "M04",
-            "value": 4.3
+            "value": 215000
           },
           "painTerms": [],
           "spendTerms": []
         },
         {
-          "source": "BLS",
+          "source": "FRED",
           "sourceType": "macro",
           "evidenceType": "macro",
-          "title": "Data processing and hosting employment",
-          "url": "https://data.bls.gov/timeseries/CES5051800001",
-          "publishedAt": "2026-04-01T00:00:00.000Z",
+          "title": "Initial unemployment claims",
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "publishedAt": "2026-05-16T00:00:00.000Z",
           "metrics": {
-            "year": 2026,
-            "period": "M04",
-            "value": 457.7
+            "value": 210000
           },
           "painTerms": [],
           "spendTerms": []
@@ -2201,10 +2187,10 @@
         93,
         98,
         48,
-        69,
-        89,
-        26,
-        33
+        70,
+        90,
+        27,
+        34
       ]
     }
   ]
