@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-06-01T18:58:02.079Z",
+  "generatedAt": "2026-06-01T19:58:44.190Z",
   "cadence": "weekly",
   "summary": {
     "opportunityCount": 5,
@@ -16,72 +16,72 @@
       "ok": true,
       "skipped": false,
       "itemCount": 12,
-      "fetchedAt": "2026-06-01T18:58:02.196Z",
-      "startedAt": "2026-06-01T18:58:02.088Z"
+      "fetchedAt": "2026-06-01T19:58:44.885Z",
+      "startedAt": "2026-06-01T19:58:44.305Z"
     },
     {
       "source": "Echo Sources",
       "ok": true,
       "skipped": false,
       "itemCount": 133,
-      "fetchedAt": "2026-06-01T18:58:03.820Z",
-      "startedAt": "2026-06-01T18:58:02.088Z"
+      "fetchedAt": "2026-06-01T19:58:47.006Z",
+      "startedAt": "2026-06-01T19:58:44.305Z"
     },
     {
       "source": "Hacker News",
       "ok": true,
       "skipped": false,
       "itemCount": 80,
-      "fetchedAt": "2026-06-01T18:58:02.959Z",
-      "startedAt": "2026-06-01T18:58:02.089Z"
+      "fetchedAt": "2026-06-01T19:58:45.402Z",
+      "startedAt": "2026-06-01T19:58:44.305Z"
     },
     {
       "source": "Reddit",
       "ok": true,
       "skipped": false,
       "itemCount": 140,
-      "fetchedAt": "2026-06-01T18:58:02.908Z",
-      "startedAt": "2026-06-01T18:58:02.155Z"
+      "fetchedAt": "2026-06-01T19:58:45.803Z",
+      "startedAt": "2026-06-01T19:58:44.809Z"
     },
     {
       "source": "GitHub Issues",
       "ok": true,
       "skipped": false,
-      "itemCount": 119,
-      "fetchedAt": "2026-06-01T18:58:03.074Z",
-      "startedAt": "2026-06-01T18:58:02.162Z"
+      "itemCount": 120,
+      "fetchedAt": "2026-06-01T19:58:46.137Z",
+      "startedAt": "2026-06-01T19:58:44.817Z"
     },
     {
       "source": "npm",
       "ok": true,
       "skipped": false,
       "itemCount": 160,
-      "fetchedAt": "2026-06-01T18:58:02.988Z",
-      "startedAt": "2026-06-01T18:58:02.170Z"
+      "fetchedAt": "2026-06-01T19:58:45.346Z",
+      "startedAt": "2026-06-01T19:58:44.826Z"
     },
     {
       "source": "PyPI",
       "ok": true,
       "skipped": false,
       "itemCount": 100,
-      "fetchedAt": "2026-06-01T18:58:02.303Z",
-      "startedAt": "2026-06-01T18:58:02.174Z"
+      "fetchedAt": "2026-06-01T19:58:45.134Z",
+      "startedAt": "2026-06-01T19:58:44.830Z"
     },
     {
       "source": "GitHub Trending",
       "ok": true,
       "skipped": false,
       "itemCount": 20,
-      "fetchedAt": "2026-06-01T18:58:03.334Z",
-      "startedAt": "2026-06-01T18:58:02.174Z"
+      "fetchedAt": "2026-06-01T19:58:46.227Z",
+      "startedAt": "2026-06-01T19:58:44.830Z"
     },
     {
       "source": "GDELT",
       "ok": false,
       "skipped": false,
       "itemCount": 0,
-      "fetchedAt": "2026-06-01T18:58:09.162Z",
-      "startedAt": "2026-06-01T18:58:02.175Z",
+      "fetchedAt": "2026-06-01T19:58:47.912Z",
+      "startedAt": "2026-06-01T19:58:44.831Z",
       "error": "429 Too Many Requests"
     },
     {
@@ -89,32 +89,32 @@
       "ok": true,
       "skipped": false,
       "itemCount": 4,
-      "fetchedAt": "2026-06-01T18:58:03.061Z",
-      "startedAt": "2026-06-01T18:58:02.177Z"
+      "fetchedAt": "2026-06-01T19:58:45.520Z",
+      "startedAt": "2026-06-01T19:58:44.833Z"
     },
     {
       "source": "World Bank",
       "ok": true,
       "skipped": false,
       "itemCount": 4,
-      "fetchedAt": "2026-06-01T18:58:03.046Z",
-      "startedAt": "2026-06-01T18:58:02.178Z"
+      "fetchedAt": "2026-06-01T19:58:45.344Z",
+      "startedAt": "2026-06-01T19:58:44.834Z"
     },
     {
       "source": "BLS",
       "ok": true,
       "skipped": false,
       "itemCount": 6,
-      "fetchedAt": "2026-06-01T18:58:02.960Z",
-      "startedAt": "2026-06-01T18:58:02.179Z"
+      "fetchedAt": "2026-06-01T19:58:45.593Z",
+      "startedAt": "2026-06-01T19:58:44.836Z"
     },
     {
       "source": "FRED",
       "ok": true,
       "skipped": false,
       "itemCount": 6,
-      "fetchedAt": "2026-06-01T18:58:03.005Z",
-      "startedAt": "2026-06-01T18:58:02.181Z"
+      "fetchedAt": "2026-06-01T19:58:45.528Z",
+      "startedAt": "2026-06-01T19:58:44.837Z"
     }
   ],
   "opportunities": [
@@ -140,7 +140,7 @@
       },
       "mentionCount": 63,
       "sourceCount": 8,
-      "whyNow": "63 current evidence items versus prior peak 65 across 8 source types, including 27 pain signals and 37 spend signals.",
+      "whyNow": "63 current evidence items versus prior peak 65 across 8 source types, including 27 pain signals and 36 spend signals.",
       "evidence": [
         {
           "source": "GitHub Issues",
@@ -150,7 +150,7 @@
           "url": "https://github.com/promptdriven/pdd/issues/1318",
           "publishedAt": "2026-06-01T18:03:51Z",
           "metrics": {
-            "comments": 36,
+            "comments": 38,
             "score": 1
           },
           "painTerms": [
@@ -169,8 +169,8 @@
           "url": "https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/",
           "publishedAt": "2026-05-31T17:02:23.000Z",
           "metrics": {
-            "score": 272,
-            "comments": 487,
+            "score": 275,
+            "comments": 489,
             "rank": 49
           },
           "painTerms": [],
@@ -356,7 +356,7 @@
           "url": "https://github.com/promptdriven/pdd/issues/1318",
           "publishedAt": "2026-06-01T18:03:51Z",
           "metrics": {
-            "comments": 36,
+            "comments": 38,
             "score": 1
           },
           "painTerms": [
@@ -375,8 +375,8 @@
           "url": "https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/",
           "publishedAt": "2026-05-31T17:02:23.000Z",
           "metrics": {
-            "score": 272,
-            "comments": 487,
+            "score": 275,
+            "comments": 489,
             "rank": 49
           },
           "painTerms": [],
@@ -671,9 +671,9 @@
           "url": "https://news.ycombinator.com/item?id=48356312",
           "publishedAt": "2026-06-01T13:05:02.000Z",
           "metrics": {
-            "score": 51,
-            "comments": 11,
-            "rank": 17
+            "score": 58,
+            "comments": 12,
+            "rank": 14
           },
           "painTerms": [
             "expensive",
@@ -685,6 +685,26 @@
             "expensive",
             "paid",
             "pricing"
+          ]
+        },
+        {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "[feat] prompt-snap validate — collecting-mode lint for a snapshots directory",
+          "url": "https://github.com/jt-mchorse/prompt-regression-suite/issues/49",
+          "publishedAt": "2026-06-01T19:26:09Z",
+          "metrics": {
+            "comments": 2,
+            "score": 1
+          },
+          "painTerms": [
+            "missing",
+            "pain",
+            "problem"
+          ],
+          "spendTerms": [
+            "contract"
           ]
         },
         {
@@ -706,28 +726,6 @@
             "missing"
           ],
           "spendTerms": []
-        },
-        {
-          "source": "GitHub Issues",
-          "sourceType": "developer-pain",
-          "evidenceType": "pain",
-          "title": "🏛️ AMA Evaluation Report — 2026-06-01",
-          "url": "https://github.com/KietNhiTran/avis-prototype/issues/203",
-          "publishedAt": "2026-06-01T16:37:49Z",
-          "metrics": {
-            "comments": 0,
-            "score": 1
-          },
-          "painTerms": [
-            "hard",
-            "mess",
-            "missing",
-            "pain",
-            "problem"
-          ],
-          "spendTerms": [
-            "buy"
-          ]
         },
         {
           "source": "GitHub Issues",
@@ -770,7 +768,7 @@
           "publishedAt": "2026-05-28T23:59:40.242Z",
           "metrics": {
             "search": "llm eval",
-            "score": 64838
+            "score": 64841
           },
           "painTerms": [],
           "spendTerms": []
@@ -784,7 +782,7 @@
           "publishedAt": "2026-04-24T08:21:07.075Z",
           "metrics": {
             "search": "llm eval",
-            "score": 11439
+            "score": 11432
           },
           "painTerms": [
             "flaky"
@@ -800,7 +798,7 @@
           "publishedAt": "2026-04-02T08:29:39.300Z",
           "metrics": {
             "search": "llm eval",
-            "score": 10650
+            "score": 10648
           },
           "painTerms": [],
           "spendTerms": []
@@ -814,7 +812,7 @@
           "publishedAt": "2026-04-01T17:14:47.774Z",
           "metrics": {
             "search": "llm eval",
-            "score": 12618
+            "score": 12617
           },
           "painTerms": [],
           "spendTerms": []
@@ -853,9 +851,9 @@
           "url": "https://news.ycombinator.com/item?id=48356312",
           "publishedAt": "2026-06-01T13:05:02.000Z",
           "metrics": {
-            "score": 51,
-            "comments": 11,
-            "rank": 17
+            "score": 58,
+            "comments": 12,
+            "rank": 14
           },
           "painTerms": [
             "expensive",
@@ -873,22 +871,20 @@
           "source": "GitHub Issues",
           "sourceType": "developer-pain",
           "evidenceType": "pain",
-          "title": "🏛️ AMA Evaluation Report — 2026-06-01",
-          "url": "https://github.com/KietNhiTran/avis-prototype/issues/203",
-          "publishedAt": "2026-06-01T16:37:49Z",
+          "title": "[feat] prompt-snap validate — collecting-mode lint for a snapshots directory",
+          "url": "https://github.com/jt-mchorse/prompt-regression-suite/issues/49",
+          "publishedAt": "2026-06-01T19:26:09Z",
           "metrics": {
-            "comments": 0,
+            "comments": 2,
             "score": 1
           },
           "painTerms": [
-            "hard",
-            "mess",
             "missing",
             "pain",
             "problem"
           ],
           "spendTerms": [
-            "buy"
+            "contract"
           ]
         },
         {
@@ -900,7 +896,7 @@
           "publishedAt": "2026-05-28T23:59:40.242Z",
           "metrics": {
             "search": "llm eval",
-            "score": 64838
+            "score": 64841
           },
           "painTerms": [],
           "spendTerms": []
@@ -914,7 +910,7 @@
           "publishedAt": "2026-04-24T08:21:07.075Z",
           "metrics": {
             "search": "llm eval",
-            "score": 11439
+            "score": 11432
           },
           "painTerms": [
             "flaky"
@@ -930,7 +926,7 @@
           "publishedAt": "2026-04-02T08:29:39.300Z",
           "metrics": {
             "search": "llm eval",
-            "score": 10650
+            "score": 10648
           },
           "painTerms": [],
           "spendTerms": []
@@ -944,7 +940,7 @@
           "publishedAt": "2026-04-01T17:14:47.774Z",
           "metrics": {
             "search": "llm eval",
-            "score": 12618
+            "score": 12617
           },
           "painTerms": [],
           "spendTerms": []
@@ -958,7 +954,7 @@
           "publishedAt": "2026-03-10T15:42:56.793Z",
           "metrics": {
             "search": "llm eval",
-            "score": 8090
+            "score": 8086
           },
           "painTerms": [],
           "spendTerms": []
@@ -972,7 +968,7 @@
           "publishedAt": "2026-02-07T06:00:57.021Z",
           "metrics": {
             "search": "llm eval",
-            "score": 8428
+            "score": 8427
           },
           "painTerms": [],
           "spendTerms": []
@@ -986,7 +982,7 @@
           "publishedAt": "2026-02-02T12:43:10.921Z",
           "metrics": {
             "search": "llm eval",
-            "score": 9409
+            "score": 9477
           },
           "painTerms": [],
           "spendTerms": []
@@ -1057,7 +1053,7 @@
       },
       "mentionCount": 49,
       "sourceCount": 6,
-      "whyNow": "49 current evidence items versus prior peak 92 across 6 source types, including 19 pain signals and 9 spend signals.",
+      "whyNow": "49 current evidence items versus prior peak 92 across 6 source types, including 20 pain signals and 10 spend signals.",
       "evidence": [
         {
           "source": "GitHub Issues",
@@ -1076,6 +1072,38 @@
             "workaround"
           ],
           "spendTerms": []
+        },
+        {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "Obsidian MCP bridge never receives OBSIDIAN_API_KEY (env-block ${VAR} not substituted) — blocks live agent vault writes",
+          "url": "https://github.com/eranroseman/memoria-vault/issues/39",
+          "publishedAt": "2026-06-01T19:50:59Z",
+          "metrics": {
+            "comments": 0,
+            "score": 1
+          },
+          "painTerms": [
+            "broken"
+          ],
+          "spendTerms": []
+        },
+        {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "spend",
+          "title": "Expose compact Linear-style MCP Task tools",
+          "url": "https://github.com/SteepleInc/church-task/issues/66",
+          "publishedAt": "2026-06-01T15:17:48Z",
+          "metrics": {
+            "comments": 6,
+            "score": 1
+          },
+          "painTerms": [],
+          "spendTerms": [
+            "contract"
+          ]
         },
         {
           "source": "Manual Signal",
@@ -1112,7 +1140,7 @@
           "publishedAt": "2026-06-01T14:49:37.698Z",
           "metrics": {
             "search": "rag",
-            "score": 20380
+            "score": 20357
           },
           "painTerms": [],
           "spendTerms": []
@@ -1126,7 +1154,7 @@
           "publishedAt": "2026-05-23T12:04:07.893Z",
           "metrics": {
             "search": "rag",
-            "score": 24102
+            "score": 24087
           },
           "painTerms": [],
           "spendTerms": []
@@ -1140,7 +1168,7 @@
           "publishedAt": "2026-05-23T05:51:11.499Z",
           "metrics": {
             "search": "mcp agent",
-            "score": 14525
+            "score": 14514
           },
           "painTerms": [],
           "spendTerms": []
@@ -1154,7 +1182,7 @@
           "publishedAt": "2026-05-13T07:20:56.035Z",
           "metrics": {
             "search": "mcp agent",
-            "score": 11241
+            "score": 11234
           },
           "painTerms": [],
           "spendTerms": []
@@ -1168,41 +1196,29 @@
           "publishedAt": "2026-05-13T03:43:15.236Z",
           "metrics": {
             "search": "mcp agent",
-            "score": 13152
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "prompt-clarifier-mcp",
-          "url": "https://www.npmjs.com/package/prompt-clarifier-mcp",
-          "publishedAt": "2026-05-07T07:09:20.325Z",
-          "metrics": {
-            "search": "mcp agent",
-            "score": 11539
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "@aiondadotcom/mcp-ssh",
-          "url": "https://www.npmjs.com/package/@aiondadotcom/mcp-ssh",
-          "publishedAt": "2026-04-14T16:29:54.339Z",
-          "metrics": {
-            "search": "mcp agent",
-            "score": 15857
+            "score": 13142
           },
           "painTerms": [],
           "spendTerms": []
         }
       ],
       "spendSignals": [
+        {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "spend",
+          "title": "Expose compact Linear-style MCP Task tools",
+          "url": "https://github.com/SteepleInc/church-task/issues/66",
+          "publishedAt": "2026-06-01T15:17:48Z",
+          "metrics": {
+            "comments": 6,
+            "score": 1
+          },
+          "painTerms": [],
+          "spendTerms": [
+            "contract"
+          ]
+        },
         {
           "source": "npm",
           "sourceType": "package",
@@ -1212,7 +1228,7 @@
           "publishedAt": "2026-06-01T14:49:37.698Z",
           "metrics": {
             "search": "rag",
-            "score": 20380
+            "score": 20357
           },
           "painTerms": [],
           "spendTerms": []
@@ -1226,7 +1242,7 @@
           "publishedAt": "2026-05-23T12:04:07.893Z",
           "metrics": {
             "search": "rag",
-            "score": 24102
+            "score": 24087
           },
           "painTerms": [],
           "spendTerms": []
@@ -1240,7 +1256,7 @@
           "publishedAt": "2026-05-23T05:51:11.499Z",
           "metrics": {
             "search": "mcp agent",
-            "score": 14525
+            "score": 14514
           },
           "painTerms": [],
           "spendTerms": []
@@ -1254,7 +1270,7 @@
           "publishedAt": "2026-05-13T07:20:56.035Z",
           "metrics": {
             "search": "mcp agent",
-            "score": 11241
+            "score": 11234
           },
           "painTerms": [],
           "spendTerms": []
@@ -1268,7 +1284,7 @@
           "publishedAt": "2026-05-13T03:43:15.236Z",
           "metrics": {
             "search": "mcp agent",
-            "score": 13152
+            "score": 13142
           },
           "painTerms": [],
           "spendTerms": []
@@ -1282,7 +1298,7 @@
           "publishedAt": "2026-05-07T07:09:20.325Z",
           "metrics": {
             "search": "mcp agent",
-            "score": 11539
+            "score": 11530
           },
           "painTerms": [],
           "spendTerms": []
@@ -1296,7 +1312,7 @@
           "publishedAt": "2026-04-14T16:29:54.339Z",
           "metrics": {
             "search": "mcp agent",
-            "score": 15857
+            "score": 15846
           },
           "painTerms": [],
           "spendTerms": []
@@ -1310,7 +1326,7 @@
           "publishedAt": "2026-03-23T19:56:42.393Z",
           "metrics": {
             "search": "mcp agent",
-            "score": 13724
+            "score": 13712
           },
           "painTerms": [],
           "spendTerms": []
@@ -1324,25 +1340,11 @@
           "publishedAt": "2026-03-20T02:09:41.885Z",
           "metrics": {
             "search": "mcp agent",
-            "score": 11946
+            "score": 12119
           },
           "painTerms": [
             "mess"
           ],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "terminator-mcp-agent",
-          "url": "https://www.npmjs.com/package/terminator-mcp-agent",
-          "publishedAt": "2026-01-28T19:43:12.885Z",
-          "metrics": {
-            "search": "mcp agent",
-            "score": 20002
-          },
-          "painTerms": [],
           "spendTerms": []
         }
       ],
@@ -1408,10 +1410,28 @@
         "nicheSpecificity": 8,
         "macro": 7
       },
-      "mentionCount": 50,
+      "mentionCount": 51,
       "sourceCount": 5,
-      "whyNow": "50 current evidence items versus prior peak 116 across 5 source types, including 6 pain signals and 7 spend signals.",
+      "whyNow": "51 current evidence items versus prior peak 116 across 5 source types, including 7 pain signals and 8 spend signals.",
       "evidence": [
+        {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "extract_url_auth does not percent-decode URL userinfo, breaking HTTP Basic auth for usernames containing '@' (e.g. SAML/SSO email identities)",
+          "url": "https://github.com/python/pymanager/issues/351",
+          "publishedAt": "2026-05-28T13:21:00Z",
+          "metrics": {
+            "comments": 3,
+            "score": 1
+          },
+          "painTerms": [
+            "bug"
+          ],
+          "spendTerms": [
+            "enterprise"
+          ]
+        },
         {
           "source": "GitHub Issues",
           "sourceType": "developer-pain",
@@ -1500,7 +1520,7 @@
           "publishedAt": "2026-06-01T09:51:19.314Z",
           "metrics": {
             "search": "auth0",
-            "score": 50598
+            "score": 50180
           },
           "painTerms": [],
           "spendTerms": []
@@ -1514,7 +1534,7 @@
           "publishedAt": "2026-06-01T09:27:56.758Z",
           "metrics": {
             "search": "auth0",
-            "score": 58041
+            "score": 58048
           },
           "painTerms": [],
           "spendTerms": []
@@ -1528,7 +1548,7 @@
           "publishedAt": "2026-06-01T07:24:43.455Z",
           "metrics": {
             "search": "auth0",
-            "score": 43563
+            "score": 43575
           },
           "painTerms": [],
           "spendTerms": []
@@ -1542,7 +1562,7 @@
           "publishedAt": "2026-06-01T05:42:52.993Z",
           "metrics": {
             "search": "auth0",
-            "score": 39351
+            "score": 39362
           },
           "painTerms": [],
           "spendTerms": []
@@ -1556,27 +1576,31 @@
           "publishedAt": "2026-05-28T17:41:19.806Z",
           "metrics": {
             "search": "auth0",
-            "score": 55941
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "auth0",
-          "url": "https://www.npmjs.com/package/auth0",
-          "publishedAt": "2026-05-28T09:07:43.946Z",
-          "metrics": {
-            "search": "auth0",
-            "score": 212579
+            "score": 55511
           },
           "painTerms": [],
           "spendTerms": []
         }
       ],
       "spendSignals": [
+        {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "extract_url_auth does not percent-decode URL userinfo, breaking HTTP Basic auth for usernames containing '@' (e.g. SAML/SSO email identities)",
+          "url": "https://github.com/python/pymanager/issues/351",
+          "publishedAt": "2026-05-28T13:21:00Z",
+          "metrics": {
+            "comments": 3,
+            "score": 1
+          },
+          "painTerms": [
+            "bug"
+          ],
+          "spendTerms": [
+            "enterprise"
+          ]
+        },
         {
           "source": "GitHub Issues",
           "sourceType": "developer-pain",
@@ -1630,7 +1654,7 @@
           "publishedAt": "2026-06-01T09:51:19.314Z",
           "metrics": {
             "search": "auth0",
-            "score": 50598
+            "score": 50180
           },
           "painTerms": [],
           "spendTerms": []
@@ -1644,7 +1668,7 @@
           "publishedAt": "2026-06-01T09:27:56.758Z",
           "metrics": {
             "search": "auth0",
-            "score": 58041
+            "score": 58048
           },
           "painTerms": [],
           "spendTerms": []
@@ -1658,7 +1682,7 @@
           "publishedAt": "2026-06-01T07:24:43.455Z",
           "metrics": {
             "search": "auth0",
-            "score": 43563
+            "score": 43575
           },
           "painTerms": [],
           "spendTerms": []
@@ -1672,7 +1696,7 @@
           "publishedAt": "2026-06-01T05:42:52.993Z",
           "metrics": {
             "search": "auth0",
-            "score": 39351
+            "score": 39362
           },
           "painTerms": [],
           "spendTerms": []
@@ -1686,7 +1710,7 @@
           "publishedAt": "2026-05-28T17:41:19.806Z",
           "metrics": {
             "search": "auth0",
-            "score": 55941
+            "score": 55511
           },
           "painTerms": [],
           "spendTerms": []
@@ -1700,7 +1724,7 @@
           "publishedAt": "2026-05-28T09:07:43.946Z",
           "metrics": {
             "search": "auth0",
-            "score": 212579
+            "score": 212577
           },
           "painTerms": [],
           "spendTerms": []
@@ -1714,21 +1738,7 @@
           "publishedAt": "2026-05-22T13:23:18.091Z",
           "metrics": {
             "search": "auth0",
-            "score": 54613
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "auth0-deploy-cli",
-          "url": "https://www.npmjs.com/package/auth0-deploy-cli",
-          "publishedAt": "2026-05-22T10:18:19.862Z",
-          "metrics": {
-            "search": "auth0",
-            "score": 37428
+            "score": 54621
           },
           "painTerms": [],
           "spendTerms": []
@@ -1770,11 +1780,11 @@
       "sparkline": [
         116,
         122,
-        66,
-        96,
+        67,
+        97,
         125,
-        50,
-        58
+        51,
+        59
       ]
     },
     {
@@ -1797,9 +1807,9 @@
         "nicheSpecificity": 8,
         "macro": 7
       },
-      "mentionCount": 27,
+      "mentionCount": 26,
       "sourceCount": 3,
-      "whyNow": "27 current evidence items versus prior peak 93 across 3 source types, including 5 pain signals and 5 spend signals.",
+      "whyNow": "26 current evidence items versus prior peak 93 across 3 source types, including 5 pain signals and 5 spend signals.",
       "evidence": [
         {
           "source": "GitHub Issues",
@@ -1913,7 +1923,7 @@
           "publishedAt": "2026-05-31T12:53:53.188Z",
           "metrics": {
             "search": "dbt",
-            "score": 24275
+            "score": 24281
           },
           "painTerms": [],
           "spendTerms": []
@@ -1927,7 +1937,7 @@
           "publishedAt": "2026-05-30T04:58:56.982Z",
           "metrics": {
             "search": "dbt",
-            "score": 23682
+            "score": 23688
           },
           "painTerms": [],
           "spendTerms": []
@@ -1941,7 +1951,7 @@
           "publishedAt": "2026-05-29T10:22:51.253Z",
           "metrics": {
             "search": "dbt",
-            "score": 39163
+            "score": 39170
           },
           "painTerms": [],
           "spendTerms": []
@@ -1955,7 +1965,7 @@
           "publishedAt": "2026-05-28T20:20:36.334Z",
           "metrics": {
             "search": "dbt",
-            "score": 25020
+            "score": 25144
           },
           "painTerms": [],
           "spendTerms": []
@@ -1969,7 +1979,7 @@
           "publishedAt": "2026-05-22T07:13:00.896Z",
           "metrics": {
             "search": "dbt",
-            "score": 36571
+            "score": 36575
           },
           "painTerms": [],
           "spendTerms": []
@@ -2088,7 +2098,7 @@
           "publishedAt": "2026-05-31T12:53:53.188Z",
           "metrics": {
             "search": "dbt",
-            "score": 24275
+            "score": 24281
           },
           "painTerms": [],
           "spendTerms": []
@@ -2102,7 +2112,7 @@
           "publishedAt": "2026-05-30T04:58:56.982Z",
           "metrics": {
             "search": "dbt",
-            "score": 23682
+            "score": 23688
           },
           "painTerms": [],
           "spendTerms": []
@@ -2116,7 +2126,7 @@
           "publishedAt": "2026-05-29T10:22:51.253Z",
           "metrics": {
             "search": "dbt",
-            "score": 39163
+            "score": 39170
           },
           "painTerms": [],
           "spendTerms": []
@@ -2130,7 +2140,7 @@
           "publishedAt": "2026-05-28T20:20:36.334Z",
           "metrics": {
             "search": "dbt",
-            "score": 25020
+            "score": 25144
           },
           "painTerms": [],
           "spendTerms": []
@@ -2144,7 +2154,7 @@
           "publishedAt": "2026-05-22T07:13:00.896Z",
           "metrics": {
             "search": "dbt",
-            "score": 36571
+            "score": 36575
           },
           "painTerms": [],
           "spendTerms": []
@@ -2187,10 +2197,10 @@
         93,
         98,
         48,
-        70,
-        90,
-        27,
-        34
+        69,
+        89,
+        26,
+        33
       ]
     }
   ]
