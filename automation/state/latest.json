@@ -1,16 +1,16 @@
 {
-  "date": "2026-05-31",
-  "generatedAt": "2026-05-31T21:15:42Z",
-  "dataGeneratedAt": "2026-05-31T21:14:14.828Z",
-  "opportunityCount": 6,
-  "highConfidenceCount": 6,
+  "date": "2026-06-01",
+  "generatedAt": "2026-06-01T18:56:04Z",
+  "dataGeneratedAt": "2026-06-01T18:55:20.856Z",
+  "opportunityCount": 5,
+  "highConfidenceCount": 5,
   "topBriefs": [
     {
       "id": "usage-billing-operations",
       "title": "Usage-Based Billing Operations",
       "score": 90,
       "confidence": "high",
-      "mentionCount": 63,
+      "mentionCount": 62,
       "sourceCount": 8
     },
     {
@@ -18,15 +18,15 @@
       "title": "LLM Evaluation Regression Workflows",
       "score": 90,
       "confidence": "high",
-      "mentionCount": 35,
-      "sourceCount": 7
+      "mentionCount": 37,
+      "sourceCount": 8
     },
     {
       "id": "ai-agent-ops",
       "title": "AI Agent Operations and Recovery",
       "score": 90,
       "confidence": "high",
-      "mentionCount": 52,
+      "mentionCount": 51,
       "sourceCount": 6
     },
     {
@@ -34,33 +34,24 @@
       "title": "Auth and SSO Integration Debugging",
       "score": 90,
       "confidence": "high",
-      "mentionCount": 52,
-      "sourceCount": 6
-    },
-    {
-      "id": "privacy-security-review",
-      "title": "Lightweight Privacy and Security Review",
-      "score": 87,
-      "confidence": "high",
-      "mentionCount": 8,
+      "mentionCount": 49,
       "sourceCount": 4
     },
     {
       "id": "data-pipeline-reliability",
       "title": "Data Pipeline Reliability for Lean Teams",
-      "score": 86,
+      "score": 88,
       "confidence": "high",
       "mentionCount": 26,
       "sourceCount": 3
     }
   ],
   "marketTrendLabels": [
-    "Agent work is becoming an operations discipline",
-    "Agent ecosystems need distribution trust",
-    "Evaluation needs product judgment beyond metrics",
-    "Connector-rich assistants are becoming privacy products",
     "Usage pricing keeps creating back-office pain",
-    "Enterprise readiness still shifts earlier"
+    "LLM quality work is shifting from benchmarks to regression operations",
+    "Agent work is becoming an operations discipline",
+    "Enterprise readiness still shifts earlier",
+    "Lean data teams need business-facing reliability guardrails"
   ],
   "sourceAlerts": [
     {
@@ -75,9 +66,8 @@
     }
   ],
   "sourceChanges": [
-    "Added Awesome Codex Plugins seed for plugin marketplace and distribution-trust signal",
-    "Added WorkOS/ATMES agent skill-surface seed for accountable case harnesses",
-    "Added Jo public site seed for cross-channel assistant privacy and local-context positioning"
+    "No manual seed links were added or edited",
+    "No echo-source queries or RSS feeds were added or edited"
   ],
   "verification": {
     "collect": "passed",
@@ -86,11 +76,10 @@
     "build": "passed"
   },
   "filesChanged": [
-    "automation/digests/2026-05-31.md",
+    "automation/digests/2026-06-01.md",
     "automation/state/latest.json",
     "public/data/signals.json",
-    "public/data/history.json",
-    "sources/manual-links.json"
+    "public/data/history.json"
   ],
   "commitSha": null,
   "commitShaNote": "The commit SHA is reported in the automation result after commit; embedding the same commit's SHA inside the committed state file is not possible without changing the SHA.",
