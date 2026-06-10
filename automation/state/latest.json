@@ -1,7 +1,7 @@
 {
   "date": "2026-06-10",
-  "generatedAt": "2026-06-10T13:04:45Z",
-  "dataGeneratedAt": "2026-06-10T13:03:22.314Z",
+  "generatedAt": "2026-06-10T18:12:00Z",
+  "dataGeneratedAt": "2026-06-10T18:09:17.904Z",
   "opportunityCount": 6,
   "highConfidenceCount": 5,
   "topBriefs": [
@@ -10,7 +10,7 @@
       "title": "LLM Evaluation Regression Workflows",
       "score": 90,
       "confidence": "high",
-      "mentionCount": 40,
+      "mentionCount": 39,
       "sourceCount": 8
     },
     {
@@ -18,7 +18,7 @@
       "title": "Usage-Based Billing Operations",
       "score": 90,
       "confidence": "high",
-      "mentionCount": 60,
+      "mentionCount": 61,
       "sourceCount": 7
     },
     {
@@ -26,15 +26,15 @@
       "title": "AI Agent Operations and Recovery",
       "score": 90,
       "confidence": "high",
-      "mentionCount": 56,
-      "sourceCount": 5
+      "mentionCount": 53,
+      "sourceCount": 6
     },
     {
       "id": "auth-sso-integration-debugging",
       "title": "Auth and SSO Integration Debugging",
       "score": 90,
       "confidence": "high",
-      "mentionCount": 51,
+      "mentionCount": 52,
       "sourceCount": 5
     },
     {
@@ -42,7 +42,7 @@
       "title": "SOC2 Evidence Automation for Small AI Vendors",
       "score": 90,
       "confidence": "high",
-      "mentionCount": 32,
+      "mentionCount": 30,
       "sourceCount": 4
     },
     {
@@ -50,35 +50,36 @@
       "title": "Data Pipeline Reliability for Lean Teams",
       "score": 86,
       "confidence": "medium",
-      "mentionCount": 27,
+      "mentionCount": 30,
       "sourceCount": 2
     }
   ],
   "marketTrendLabels": [
     "LLM quality work is shifting from benchmarks to regression operations",
     "Usage pricing keeps creating billing and revenue-ops reconciliation pain",
+    "Agent workflows need replay, human handoff, self-verification, and recovery controls",
     "Enterprise readiness is moving earlier for small AI and SaaS vendors",
-    "Agent workflows need replay, human handoff, auditability, and local context boundaries",
-    "Local-first AI memory is becoming a visible privacy and governance surface"
+    "Local-first AI memory remains a privacy and governance surface, but no new seed was added"
   ],
   "sourceAlerts": [
     {
       "source": "GDELT",
       "severity": "error",
       "message": "429 Too Many Requests"
+    },
+    {
+      "source": "FRED",
+      "severity": "skipped",
+      "message": "FRED_API_KEY not configured locally"
     }
   ],
-  "sourceChanges": [
-    "Added Screenpipe public repo as a local-first desktop memory seed",
-    "Added Reddit local AI memory pain echo search",
-    "Added HN local AI memory echo search"
-  ],
+  "sourceChanges": [],
   "sourceRunSummary": {
     "evidenceItemsCollected": 786,
     "compactEvidenceCount": 60,
-    "successfulSources": 12,
+    "successfulSources": 11,
     "sourceAlerts": 1,
-    "skippedSources": 0
+    "skippedSources": 1
   },
   "verification": {
     "collect": "passed",
@@ -90,12 +91,10 @@
     "automation/digests/2026-06-10.md",
     "automation/state/latest.json",
     "public/data/signals.json",
-    "public/data/history.json",
-    "sources/manual-links.json",
-    "sources/echo-sources.json"
+    "public/data/history.json"
   ],
-  "commitSha": "c8ffd3a33936ad90464e542a85454a5190d9360b",
-  "deployDataCommitSha": "0f0108aec3f3666c92c688357863a1024b44c1e2",
-  "commitShaNote": "commitSha is the automation digest commit; deployDataCommitSha is the GitHub Actions data refresh commit created during Pages deploy.",
-  "nextRecommendedValidationStep": "Interview teams shipping LLM features and usage-priced API products, then run a paired SOC2/privacy-review discovery sprint with small AI vendors."
+  "commitSha": null,
+  "deployDataCommitSha": null,
+  "commitShaNote": "commitSha and deployDataCommitSha are filled after the automation commit and any deploy-side data refresh are available.",
+  "nextRecommendedValidationStep": "Interview teams shipping LLM features and usage-priced API products, then run a paired SOC2/security-review discovery sprint with small AI vendors."
 }
