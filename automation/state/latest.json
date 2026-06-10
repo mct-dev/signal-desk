@@ -1,16 +1,16 @@
 {
   "date": "2026-06-10",
-  "generatedAt": "2026-06-10T18:12:00Z",
-  "dataGeneratedAt": "2026-06-10T18:09:17.904Z",
-  "opportunityCount": 6,
-  "highConfidenceCount": 5,
+  "generatedAt": "2026-06-10T19:13:53Z",
+  "dataGeneratedAt": "2026-06-10T18:18:21.433Z",
+  "opportunityCount": 7,
+  "highConfidenceCount": 6,
   "topBriefs": [
     {
       "id": "llm-evaluation-regression",
       "title": "LLM Evaluation Regression Workflows",
       "score": 90,
       "confidence": "high",
-      "mentionCount": 39,
+      "mentionCount": 40,
       "sourceCount": 8
     },
     {
@@ -18,23 +18,23 @@
       "title": "Usage-Based Billing Operations",
       "score": 90,
       "confidence": "high",
-      "mentionCount": 61,
+      "mentionCount": 60,
       "sourceCount": 7
-    },
-    {
-      "id": "ai-agent-ops",
-      "title": "AI Agent Operations and Recovery",
-      "score": 90,
-      "confidence": "high",
-      "mentionCount": 53,
-      "sourceCount": 6
     },
     {
       "id": "auth-sso-integration-debugging",
       "title": "Auth and SSO Integration Debugging",
       "score": 90,
       "confidence": "high",
-      "mentionCount": 52,
+      "mentionCount": 54,
+      "sourceCount": 6
+    },
+    {
+      "id": "ai-agent-ops",
+      "title": "AI Agent Operations and Recovery",
+      "score": 90,
+      "confidence": "high",
+      "mentionCount": 50,
       "sourceCount": 5
     },
     {
@@ -43,6 +43,14 @@
       "score": 90,
       "confidence": "high",
       "mentionCount": 30,
+      "sourceCount": 4
+    },
+    {
+      "id": "privacy-security-review",
+      "title": "Lightweight Privacy and Security Review",
+      "score": 87,
+      "confidence": "high",
+      "mentionCount": 17,
       "sourceCount": 4
     },
     {
@@ -57,35 +65,31 @@
   "marketTrendLabels": [
     "LLM quality work is shifting from benchmarks to regression operations",
     "Usage pricing keeps creating billing and revenue-ops reconciliation pain",
-    "Agent workflows need replay, human handoff, self-verification, and recovery controls",
     "Enterprise readiness is moving earlier for small AI and SaaS vendors",
-    "Local-first AI memory remains a privacy and governance surface, but no new seed was added"
+    "Agent workflows need replay, human handoff, self-verification, and recovery controls",
+    "Privacy and security review is converging with local-first AI memory and agent governance"
   ],
   "sourceAlerts": [
     {
       "source": "GDELT",
       "severity": "error",
       "message": "429 Too Many Requests"
-    },
-    {
-      "source": "FRED",
-      "severity": "skipped",
-      "message": "FRED_API_KEY not configured locally"
     }
   ],
   "sourceChanges": [],
   "sourceRunSummary": {
-    "evidenceItemsCollected": 786,
-    "compactEvidenceCount": 60,
-    "successfulSources": 11,
+    "evidenceItemsCollected": 792,
+    "compactEvidenceCount": 70,
+    "successfulSources": 12,
     "sourceAlerts": 1,
-    "skippedSources": 1
+    "skippedSources": 0
   },
   "verification": {
     "collect": "passed",
     "test": "passed",
     "lint": "passed",
-    "build": "passed"
+    "build": "passed",
+    "deployWorkflow": "passed"
   },
   "filesChanged": [
     "automation/digests/2026-06-10.md",
@@ -93,8 +97,8 @@
     "public/data/signals.json",
     "public/data/history.json"
   ],
-  "commitSha": null,
-  "deployDataCommitSha": null,
-  "commitShaNote": "commitSha and deployDataCommitSha are filled after the automation commit and any deploy-side data refresh are available.",
-  "nextRecommendedValidationStep": "Interview teams shipping LLM features and usage-priced API products, then run a paired SOC2/security-review discovery sprint with small AI vendors."
+  "commitSha": "13277b5ffc1c4c7c4dabaaf2b48c9d7c16f8a8c6",
+  "deployDataCommitSha": "4e69f0fef0fbc4058f1ce6a89f2db1d91ebbe284",
+  "commitShaNote": "commitSha is the automation digest commit; deployDataCommitSha is the GitHub Actions data refresh commit created during Pages deploy.",
+  "nextRecommendedValidationStep": "Interview teams shipping LLM features and usage-priced API products, then run a combined SOC2/privacy/security/SSO discovery sprint with small AI vendors."
 }
