@@ -1,7 +1,7 @@
 {
   "date": "2026-06-10",
-  "generatedAt": "2026-06-10T13:01:10Z",
-  "dataGeneratedAt": "2026-06-10T13:00:44.811Z",
+  "generatedAt": "2026-06-10T13:04:45Z",
+  "dataGeneratedAt": "2026-06-10T13:03:22.314Z",
   "opportunityCount": 6,
   "highConfidenceCount": 5,
   "topBriefs": [
@@ -11,7 +11,7 @@
       "score": 90,
       "confidence": "high",
       "mentionCount": 40,
-      "sourceCount": 9
+      "sourceCount": 8
     },
     {
       "id": "usage-billing-operations",
@@ -26,7 +26,7 @@
       "title": "AI Agent Operations and Recovery",
       "score": 90,
       "confidence": "high",
-      "mentionCount": 61,
+      "mentionCount": 56,
       "sourceCount": 5
     },
     {
@@ -42,7 +42,7 @@
       "title": "SOC2 Evidence Automation for Small AI Vendors",
       "score": 90,
       "confidence": "high",
-      "mentionCount": 31,
+      "mentionCount": 32,
       "sourceCount": 4
     },
     {
@@ -66,11 +66,6 @@
       "source": "GDELT",
       "severity": "error",
       "message": "429 Too Many Requests"
-    },
-    {
-      "source": "FRED",
-      "severity": "skipped",
-      "message": "FRED_API_KEY not configured"
     }
   ],
   "sourceChanges": [
@@ -81,9 +76,9 @@
   "sourceRunSummary": {
     "evidenceItemsCollected": 786,
     "compactEvidenceCount": 60,
-    "successfulSources": 11,
+    "successfulSources": 12,
     "sourceAlerts": 1,
-    "skippedSources": 1
+    "skippedSources": 0
   },
   "verification": {
     "collect": "passed",
@@ -99,7 +94,8 @@
     "sources/manual-links.json",
     "sources/echo-sources.json"
   ],
-  "commitSha": null,
-  "commitShaNote": "Current commit sha is reported in the automation result after commit; embedding the same commit hash in this file would require a follow-up metadata commit.",
+  "commitSha": "c8ffd3a33936ad90464e542a85454a5190d9360b",
+  "deployDataCommitSha": "0f0108aec3f3666c92c688357863a1024b44c1e2",
+  "commitShaNote": "commitSha is the automation digest commit; deployDataCommitSha is the GitHub Actions data refresh commit created during Pages deploy.",
   "nextRecommendedValidationStep": "Interview teams shipping LLM features and usage-priced API products, then run a paired SOC2/privacy-review discovery sprint with small AI vendors."
 }
