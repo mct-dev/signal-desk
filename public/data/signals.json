@@ -1,14 +1,14 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-06-10T18:09:17.904Z",
+  "generatedAt": "2026-06-10T18:18:21.433Z",
   "cadence": "weekly",
   "summary": {
-    "opportunityCount": 6,
-    "evidenceCount": 60,
-    "sourceCount": 11,
+    "opportunityCount": 7,
+    "evidenceCount": 70,
+    "sourceCount": 12,
     "sourceAlerts": 1,
-    "skippedSources": 1,
-    "highConfidenceCount": 5
+    "skippedSources": 0,
+    "highConfidenceCount": 6
   },
   "sourceRuns": [
     {
@@ -16,72 +16,72 @@
       "ok": true,
       "skipped": false,
       "itemCount": 13,
-      "fetchedAt": "2026-06-10T18:09:17.950Z",
-      "startedAt": "2026-06-10T18:09:17.908Z"
+      "fetchedAt": "2026-06-10T18:18:21.594Z",
+      "startedAt": "2026-06-10T18:18:21.443Z"
     },
     {
       "source": "Echo Sources",
       "ok": true,
       "skipped": false,
       "itemCount": 145,
-      "fetchedAt": "2026-06-10T18:09:22.479Z",
-      "startedAt": "2026-06-10T18:09:17.908Z"
+      "fetchedAt": "2026-06-10T18:18:23.930Z",
+      "startedAt": "2026-06-10T18:18:21.443Z"
     },
     {
       "source": "Hacker News",
       "ok": true,
       "skipped": false,
       "itemCount": 80,
-      "fetchedAt": "2026-06-10T18:09:20.046Z",
-      "startedAt": "2026-06-10T18:09:17.908Z"
+      "fetchedAt": "2026-06-10T18:18:22.302Z",
+      "startedAt": "2026-06-10T18:18:21.443Z"
     },
     {
       "source": "Reddit",
       "ok": true,
       "skipped": false,
       "itemCount": 140,
-      "fetchedAt": "2026-06-10T18:09:19.619Z",
-      "startedAt": "2026-06-10T18:09:17.941Z"
+      "fetchedAt": "2026-06-10T18:18:22.698Z",
+      "startedAt": "2026-06-10T18:18:21.552Z"
     },
     {
       "source": "GitHub Issues",
       "ok": true,
       "skipped": false,
       "itemCount": 117,
-      "fetchedAt": "2026-06-10T18:09:19.633Z",
-      "startedAt": "2026-06-10T18:09:17.943Z"
+      "fetchedAt": "2026-06-10T18:18:22.627Z",
+      "startedAt": "2026-06-10T18:18:21.560Z"
     },
     {
       "source": "npm",
       "ok": true,
       "skipped": false,
       "itemCount": 160,
-      "fetchedAt": "2026-06-10T18:09:19.129Z",
-      "startedAt": "2026-06-10T18:09:17.945Z"
+      "fetchedAt": "2026-06-10T18:18:21.948Z",
+      "startedAt": "2026-06-10T18:18:21.568Z"
     },
     {
       "source": "PyPI",
       "ok": true,
       "skipped": false,
       "itemCount": 100,
-      "fetchedAt": "2026-06-10T18:09:18.839Z",
-      "startedAt": "2026-06-10T18:09:17.946Z"
+      "fetchedAt": "2026-06-10T18:18:21.719Z",
+      "startedAt": "2026-06-10T18:18:21.572Z"
     },
     {
       "source": "GitHub Trending",
       "ok": true,
       "skipped": false,
       "itemCount": 17,
-      "fetchedAt": "2026-06-10T18:09:20.460Z",
-      "startedAt": "2026-06-10T18:09:17.947Z"
+      "fetchedAt": "2026-06-10T18:18:22.911Z",
+      "startedAt": "2026-06-10T18:18:21.573Z"
     },
     {
       "source": "GDELT",
       "ok": false,
       "skipped": false,
       "itemCount": 0,
-      "fetchedAt": "2026-06-10T18:09:26.348Z",
-      "startedAt": "2026-06-10T18:09:17.947Z",
+      "fetchedAt": "2026-06-10T18:18:29.029Z",
+      "startedAt": "2026-06-10T18:18:21.573Z",
       "error": "429 Too Many Requests"
     },
     {
@@ -89,33 +89,32 @@
       "ok": true,
       "skipped": false,
       "itemCount": 4,
-      "fetchedAt": "2026-06-10T18:09:19.867Z",
-      "startedAt": "2026-06-10T18:09:17.948Z"
+      "fetchedAt": "2026-06-10T18:18:22.515Z",
+      "startedAt": "2026-06-10T18:18:21.575Z"
     },
     {
       "source": "World Bank",
       "ok": true,
       "skipped": false,
       "itemCount": 4,
-      "fetchedAt": "2026-06-10T18:09:19.242Z",
-      "startedAt": "2026-06-10T18:09:17.948Z"
+      "fetchedAt": "2026-06-10T18:18:22.069Z",
+      "startedAt": "2026-06-10T18:18:21.577Z"
     },
     {
       "source": "BLS",
       "ok": true,
       "skipped": false,
       "itemCount": 6,
-      "fetchedAt": "2026-06-10T18:09:20.056Z",
-      "startedAt": "2026-06-10T18:09:17.949Z"
+      "fetchedAt": "2026-06-10T18:18:22.431Z",
+      "startedAt": "2026-06-10T18:18:21.578Z"
     },
     {
       "source": "FRED",
-      "ok": false,
-      "skipped": true,
-      "itemCount": 0,
-      "fetchedAt": "2026-06-10T18:09:17.949Z",
-      "startedAt": "2026-06-10T18:09:17.949Z",
-      "error": "FRED_API_KEY not configured"
+      "ok": true,
+      "skipped": false,
+      "itemCount": 6,
+      "fetchedAt": "2026-06-10T18:18:22.719Z",
+      "startedAt": "2026-06-10T18:18:21.579Z"
     }
   ],
   "opportunities": [
@@ -139,9 +138,9 @@
         "nicheSpecificity": 8,
         "macro": 7
       },
-      "mentionCount": 39,
+      "mentionCount": 40,
       "sourceCount": 8,
-      "whyNow": "39 current evidence items versus prior peak 44 across 8 source types, including 17 pain signals and 11 spend signals.",
+      "whyNow": "40 current evidence items versus prior peak 44 across 8 source types, including 18 pain signals and 12 spend signals.",
       "evidence": [
         {
           "source": "GitHub Issues",
@@ -180,6 +179,26 @@
           },
           "painTerms": [],
           "spendTerms": []
+        },
+        {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "[azure-ai-projects] Trace-based evaluation cannot evaluate agents that use MCP tools — reconstructed messages have null tool_call fields",
+          "url": "https://github.com/Azure/azure-sdk-for-python/issues/47384",
+          "publishedAt": "2026-06-07T16:57:20Z",
+          "metrics": {
+            "comments": 2,
+            "score": 1
+          },
+          "painTerms": [
+            "mess",
+            "problem",
+            "workaround"
+          ],
+          "spendTerms": [
+            "customer"
+          ]
         },
         {
           "source": "GitHub Issues",
@@ -257,7 +276,7 @@
           "publishedAt": "2026-06-10T12:40:15.970Z",
           "metrics": {
             "search": "llm eval",
-            "score": 9698
+            "score": 9699
           },
           "painTerms": [],
           "spendTerms": []
@@ -285,25 +304,9 @@
           "publishedAt": "2026-06-05T14:31:09.171Z",
           "metrics": {
             "search": "llm eval",
-            "score": 66787
+            "score": 66859
           },
           "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "@mukundakatta/eval-flake-detector",
-          "url": "https://www.npmjs.com/package/@mukundakatta/eval-flake-detector",
-          "publishedAt": "2026-04-24T08:21:07.075Z",
-          "metrics": {
-            "search": "llm eval",
-            "score": 10457
-          },
-          "painTerms": [
-            "flaky"
-          ],
           "spendTerms": []
         }
       ],
@@ -330,6 +333,26 @@
             "contract",
             "enterprise",
             "pricing"
+          ]
+        },
+        {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "[azure-ai-projects] Trace-based evaluation cannot evaluate agents that use MCP tools — reconstructed messages have null tool_call fields",
+          "url": "https://github.com/Azure/azure-sdk-for-python/issues/47384",
+          "publishedAt": "2026-06-07T16:57:20Z",
+          "metrics": {
+            "comments": 2,
+            "score": 1
+          },
+          "painTerms": [
+            "mess",
+            "problem",
+            "workaround"
+          ],
+          "spendTerms": [
+            "customer"
           ]
         },
         {
@@ -379,7 +402,7 @@
           "publishedAt": "2026-06-10T12:40:15.970Z",
           "metrics": {
             "search": "llm eval",
-            "score": 9698
+            "score": 9699
           },
           "painTerms": [],
           "spendTerms": []
@@ -407,7 +430,7 @@
           "publishedAt": "2026-06-05T14:31:09.171Z",
           "metrics": {
             "search": "llm eval",
-            "score": 66787
+            "score": 66859
           },
           "painTerms": [],
           "spendTerms": []
@@ -455,49 +478,31 @@
           },
           "painTerms": [],
           "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "mongodb-assistant-eval",
-          "url": "https://www.npmjs.com/package/mongodb-assistant-eval",
-          "publishedAt": "2026-03-10T15:42:56.793Z",
-          "metrics": {
-            "search": "llm eval",
-            "score": 8186
-          },
-          "painTerms": [],
-          "spendTerms": []
         }
       ],
       "macroContext": [
         {
-          "source": "BLS",
+          "source": "FRED",
           "sourceType": "macro",
           "evidenceType": "macro",
-          "title": "US unemployment rate",
-          "url": "https://data.bls.gov/timeseries/LNS14000000",
-          "publishedAt": "2026-05-01T00:00:00.000Z",
+          "title": "Initial unemployment claims",
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "publishedAt": "2026-05-30T00:00:00.000Z",
           "metrics": {
-            "year": 2026,
-            "period": "M05",
-            "value": 4.3
+            "value": 225000
           },
           "painTerms": [],
           "spendTerms": []
         },
         {
-          "source": "BLS",
+          "source": "FRED",
           "sourceType": "macro",
           "evidenceType": "macro",
-          "title": "Data processing and hosting employment",
-          "url": "https://data.bls.gov/timeseries/CES5051800001",
-          "publishedAt": "2026-05-01T00:00:00.000Z",
+          "title": "Initial unemployment claims",
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "publishedAt": "2026-05-23T00:00:00.000Z",
           "metrics": {
-            "year": 2026,
-            "period": "M05",
-            "value": 466.1
+            "value": 212000
           },
           "painTerms": [],
           "spendTerms": []
@@ -511,11 +516,11 @@
       "sparkline": [
         44,
         46,
-        33,
-        48,
-        62,
-        39,
-        47
+        34,
+        49,
+        63,
+        40,
+        48
       ]
     },
     {
@@ -538,9 +543,9 @@
         "nicheSpecificity": 8,
         "macro": 7
       },
-      "mentionCount": 61,
+      "mentionCount": 60,
       "sourceCount": 7,
-      "whyNow": "61 current evidence items versus prior peak 65 across 7 source types, including 25 pain signals and 33 spend signals.",
+      "whyNow": "60 current evidence items versus prior peak 65 across 7 source types, including 25 pain signals and 32 spend signals.",
       "evidence": [
         {
           "source": "Hacker News",
@@ -552,7 +557,7 @@
           "metrics": {
             "score": 52,
             "comments": 16,
-            "rank": 71
+            "rank": 73
           },
           "painTerms": [
             "expensive",
@@ -565,23 +570,6 @@
             "expensive",
             "pricing",
             "revenue"
-          ]
-        },
-        {
-          "source": "GitHub Issues",
-          "sourceType": "developer-pain",
-          "evidenceType": "spend",
-          "title": "Android 1.3.45: billing_product_catalog_status empty (8 users, 2026-06-02)",
-          "url": "https://github.com/IgorGanapolsky/Random-Timer/issues/1684",
-          "publishedAt": "2026-06-02T20:32:56Z",
-          "metrics": {
-            "comments": 41,
-            "score": 1
-          },
-          "painTerms": [],
-          "spendTerms": [
-            "pay",
-            "subscription"
           ]
         },
         {
@@ -752,6 +740,21 @@
           ],
           "spendTerms": [
             "revenue"
+          ]
+        },
+        {
+          "source": "Reddit",
+          "sourceType": "discussion",
+          "evidenceType": "pain",
+          "title": "AI pricing is getting harder to explain to normal users",
+          "url": "https://www.reddit.com/r/SaaS/comments/1u27xn9/ai_pricing_is_getting_harder_to_explain_to_normal/",
+          "publishedAt": "2026-06-10T16:55:57+00:00",
+          "metrics": {},
+          "painTerms": [
+            "hard"
+          ],
+          "spendTerms": [
+            "pricing"
           ]
         }
       ],
@@ -766,7 +769,7 @@
           "metrics": {
             "score": 52,
             "comments": 16,
-            "rank": 71
+            "rank": 73
           },
           "painTerms": [
             "expensive",
@@ -779,23 +782,6 @@
             "expensive",
             "pricing",
             "revenue"
-          ]
-        },
-        {
-          "source": "GitHub Issues",
-          "sourceType": "developer-pain",
-          "evidenceType": "spend",
-          "title": "Android 1.3.45: billing_product_catalog_status empty (8 users, 2026-06-02)",
-          "url": "https://github.com/IgorGanapolsky/Random-Timer/issues/1684",
-          "publishedAt": "2026-06-02T20:32:56Z",
-          "metrics": {
-            "comments": 41,
-            "score": 1
-          },
-          "painTerms": [],
-          "spendTerms": [
-            "pay",
-            "subscription"
           ]
         },
         {
@@ -966,6 +952,21 @@
           ],
           "spendTerms": [
             "revenue"
+          ]
+        },
+        {
+          "source": "Reddit",
+          "sourceType": "discussion",
+          "evidenceType": "pain",
+          "title": "AI pricing is getting harder to explain to normal users",
+          "url": "https://www.reddit.com/r/SaaS/comments/1u27xn9/ai_pricing_is_getting_harder_to_explain_to_normal/",
+          "publishedAt": "2026-06-10T16:55:57+00:00",
+          "metrics": {},
+          "painTerms": [
+            "hard"
+          ],
+          "spendTerms": [
+            "pricing"
           ]
         }
       ],
@@ -1026,365 +1027,9 @@
         68,
         50,
         73,
-        95,
-        61,
-        69
-      ]
-    },
-    {
-      "id": "ai-agent-ops",
-      "title": "AI Agent Operations and Recovery",
-      "customer": "Teams using browser or workflow agents in production",
-      "pain": "Agent workflows fail in ambiguous states and teams need recovery, audit, and handoff controls.",
-      "currentWorkaround": "Manual babysitting, logs, screenshots, and rerunning failed tasks from scratch.",
-      "wedge": "An operations layer for agent runs: checkpoints, human handoff, replay, and failure taxonomies.",
-      "businessModel": "Usage-based SaaS priced by agent run volume.",
-      "validationStep": "Interview teams running agents against real browsers, support queues, or internal workflows.",
-      "score": 90,
-      "confidence": "high",
-      "isFallback": false,
-      "scoreBreakdown": {
-        "pain": 30,
-        "spend": 20,
-        "recurrence": 15,
-        "sourceQuality": 10,
-        "nicheSpecificity": 8,
-        "macro": 7
-      },
-      "mentionCount": 53,
-      "sourceCount": 6,
-      "whyNow": "53 current evidence items versus prior peak 92 across 6 source types, including 22 pain signals and 9 spend signals.",
-      "evidence": [
-        {
-          "source": "GitHub Issues",
-          "sourceType": "developer-pain",
-          "evidenceType": "pain",
-          "title": "Expose kanban-doctor as an MCP tool - agents must be able to verify health themselves",
-          "url": "https://github.com/earlyprototype/kanbanger-partymix/issues/23",
-          "publishedAt": "2026-06-10T18:04:33Z",
-          "metrics": {
-            "comments": 0,
-            "score": 1
-          },
-          "painTerms": [
-            "friction",
-            "manual"
-          ],
-          "spendTerms": []
-        },
-        {
-          "source": "Manual Signal",
-          "sourceType": "curated-link",
-          "evidenceType": "pain",
-          "title": "WorkOS: fewer agent skills with accountable case harnesses",
-          "url": "https://atmes.ai/videos/how-i-deleted-95-of-my-agent-skills-and-got-better-results-nick-nisi-workos",
-          "publishedAt": "2026-05-31T00:00:00.000Z",
-          "metrics": {
-            "curated": true
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "Manual Signal",
-          "sourceType": "curated-link",
-          "evidenceType": "pain",
-          "title": "Perplexity Bumblebee: developer endpoint scanner for AI tool configs",
-          "url": "https://www.perplexity.ai/hub/blog/perplexity-is-open-sourcing-bumblebee",
-          "publishedAt": "2026-05-28T00:00:00.000Z",
-          "metrics": {
-            "curated": true
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "@mcp-abap-adt/llm-agent-rag",
-          "url": "https://www.npmjs.com/package/@mcp-abap-adt/llm-agent-rag",
-          "publishedAt": "2026-06-10T07:37:32.745Z",
-          "metrics": {
-            "search": "rag",
-            "score": 22344
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "mcp-local-rag",
-          "url": "https://www.npmjs.com/package/mcp-local-rag",
-          "publishedAt": "2026-06-07T17:10:42.437Z",
-          "metrics": {
-            "search": "rag",
-            "score": 25327
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "balchemy",
-          "url": "https://www.npmjs.com/package/balchemy",
-          "publishedAt": "2026-06-06T14:27:03.887Z",
-          "metrics": {
-            "search": "mcp agent",
-            "score": 17572
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "@a1ua/mcp-hub",
-          "url": "https://www.npmjs.com/package/@a1ua/mcp-hub",
-          "publishedAt": "2026-05-13T07:20:56.035Z",
-          "metrics": {
-            "search": "mcp agent",
-            "score": 12141
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "agent-commerce-mcp",
-          "url": "https://www.npmjs.com/package/agent-commerce-mcp",
-          "publishedAt": "2026-05-13T03:43:15.236Z",
-          "metrics": {
-            "search": "mcp agent",
-            "score": 14373
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "prompt-clarifier-mcp",
-          "url": "https://www.npmjs.com/package/prompt-clarifier-mcp",
-          "publishedAt": "2026-05-07T07:09:20.325Z",
-          "metrics": {
-            "search": "mcp agent",
-            "score": 12019
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "@aiondadotcom/mcp-ssh",
-          "url": "https://www.npmjs.com/package/@aiondadotcom/mcp-ssh",
-          "publishedAt": "2026-04-14T16:29:54.339Z",
-          "metrics": {
-            "search": "mcp agent",
-            "score": 17139
-          },
-          "painTerms": [],
-          "spendTerms": []
-        }
-      ],
-      "spendSignals": [
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "@mcp-abap-adt/llm-agent-rag",
-          "url": "https://www.npmjs.com/package/@mcp-abap-adt/llm-agent-rag",
-          "publishedAt": "2026-06-10T07:37:32.745Z",
-          "metrics": {
-            "search": "rag",
-            "score": 22344
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "mcp-local-rag",
-          "url": "https://www.npmjs.com/package/mcp-local-rag",
-          "publishedAt": "2026-06-07T17:10:42.437Z",
-          "metrics": {
-            "search": "rag",
-            "score": 25327
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "balchemy",
-          "url": "https://www.npmjs.com/package/balchemy",
-          "publishedAt": "2026-06-06T14:27:03.887Z",
-          "metrics": {
-            "search": "mcp agent",
-            "score": 17572
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "@a1ua/mcp-hub",
-          "url": "https://www.npmjs.com/package/@a1ua/mcp-hub",
-          "publishedAt": "2026-05-13T07:20:56.035Z",
-          "metrics": {
-            "search": "mcp agent",
-            "score": 12141
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "agent-commerce-mcp",
-          "url": "https://www.npmjs.com/package/agent-commerce-mcp",
-          "publishedAt": "2026-05-13T03:43:15.236Z",
-          "metrics": {
-            "search": "mcp agent",
-            "score": 14373
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "prompt-clarifier-mcp",
-          "url": "https://www.npmjs.com/package/prompt-clarifier-mcp",
-          "publishedAt": "2026-05-07T07:09:20.325Z",
-          "metrics": {
-            "search": "mcp agent",
-            "score": 12019
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "@aiondadotcom/mcp-ssh",
-          "url": "https://www.npmjs.com/package/@aiondadotcom/mcp-ssh",
-          "publishedAt": "2026-04-14T16:29:54.339Z",
-          "metrics": {
-            "search": "mcp agent",
-            "score": 17139
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "mcp-agent-trace-inspector",
-          "url": "https://www.npmjs.com/package/mcp-agent-trace-inspector",
-          "publishedAt": "2026-03-23T19:56:42.393Z",
-          "metrics": {
-            "search": "mcp agent",
-            "score": 12238
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "@mallocbaal/mcp-agent-framework-ts",
-          "url": "https://www.npmjs.com/package/@mallocbaal/mcp-agent-framework-ts",
-          "publishedAt": "2026-03-20T02:09:41.885Z",
-          "metrics": {
-            "search": "mcp agent",
-            "score": 12583
-          },
-          "painTerms": [
-            "mess"
-          ],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "terminator-mcp-agent",
-          "url": "https://www.npmjs.com/package/terminator-mcp-agent",
-          "publishedAt": "2026-01-28T19:43:12.885Z",
-          "metrics": {
-            "search": "mcp agent",
-            "score": 22232
-          },
-          "painTerms": [],
-          "spendTerms": []
-        }
-      ],
-      "macroContext": [
-        {
-          "source": "BLS",
-          "sourceType": "macro",
-          "evidenceType": "macro",
-          "title": "US unemployment rate",
-          "url": "https://data.bls.gov/timeseries/LNS14000000",
-          "publishedAt": "2026-05-01T00:00:00.000Z",
-          "metrics": {
-            "year": 2026,
-            "period": "M05",
-            "value": 4.3
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "BLS",
-          "sourceType": "macro",
-          "evidenceType": "macro",
-          "title": "Data processing and hosting employment",
-          "url": "https://data.bls.gov/timeseries/CES5051800001",
-          "publishedAt": "2026-05-01T00:00:00.000Z",
-          "metrics": {
-            "year": 2026,
-            "period": "M05",
-            "value": 466.1
-          },
-          "painTerms": [],
-          "spendTerms": []
-        }
-      ],
-      "risks": [
-        "Platform vendors may add run management",
-        "Reliability problems may be too application-specific"
-      ],
-      "sparkline": [
-        92,
-        97,
-        58,
-        84,
-        109,
-        53,
-        61
+        94,
+        60,
+        68
       ]
     },
     {
@@ -1407,9 +1052,9 @@
         "nicheSpecificity": 8,
         "macro": 7
       },
-      "mentionCount": 52,
-      "sourceCount": 5,
-      "whyNow": "52 current evidence items versus prior peak 116 across 5 source types, including 8 pain signals and 8 spend signals.",
+      "mentionCount": 54,
+      "sourceCount": 6,
+      "whyNow": "54 current evidence items versus prior peak 116 across 6 source types, including 8 pain signals and 8 spend signals.",
       "evidence": [
         {
           "source": "GitHub Issues",
@@ -1513,7 +1158,7 @@
           "publishedAt": "2026-06-10T17:36:27.618Z",
           "metrics": {
             "search": "saml",
-            "score": 30336
+            "score": 30337
           },
           "painTerms": [],
           "spendTerms": []
@@ -1527,7 +1172,7 @@
           "publishedAt": "2026-06-10T16:55:40.960Z",
           "metrics": {
             "search": "auth0",
-            "score": 56048
+            "score": 56051
           },
           "painTerms": [],
           "spendTerms": []
@@ -1541,7 +1186,7 @@
           "publishedAt": "2026-06-10T10:34:05.724Z",
           "metrics": {
             "search": "auth0",
-            "score": 55043
+            "score": 55046
           },
           "painTerms": [],
           "spendTerms": []
@@ -1555,7 +1200,7 @@
           "publishedAt": "2026-06-10T08:53:10.888Z",
           "metrics": {
             "search": "auth0",
-            "score": 52176
+            "score": 52174
           },
           "painTerms": [],
           "spendTerms": []
@@ -1569,7 +1214,7 @@
           "publishedAt": "2026-06-05T10:05:56.915Z",
           "metrics": {
             "search": "auth0",
-            "score": 37717
+            "score": 37719
           },
           "painTerms": [],
           "spendTerms": []
@@ -1624,7 +1269,7 @@
           "publishedAt": "2026-06-10T17:36:27.618Z",
           "metrics": {
             "search": "saml",
-            "score": 30336
+            "score": 30337
           },
           "painTerms": [],
           "spendTerms": []
@@ -1638,7 +1283,7 @@
           "publishedAt": "2026-06-10T16:55:40.960Z",
           "metrics": {
             "search": "auth0",
-            "score": 56048
+            "score": 56051
           },
           "painTerms": [],
           "spendTerms": []
@@ -1652,7 +1297,7 @@
           "publishedAt": "2026-06-10T10:34:05.724Z",
           "metrics": {
             "search": "auth0",
-            "score": 55043
+            "score": 55046
           },
           "painTerms": [],
           "spendTerms": []
@@ -1666,7 +1311,7 @@
           "publishedAt": "2026-06-10T08:53:10.888Z",
           "metrics": {
             "search": "auth0",
-            "score": 52176
+            "score": 52174
           },
           "painTerms": [],
           "spendTerms": []
@@ -1680,7 +1325,7 @@
           "publishedAt": "2026-06-05T10:05:56.915Z",
           "metrics": {
             "search": "auth0",
-            "score": 37717
+            "score": 37719
           },
           "painTerms": [],
           "spendTerms": []
@@ -1694,7 +1339,7 @@
           "publishedAt": "2026-06-05T09:14:28.600Z",
           "metrics": {
             "search": "auth0",
-            "score": 46348
+            "score": 46351
           },
           "painTerms": [],
           "spendTerms": []
@@ -1708,7 +1353,7 @@
           "publishedAt": "2026-06-03T03:57:51.428Z",
           "metrics": {
             "search": "auth0",
-            "score": 50803
+            "score": 50805
           },
           "painTerms": [],
           "spendTerms": []
@@ -1722,7 +1367,7 @@
           "publishedAt": "2026-06-01T09:27:56.758Z",
           "metrics": {
             "search": "auth0",
-            "score": 58610
+            "score": 58616
           },
           "painTerms": [],
           "spendTerms": []
@@ -1730,31 +1375,27 @@
       ],
       "macroContext": [
         {
-          "source": "BLS",
+          "source": "FRED",
           "sourceType": "macro",
           "evidenceType": "macro",
-          "title": "US unemployment rate",
-          "url": "https://data.bls.gov/timeseries/LNS14000000",
-          "publishedAt": "2026-05-01T00:00:00.000Z",
+          "title": "Initial unemployment claims",
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "publishedAt": "2026-05-30T00:00:00.000Z",
           "metrics": {
-            "year": 2026,
-            "period": "M05",
-            "value": 4.3
+            "value": 225000
           },
           "painTerms": [],
           "spendTerms": []
         },
         {
-          "source": "BLS",
+          "source": "FRED",
           "sourceType": "macro",
           "evidenceType": "macro",
-          "title": "Data processing and hosting employment",
-          "url": "https://data.bls.gov/timeseries/CES5051800001",
-          "publishedAt": "2026-05-01T00:00:00.000Z",
+          "title": "Initial unemployment claims",
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "publishedAt": "2026-05-23T00:00:00.000Z",
           "metrics": {
-            "year": 2026,
-            "period": "M05",
-            "value": 466.1
+            "value": 212000
           },
           "painTerms": [],
           "spendTerms": []
@@ -1768,11 +1409,360 @@
       "sparkline": [
         116,
         122,
-        67,
+        68,
+        99,
+        128,
+        54,
+        62
+      ]
+    },
+    {
+      "id": "ai-agent-ops",
+      "title": "AI Agent Operations and Recovery",
+      "customer": "Teams using browser or workflow agents in production",
+      "pain": "Agent workflows fail in ambiguous states and teams need recovery, audit, and handoff controls.",
+      "currentWorkaround": "Manual babysitting, logs, screenshots, and rerunning failed tasks from scratch.",
+      "wedge": "An operations layer for agent runs: checkpoints, human handoff, replay, and failure taxonomies.",
+      "businessModel": "Usage-based SaaS priced by agent run volume.",
+      "validationStep": "Interview teams running agents against real browsers, support queues, or internal workflows.",
+      "score": 90,
+      "confidence": "high",
+      "isFallback": false,
+      "scoreBreakdown": {
+        "pain": 30,
+        "spend": 20,
+        "recurrence": 15,
+        "sourceQuality": 10,
+        "nicheSpecificity": 8,
+        "macro": 7
+      },
+      "mentionCount": 50,
+      "sourceCount": 5,
+      "whyNow": "50 current evidence items versus prior peak 92 across 5 source types, including 21 pain signals and 9 spend signals.",
+      "evidence": [
+        {
+          "source": "Manual Signal",
+          "sourceType": "curated-link",
+          "evidenceType": "pain",
+          "title": "WorkOS: fewer agent skills with accountable case harnesses",
+          "url": "https://atmes.ai/videos/how-i-deleted-95-of-my-agent-skills-and-got-better-results-nick-nisi-workos",
+          "publishedAt": "2026-05-31T00:00:00.000Z",
+          "metrics": {
+            "curated": true
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "Manual Signal",
+          "sourceType": "curated-link",
+          "evidenceType": "pain",
+          "title": "Perplexity Bumblebee: developer endpoint scanner for AI tool configs",
+          "url": "https://www.perplexity.ai/hub/blog/perplexity-is-open-sourcing-bumblebee",
+          "publishedAt": "2026-05-28T00:00:00.000Z",
+          "metrics": {
+            "curated": true
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "@mcp-abap-adt/llm-agent-rag",
+          "url": "https://www.npmjs.com/package/@mcp-abap-adt/llm-agent-rag",
+          "publishedAt": "2026-06-10T07:37:32.745Z",
+          "metrics": {
+            "search": "rag",
+            "score": 22332
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "mcp-local-rag",
+          "url": "https://www.npmjs.com/package/mcp-local-rag",
+          "publishedAt": "2026-06-07T17:10:42.437Z",
+          "metrics": {
+            "search": "rag",
+            "score": 25328
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "balchemy",
+          "url": "https://www.npmjs.com/package/balchemy",
+          "publishedAt": "2026-06-06T14:27:03.887Z",
+          "metrics": {
+            "search": "mcp agent",
+            "score": 17567
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "@a1ua/mcp-hub",
+          "url": "https://www.npmjs.com/package/@a1ua/mcp-hub",
+          "publishedAt": "2026-05-13T07:20:56.035Z",
+          "metrics": {
+            "search": "mcp agent",
+            "score": 12139
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "agent-commerce-mcp",
+          "url": "https://www.npmjs.com/package/agent-commerce-mcp",
+          "publishedAt": "2026-05-13T03:43:15.236Z",
+          "metrics": {
+            "search": "mcp agent",
+            "score": 14372
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "prompt-clarifier-mcp",
+          "url": "https://www.npmjs.com/package/prompt-clarifier-mcp",
+          "publishedAt": "2026-05-07T07:09:20.325Z",
+          "metrics": {
+            "search": "mcp agent",
+            "score": 12016
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "@aiondadotcom/mcp-ssh",
+          "url": "https://www.npmjs.com/package/@aiondadotcom/mcp-ssh",
+          "publishedAt": "2026-04-14T16:29:54.339Z",
+          "metrics": {
+            "search": "mcp agent",
+            "score": 17138
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "mcp-agent-trace-inspector",
+          "url": "https://www.npmjs.com/package/mcp-agent-trace-inspector",
+          "publishedAt": "2026-03-23T19:56:42.393Z",
+          "metrics": {
+            "search": "mcp agent",
+            "score": 12236
+          },
+          "painTerms": [],
+          "spendTerms": []
+        }
+      ],
+      "spendSignals": [
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "@mcp-abap-adt/llm-agent-rag",
+          "url": "https://www.npmjs.com/package/@mcp-abap-adt/llm-agent-rag",
+          "publishedAt": "2026-06-10T07:37:32.745Z",
+          "metrics": {
+            "search": "rag",
+            "score": 22332
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "mcp-local-rag",
+          "url": "https://www.npmjs.com/package/mcp-local-rag",
+          "publishedAt": "2026-06-07T17:10:42.437Z",
+          "metrics": {
+            "search": "rag",
+            "score": 25328
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "balchemy",
+          "url": "https://www.npmjs.com/package/balchemy",
+          "publishedAt": "2026-06-06T14:27:03.887Z",
+          "metrics": {
+            "search": "mcp agent",
+            "score": 17567
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "@a1ua/mcp-hub",
+          "url": "https://www.npmjs.com/package/@a1ua/mcp-hub",
+          "publishedAt": "2026-05-13T07:20:56.035Z",
+          "metrics": {
+            "search": "mcp agent",
+            "score": 12139
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "agent-commerce-mcp",
+          "url": "https://www.npmjs.com/package/agent-commerce-mcp",
+          "publishedAt": "2026-05-13T03:43:15.236Z",
+          "metrics": {
+            "search": "mcp agent",
+            "score": 14372
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "prompt-clarifier-mcp",
+          "url": "https://www.npmjs.com/package/prompt-clarifier-mcp",
+          "publishedAt": "2026-05-07T07:09:20.325Z",
+          "metrics": {
+            "search": "mcp agent",
+            "score": 12016
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "@aiondadotcom/mcp-ssh",
+          "url": "https://www.npmjs.com/package/@aiondadotcom/mcp-ssh",
+          "publishedAt": "2026-04-14T16:29:54.339Z",
+          "metrics": {
+            "search": "mcp agent",
+            "score": 17138
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "mcp-agent-trace-inspector",
+          "url": "https://www.npmjs.com/package/mcp-agent-trace-inspector",
+          "publishedAt": "2026-03-23T19:56:42.393Z",
+          "metrics": {
+            "search": "mcp agent",
+            "score": 12236
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "@mallocbaal/mcp-agent-framework-ts",
+          "url": "https://www.npmjs.com/package/@mallocbaal/mcp-agent-framework-ts",
+          "publishedAt": "2026-03-20T02:09:41.885Z",
+          "metrics": {
+            "search": "mcp agent",
+            "score": 12580
+          },
+          "painTerms": [
+            "mess"
+          ],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "terminator-mcp-agent",
+          "url": "https://www.npmjs.com/package/terminator-mcp-agent",
+          "publishedAt": "2026-01-28T19:43:12.885Z",
+          "metrics": {
+            "search": "mcp agent",
+            "score": 22227
+          },
+          "painTerms": [],
+          "spendTerms": []
+        }
+      ],
+      "macroContext": [
+        {
+          "source": "FRED",
+          "sourceType": "macro",
+          "evidenceType": "macro",
+          "title": "Initial unemployment claims",
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "publishedAt": "2026-05-30T00:00:00.000Z",
+          "metrics": {
+            "value": 225000
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "FRED",
+          "sourceType": "macro",
+          "evidenceType": "macro",
+          "title": "Initial unemployment claims",
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "publishedAt": "2026-05-23T00:00:00.000Z",
+          "metrics": {
+            "value": 212000
+          },
+          "painTerms": [],
+          "spendTerms": []
+        }
+      ],
+      "risks": [
+        "Platform vendors may add run management",
+        "Reliability problems may be too application-specific"
+      ],
+      "sparkline": [
+        92,
         97,
-        126,
-        52,
-        60
+        57,
+        82,
+        107,
+        50,
+        58
       ]
     },
     {
@@ -1910,7 +1900,7 @@
           "publishedAt": "2026-06-01T06:21:59.072Z",
           "metrics": {
             "search": "soc2",
-            "score": 13218
+            "score": 13219
           },
           "painTerms": [
             "hard"
@@ -1962,7 +1952,7 @@
           "publishedAt": "2026-05-11T15:35:30.803Z",
           "metrics": {
             "search": "soc2",
-            "score": 10091
+            "score": 10098
           },
           "painTerms": [],
           "spendTerms": [
@@ -2100,7 +2090,7 @@
           "publishedAt": "2026-06-01T06:21:59.072Z",
           "metrics": {
             "search": "soc2",
-            "score": 13218
+            "score": 13219
           },
           "painTerms": [
             "hard"
@@ -2152,7 +2142,7 @@
           "publishedAt": "2026-05-11T15:35:30.803Z",
           "metrics": {
             "search": "soc2",
-            "score": 10091
+            "score": 10098
           },
           "painTerms": [],
           "spendTerms": [
@@ -2180,31 +2170,27 @@
       ],
       "macroContext": [
         {
-          "source": "BLS",
+          "source": "FRED",
           "sourceType": "macro",
           "evidenceType": "macro",
-          "title": "US unemployment rate",
-          "url": "https://data.bls.gov/timeseries/LNS14000000",
-          "publishedAt": "2026-05-01T00:00:00.000Z",
+          "title": "Initial unemployment claims",
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "publishedAt": "2026-05-30T00:00:00.000Z",
           "metrics": {
-            "year": 2026,
-            "period": "M05",
-            "value": 4.3
+            "value": 225000
           },
           "painTerms": [],
           "spendTerms": []
         },
         {
-          "source": "BLS",
+          "source": "FRED",
           "sourceType": "macro",
           "evidenceType": "macro",
-          "title": "Data processing and hosting employment",
-          "url": "https://data.bls.gov/timeseries/CES5051800001",
-          "publishedAt": "2026-05-01T00:00:00.000Z",
+          "title": "Initial unemployment claims",
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "publishedAt": "2026-05-23T00:00:00.000Z",
           "metrics": {
-            "year": 2026,
-            "period": "M05",
-            "value": 466.1
+            "value": 212000
           },
           "painTerms": [],
           "spendTerms": []
@@ -2223,6 +2209,343 @@
         47,
         30,
         38
+      ]
+    },
+    {
+      "id": "privacy-security-review",
+      "title": "Lightweight Privacy and Security Review",
+      "customer": "Small SaaS teams facing larger-customer security questionnaires",
+      "pain": "Small teams repeatedly answer security and privacy questionnaires without reusable evidence.",
+      "currentWorkaround": "Copy-paste answers, shared docs, and founder-led procurement calls.",
+      "wedge": "A reusable questionnaire answer bank connected to live policies and evidence.",
+      "businessModel": "SaaS priced by workspace and questionnaire volume.",
+      "validationStep": "Review recent founder complaints about security questionnaires and ask where deals slowed down.",
+      "score": 87,
+      "confidence": "high",
+      "isFallback": false,
+      "scoreBreakdown": {
+        "pain": 30,
+        "spend": 20,
+        "recurrence": 15,
+        "sourceQuality": 10,
+        "nicheSpecificity": 8,
+        "macro": 4
+      },
+      "mentionCount": 17,
+      "sourceCount": 4,
+      "whyNow": "17 current evidence items versus prior peak 8 across 4 source types, including 8 pain signals and 4 spend signals.",
+      "evidence": [
+        {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "[Feature] Governance extension for AutoGen — policy enforcement and agent identity",
+          "url": "https://github.com/microsoft/autogen/issues/7613",
+          "publishedAt": "2026-04-20T19:28:33Z",
+          "metrics": {
+            "comments": 37,
+            "score": 1
+          },
+          "painTerms": [
+            "problem"
+          ],
+          "spendTerms": [
+            "enterprise"
+          ]
+        },
+        {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "Define merge blocking policy for unresolved review threads",
+          "url": "https://github.com/davidruzicka/mcp4openapi/issues/180",
+          "publishedAt": "2026-03-19T08:59:16Z",
+          "metrics": {
+            "comments": 8,
+            "score": 1
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "Hacker News Echo",
+          "sourceType": "echo",
+          "evidenceType": "context",
+          "title": "Show HN: Core – open source memory graph for LLMs – shareable, user owned",
+          "url": "https://github.com/RedPlanetHQ/core",
+          "publishedAt": "2025-07-01T16:24:24Z",
+          "metrics": {
+            "echo": true,
+            "query": "\"local first\" \"AI memory\"",
+            "score": 112,
+            "comments": 42,
+            "objectID": "44435500"
+          },
+          "painTerms": [
+            "problem"
+          ],
+          "spendTerms": [
+            "vendor"
+          ]
+        },
+        {
+          "source": "Hacker News Echo",
+          "sourceType": "echo",
+          "evidenceType": "context",
+          "title": "Show HN: AI memory with biological decay (52% recall)",
+          "url": "https://github.com/sachitrafa/YourMemory",
+          "publishedAt": "2026-04-26T20:58:31Z",
+          "metrics": {
+            "echo": true,
+            "query": "\"local first\" \"AI memory\"",
+            "score": 98,
+            "comments": 53,
+            "objectID": "47914367"
+          },
+          "painTerms": [
+            "bug",
+            "problem"
+          ],
+          "spendTerms": []
+        },
+        {
+          "source": "Hacker News Echo",
+          "sourceType": "echo",
+          "evidenceType": "context",
+          "title": "Show HN: Mnemo – local-first AI memory layer for any LLM (Rust, SQLite,petgraph)",
+          "url": "https://github.com/zaydmulani09/mnemo",
+          "publishedAt": "2026-06-03T20:32:10Z",
+          "metrics": {
+            "echo": true,
+            "query": "\"local first\" \"AI memory\"",
+            "score": 60,
+            "comments": 29,
+            "objectID": "48389586"
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "Hacker News Echo",
+          "sourceType": "echo",
+          "evidenceType": "context",
+          "title": "Is anyone else bothered that AI agents can basically do what they want?",
+          "url": "https://news.ycombinator.com/item?id=47833278",
+          "publishedAt": "2026-04-20T12:25:53Z",
+          "metrics": {
+            "echo": true,
+            "query": "\"MCP\" security credentials",
+            "score": 1,
+            "comments": 5,
+            "objectID": "47833278"
+          },
+          "painTerms": [
+            "problem",
+            "slow",
+            "stuck"
+          ],
+          "spendTerms": [
+            "customer",
+            "enterprise"
+          ]
+        },
+        {
+          "source": "Hacker News Echo",
+          "sourceType": "echo",
+          "evidenceType": "context",
+          "title": "Show HN: I Built a Local-First AI Chat App with Advanced RAG",
+          "url": "https://news.ycombinator.com/item?id=44472734",
+          "publishedAt": "2025-07-05T13:39:50Z",
+          "metrics": {
+            "echo": true,
+            "query": "\"local first\" \"AI memory\"",
+            "score": 5,
+            "comments": 4,
+            "objectID": "44472734"
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "Reddit Echo",
+          "sourceType": "echo",
+          "evidenceType": "context",
+          "title": "Landscape of second brain and memory solutions for AI native workflow",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u01rxs/landscape_of_second_brain_and_memory_solutions/",
+          "publishedAt": "2026-06-08T08:19:38+00:00",
+          "metrics": {
+            "echo": true,
+            "query": "\"local first\" \"AI memory\" privacy workflow",
+            "subreddit": "LocalLLaMA"
+          },
+          "painTerms": [
+            "pain"
+          ],
+          "spendTerms": []
+        },
+        {
+          "source": "Hacker News Echo",
+          "sourceType": "echo",
+          "evidenceType": "context",
+          "title": "Show HN: ToolMesh – turn all your REST APIs into MCP tools via declarative YAML",
+          "url": "https://news.ycombinator.com/item?id=47933950",
+          "publishedAt": "2026-04-28T13:00:04Z",
+          "metrics": {
+            "echo": true,
+            "query": "\"MCP\" security credentials",
+            "score": 2,
+            "comments": 2,
+            "objectID": "47933950"
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "Hacker News Echo",
+          "sourceType": "echo",
+          "evidenceType": "context",
+          "title": "Show HN: Mumpix – Local-first AI infrastructure and $1B developer grant",
+          "url": "https://mumpixdb.com/mumpix-billion-program.html#claim",
+          "publishedAt": "2026-03-10T23:49:41Z",
+          "metrics": {
+            "echo": true,
+            "query": "\"local first\" \"AI memory\"",
+            "score": 1,
+            "comments": 2,
+            "objectID": "47330244"
+          },
+          "painTerms": [],
+          "spendTerms": []
+        }
+      ],
+      "spendSignals": [
+        {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "[Feature] Governance extension for AutoGen — policy enforcement and agent identity",
+          "url": "https://github.com/microsoft/autogen/issues/7613",
+          "publishedAt": "2026-04-20T19:28:33Z",
+          "metrics": {
+            "comments": 37,
+            "score": 1
+          },
+          "painTerms": [
+            "problem"
+          ],
+          "spendTerms": [
+            "enterprise"
+          ]
+        },
+        {
+          "source": "Hacker News Echo",
+          "sourceType": "echo",
+          "evidenceType": "context",
+          "title": "Show HN: Core – open source memory graph for LLMs – shareable, user owned",
+          "url": "https://github.com/RedPlanetHQ/core",
+          "publishedAt": "2025-07-01T16:24:24Z",
+          "metrics": {
+            "echo": true,
+            "query": "\"local first\" \"AI memory\"",
+            "score": 112,
+            "comments": 42,
+            "objectID": "44435500"
+          },
+          "painTerms": [
+            "problem"
+          ],
+          "spendTerms": [
+            "vendor"
+          ]
+        },
+        {
+          "source": "Hacker News Echo",
+          "sourceType": "echo",
+          "evidenceType": "context",
+          "title": "Is anyone else bothered that AI agents can basically do what they want?",
+          "url": "https://news.ycombinator.com/item?id=47833278",
+          "publishedAt": "2026-04-20T12:25:53Z",
+          "metrics": {
+            "echo": true,
+            "query": "\"MCP\" security credentials",
+            "score": 1,
+            "comments": 5,
+            "objectID": "47833278"
+          },
+          "painTerms": [
+            "problem",
+            "slow",
+            "stuck"
+          ],
+          "spendTerms": [
+            "customer",
+            "enterprise"
+          ]
+        },
+        {
+          "source": "Hacker News Echo",
+          "sourceType": "echo",
+          "evidenceType": "context",
+          "title": "Show HN: SuperLocalMemory– Local-first AI memory for Claude, Cursor and 16+tools",
+          "url": "https://github.com/varun369/SuperLocalMemoryV2",
+          "publishedAt": "2026-02-12T10:11:31Z",
+          "metrics": {
+            "echo": true,
+            "query": "\"local first\" \"AI memory\"",
+            "score": 1,
+            "comments": 0,
+            "objectID": "46986940"
+          },
+          "painTerms": [
+            "hard",
+            "problem"
+          ],
+          "spendTerms": [
+            "pay"
+          ]
+        }
+      ],
+      "macroContext": [
+        {
+          "source": "FRED",
+          "sourceType": "macro",
+          "evidenceType": "macro",
+          "title": "Initial unemployment claims",
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "publishedAt": "2026-05-30T00:00:00.000Z",
+          "metrics": {
+            "value": 225000
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "FRED",
+          "sourceType": "macro",
+          "evidenceType": "macro",
+          "title": "Initial unemployment claims",
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "publishedAt": "2026-05-23T00:00:00.000Z",
+          "metrics": {
+            "value": 212000
+          },
+          "painTerms": [],
+          "spendTerms": []
+        }
+      ],
+      "risks": [
+        "Overlap with GRC tools",
+        "Answers must stay accurate",
+        "Legal review may be required"
+      ],
+      "sparkline": [
+        8,
+        8,
+        10,
+        14,
+        19,
+        17,
+        24
       ]
     },
     {
@@ -2401,7 +2724,7 @@
           "publishedAt": "2026-06-09T19:42:33.396Z",
           "metrics": {
             "search": "dbt",
-            "score": 25332
+            "score": 25333
           },
           "painTerms": [],
           "spendTerms": []
@@ -2415,7 +2738,7 @@
           "publishedAt": "2026-06-09T04:50:47.617Z",
           "metrics": {
             "search": "dbt",
-            "score": 38320
+            "score": 38321
           },
           "painTerms": [],
           "spendTerms": []
@@ -2546,7 +2869,7 @@
           "publishedAt": "2026-06-09T19:42:33.396Z",
           "metrics": {
             "search": "dbt",
-            "score": 25332
+            "score": 25333
           },
           "painTerms": [],
           "spendTerms": []
@@ -2560,7 +2883,7 @@
           "publishedAt": "2026-06-09T04:50:47.617Z",
           "metrics": {
             "search": "dbt",
-            "score": 38320
+            "score": 38321
           },
           "painTerms": [],
           "spendTerms": []
@@ -2574,7 +2897,7 @@
           "publishedAt": "2026-06-01T23:27:08.598Z",
           "metrics": {
             "search": "dbt",
-            "score": 24917
+            "score": 24918
           },
           "painTerms": [],
           "spendTerms": []
@@ -2588,7 +2911,7 @@
           "publishedAt": "2026-06-01T23:26:52.702Z",
           "metrics": {
             "search": "dbt",
-            "score": 30652
+            "score": 30653
           },
           "painTerms": [],
           "spendTerms": []
@@ -2596,31 +2919,27 @@
       ],
       "macroContext": [
         {
-          "source": "BLS",
+          "source": "FRED",
           "sourceType": "macro",
           "evidenceType": "macro",
-          "title": "US unemployment rate",
-          "url": "https://data.bls.gov/timeseries/LNS14000000",
-          "publishedAt": "2026-05-01T00:00:00.000Z",
+          "title": "Initial unemployment claims",
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "publishedAt": "2026-05-30T00:00:00.000Z",
           "metrics": {
-            "year": 2026,
-            "period": "M05",
-            "value": 4.3
+            "value": 225000
           },
           "painTerms": [],
           "spendTerms": []
         },
         {
-          "source": "BLS",
+          "source": "FRED",
           "sourceType": "macro",
           "evidenceType": "macro",
-          "title": "Data processing and hosting employment",
-          "url": "https://data.bls.gov/timeseries/CES5051800001",
-          "publishedAt": "2026-05-01T00:00:00.000Z",
+          "title": "Initial unemployment claims",
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "publishedAt": "2026-05-23T00:00:00.000Z",
           "metrics": {
-            "year": 2026,
-            "period": "M05",
-            "value": 466.1
+            "value": 212000
           },
           "painTerms": [],
           "spendTerms": []
