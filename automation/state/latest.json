@@ -1,69 +1,90 @@
 {
-  "date": "2026-06-01",
-  "generatedAt": "2026-06-01T18:59:29Z",
-  "dataGeneratedAt": "2026-06-01T18:58:02.079Z",
-  "opportunityCount": 5,
+  "date": "2026-06-10",
+  "generatedAt": "2026-06-10T13:01:10Z",
+  "dataGeneratedAt": "2026-06-10T13:00:44.811Z",
+  "opportunityCount": 6,
   "highConfidenceCount": 5,
   "topBriefs": [
-    {
-      "id": "usage-billing-operations",
-      "title": "Usage-Based Billing Operations",
-      "score": 90,
-      "confidence": "high",
-      "mentionCount": 63,
-      "sourceCount": 8
-    },
     {
       "id": "llm-evaluation-regression",
       "title": "LLM Evaluation Regression Workflows",
       "score": 90,
       "confidence": "high",
-      "mentionCount": 35,
-      "sourceCount": 8
+      "mentionCount": 40,
+      "sourceCount": 9
+    },
+    {
+      "id": "usage-billing-operations",
+      "title": "Usage-Based Billing Operations",
+      "score": 90,
+      "confidence": "high",
+      "mentionCount": 60,
+      "sourceCount": 7
     },
     {
       "id": "ai-agent-ops",
       "title": "AI Agent Operations and Recovery",
       "score": 90,
       "confidence": "high",
-      "mentionCount": 49,
-      "sourceCount": 6
+      "mentionCount": 61,
+      "sourceCount": 5
     },
     {
       "id": "auth-sso-integration-debugging",
       "title": "Auth and SSO Integration Debugging",
       "score": 90,
       "confidence": "high",
-      "mentionCount": 50,
+      "mentionCount": 51,
       "sourceCount": 5
+    },
+    {
+      "id": "soc2-evidence-automation",
+      "title": "SOC2 Evidence Automation for Small AI Vendors",
+      "score": 90,
+      "confidence": "high",
+      "mentionCount": 31,
+      "sourceCount": 4
     },
     {
       "id": "data-pipeline-reliability",
       "title": "Data Pipeline Reliability for Lean Teams",
-      "score": 88,
-      "confidence": "high",
+      "score": 86,
+      "confidence": "medium",
       "mentionCount": 27,
-      "sourceCount": 3
+      "sourceCount": 2
     }
   ],
   "marketTrendLabels": [
-    "Usage pricing keeps creating back-office pain",
     "LLM quality work is shifting from benchmarks to regression operations",
-    "Agent work is becoming an operations discipline",
-    "Enterprise readiness still shifts earlier",
-    "Lean data teams need business-facing reliability guardrails"
+    "Usage pricing keeps creating billing and revenue-ops reconciliation pain",
+    "Enterprise readiness is moving earlier for small AI and SaaS vendors",
+    "Agent workflows need replay, human handoff, auditability, and local context boundaries",
+    "Local-first AI memory is becoming a visible privacy and governance surface"
   ],
   "sourceAlerts": [
     {
       "source": "GDELT",
       "severity": "error",
       "message": "429 Too Many Requests"
+    },
+    {
+      "source": "FRED",
+      "severity": "skipped",
+      "message": "FRED_API_KEY not configured"
     }
   ],
   "sourceChanges": [
-    "No manual seed links were added or edited",
-    "No echo-source queries or RSS feeds were added or edited"
+    "Added Screenpipe public repo as a local-first desktop memory seed",
+    "Added Reddit local AI memory pain echo search",
+    "Added HN local AI memory echo search"
   ],
+  "sourceRunSummary": {
+    "evidenceItemsCollected": 786,
+    "compactEvidenceCount": 60,
+    "successfulSources": 11,
+    "sourceAlerts": 1,
+    "skippedSources": 1
+  },
   "verification": {
     "collect": "passed",
     "test": "passed",
@@ -71,13 +92,14 @@
     "build": "passed"
   },
   "filesChanged": [
-    "automation/digests/2026-06-01.md",
+    "automation/digests/2026-06-10.md",
     "automation/state/latest.json",
     "public/data/signals.json",
-    "public/data/history.json"
+    "public/data/history.json",
+    "sources/manual-links.json",
+    "sources/echo-sources.json"
   ],
-  "commitSha": "4d310ac4a6d8396423d8c958739adcfa0cda02f2",
-  "deployDataCommitSha": "e56f0e90d6717593e2ded373516b451d38749cb4",
-  "commitShaNote": "commitSha is the automation digest commit; deployDataCommitSha is the GitHub Actions data refresh commit created during Pages deploy.",
-  "nextRecommendedValidationStep": "Interview teams using coding, browser, or workflow agents and ask where review, app context, recovery, and human handoff break."
+  "commitSha": null,
+  "commitShaNote": "Current commit sha is reported in the automation result after commit; embedding the same commit hash in this file would require a follow-up metadata commit.",
+  "nextRecommendedValidationStep": "Interview teams shipping LLM features and usage-priced API products, then run a paired SOC2/privacy-review discovery sprint with small AI vendors."
 }

@@ -35,6 +35,12 @@
       "subreddit": "LocalLLaMA",
       "query": "\"MCP\" security config credentials",
       "tags": ["ai-agent-ops", "privacy-security-review", "mcp"]
+    },
+    {
+      "label": "Reddit local AI memory pain",
+      "subreddit": "LocalLLaMA",
+      "query": "\"local first\" \"AI memory\" privacy workflow",
+      "tags": ["ai-agent-ops", "context-engineering", "privacy-security-review", "personal-ai"]
     }
   ],
   "hackerNewsSearches": [
@@ -67,6 +73,11 @@
       "label": "HN agent-native tooling",
       "query": "\"MCP\" \"CLI\" agent",
       "tags": ["ai-agent-ops", "agent-workflow", "developer-tools"]
+    },
+    {
+      "label": "HN local AI memory",
+      "query": "\"local first\" \"AI memory\"",
+      "tags": ["ai-agent-ops", "context-engineering", "privacy-security-review", "personal-ai"]
     }
   ],
   "rssFeeds": [

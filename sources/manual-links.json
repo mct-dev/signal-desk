@@ -115,5 +115,14 @@
     "evidenceType": "context",
     "addedAt": "2026-05-31",
     "enabled": true
+  },
+  {
+    "url": "https://github.com/screenpipe/screenpipe",
+    "title": "Screenpipe: local-first desktop memory for AI agents",
+    "note": "Recent Chronicle-visible local workflow signal verified by the public repo: desktop context capture is becoming a local-first substrate for AI coding assistants, personal recall, and agent workflows, raising demand for consent, data-boundary, and workflow-governance tooling.",
+    "tags": ["ai-agent-ops", "context-engineering", "privacy-security-review", "personal-ai", "agent-workflow", "mcp"],
+    "evidenceType": "context",
+    "addedAt": "2026-06-10",
+    "enabled": true
   }
 ]
