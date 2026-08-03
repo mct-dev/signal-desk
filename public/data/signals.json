@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-07-27T17:10:08.970Z",
+  "generatedAt": "2026-08-03T17:18:56.251Z",
   "cadence": "weekly",
   "summary": {
     "opportunityCount": 6,
@@ -8,7 +8,7 @@
     "sourceCount": 11,
     "sourceAlerts": 2,
     "skippedSources": 0,
-    "highConfidenceCount": 6
+    "highConfidenceCount": 5
   },
   "sourceRuns": [
     {
@@ -16,106 +16,106 @@
       "ok": true,
       "skipped": false,
       "itemCount": 13,
-      "fetchedAt": "2026-07-27T17:10:09.020Z",
-      "startedAt": "2026-07-27T17:10:08.970Z"
+      "fetchedAt": "2026-08-03T17:18:56.376Z",
+      "startedAt": "2026-08-03T17:18:56.256Z"
     },
     {
       "source": "Echo Sources",
       "ok": true,
       "skipped": false,
       "itemCount": 115,
-      "fetchedAt": "2026-07-27T17:10:11.349Z",
-      "startedAt": "2026-07-27T17:10:08.970Z"
+      "fetchedAt": "2026-08-03T17:19:00.450Z",
+      "startedAt": "2026-08-03T17:18:56.256Z"
     },
     {
       "source": "Hacker News",
       "ok": true,
       "skipped": false,
       "itemCount": 80,
-      "fetchedAt": "2026-07-27T17:10:09.826Z",
-      "startedAt": "2026-07-27T17:10:08.971Z"
+      "fetchedAt": "2026-08-03T17:18:57.615Z",
+      "startedAt": "2026-08-03T17:18:56.257Z"
     },
     {
       "source": "Reddit",
       "ok": false,
       "skipped": false,
       "itemCount": 0,
-      "fetchedAt": "2026-07-27T17:10:09.202Z",
-      "startedAt": "2026-07-27T17:10:08.997Z",
-      "error": "429 Too Many Requests"
+      "fetchedAt": "2026-08-03T17:18:56.811Z",
+      "startedAt": "2026-08-03T17:18:56.345Z",
+      "error": "403 Blocked"
     },
     {
       "source": "GitHub Issues",
       "ok": true,
       "skipped": false,
-      "itemCount": 116,
-      "fetchedAt": "2026-07-27T17:10:10.063Z",
-      "startedAt": "2026-07-27T17:10:09.002Z"
+      "itemCount": 119,
+      "fetchedAt": "2026-08-03T17:18:57.686Z",
+      "startedAt": "2026-08-03T17:18:56.354Z"
     },
     {
       "source": "npm",
       "ok": true,
       "skipped": false,
       "itemCount": 160,
-      "fetchedAt": "2026-07-27T17:10:09.575Z",
-      "startedAt": "2026-07-27T17:10:09.008Z"
+      "fetchedAt": "2026-08-03T17:18:57.301Z",
+      "startedAt": "2026-08-03T17:18:56.360Z"
     },
     {
       "source": "PyPI",
       "ok": true,
       "skipped": false,
       "itemCount": 100,
-      "fetchedAt": "2026-07-27T17:10:09.226Z",
-      "startedAt": "2026-07-27T17:10:09.011Z"
+      "fetchedAt": "2026-08-03T17:18:56.874Z",
+      "startedAt": "2026-08-03T17:18:56.364Z"
     },
     {
       "source": "GitHub Trending",
       "ok": true,
       "skipped": false,
-      "itemCount": 25,
-      "fetchedAt": "2026-07-27T17:10:10.418Z",
-      "startedAt": "2026-07-27T17:10:09.011Z"
+      "itemCount": 17,
+      "fetchedAt": "2026-08-03T17:18:57.789Z",
+      "startedAt": "2026-08-03T17:18:56.364Z"
     },
     {
       "source": "GDELT",
       "ok": false,
       "skipped": false,
       "itemCount": 0,
-      "fetchedAt": "2026-07-27T17:10:19.493Z",
-      "startedAt": "2026-07-27T17:10:09.012Z",
-      "error": "fetch failed"
+      "fetchedAt": "2026-08-03T17:19:07.459Z",
+      "startedAt": "2026-08-03T17:18:56.365Z",
+      "error": "429 Too Many Requests"
     },
     {
       "source": "OWID",
       "ok": true,
       "skipped": false,
       "itemCount": 4,
-      "fetchedAt": "2026-07-27T17:10:09.501Z",
-      "startedAt": "2026-07-27T17:10:09.014Z"
+      "fetchedAt": "2026-08-03T17:18:57.655Z",
+      "startedAt": "2026-08-03T17:18:56.367Z"
     },
     {
       "source": "World Bank",
       "ok": true,
       "skipped": false,
       "itemCount": 4,
-      "fetchedAt": "2026-07-27T17:10:15.954Z",
-      "startedAt": "2026-07-27T17:10:09.014Z"
+      "fetchedAt": "2026-08-03T17:23:30.156Z",
+      "startedAt": "2026-08-03T17:18:56.368Z"
     },
     {
       "source": "BLS",
       "ok": true,
       "skipped": false,
       "itemCount": 6,
-      "fetchedAt": "2026-07-27T17:10:09.873Z",
-      "startedAt": "2026-07-27T17:10:09.015Z"
+      "fetchedAt": "2026-08-03T17:18:57.496Z",
+      "startedAt": "2026-08-03T17:18:56.369Z"
     },
     {
       "source": "FRED",
       "ok": true,
       "skipped": false,
       "itemCount": 6,
-      "fetchedAt": "2026-07-27T17:10:09.953Z",
-      "startedAt": "2026-07-27T17:10:09.016Z"
+      "fetchedAt": "2026-08-03T17:18:57.689Z",
+      "startedAt": "2026-08-03T17:18:56.370Z"
     }
   ],
   "opportunities": [
@@ -139,28 +139,41 @@
         "nicheSpecificity": 8,
         "macro": 7
       },
-      "mentionCount": 33,
-      "sourceCount": 7,
-      "whyNow": "33 current evidence items versus prior peak 44 across 7 source types, including 9 pain signals and 6 spend signals.",
+      "mentionCount": 34,
+      "sourceCount": 8,
+      "whyNow": "34 current evidence items versus prior peak 44 across 8 source types, including 11 pain signals and 7 spend signals.",
       "evidence": [
         {
           "source": "GitHub Issues",
           "sourceType": "developer-pain",
           "evidenceType": "pain",
-          "title": "#143 Sub: D5 — Prompt Quality Iteration (10-Company Evaluation)",
-          "url": "https://github.com/DubiWork/edgar-value-miner/issues/164",
-          "publishedAt": "2026-03-14T20:24:16Z",
+          "title": "Weekly eval drift: red severity 2026-07-27",
+          "url": "https://github.com/rozavala/real_options/issues/3440",
+          "publishedAt": "2026-07-27T16:07:29Z",
           "metrics": {
-            "comments": 2,
+            "comments": 7,
             "score": 1
           },
           "painTerms": [
-            "hard",
-            "manual"
+            "missing"
           ],
           "spendTerms": [
-            "budget"
+            "compliance"
           ]
+        },
+        {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "feat(eval): GitHub-agent eval tripwire — transport adapter + seed scenarios + --compare CI gate",
+          "url": "https://github.com/amd/gaia/issues/2562",
+          "publishedAt": "2026-07-27T23:01:24Z",
+          "metrics": {
+            "comments": 1,
+            "score": 1
+          },
+          "painTerms": [],
+          "spendTerms": []
         },
         {
           "source": "Manual X Seed",
@@ -178,15 +191,51 @@
           "spendTerms": []
         },
         {
+          "source": "Hacker News",
+          "sourceType": "discussion",
+          "evidenceType": "pain",
+          "title": "Show HN: Product analytics (and evals) for agent sessions on your MCP",
+          "url": "https://armature.tech/",
+          "publishedAt": "2026-08-03T16:17:59.000Z",
+          "metrics": {
+            "score": 10,
+            "comments": 0,
+            "rank": 14
+          },
+          "painTerms": [
+            "missing",
+            "pain",
+            "workaround"
+          ],
+          "spendTerms": [
+            "customer"
+          ]
+        },
+        {
+          "source": "Hacker News",
+          "sourceType": "discussion",
+          "evidenceType": "attention",
+          "title": "My personal AI benchmark: “Generate an SVG of a frog with a Habsburg jaw”",
+          "url": "https://frogs.vaguespac.es/",
+          "publishedAt": "2026-08-02T19:42:08.000Z",
+          "metrics": {
+            "score": 149,
+            "comments": 81,
+            "rank": 63
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
           "source": "npm",
           "sourceType": "package",
           "evidenceType": "adoption",
-          "title": "muteval",
-          "url": "https://www.npmjs.com/package/muteval",
-          "publishedAt": "2026-07-24T15:39:45.975Z",
+          "title": "@metaharness/darwin",
+          "url": "https://www.npmjs.com/package/@metaharness/darwin",
+          "publishedAt": "2026-08-02T16:41:31.170Z",
           "metrics": {
             "search": "llm eval",
-            "score": 11438
+            "score": 7838
           },
           "painTerms": [],
           "spendTerms": []
@@ -197,10 +246,24 @@
           "evidenceType": "adoption",
           "title": "promptfoo",
           "url": "https://www.npmjs.com/package/promptfoo",
-          "publishedAt": "2026-07-14T16:44:51.242Z",
+          "publishedAt": "2026-07-31T04:05:35.186Z",
           "metrics": {
             "search": "llm eval",
-            "score": 65823
+            "score": 67083
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "muteval",
+          "url": "https://www.npmjs.com/package/muteval",
+          "publishedAt": "2026-07-24T15:39:45.975Z",
+          "metrics": {
+            "search": "llm eval",
+            "score": 13477
           },
           "painTerms": [],
           "spendTerms": []
@@ -214,7 +277,7 @@
           "publishedAt": "2026-07-07T06:34:43.742Z",
           "metrics": {
             "search": "llm eval",
-            "score": 20503
+            "score": 20563
           },
           "painTerms": [],
           "spendTerms": []
@@ -228,63 +291,7 @@
           "publishedAt": "2026-07-04T05:21:19.446Z",
           "metrics": {
             "search": "llm eval",
-            "score": 10792
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "mini-eval",
-          "url": "https://www.npmjs.com/package/mini-eval",
-          "publishedAt": "2026-06-25T13:27:47.023Z",
-          "metrics": {
-            "search": "llm eval",
-            "score": 13680
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "simple-eval",
-          "url": "https://www.npmjs.com/package/simple-eval",
-          "publishedAt": "2026-06-10T12:40:15.970Z",
-          "metrics": {
-            "search": "llm eval",
-            "score": 9243
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "eval-estree-expression",
-          "url": "https://www.npmjs.com/package/eval-estree-expression",
-          "publishedAt": "2026-06-10T09:19:23.692Z",
-          "metrics": {
-            "search": "llm eval",
-            "score": 8257
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "@reaatech/hybrid-rag-retrieval",
-          "url": "https://www.npmjs.com/package/@reaatech/hybrid-rag-retrieval",
-          "publishedAt": "2026-06-07T14:13:25.362Z",
-          "metrics": {
-            "search": "rag",
-            "score": 19919
+            "score": 10868
           },
           "painTerms": [],
           "spendTerms": []
@@ -295,31 +302,51 @@
           "source": "GitHub Issues",
           "sourceType": "developer-pain",
           "evidenceType": "pain",
-          "title": "#143 Sub: D5 — Prompt Quality Iteration (10-Company Evaluation)",
-          "url": "https://github.com/DubiWork/edgar-value-miner/issues/164",
-          "publishedAt": "2026-03-14T20:24:16Z",
+          "title": "Weekly eval drift: red severity 2026-07-27",
+          "url": "https://github.com/rozavala/real_options/issues/3440",
+          "publishedAt": "2026-07-27T16:07:29Z",
           "metrics": {
-            "comments": 2,
+            "comments": 7,
             "score": 1
           },
           "painTerms": [
-            "hard",
-            "manual"
+            "missing"
           ],
           "spendTerms": [
-            "budget"
+            "compliance"
+          ]
+        },
+        {
+          "source": "Hacker News",
+          "sourceType": "discussion",
+          "evidenceType": "pain",
+          "title": "Show HN: Product analytics (and evals) for agent sessions on your MCP",
+          "url": "https://armature.tech/",
+          "publishedAt": "2026-08-03T16:17:59.000Z",
+          "metrics": {
+            "score": 10,
+            "comments": 0,
+            "rank": 14
+          },
+          "painTerms": [
+            "missing",
+            "pain",
+            "workaround"
+          ],
+          "spendTerms": [
+            "customer"
           ]
         },
         {
           "source": "npm",
           "sourceType": "package",
           "evidenceType": "adoption",
-          "title": "muteval",
-          "url": "https://www.npmjs.com/package/muteval",
-          "publishedAt": "2026-07-24T15:39:45.975Z",
+          "title": "@metaharness/darwin",
+          "url": "https://www.npmjs.com/package/@metaharness/darwin",
+          "publishedAt": "2026-08-02T16:41:31.170Z",
           "metrics": {
             "search": "llm eval",
-            "score": 11438
+            "score": 7838
           },
           "painTerms": [],
           "spendTerms": []
@@ -330,10 +357,24 @@
           "evidenceType": "adoption",
           "title": "promptfoo",
           "url": "https://www.npmjs.com/package/promptfoo",
-          "publishedAt": "2026-07-14T16:44:51.242Z",
+          "publishedAt": "2026-07-31T04:05:35.186Z",
           "metrics": {
             "search": "llm eval",
-            "score": 65823
+            "score": 67083
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "muteval",
+          "url": "https://www.npmjs.com/package/muteval",
+          "publishedAt": "2026-07-24T15:39:45.975Z",
+          "metrics": {
+            "search": "llm eval",
+            "score": 13477
           },
           "painTerms": [],
           "spendTerms": []
@@ -347,7 +388,7 @@
           "publishedAt": "2026-07-07T06:34:43.742Z",
           "metrics": {
             "search": "llm eval",
-            "score": 20503
+            "score": 20563
           },
           "painTerms": [],
           "spendTerms": []
@@ -361,7 +402,7 @@
           "publishedAt": "2026-07-04T05:21:19.446Z",
           "metrics": {
             "search": "llm eval",
-            "score": 10792
+            "score": 10868
           },
           "painTerms": [],
           "spendTerms": []
@@ -375,7 +416,7 @@
           "publishedAt": "2026-06-25T13:27:47.023Z",
           "metrics": {
             "search": "llm eval",
-            "score": 13680
+            "score": 8539
           },
           "painTerms": [],
           "spendTerms": []
@@ -389,7 +430,7 @@
           "publishedAt": "2026-06-10T12:40:15.970Z",
           "metrics": {
             "search": "llm eval",
-            "score": 9243
+            "score": 9282
           },
           "painTerms": [],
           "spendTerms": []
@@ -403,39 +444,9 @@
           "publishedAt": "2026-06-10T09:19:23.692Z",
           "metrics": {
             "search": "llm eval",
-            "score": 8257
+            "score": 8264
           },
           "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "@reaatech/hybrid-rag-retrieval",
-          "url": "https://www.npmjs.com/package/@reaatech/hybrid-rag-retrieval",
-          "publishedAt": "2026-06-07T14:13:25.362Z",
-          "metrics": {
-            "search": "rag",
-            "score": 19919
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "@mukundakatta/eval-flake-detector",
-          "url": "https://www.npmjs.com/package/@mukundakatta/eval-flake-detector",
-          "publishedAt": "2026-04-24T08:21:07.075Z",
-          "metrics": {
-            "search": "llm eval",
-            "score": 9772
-          },
-          "painTerms": [
-            "flaky"
-          ],
           "spendTerms": []
         }
       ],
@@ -446,9 +457,9 @@
           "evidenceType": "macro",
           "title": "Initial unemployment claims",
           "url": "https://fred.stlouisfed.org/series/ICSA",
-          "publishedAt": "2026-07-18T00:00:00.000Z",
+          "publishedAt": "2026-07-25T00:00:00.000Z",
           "metrics": {
-            "value": 187000
+            "value": 197000
           },
           "painTerms": [],
           "spendTerms": []
@@ -459,9 +470,9 @@
           "evidenceType": "macro",
           "title": "Initial unemployment claims",
           "url": "https://fred.stlouisfed.org/series/ICSA",
-          "publishedAt": "2026-07-11T00:00:00.000Z",
+          "publishedAt": "2026-07-18T00:00:00.000Z",
           "metrics": {
-            "value": 209000
+            "value": 188000
           },
           "painTerms": [],
           "spendTerms": []
@@ -477,9 +488,9 @@
         46,
         31,
         45,
-        58,
-        33,
-        41
+        59,
+        34,
+        42
       ]
     },
     {
@@ -502,25 +513,48 @@
         "nicheSpecificity": 8,
         "macro": 7
       },
-      "mentionCount": 55,
-      "sourceCount": 5,
-      "whyNow": "55 current evidence items versus prior peak 92 across 5 source types, including 21 pain signals and 9 spend signals.",
+      "mentionCount": 51,
+      "sourceCount": 6,
+      "whyNow": "51 current evidence items versus prior peak 92 across 6 source types, including 19 pain signals and 11 spend signals.",
       "evidence": [
         {
           "source": "GitHub Issues",
           "sourceType": "developer-pain",
           "evidenceType": "pain",
-          "title": "descopeProvider fails when a Descope MCP Server's discovery issuer differs from its discovery URL",
-          "url": "https://github.com/alpic-ai/skybridge/issues/941",
-          "publishedAt": "2026-07-09T10:21:23Z",
+          "title": "bug(mcp): fail closed when adapters exhaust capacity or orchestration produces no result",
+          "url": "https://github.com/nexus-substrate/nexus-agents/issues/4351",
+          "publishedAt": "2026-08-03T00:01:56Z",
+          "metrics": {
+            "comments": 2,
+            "score": 1
+          },
+          "painTerms": [
+            "bug",
+            "missing"
+          ],
+          "spendTerms": [
+            "contract",
+            "pay"
+          ]
+        },
+        {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "MCP Prompts: fix stale e2e/docs coverage, add golden-file + docs-drift tests for all 10 prompts",
+          "url": "https://github.com/zoharbabin/web-researcher-mcp/issues/540",
+          "publishedAt": "2026-08-03T13:50:38Z",
           "metrics": {
             "comments": 0,
             "score": 1
           },
           "painTerms": [
-            "confusing"
+            "expensive",
+            "missing"
           ],
-          "spendTerms": []
+          "spendTerms": [
+            "expensive"
+          ]
         },
         {
           "source": "Manual Signal",
@@ -552,12 +586,40 @@
           "source": "npm",
           "sourceType": "package",
           "evidenceType": "adoption",
+          "title": "@mcp-use/agent",
+          "url": "https://www.npmjs.com/package/@mcp-use/agent",
+          "publishedAt": "2026-08-03T12:42:47.185Z",
+          "metrics": {
+            "search": "mcp agent",
+            "score": 14514
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "@stackxvietnam/stackx-track-agent",
+          "url": "https://www.npmjs.com/package/@stackxvietnam/stackx-track-agent",
+          "publishedAt": "2026-07-30T04:55:18.040Z",
+          "metrics": {
+            "search": "mcp agent",
+            "score": 12187
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
           "title": "mcp-local-rag",
           "url": "https://www.npmjs.com/package/mcp-local-rag",
-          "publishedAt": "2026-07-27T09:59:50.157Z",
+          "publishedAt": "2026-07-29T16:15:09.454Z",
           "metrics": {
             "search": "rag",
-            "score": 24908
+            "score": 25400
           },
           "painTerms": [],
           "spendTerms": []
@@ -571,7 +633,21 @@
           "publishedAt": "2026-07-27T01:39:48.688Z",
           "metrics": {
             "search": "mcp agent",
-            "score": 14463
+            "score": 14545
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "mcp-agent-broker",
+          "url": "https://www.npmjs.com/package/mcp-agent-broker",
+          "publishedAt": "2026-07-22T02:34:04.469Z",
+          "metrics": {
+            "search": "mcp agent",
+            "score": 13583
           },
           "painTerms": [],
           "spendTerms": []
@@ -585,63 +661,7 @@
           "publishedAt": "2026-07-20T07:24:16.707Z",
           "metrics": {
             "search": "mcp agent",
-            "score": 12187
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "@reaatech/agent-mesh-mcp-server",
-          "url": "https://www.npmjs.com/package/@reaatech/agent-mesh-mcp-server",
-          "publishedAt": "2026-07-02T23:54:09.502Z",
-          "metrics": {
-            "search": "mcp agent",
-            "score": 11849
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "balchemy",
-          "url": "https://www.npmjs.com/package/balchemy",
-          "publishedAt": "2026-07-01T12:45:16.212Z",
-          "metrics": {
-            "search": "mcp agent",
-            "score": 14130
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "@fastcut-video/mcp-agent",
-          "url": "https://www.npmjs.com/package/@fastcut-video/mcp-agent",
-          "publishedAt": "2026-06-28T10:42:38.613Z",
-          "metrics": {
-            "search": "mcp agent",
-            "score": 21882
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "@octogear/mcp-agent",
-          "url": "https://www.npmjs.com/package/@octogear/mcp-agent",
-          "publishedAt": "2026-06-24T13:23:28.826Z",
-          "metrics": {
-            "search": "mcp agent",
-            "score": 18701
+            "score": 12452
           },
           "painTerms": [],
           "spendTerms": []
@@ -649,15 +669,82 @@
       ],
       "spendSignals": [
         {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "bug(mcp): fail closed when adapters exhaust capacity or orchestration produces no result",
+          "url": "https://github.com/nexus-substrate/nexus-agents/issues/4351",
+          "publishedAt": "2026-08-03T00:01:56Z",
+          "metrics": {
+            "comments": 2,
+            "score": 1
+          },
+          "painTerms": [
+            "bug",
+            "missing"
+          ],
+          "spendTerms": [
+            "contract",
+            "pay"
+          ]
+        },
+        {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "MCP Prompts: fix stale e2e/docs coverage, add golden-file + docs-drift tests for all 10 prompts",
+          "url": "https://github.com/zoharbabin/web-researcher-mcp/issues/540",
+          "publishedAt": "2026-08-03T13:50:38Z",
+          "metrics": {
+            "comments": 0,
+            "score": 1
+          },
+          "painTerms": [
+            "expensive",
+            "missing"
+          ],
+          "spendTerms": [
+            "expensive"
+          ]
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "@mcp-use/agent",
+          "url": "https://www.npmjs.com/package/@mcp-use/agent",
+          "publishedAt": "2026-08-03T12:42:47.185Z",
+          "metrics": {
+            "search": "mcp agent",
+            "score": 14514
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "@stackxvietnam/stackx-track-agent",
+          "url": "https://www.npmjs.com/package/@stackxvietnam/stackx-track-agent",
+          "publishedAt": "2026-07-30T04:55:18.040Z",
+          "metrics": {
+            "search": "mcp agent",
+            "score": 12187
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
           "source": "npm",
           "sourceType": "package",
           "evidenceType": "adoption",
           "title": "mcp-local-rag",
           "url": "https://www.npmjs.com/package/mcp-local-rag",
-          "publishedAt": "2026-07-27T09:59:50.157Z",
+          "publishedAt": "2026-07-29T16:15:09.454Z",
           "metrics": {
             "search": "rag",
-            "score": 24908
+            "score": 25400
           },
           "painTerms": [],
           "spendTerms": []
@@ -671,7 +758,21 @@
           "publishedAt": "2026-07-27T01:39:48.688Z",
           "metrics": {
             "search": "mcp agent",
-            "score": 14463
+            "score": 14545
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "mcp-agent-broker",
+          "url": "https://www.npmjs.com/package/mcp-agent-broker",
+          "publishedAt": "2026-07-22T02:34:04.469Z",
+          "metrics": {
+            "search": "mcp agent",
+            "score": 13583
           },
           "painTerms": [],
           "spendTerms": []
@@ -685,21 +786,7 @@
           "publishedAt": "2026-07-20T07:24:16.707Z",
           "metrics": {
             "search": "mcp agent",
-            "score": 12187
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "@reaatech/agent-mesh-mcp-server",
-          "url": "https://www.npmjs.com/package/@reaatech/agent-mesh-mcp-server",
-          "publishedAt": "2026-07-02T23:54:09.502Z",
-          "metrics": {
-            "search": "mcp agent",
-            "score": 11849
+            "score": 12452
           },
           "painTerms": [],
           "spendTerms": []
@@ -713,7 +800,7 @@
           "publishedAt": "2026-07-01T12:45:16.212Z",
           "metrics": {
             "search": "mcp agent",
-            "score": 14130
+            "score": 13215
           },
           "painTerms": [],
           "spendTerms": []
@@ -727,63 +814,7 @@
           "publishedAt": "2026-06-28T10:42:38.613Z",
           "metrics": {
             "search": "mcp agent",
-            "score": 21882
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "@octogear/mcp-agent",
-          "url": "https://www.npmjs.com/package/@octogear/mcp-agent",
-          "publishedAt": "2026-06-24T13:23:28.826Z",
-          "metrics": {
-            "search": "mcp agent",
-            "score": 18701
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "mcum-orchestrator",
-          "url": "https://www.npmjs.com/package/mcum-orchestrator",
-          "publishedAt": "2026-06-22T22:50:48.172Z",
-          "metrics": {
-            "search": "mcp agent",
-            "score": 14477
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "agent-commerce-mcp",
-          "url": "https://www.npmjs.com/package/agent-commerce-mcp",
-          "publishedAt": "2026-05-13T03:43:15.236Z",
-          "metrics": {
-            "search": "mcp agent",
-            "score": 11648
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "@aiondadotcom/mcp-ssh",
-          "url": "https://www.npmjs.com/package/@aiondadotcom/mcp-ssh",
-          "publishedAt": "2026-04-14T16:29:54.339Z",
-          "metrics": {
-            "search": "mcp agent",
-            "score": 14743
+            "score": 14957
           },
           "painTerms": [],
           "spendTerms": []
@@ -796,9 +827,9 @@
           "evidenceType": "macro",
           "title": "Initial unemployment claims",
           "url": "https://fred.stlouisfed.org/series/ICSA",
-          "publishedAt": "2026-07-18T00:00:00.000Z",
+          "publishedAt": "2026-07-25T00:00:00.000Z",
           "metrics": {
-            "value": 187000
+            "value": 197000
           },
           "painTerms": [],
           "spendTerms": []
@@ -809,9 +840,9 @@
           "evidenceType": "macro",
           "title": "Initial unemployment claims",
           "url": "https://fred.stlouisfed.org/series/ICSA",
-          "publishedAt": "2026-07-11T00:00:00.000Z",
+          "publishedAt": "2026-07-18T00:00:00.000Z",
           "metrics": {
-            "value": 209000
+            "value": 188000
           },
           "painTerms": [],
           "spendTerms": []
@@ -824,411 +855,11 @@
       "sparkline": [
         92,
         97,
-        59,
-        85,
-        110,
-        55,
-        63
-      ]
-    },
-    {
-      "id": "auth-sso-integration-debugging",
-      "title": "Auth and SSO Integration Debugging",
-      "customer": "Small B2B SaaS teams adding enterprise SSO",
-      "pain": "Teams lose engineering time debugging authentication edge cases for enterprise customers.",
-      "currentWorkaround": "Support tickets, scattered provider docs, and custom debug scripts.",
-      "wedge": "A hosted SSO test harness that reproduces customer identity-provider setups and explains failed login flows.",
-      "businessModel": "Developer-tool SaaS priced by environment or enterprise customer count.",
-      "validationStep": "Find 20 recent unresolved OAuth, SAML, and Auth0 questions and ask maintainers which failures blocked deals.",
-      "score": 90,
-      "confidence": "high",
-      "isFallback": false,
-      "scoreBreakdown": {
-        "pain": 30,
-        "spend": 20,
-        "recurrence": 15,
-        "sourceQuality": 10,
-        "nicheSpecificity": 8,
-        "macro": 7
-      },
-      "mentionCount": 50,
-      "sourceCount": 4,
-      "whyNow": "50 current evidence items versus prior peak 116 across 4 source types, including 8 pain signals and 7 spend signals.",
-      "evidence": [
-        {
-          "source": "GitHub Issues",
-          "sourceType": "developer-pain",
-          "evidenceType": "pain",
-          "title": "Auth0 middleware sets cookie and reloads page.tsx on every Server Action call",
-          "url": "https://github.com/auth0/nextjs-auth0/issues/2124",
-          "publishedAt": "2025-05-28T05:53:11Z",
-          "metrics": {
-            "comments": 9,
-            "score": 1
-          },
-          "painTerms": [
-            "bug"
-          ],
-          "spendTerms": []
-        },
-        {
-          "source": "GitHub Issues",
-          "sourceType": "developer-pain",
-          "evidenceType": "pain",
-          "title": "[MCP] Make OAuth lifecycle and reauthentication reliable for enterprise SSO",
-          "url": "https://github.com/openai/codex/issues/35006",
-          "publishedAt": "2026-07-23T20:23:43Z",
-          "metrics": {
-            "comments": 3,
-            "score": 1
-          },
-          "painTerms": [
-            "bug",
-            "missing",
-            "problem"
-          ],
-          "spendTerms": [
-            "enterprise"
-          ]
-        },
-        {
-          "source": "GitHub Issues",
-          "sourceType": "developer-pain",
-          "evidenceType": "pain",
-          "title": "Research: payment processor comparison for a Peru-based seller",
-          "url": "https://github.com/d3labsdev/family-recipe/issues/22",
-          "publishedAt": "2026-07-21T23:02:29Z",
-          "metrics": {
-            "comments": 2,
-            "score": 1
-          },
-          "painTerms": [
-            "problem"
-          ],
-          "spendTerms": [
-            "pay",
-            "sales",
-            "subscription"
-          ]
-        },
-        {
-          "source": "GitHub Issues",
-          "sourceType": "developer-pain",
-          "evidenceType": "pain",
-          "title": "auth0_tenant: cannot clear default_redirection_uri via Terraform config",
-          "url": "https://github.com/auth0/terraform-provider-auth0/issues/1573",
-          "publishedAt": "2026-05-11T21:08:18Z",
-          "metrics": {
-            "comments": 2,
-            "score": 1
-          },
-          "painTerms": [
-            "bug",
-            "workaround"
-          ],
-          "spendTerms": []
-        },
-        {
-          "source": "GitHub Issues",
-          "sourceType": "developer-pain",
-          "evidenceType": "pain",
-          "title": "JWT SSO + tenancy: a JWT carrying a valid `@tenant` for an existing tenant intermittently creates a non-tenant (internal) user",
-          "url": "https://github.com/metabase/metabase/issues/78413",
-          "publishedAt": "2026-07-23T02:25:34Z",
-          "metrics": {
-            "comments": 1,
-            "score": 1
-          },
-          "painTerms": [
-            "bug",
-            "missing"
-          ],
-          "spendTerms": [
-            "customer",
-            "enterprise"
-          ]
-        },
-        {
-          "source": "GitHub Issues",
-          "sourceType": "developer-pain",
-          "evidenceType": "pain",
-          "title": "`fulcra auth login` device flow bypasses HTTPS_PROXY, so auth fails in proxied/sandboxed environments",
-          "url": "https://github.com/fulcradynamics/fulcra-api-python/issues/55",
-          "publishedAt": "2026-07-12T09:54:16Z",
-          "metrics": {
-            "comments": 0,
-            "score": 1
-          },
-          "painTerms": [
-            "confusing",
-            "workaround"
-          ],
-          "spendTerms": []
-        },
-        {
-          "source": "GitHub Issues",
-          "sourceType": "developer-pain",
-          "evidenceType": "spend",
-          "title": "Decide: the payment processor",
-          "url": "https://github.com/d3labsdev/family-recipe/issues/27",
-          "publishedAt": "2026-07-21T23:02:38Z",
-          "metrics": {
-            "comments": 3,
-            "score": 1
-          },
-          "painTerms": [],
-          "spendTerms": [
-            "pay",
-            "revenue"
-          ]
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "@briskcloth16/samlify",
-          "url": "https://www.npmjs.com/package/@briskcloth16/samlify",
-          "publishedAt": "2026-07-23T21:54:43.960Z",
-          "metrics": {
-            "search": "saml",
-            "score": 29872
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "auth0",
-          "url": "https://www.npmjs.com/package/auth0",
-          "publishedAt": "2026-07-22T13:19:37.132Z",
-          "metrics": {
-            "search": "auth0",
-            "score": 218610
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "@auth0/auth0-spa-js",
-          "url": "https://www.npmjs.com/package/@auth0/auth0-spa-js",
-          "publishedAt": "2026-07-21T06:53:59.790Z",
-          "metrics": {
-            "search": "auth0",
-            "score": 51808
-          },
-          "painTerms": [],
-          "spendTerms": []
-        }
-      ],
-      "spendSignals": [
-        {
-          "source": "GitHub Issues",
-          "sourceType": "developer-pain",
-          "evidenceType": "pain",
-          "title": "[MCP] Make OAuth lifecycle and reauthentication reliable for enterprise SSO",
-          "url": "https://github.com/openai/codex/issues/35006",
-          "publishedAt": "2026-07-23T20:23:43Z",
-          "metrics": {
-            "comments": 3,
-            "score": 1
-          },
-          "painTerms": [
-            "bug",
-            "missing",
-            "problem"
-          ],
-          "spendTerms": [
-            "enterprise"
-          ]
-        },
-        {
-          "source": "GitHub Issues",
-          "sourceType": "developer-pain",
-          "evidenceType": "pain",
-          "title": "Research: payment processor comparison for a Peru-based seller",
-          "url": "https://github.com/d3labsdev/family-recipe/issues/22",
-          "publishedAt": "2026-07-21T23:02:29Z",
-          "metrics": {
-            "comments": 2,
-            "score": 1
-          },
-          "painTerms": [
-            "problem"
-          ],
-          "spendTerms": [
-            "pay",
-            "sales",
-            "subscription"
-          ]
-        },
-        {
-          "source": "GitHub Issues",
-          "sourceType": "developer-pain",
-          "evidenceType": "pain",
-          "title": "JWT SSO + tenancy: a JWT carrying a valid `@tenant` for an existing tenant intermittently creates a non-tenant (internal) user",
-          "url": "https://github.com/metabase/metabase/issues/78413",
-          "publishedAt": "2026-07-23T02:25:34Z",
-          "metrics": {
-            "comments": 1,
-            "score": 1
-          },
-          "painTerms": [
-            "bug",
-            "missing"
-          ],
-          "spendTerms": [
-            "customer",
-            "enterprise"
-          ]
-        },
-        {
-          "source": "GitHub Issues",
-          "sourceType": "developer-pain",
-          "evidenceType": "spend",
-          "title": "Decide: the payment processor",
-          "url": "https://github.com/d3labsdev/family-recipe/issues/27",
-          "publishedAt": "2026-07-21T23:02:38Z",
-          "metrics": {
-            "comments": 3,
-            "score": 1
-          },
-          "painTerms": [],
-          "spendTerms": [
-            "pay",
-            "revenue"
-          ]
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "@briskcloth16/samlify",
-          "url": "https://www.npmjs.com/package/@briskcloth16/samlify",
-          "publishedAt": "2026-07-23T21:54:43.960Z",
-          "metrics": {
-            "search": "saml",
-            "score": 29872
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "auth0",
-          "url": "https://www.npmjs.com/package/auth0",
-          "publishedAt": "2026-07-22T13:19:37.132Z",
-          "metrics": {
-            "search": "auth0",
-            "score": 218610
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "@auth0/auth0-spa-js",
-          "url": "https://www.npmjs.com/package/@auth0/auth0-spa-js",
-          "publishedAt": "2026-07-21T06:53:59.790Z",
-          "metrics": {
-            "search": "auth0",
-            "score": 51808
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "@pulumi/auth0",
-          "url": "https://www.npmjs.com/package/@pulumi/auth0",
-          "publishedAt": "2026-07-21T04:39:02.844Z",
-          "metrics": {
-            "search": "auth0",
-            "score": 40868
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "@auth0/auth0-vue",
-          "url": "https://www.npmjs.com/package/@auth0/auth0-vue",
-          "publishedAt": "2026-07-20T04:47:00.803Z",
-          "metrics": {
-            "search": "auth0",
-            "score": 42223
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "@auth0/auth0-react",
-          "url": "https://www.npmjs.com/package/@auth0/auth0-react",
-          "publishedAt": "2026-07-17T07:56:30.308Z",
-          "metrics": {
-            "search": "auth0",
-            "score": 55247
-          },
-          "painTerms": [],
-          "spendTerms": []
-        }
-      ],
-      "macroContext": [
-        {
-          "source": "FRED",
-          "sourceType": "macro",
-          "evidenceType": "macro",
-          "title": "Initial unemployment claims",
-          "url": "https://fred.stlouisfed.org/series/ICSA",
-          "publishedAt": "2026-07-18T00:00:00.000Z",
-          "metrics": {
-            "value": 187000
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "FRED",
-          "sourceType": "macro",
-          "evidenceType": "macro",
-          "title": "Initial unemployment claims",
-          "url": "https://fred.stlouisfed.org/series/ICSA",
-          "publishedAt": "2026-07-11T00:00:00.000Z",
-          "metrics": {
-            "value": 209000
-          },
-          "painTerms": [],
-          "spendTerms": []
-        }
-      ],
-      "risks": [
-        "Identity providers differ widely",
-        "Security posture must be credible",
-        "Some pain may stay in consulting"
-      ],
-      "sparkline": [
-        116,
-        122,
-        66,
-        96,
-        125,
-        50,
-        58
+        57,
+        83,
+        107,
+        51,
+        59
       ]
     },
     {
@@ -1251,47 +882,23 @@
         "nicheSpecificity": 8,
         "macro": 7
       },
-      "mentionCount": 44,
-      "sourceCount": 4,
-      "whyNow": "44 current evidence items versus prior peak 65 across 4 source types, including 12 pain signals and 16 spend signals.",
+      "mentionCount": 50,
+      "sourceCount": 5,
+      "whyNow": "50 current evidence items versus prior peak 65 across 5 source types, including 16 pain signals and 22 spend signals.",
       "evidence": [
         {
           "source": "GitHub Issues",
           "sourceType": "developer-pain",
           "evidenceType": "pain",
-          "title": "control-plane: Stripe billing behind a provider-plugin adapter (slices 1-3 + usage phase)",
-          "url": "https://github.com/witwave-ai/witself/issues/31",
-          "publishedAt": "2026-07-05T04:42:42Z",
+          "title": "Wayfinder: Clerk auth + subscription billing",
+          "url": "https://github.com/HayGrouve/onova-za-smetkata/issues/103",
+          "publishedAt": "2026-07-30T17:17:45Z",
           "metrics": {
-            "comments": 21,
+            "comments": 1,
             "score": 1
           },
           "painTerms": [],
           "spendTerms": [
-            "contract",
-            "customer",
-            "invoice",
-            "pay",
-            "subscription",
-            "vendor"
-          ]
-        },
-        {
-          "source": "GitHub Issues",
-          "sourceType": "developer-pain",
-          "evidenceType": "pain",
-          "title": "M11: hosted-keys tier + billing",
-          "url": "https://github.com/AndresCarreonDiaz/capturia/issues/10",
-          "publishedAt": "2026-07-04T21:26:48Z",
-          "metrics": {
-            "comments": 6,
-            "score": 1
-          },
-          "painTerms": [
-            "bug"
-          ],
-          "spendTerms": [
-            "budget",
             "paid",
             "pay",
             "subscription"
@@ -1301,52 +908,35 @@
           "source": "GitHub Issues",
           "sourceType": "developer-pain",
           "evidenceType": "pain",
-          "title": "Epic: Harden Stripe venue billing for production launch",
-          "url": "https://github.com/BeaudanBrown/ihp-roster/issues/215",
-          "publishedAt": "2026-07-22T11:43:06Z",
+          "title": "[12.5] Usage-based billing integration",
+          "url": "https://github.com/nexgen-tech-labs/specmate.io/issues/92",
+          "publishedAt": "2026-07-15T17:07:49Z",
           "metrics": {
-            "comments": 3,
+            "comments": 1,
             "score": 1
           },
           "painTerms": [
-            "hard",
-            "manual",
-            "mess",
-            "missing",
-            "problem"
+            "manual"
           ],
           "spendTerms": [
-            "contract",
-            "customer",
-            "invoice",
-            "paid",
-            "pay",
-            "pricing",
-            "renewal",
-            "subscription",
-            "vendor"
+            "invoice"
           ]
         },
         {
           "source": "GitHub Issues",
           "sourceType": "developer-pain",
           "evidenceType": "pain",
-          "title": "smrt-subscriptions: usage-based billing (Stripe Meter Events, per-unit pricing, tiered overage)",
-          "url": "https://github.com/happyvertical/smrt/issues/1453",
-          "publishedAt": "2026-06-08T15:49:45Z",
+          "title": "[EPIC-21] Billing & Subscription Management",
+          "url": "https://github.com/F-0-R-E-S/crm/issues/21",
+          "publishedAt": "2026-04-12T16:07:31Z",
           "metrics": {
-            "comments": 2,
+            "comments": 1,
             "score": 1
           },
-          "painTerms": [
-            "hard",
-            "missing"
-          ],
+          "painTerms": [],
           "spendTerms": [
-            "contract",
             "invoice",
             "pay",
-            "pricing",
             "revenue",
             "subscription"
           ]
@@ -1355,18 +945,44 @@
           "source": "GitHub Issues",
           "sourceType": "developer-pain",
           "evidenceType": "pain",
-          "title": "Stripe production",
-          "url": "https://github.com/liberusoftware/genealogy-laravel/issues/1490",
-          "publishedAt": "2026-05-03T03:33:19Z",
+          "title": "Replace Clerk Billing with direct Stripe Billing before V1",
+          "url": "https://github.com/akouyate/prelude/issues/140",
+          "publishedAt": "2026-08-03T15:06:01Z",
           "metrics": {
-            "comments": 1,
+            "comments": 0,
             "score": 1
           },
-          "painTerms": [],
+          "painTerms": [
+            "missing"
+          ],
           "spendTerms": [
+            "compliance",
+            "contract",
             "customer",
+            "enterprise",
             "invoice",
             "paid",
+            "pay",
+            "pricing",
+            "subscription"
+          ]
+        },
+        {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "adopt platform-go v9 capitalism and drop the direct stripe-go v75 pin",
+          "url": "https://github.com/primandproper/dinnerdonebetter/issues/1257",
+          "publishedAt": "2026-08-02T14:47:04Z",
+          "metrics": {
+            "comments": 0,
+            "score": 1
+          },
+          "painTerms": [
+            "problem"
+          ],
+          "spendTerms": [
+            "customer",
             "pay",
             "subscription"
           ]
@@ -1375,9 +991,9 @@
           "source": "GitHub Issues",
           "sourceType": "developer-pain",
           "evidenceType": "pain",
-          "title": "Integrate Stripe metered billing",
-          "url": "https://github.com/rchacon/cd-platform/issues/17",
-          "publishedAt": "2026-07-27T05:48:00Z",
+          "title": "Apply safe downgrade and over-limit behavior",
+          "url": "https://github.com/owainlewis/slate.do/issues/94",
+          "publishedAt": "2026-08-01T14:13:12Z",
           "metrics": {
             "comments": 0,
             "score": 1
@@ -1387,8 +1003,8 @@
           ],
           "spendTerms": [
             "customer",
+            "paid",
             "pay",
-            "pricing",
             "subscription"
           ]
         },
@@ -1396,7 +1012,45 @@
           "source": "GitHub Issues",
           "sourceType": "developer-pain",
           "evidenceType": "pain",
-          "title": "AI SaaS founders lack granular tracking of AI costs per customer, per feature, and per pricing plan, relying only on total monthly bills without understanding profitability or cost drivers. (11 reports, 11 people)",
+          "title": "Configure the Stripe product and $5 monthly price",
+          "url": "https://github.com/owainlewis/slate.do/issues/92",
+          "publishedAt": "2026-08-01T14:13:10Z",
+          "metrics": {
+            "comments": 0,
+            "score": 1
+          },
+          "painTerms": [],
+          "spendTerms": [
+            "customer",
+            "invoice",
+            "paid",
+            "pay",
+            "pricing",
+            "sales",
+            "subscription"
+          ]
+        },
+        {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "Usage-based billing follow-ups: retry double-reporting, end-to-end test, env-coupled tests, Settings drift",
+          "url": "https://github.com/nexgen-tech-labs/specmate.io/issues/110",
+          "publishedAt": "2026-08-01T09:45:07Z",
+          "metrics": {
+            "comments": 0,
+            "score": 1
+          },
+          "painTerms": [
+            "hard"
+          ],
+          "spendTerms": []
+        },
+        {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "AI SaaS founders lack granular tracking of AI costs per customer, per feature, and per pricing plan, relying only on total monthly bills without understanding profitability or cost drivers. (12 posts, 12 people on Reddit dealing with it)",
           "url": "https://github.com/nimius-debug/market-fit-research/issues/150",
           "publishedAt": "2026-07-13T11:34:51Z",
           "metrics": {
@@ -1412,6 +1066,7 @@
           "spendTerms": [
             "budget",
             "customer",
+            "deal",
             "pricing"
           ]
         },
@@ -1419,8 +1074,8 @@
           "source": "GitHub Issues",
           "sourceType": "developer-pain",
           "evidenceType": "pain",
-          "title": "Add Pro checkout and billing portal",
-          "url": "https://github.com/owainlewis/slate.do/issues/19",
+          "title": "Resolve Stripe subscriptions into Free and Pro access",
+          "url": "https://github.com/owainlewis/slate.do/issues/18",
           "publishedAt": "2026-06-29T20:46:25Z",
           "metrics": {
             "comments": 0,
@@ -1431,38 +1086,11 @@
           ],
           "spendTerms": [
             "customer",
+            "invoice",
             "paid",
-            "pay",
+            "pricing",
             "subscription"
           ]
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "@stripe/stripe-react-native",
-          "url": "https://www.npmjs.com/package/@stripe/stripe-react-native",
-          "publishedAt": "2026-07-27T15:11:21.522Z",
-          "metrics": {
-            "search": "stripe metering",
-            "score": 7844
-          },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "@aws-sdk/client-marketplace-metering",
-          "url": "https://www.npmjs.com/package/@aws-sdk/client-marketplace-metering",
-          "publishedAt": "2026-07-24T18:51:53.078Z",
-          "metrics": {
-            "search": "stripe metering",
-            "score": 9708
-          },
-          "painTerms": [],
-          "spendTerms": []
         }
       ],
       "spendSignals": [
@@ -1470,39 +1098,15 @@
           "source": "GitHub Issues",
           "sourceType": "developer-pain",
           "evidenceType": "pain",
-          "title": "control-plane: Stripe billing behind a provider-plugin adapter (slices 1-3 + usage phase)",
-          "url": "https://github.com/witwave-ai/witself/issues/31",
-          "publishedAt": "2026-07-05T04:42:42Z",
+          "title": "Wayfinder: Clerk auth + subscription billing",
+          "url": "https://github.com/HayGrouve/onova-za-smetkata/issues/103",
+          "publishedAt": "2026-07-30T17:17:45Z",
           "metrics": {
-            "comments": 21,
+            "comments": 1,
             "score": 1
           },
           "painTerms": [],
           "spendTerms": [
-            "contract",
-            "customer",
-            "invoice",
-            "pay",
-            "subscription",
-            "vendor"
-          ]
-        },
-        {
-          "source": "GitHub Issues",
-          "sourceType": "developer-pain",
-          "evidenceType": "pain",
-          "title": "M11: hosted-keys tier + billing",
-          "url": "https://github.com/AndresCarreonDiaz/capturia/issues/10",
-          "publishedAt": "2026-07-04T21:26:48Z",
-          "metrics": {
-            "comments": 6,
-            "score": 1
-          },
-          "painTerms": [
-            "bug"
-          ],
-          "spendTerms": [
-            "budget",
             "paid",
             "pay",
             "subscription"
@@ -1512,52 +1116,35 @@
           "source": "GitHub Issues",
           "sourceType": "developer-pain",
           "evidenceType": "pain",
-          "title": "Epic: Harden Stripe venue billing for production launch",
-          "url": "https://github.com/BeaudanBrown/ihp-roster/issues/215",
-          "publishedAt": "2026-07-22T11:43:06Z",
+          "title": "[12.5] Usage-based billing integration",
+          "url": "https://github.com/nexgen-tech-labs/specmate.io/issues/92",
+          "publishedAt": "2026-07-15T17:07:49Z",
           "metrics": {
-            "comments": 3,
+            "comments": 1,
             "score": 1
           },
           "painTerms": [
-            "hard",
-            "manual",
-            "mess",
-            "missing",
-            "problem"
+            "manual"
           ],
           "spendTerms": [
-            "contract",
-            "customer",
-            "invoice",
-            "paid",
-            "pay",
-            "pricing",
-            "renewal",
-            "subscription",
-            "vendor"
+            "invoice"
           ]
         },
         {
           "source": "GitHub Issues",
           "sourceType": "developer-pain",
           "evidenceType": "pain",
-          "title": "smrt-subscriptions: usage-based billing (Stripe Meter Events, per-unit pricing, tiered overage)",
-          "url": "https://github.com/happyvertical/smrt/issues/1453",
-          "publishedAt": "2026-06-08T15:49:45Z",
+          "title": "[EPIC-21] Billing & Subscription Management",
+          "url": "https://github.com/F-0-R-E-S/crm/issues/21",
+          "publishedAt": "2026-04-12T16:07:31Z",
           "metrics": {
-            "comments": 2,
+            "comments": 1,
             "score": 1
           },
-          "painTerms": [
-            "hard",
-            "missing"
-          ],
+          "painTerms": [],
           "spendTerms": [
-            "contract",
             "invoice",
             "pay",
-            "pricing",
             "revenue",
             "subscription"
           ]
@@ -1566,18 +1153,44 @@
           "source": "GitHub Issues",
           "sourceType": "developer-pain",
           "evidenceType": "pain",
-          "title": "Stripe production",
-          "url": "https://github.com/liberusoftware/genealogy-laravel/issues/1490",
-          "publishedAt": "2026-05-03T03:33:19Z",
+          "title": "Replace Clerk Billing with direct Stripe Billing before V1",
+          "url": "https://github.com/akouyate/prelude/issues/140",
+          "publishedAt": "2026-08-03T15:06:01Z",
           "metrics": {
-            "comments": 1,
+            "comments": 0,
             "score": 1
           },
-          "painTerms": [],
+          "painTerms": [
+            "missing"
+          ],
           "spendTerms": [
+            "compliance",
+            "contract",
             "customer",
+            "enterprise",
             "invoice",
             "paid",
+            "pay",
+            "pricing",
+            "subscription"
+          ]
+        },
+        {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "adopt platform-go v9 capitalism and drop the direct stripe-go v75 pin",
+          "url": "https://github.com/primandproper/dinnerdonebetter/issues/1257",
+          "publishedAt": "2026-08-02T14:47:04Z",
+          "metrics": {
+            "comments": 0,
+            "score": 1
+          },
+          "painTerms": [
+            "problem"
+          ],
+          "spendTerms": [
+            "customer",
             "pay",
             "subscription"
           ]
@@ -1586,9 +1199,9 @@
           "source": "GitHub Issues",
           "sourceType": "developer-pain",
           "evidenceType": "pain",
-          "title": "Integrate Stripe metered billing",
-          "url": "https://github.com/rchacon/cd-platform/issues/17",
-          "publishedAt": "2026-07-27T05:48:00Z",
+          "title": "Apply safe downgrade and over-limit behavior",
+          "url": "https://github.com/owainlewis/slate.do/issues/94",
+          "publishedAt": "2026-08-01T14:13:12Z",
           "metrics": {
             "comments": 0,
             "score": 1
@@ -1598,8 +1211,8 @@
           ],
           "spendTerms": [
             "customer",
+            "paid",
             "pay",
-            "pricing",
             "subscription"
           ]
         },
@@ -1607,7 +1220,29 @@
           "source": "GitHub Issues",
           "sourceType": "developer-pain",
           "evidenceType": "pain",
-          "title": "AI SaaS founders lack granular tracking of AI costs per customer, per feature, and per pricing plan, relying only on total monthly bills without understanding profitability or cost drivers. (11 reports, 11 people)",
+          "title": "Configure the Stripe product and $5 monthly price",
+          "url": "https://github.com/owainlewis/slate.do/issues/92",
+          "publishedAt": "2026-08-01T14:13:10Z",
+          "metrics": {
+            "comments": 0,
+            "score": 1
+          },
+          "painTerms": [],
+          "spendTerms": [
+            "customer",
+            "invoice",
+            "paid",
+            "pay",
+            "pricing",
+            "sales",
+            "subscription"
+          ]
+        },
+        {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "AI SaaS founders lack granular tracking of AI costs per customer, per feature, and per pricing plan, relying only on total monthly bills without understanding profitability or cost drivers. (12 posts, 12 people on Reddit dealing with it)",
           "url": "https://github.com/nimius-debug/market-fit-research/issues/150",
           "publishedAt": "2026-07-13T11:34:51Z",
           "metrics": {
@@ -1623,6 +1258,7 @@
           "spendTerms": [
             "budget",
             "customer",
+            "deal",
             "pricing"
           ]
         },
@@ -1630,8 +1266,8 @@
           "source": "GitHub Issues",
           "sourceType": "developer-pain",
           "evidenceType": "pain",
-          "title": "Add Pro checkout and billing portal",
-          "url": "https://github.com/owainlewis/slate.do/issues/19",
+          "title": "Resolve Stripe subscriptions into Free and Pro access",
+          "url": "https://github.com/owainlewis/slate.do/issues/18",
           "publishedAt": "2026-06-29T20:46:25Z",
           "metrics": {
             "comments": 0,
@@ -1642,38 +1278,36 @@
           ],
           "spendTerms": [
             "customer",
+            "invoice",
             "paid",
-            "pay",
+            "pricing",
             "subscription"
           ]
         },
         {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "@stripe/stripe-react-native",
-          "url": "https://www.npmjs.com/package/@stripe/stripe-react-native",
-          "publishedAt": "2026-07-27T15:11:21.522Z",
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "Add an autumn-billing plugin for Stripe subscriptions and dunning",
+          "url": "https://github.com/autumn-foundation/autumn/issues/1190",
+          "publishedAt": "2026-06-11T03:09:57Z",
           "metrics": {
-            "search": "stripe metering",
-            "score": 7844
+            "comments": 0,
+            "score": 1
           },
-          "painTerms": [],
-          "spendTerms": []
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "@aws-sdk/client-marketplace-metering",
-          "url": "https://www.npmjs.com/package/@aws-sdk/client-marketplace-metering",
-          "publishedAt": "2026-07-24T18:51:53.078Z",
-          "metrics": {
-            "search": "stripe metering",
-            "score": 9708
-          },
-          "painTerms": [],
-          "spendTerms": []
+          "painTerms": [
+            "hard",
+            "missing",
+            "problem"
+          ],
+          "spendTerms": [
+            "customer",
+            "invoice",
+            "pay",
+            "pricing",
+            "revenue",
+            "subscription"
+          ]
         }
       ],
       "macroContext": [
@@ -1731,11 +1365,437 @@
       "sparkline": [
         65,
         68,
-        44,
-        63,
-        82,
-        44,
-        52
+        46,
+        67,
+        86,
+        50,
+        58
+      ]
+    },
+    {
+      "id": "auth-sso-integration-debugging",
+      "title": "Auth and SSO Integration Debugging",
+      "customer": "Small B2B SaaS teams adding enterprise SSO",
+      "pain": "Teams lose engineering time debugging authentication edge cases for enterprise customers.",
+      "currentWorkaround": "Support tickets, scattered provider docs, and custom debug scripts.",
+      "wedge": "A hosted SSO test harness that reproduces customer identity-provider setups and explains failed login flows.",
+      "businessModel": "Developer-tool SaaS priced by environment or enterprise customer count.",
+      "validationStep": "Find 20 recent unresolved OAuth, SAML, and Auth0 questions and ask maintainers which failures blocked deals.",
+      "score": 90,
+      "confidence": "high",
+      "isFallback": false,
+      "scoreBreakdown": {
+        "pain": 30,
+        "spend": 20,
+        "recurrence": 15,
+        "sourceQuality": 10,
+        "nicheSpecificity": 8,
+        "macro": 7
+      },
+      "mentionCount": 51,
+      "sourceCount": 4,
+      "whyNow": "51 current evidence items versus prior peak 116 across 4 source types, including 9 pain signals and 7 spend signals.",
+      "evidence": [
+        {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "Auth0 middleware sets cookie and reloads page.tsx on every Server Action call",
+          "url": "https://github.com/auth0/nextjs-auth0/issues/2124",
+          "publishedAt": "2025-05-28T05:53:11Z",
+          "metrics": {
+            "comments": 9,
+            "score": 1
+          },
+          "painTerms": [
+            "bug"
+          ],
+          "spendTerms": []
+        },
+        {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "[BUG] - Hardcoded OAuth callback port 3118 prevents authentication when multiple Claude Code sessions run in parallel",
+          "url": "https://github.com/anthropics/claude-code/issues/64492",
+          "publishedAt": "2026-06-01T13:31:21Z",
+          "metrics": {
+            "comments": 3,
+            "score": 1
+          },
+          "painTerms": [
+            "bug",
+            "friction",
+            "hard",
+            "mess",
+            "missing",
+            "workaround"
+          ],
+          "spendTerms": [
+            "deal"
+          ]
+        },
+        {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "auth0_tenant: cannot clear default_redirection_uri via Terraform config",
+          "url": "https://github.com/auth0/terraform-provider-auth0/issues/1573",
+          "publishedAt": "2026-05-11T21:08:18Z",
+          "metrics": {
+            "comments": 2,
+            "score": 1
+          },
+          "painTerms": [
+            "bug",
+            "workaround"
+          ],
+          "spendTerms": []
+        },
+        {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "Add a generic OpenID Connect provider with a configurable display name",
+          "url": "https://github.com/0x101-Cyber-Security/NetLock-RMM/issues/524",
+          "publishedAt": "2026-07-30T18:14:31Z",
+          "metrics": {
+            "comments": 1,
+            "score": 1
+          },
+          "painTerms": [
+            "brittle",
+            "confusing",
+            "difficult",
+            "hard",
+            "problem"
+          ],
+          "spendTerms": [
+            "vendor"
+          ]
+        },
+        {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "[P2] [feature-request] Authentication via generic OIDC, local username/password, and reverse-proxy headers — three modes, one user model",
+          "url": "https://github.com/lucastononro/trainable/issues/82",
+          "publishedAt": "2026-05-12T14:59:59Z",
+          "metrics": {
+            "comments": 1,
+            "score": 1
+          },
+          "painTerms": [
+            "confusing",
+            "friction",
+            "manual",
+            "mess",
+            "missing",
+            "pain",
+            "painful"
+          ],
+          "spendTerms": [
+            "customer",
+            "enterprise",
+            "pay",
+            "vendor"
+          ]
+        },
+        {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "`fulcra auth login` device flow bypasses HTTPS_PROXY, so auth fails in proxied/sandboxed environments",
+          "url": "https://github.com/fulcradynamics/fulcra-api-python/issues/55",
+          "publishedAt": "2026-07-12T09:54:16Z",
+          "metrics": {
+            "comments": 0,
+            "score": 1
+          },
+          "painTerms": [
+            "confusing",
+            "workaround"
+          ],
+          "spendTerms": []
+        },
+        {
+          "source": "Hacker News",
+          "sourceType": "discussion",
+          "evidenceType": "pain",
+          "title": "30 years of CPUs at Tom's Hardware – looking back on three decades of processors",
+          "url": "https://www.tomshardware.com/pc-components/cpus/30-years-of-cpus-at-toms-hardware-looking-back-on-three-decades-of-processors-from-the-pentium-ii-to-ryzen-9-9950x3d2",
+          "publishedAt": "2026-08-03T13:26:06.000Z",
+          "metrics": {
+            "score": 16,
+            "comments": 4,
+            "rank": 60
+          },
+          "painTerms": [
+            "hard"
+          ],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "@pulumi/auth0",
+          "url": "https://www.npmjs.com/package/@pulumi/auth0",
+          "publishedAt": "2026-08-03T04:47:56.099Z",
+          "metrics": {
+            "search": "auth0",
+            "score": 40840
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "@voltro/plugin-sso-saml",
+          "url": "https://www.npmjs.com/package/@voltro/plugin-sso-saml",
+          "publishedAt": "2026-08-02T20:57:27.409Z",
+          "metrics": {
+            "search": "saml",
+            "score": 29795
+          },
+          "painTerms": [],
+          "spendTerms": [
+            "enterprise"
+          ]
+        },
+        {
+          "source": "Hacker News",
+          "sourceType": "discussion",
+          "evidenceType": "attention",
+          "title": "Autoregressive Language Model on the 6502 Processor",
+          "url": "https://mattbeton.com/blog/bitnet-6502.html",
+          "publishedAt": "2026-07-31T13:08:30.000Z",
+          "metrics": {
+            "score": 126,
+            "comments": 12,
+            "rank": 45
+          },
+          "painTerms": [],
+          "spendTerms": []
+        }
+      ],
+      "spendSignals": [
+        {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "[BUG] - Hardcoded OAuth callback port 3118 prevents authentication when multiple Claude Code sessions run in parallel",
+          "url": "https://github.com/anthropics/claude-code/issues/64492",
+          "publishedAt": "2026-06-01T13:31:21Z",
+          "metrics": {
+            "comments": 3,
+            "score": 1
+          },
+          "painTerms": [
+            "bug",
+            "friction",
+            "hard",
+            "mess",
+            "missing",
+            "workaround"
+          ],
+          "spendTerms": [
+            "deal"
+          ]
+        },
+        {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "Add a generic OpenID Connect provider with a configurable display name",
+          "url": "https://github.com/0x101-Cyber-Security/NetLock-RMM/issues/524",
+          "publishedAt": "2026-07-30T18:14:31Z",
+          "metrics": {
+            "comments": 1,
+            "score": 1
+          },
+          "painTerms": [
+            "brittle",
+            "confusing",
+            "difficult",
+            "hard",
+            "problem"
+          ],
+          "spendTerms": [
+            "vendor"
+          ]
+        },
+        {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "[P2] [feature-request] Authentication via generic OIDC, local username/password, and reverse-proxy headers — three modes, one user model",
+          "url": "https://github.com/lucastononro/trainable/issues/82",
+          "publishedAt": "2026-05-12T14:59:59Z",
+          "metrics": {
+            "comments": 1,
+            "score": 1
+          },
+          "painTerms": [
+            "confusing",
+            "friction",
+            "manual",
+            "mess",
+            "missing",
+            "pain",
+            "painful"
+          ],
+          "spendTerms": [
+            "customer",
+            "enterprise",
+            "pay",
+            "vendor"
+          ]
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "@pulumi/auth0",
+          "url": "https://www.npmjs.com/package/@pulumi/auth0",
+          "publishedAt": "2026-08-03T04:47:56.099Z",
+          "metrics": {
+            "search": "auth0",
+            "score": 40840
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "@voltro/plugin-sso-saml",
+          "url": "https://www.npmjs.com/package/@voltro/plugin-sso-saml",
+          "publishedAt": "2026-08-02T20:57:27.409Z",
+          "metrics": {
+            "search": "saml",
+            "score": 29795
+          },
+          "painTerms": [],
+          "spendTerms": [
+            "enterprise"
+          ]
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "react-native-auth0",
+          "url": "https://www.npmjs.com/package/react-native-auth0",
+          "publishedAt": "2026-07-31T07:17:22.189Z",
+          "metrics": {
+            "search": "auth0",
+            "score": 44783
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "auth0-deploy-cli",
+          "url": "https://www.npmjs.com/package/auth0-deploy-cli",
+          "publishedAt": "2026-07-30T13:04:45.909Z",
+          "metrics": {
+            "search": "auth0",
+            "score": 38100
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "@auth0/auth0-react",
+          "url": "https://www.npmjs.com/package/@auth0/auth0-react",
+          "publishedAt": "2026-07-29T06:58:52.296Z",
+          "metrics": {
+            "search": "auth0",
+            "score": 55075
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "@auth0/auth0-spa-js",
+          "url": "https://www.npmjs.com/package/@auth0/auth0-spa-js",
+          "publishedAt": "2026-07-28T14:01:42.049Z",
+          "metrics": {
+            "search": "auth0",
+            "score": 51210
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "npm",
+          "sourceType": "package",
+          "evidenceType": "adoption",
+          "title": "@auth0/nextjs-auth0",
+          "url": "https://www.npmjs.com/package/@auth0/nextjs-auth0",
+          "publishedAt": "2026-07-28T12:19:06.838Z",
+          "metrics": {
+            "search": "auth0",
+            "score": 58994
+          },
+          "painTerms": [],
+          "spendTerms": []
+        }
+      ],
+      "macroContext": [
+        {
+          "source": "FRED",
+          "sourceType": "macro",
+          "evidenceType": "macro",
+          "title": "Initial unemployment claims",
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "publishedAt": "2026-07-25T00:00:00.000Z",
+          "metrics": {
+            "value": 197000
+          },
+          "painTerms": [],
+          "spendTerms": []
+        },
+        {
+          "source": "FRED",
+          "sourceType": "macro",
+          "evidenceType": "macro",
+          "title": "Initial unemployment claims",
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "publishedAt": "2026-07-18T00:00:00.000Z",
+          "metrics": {
+            "value": 188000
+          },
+          "painTerms": [],
+          "spendTerms": []
+        }
+      ],
+      "risks": [
+        "Identity providers differ widely",
+        "Security posture must be credible",
+        "Some pain may stay in consulting"
+      ],
+      "sparkline": [
+        116,
+        122,
+        67,
+        97,
+        125,
+        51,
+        59
       ]
     },
     {
@@ -1758,9 +1818,9 @@
         "nicheSpecificity": 8,
         "macro": 7
       },
-      "mentionCount": 32,
-      "sourceCount": 3,
-      "whyNow": "32 current evidence items versus prior peak 32 across 3 source types, including 14 pain signals and 32 spend signals.",
+      "mentionCount": 35,
+      "sourceCount": 4,
+      "whyNow": "35 current evidence items versus prior peak 32 across 4 source types, including 16 pain signals and 35 spend signals.",
       "evidence": [
         {
           "source": "GitHub Issues",
@@ -1770,7 +1830,7 @@
           "url": "https://github.com/microsoft/semantic-kernel/issues/13957",
           "publishedAt": "2026-05-06T12:59:13Z",
           "metrics": {
-            "comments": 70,
+            "comments": 71,
             "score": 1
           },
           "painTerms": [
@@ -1783,23 +1843,6 @@
             "compliance",
             "customer",
             "enterprise"
-          ]
-        },
-        {
-          "source": "GitHub Issues",
-          "sourceType": "developer-pain",
-          "evidenceType": "pain",
-          "title": "[milestone Milestone 3 ] `ComplianceProfile` schema for mapping trust artifacts to compliance frameworks ...",
-          "url": "https://github.com/WasmAgent/agent-trust-infra/issues/98",
-          "publishedAt": "2026-07-06T10:15:20Z",
-          "metrics": {
-            "comments": 5,
-            "score": 1
-          },
-          "painTerms": [],
-          "spendTerms": [
-            "compliance",
-            "soc2"
           ]
         },
         {
@@ -1821,6 +1864,53 @@
             "compliance",
             "customer",
             "enterprise",
+            "soc2"
+          ]
+        },
+        {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "[Feature Request] Compliance-Aligned Constitution Templates + Readiness Scanners (SOC 2, ISO 27001, HIPAA, HiTrust)",
+          "url": "https://github.com/deftai/directive/issues/95",
+          "publishedAt": "2026-03-20T16:05:14Z",
+          "metrics": {
+            "comments": 2,
+            "score": 1
+          },
+          "painTerms": [
+            "expensive",
+            "hard",
+            "missing"
+          ],
+          "spendTerms": [
+            "compliance",
+            "expensive",
+            "pay",
+            "sales",
+            "soc2",
+            "vendor"
+          ]
+        },
+        {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "COMPLIANCE: Automated Control Testing Pipeline — Prowler + Gitleaks + Comp AI + Weekly Evidence Chain",
+          "url": "https://github.com/breverdbidder/cli-anything-biddeed/issues/17584",
+          "publishedAt": "2026-08-03T10:17:31Z",
+          "metrics": {
+            "comments": 1,
+            "score": 1
+          },
+          "painTerms": [
+            "manual",
+            "missing"
+          ],
+          "spendTerms": [
+            "compliance",
+            "contract",
+            "customer",
             "soc2"
           ]
         },
@@ -1852,6 +1942,24 @@
           ]
         },
         {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "Make unified schema & class shapes config-driven instead of hand-written DDL forks",
+          "url": "https://github.com/constructorfabric/insight/issues/1770",
+          "publishedAt": "2026-07-14T18:03:10Z",
+          "metrics": {
+            "comments": 0,
+            "score": 1
+          },
+          "painTerms": [
+            "manual"
+          ],
+          "spendTerms": [
+            "contract"
+          ]
+        },
+        {
           "source": "npm",
           "sourceType": "package",
           "evidenceType": "adoption",
@@ -1860,7 +1968,7 @@
           "publishedAt": "2026-07-17T15:09:38.600Z",
           "metrics": {
             "search": "soc2",
-            "score": 8009
+            "score": 9349
           },
           "painTerms": [],
           "spendTerms": [
@@ -1876,7 +1984,7 @@
           "publishedAt": "2026-07-12T21:31:01.208Z",
           "metrics": {
             "search": "soc2",
-            "score": 9326
+            "score": 9337
           },
           "painTerms": [],
           "spendTerms": [
@@ -1892,7 +2000,7 @@
           "publishedAt": "2026-07-12T04:52:01.239Z",
           "metrics": {
             "search": "soc2",
-            "score": 7308
+            "score": 7772
           },
           "painTerms": [],
           "spendTerms": [
@@ -1909,44 +2017,11 @@
           "publishedAt": "2026-07-11T18:13:58.018Z",
           "metrics": {
             "search": "soc2",
-            "score": 6992
+            "score": 7081
           },
           "painTerms": [],
           "spendTerms": [
             "compliance",
-            "soc2"
-          ]
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "cataam-mcp-server",
-          "url": "https://www.npmjs.com/package/cataam-mcp-server",
-          "publishedAt": "2026-06-29T18:33:42.273Z",
-          "metrics": {
-            "search": "soc2",
-            "score": 7694
-          },
-          "painTerms": [],
-          "spendTerms": [
-            "compliance",
-            "soc2"
-          ]
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "@scopebound/n8n-nodes-scopebound",
-          "url": "https://www.npmjs.com/package/@scopebound/n8n-nodes-scopebound",
-          "publishedAt": "2026-06-26T21:50:51.671Z",
-          "metrics": {
-            "search": "soc2",
-            "score": 9731
-          },
-          "painTerms": [],
-          "spendTerms": [
             "soc2"
           ]
         }
@@ -1960,7 +2035,7 @@
           "url": "https://github.com/microsoft/semantic-kernel/issues/13957",
           "publishedAt": "2026-05-06T12:59:13Z",
           "metrics": {
-            "comments": 70,
+            "comments": 71,
             "score": 1
           },
           "painTerms": [
@@ -1973,23 +2048,6 @@
             "compliance",
             "customer",
             "enterprise"
-          ]
-        },
-        {
-          "source": "GitHub Issues",
-          "sourceType": "developer-pain",
-          "evidenceType": "pain",
-          "title": "[milestone Milestone 3 ] `ComplianceProfile` schema for mapping trust artifacts to compliance frameworks ...",
-          "url": "https://github.com/WasmAgent/agent-trust-infra/issues/98",
-          "publishedAt": "2026-07-06T10:15:20Z",
-          "metrics": {
-            "comments": 5,
-            "score": 1
-          },
-          "painTerms": [],
-          "spendTerms": [
-            "compliance",
-            "soc2"
           ]
         },
         {
@@ -2011,6 +2069,53 @@
             "compliance",
             "customer",
             "enterprise",
+            "soc2"
+          ]
+        },
+        {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "[Feature Request] Compliance-Aligned Constitution Templates + Readiness Scanners (SOC 2, ISO 27001, HIPAA, HiTrust)",
+          "url": "https://github.com/deftai/directive/issues/95",
+          "publishedAt": "2026-03-20T16:05:14Z",
+          "metrics": {
+            "comments": 2,
+            "score": 1
+          },
+          "painTerms": [
+            "expensive",
+            "hard",
+            "missing"
+          ],
+          "spendTerms": [
+            "compliance",
+            "expensive",
+            "pay",
+            "sales",
+            "soc2",
+            "vendor"
+          ]
+        },
+        {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "COMPLIANCE: Automated Control Testing Pipeline — Prowler + Gitleaks + Comp AI + Weekly Evidence Chain",
+          "url": "https://github.com/breverdbidder/cli-anything-biddeed/issues/17584",
+          "publishedAt": "2026-08-03T10:17:31Z",
+          "metrics": {
+            "comments": 1,
+            "score": 1
+          },
+          "painTerms": [
+            "manual",
+            "missing"
+          ],
+          "spendTerms": [
+            "compliance",
+            "contract",
+            "customer",
             "soc2"
           ]
         },
@@ -2042,6 +2147,24 @@
           ]
         },
         {
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "Make unified schema & class shapes config-driven instead of hand-written DDL forks",
+          "url": "https://github.com/constructorfabric/insight/issues/1770",
+          "publishedAt": "2026-07-14T18:03:10Z",
+          "metrics": {
+            "comments": 0,
+            "score": 1
+          },
+          "painTerms": [
+            "manual"
+          ],
+          "spendTerms": [
+            "contract"
+          ]
+        },
+        {
           "source": "npm",
           "sourceType": "package",
           "evidenceType": "adoption",
@@ -2050,7 +2173,7 @@
           "publishedAt": "2026-07-17T15:09:38.600Z",
           "metrics": {
             "search": "soc2",
-            "score": 8009
+            "score": 9349
           },
           "painTerms": [],
           "spendTerms": [
@@ -2066,7 +2189,7 @@
           "publishedAt": "2026-07-12T21:31:01.208Z",
           "metrics": {
             "search": "soc2",
-            "score": 9326
+            "score": 9337
           },
           "painTerms": [],
           "spendTerms": [
@@ -2082,7 +2205,7 @@
           "publishedAt": "2026-07-12T04:52:01.239Z",
           "metrics": {
             "search": "soc2",
-            "score": 7308
+            "score": 7772
           },
           "painTerms": [],
           "spendTerms": [
@@ -2099,44 +2222,11 @@
           "publishedAt": "2026-07-11T18:13:58.018Z",
           "metrics": {
             "search": "soc2",
-            "score": 6992
+            "score": 7081
           },
           "painTerms": [],
           "spendTerms": [
             "compliance",
-            "soc2"
-          ]
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "cataam-mcp-server",
-          "url": "https://www.npmjs.com/package/cataam-mcp-server",
-          "publishedAt": "2026-06-29T18:33:42.273Z",
-          "metrics": {
-            "search": "soc2",
-            "score": 7694
-          },
-          "painTerms": [],
-          "spendTerms": [
-            "compliance",
-            "soc2"
-          ]
-        },
-        {
-          "source": "npm",
-          "sourceType": "package",
-          "evidenceType": "adoption",
-          "title": "@scopebound/n8n-nodes-scopebound",
-          "url": "https://www.npmjs.com/package/@scopebound/n8n-nodes-scopebound",
-          "publishedAt": "2026-06-26T21:50:51.671Z",
-          "metrics": {
-            "search": "soc2",
-            "score": 9731
-          },
-          "painTerms": [],
-          "spendTerms": [
             "soc2"
           ]
         }
@@ -2148,9 +2238,9 @@
           "evidenceType": "macro",
           "title": "Initial unemployment claims",
           "url": "https://fred.stlouisfed.org/series/ICSA",
-          "publishedAt": "2026-07-18T00:00:00.000Z",
+          "publishedAt": "2026-07-25T00:00:00.000Z",
           "metrics": {
-            "value": 187000
+            "value": 197000
           },
           "painTerms": [],
           "spendTerms": []
@@ -2161,9 +2251,9 @@
           "evidenceType": "macro",
           "title": "Initial unemployment claims",
           "url": "https://fred.stlouisfed.org/series/ICSA",
-          "publishedAt": "2026-07-11T00:00:00.000Z",
+          "publishedAt": "2026-07-18T00:00:00.000Z",
           "metrics": {
-            "value": 209000
+            "value": 188000
           },
           "painTerms": [],
           "spendTerms": []
@@ -2177,11 +2267,11 @@
       "sparkline": [
         32,
         34,
-        26,
-        37,
-        48,
-        32,
-        40
+        27,
+        39,
+        50,
+        35,
+        43
       ]
     },
     {
@@ -2193,34 +2283,34 @@
       "wedge": "A narrow monitor that watches high-value tables and explains broken downstream business metrics.",
       "businessModel": "Team SaaS priced by monitored data assets.",
       "validationStep": "Find teams with one to three data engineers and ask which dashboard failures caused executive escalations.",
-      "score": 80,
-      "confidence": "high",
+      "score": 78,
+      "confidence": "medium",
       "isFallback": false,
       "scoreBreakdown": {
         "pain": 30,
         "spend": 10,
         "recurrence": 15,
-        "sourceQuality": 10,
+        "sourceQuality": 8,
         "nicheSpecificity": 8,
         "macro": 7
       },
-      "mentionCount": 25,
-      "sourceCount": 4,
-      "whyNow": "25 current evidence items versus prior peak 93 across 4 source types, including 4 pain signals and 2 spend signals.",
+      "mentionCount": 24,
+      "sourceCount": 2,
+      "whyNow": "24 current evidence items versus prior peak 93 across 2 source types, including 5 pain signals and 2 spend signals.",
       "evidence": [
         {
           "source": "GitHub Issues",
           "sourceType": "developer-pain",
           "evidenceType": "pain",
-          "title": "fix: REFERRAL_REQUEST schema drift in WNL feed breaks landing build",
-          "url": "https://github.com/wnl-icb-analytics/dbt-OLIDS/issues/277",
-          "publishedAt": "2026-07-24T12:31:28Z",
+          "title": "Schema-versioning for local pipeline-cache artifacts (data_lake/feature_store/warehouse)",
+          "url": "https://github.com/sinan-can-demir/ims/issues/210",
+          "publishedAt": "2026-08-02T00:16:38Z",
           "metrics": {
             "comments": 2,
             "score": 1
           },
           "painTerms": [
-            "bug"
+            "mess"
           ],
           "spendTerms": []
         },
@@ -2253,38 +2343,37 @@
           "source": "GitHub Issues",
           "sourceType": "developer-pain",
           "evidenceType": "pain",
-          "title": "Spec: core RAG pipeline over P1 Domains — ingestion to gated, cited answers (CLI)",
-          "url": "https://github.com/dioispen/IM-study-assistant/issues/1",
-          "publishedAt": "2026-07-27T13:52:44Z",
+          "title": "Schema drift check fails for models with a leading WITH clause (Table 'EXPR$0' not found)",
+          "url": "https://github.com/confluentinc/dbt-confluent/issues/75",
+          "publishedAt": "2026-07-29T01:14:30Z",
           "metrics": {
             "comments": 0,
             "score": 1
           },
           "painTerms": [
+            "broken",
             "bug",
-            "hard",
-            "mess",
-            "problem"
+            "workaround"
           ],
-          "spendTerms": [
-            "budget",
-            "contract"
-          ]
+          "spendTerms": []
         },
         {
-          "source": "Hacker News",
-          "sourceType": "discussion",
-          "evidenceType": "attention",
-          "title": "Magnolias Are So Old That They're Pollinated by Beetles, Not Bees",
-          "url": "https://mymodernmet.com/magnolia-ancient-flowers-beetles/",
-          "publishedAt": "2026-07-22T16:49:29.000Z",
+          "source": "GitHub Issues",
+          "sourceType": "developer-pain",
+          "evidenceType": "pain",
+          "title": "Guard bronze→silver schema drift with typed dbt models (enforced contracts + parity gate)",
+          "url": "https://github.com/constructorfabric/insight/issues/1762",
+          "publishedAt": "2026-07-14T14:43:35Z",
           "metrics": {
-            "score": 209,
-            "comments": 82,
-            "rank": 12
+            "comments": 0,
+            "score": 1
           },
-          "painTerms": [],
-          "spendTerms": []
+          "painTerms": [
+            "bug"
+          ],
+          "spendTerms": [
+            "contract"
+          ]
         },
         {
           "source": "npm",
@@ -2292,10 +2381,10 @@
           "evidenceType": "adoption",
           "title": "@cubejs-backend/dbt-schema-extension",
           "url": "https://www.npmjs.com/package/@cubejs-backend/dbt-schema-extension",
-          "publishedAt": "2026-07-27T16:10:13.906Z",
+          "publishedAt": "2026-07-31T14:02:51.362Z",
           "metrics": {
             "search": "dbt",
-            "score": 39542
+            "score": 41221
           },
           "painTerms": [],
           "spendTerms": []
@@ -2309,7 +2398,7 @@
           "publishedAt": "2026-07-27T12:01:09.621Z",
           "metrics": {
             "search": "dbt",
-            "score": 20661
+            "score": 20986
           },
           "painTerms": [
             "manual"
@@ -2325,7 +2414,7 @@
           "publishedAt": "2026-07-18T04:36:27.643Z",
           "metrics": {
             "search": "dbt",
-            "score": 24644
+            "score": 25275
           },
           "painTerms": [],
           "spendTerms": []
@@ -2339,7 +2428,7 @@
           "publishedAt": "2026-07-16T08:42:00.908Z",
           "metrics": {
             "search": "dbt",
-            "score": 39675
+            "score": 38629
           },
           "painTerms": [],
           "spendTerms": []
@@ -2353,7 +2442,7 @@
           "publishedAt": "2026-07-14T20:31:45.261Z",
           "metrics": {
             "search": "dbt",
-            "score": 23960
+            "score": 22477
           },
           "painTerms": [],
           "spendTerms": []
@@ -2367,7 +2456,7 @@
           "publishedAt": "2026-07-14T20:31:45.112Z",
           "metrics": {
             "search": "dbt",
-            "score": 19996
+            "score": 18797
           },
           "painTerms": [],
           "spendTerms": []
@@ -2403,21 +2492,17 @@
           "source": "GitHub Issues",
           "sourceType": "developer-pain",
           "evidenceType": "pain",
-          "title": "Spec: core RAG pipeline over P1 Domains — ingestion to gated, cited answers (CLI)",
-          "url": "https://github.com/dioispen/IM-study-assistant/issues/1",
-          "publishedAt": "2026-07-27T13:52:44Z",
+          "title": "Guard bronze→silver schema drift with typed dbt models (enforced contracts + parity gate)",
+          "url": "https://github.com/constructorfabric/insight/issues/1762",
+          "publishedAt": "2026-07-14T14:43:35Z",
           "metrics": {
             "comments": 0,
             "score": 1
           },
           "painTerms": [
-            "bug",
-            "hard",
-            "mess",
-            "problem"
+            "bug"
           ],
           "spendTerms": [
-            "budget",
             "contract"
           ]
         },
@@ -2427,10 +2512,10 @@
           "evidenceType": "adoption",
           "title": "@cubejs-backend/dbt-schema-extension",
           "url": "https://www.npmjs.com/package/@cubejs-backend/dbt-schema-extension",
-          "publishedAt": "2026-07-27T16:10:13.906Z",
+          "publishedAt": "2026-07-31T14:02:51.362Z",
           "metrics": {
             "search": "dbt",
-            "score": 39542
+            "score": 41221
           },
           "painTerms": [],
           "spendTerms": []
@@ -2444,7 +2529,7 @@
           "publishedAt": "2026-07-27T12:01:09.621Z",
           "metrics": {
             "search": "dbt",
-            "score": 20661
+            "score": 20986
           },
           "painTerms": [
             "manual"
@@ -2460,7 +2545,7 @@
           "publishedAt": "2026-07-18T04:36:27.643Z",
           "metrics": {
             "search": "dbt",
-            "score": 24644
+            "score": 25275
           },
           "painTerms": [],
           "spendTerms": []
@@ -2474,7 +2559,7 @@
           "publishedAt": "2026-07-16T08:42:00.908Z",
           "metrics": {
             "search": "dbt",
-            "score": 39675
+            "score": 38629
           },
           "painTerms": [],
           "spendTerms": []
@@ -2488,7 +2573,7 @@
           "publishedAt": "2026-07-14T20:31:45.261Z",
           "metrics": {
             "search": "dbt",
-            "score": 23960
+            "score": 22477
           },
           "painTerms": [],
           "spendTerms": []
@@ -2502,7 +2587,7 @@
           "publishedAt": "2026-07-14T20:31:45.112Z",
           "metrics": {
             "search": "dbt",
-            "score": 19996
+            "score": 18797
           },
           "painTerms": [],
           "spendTerms": []
@@ -2511,12 +2596,12 @@
           "source": "npm",
           "sourceType": "package",
           "evidenceType": "adoption",
-          "title": "@anarchitects/governance-runtime-dbt",
-          "url": "https://www.npmjs.com/package/@anarchitects/governance-runtime-dbt",
-          "publishedAt": "2026-06-27T08:20:40.723Z",
+          "title": "@dbt-doctor/manifest",
+          "url": "https://www.npmjs.com/package/@dbt-doctor/manifest",
+          "publishedAt": "2026-07-14T20:31:44.995Z",
           "metrics": {
             "search": "dbt",
-            "score": 19542
+            "score": 17847
           },
           "painTerms": [],
           "spendTerms": []
@@ -2525,12 +2610,12 @@
           "source": "npm",
           "sourceType": "package",
           "evidenceType": "adoption",
-          "title": "@anarchitects/governance-extension-dbt",
-          "url": "https://www.npmjs.com/package/@anarchitects/governance-extension-dbt",
-          "publishedAt": "2026-06-27T08:20:36.912Z",
+          "title": "@us-all/dbt-mcp",
+          "url": "https://www.npmjs.com/package/@us-all/dbt-mcp",
+          "publishedAt": "2026-06-19T03:59:02.650Z",
           "metrics": {
             "search": "dbt",
-            "score": 22960
+            "score": 18012
           },
           "painTerms": [],
           "spendTerms": []
@@ -2543,9 +2628,9 @@
           "evidenceType": "macro",
           "title": "Initial unemployment claims",
           "url": "https://fred.stlouisfed.org/series/ICSA",
-          "publishedAt": "2026-07-18T00:00:00.000Z",
+          "publishedAt": "2026-07-25T00:00:00.000Z",
           "metrics": {
-            "value": 187000
+            "value": 197000
           },
           "painTerms": [],
           "spendTerms": []
@@ -2556,9 +2641,9 @@
           "evidenceType": "macro",
           "title": "Initial unemployment claims",
           "url": "https://fred.stlouisfed.org/series/ICSA",
-          "publishedAt": "2026-07-11T00:00:00.000Z",
+          "publishedAt": "2026-07-18T00:00:00.000Z",
           "metrics": {
-            "value": 209000
+            "value": 188000
           },
           "painTerms": [],
           "spendTerms": []
@@ -2574,9 +2659,9 @@
         98,
         47,
         68,
-        89,
-        25,
-        32
+        88,
+        24,
+        31
       ]
     }
   ]
