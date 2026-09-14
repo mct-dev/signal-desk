@@ -1,6 +1,47 @@
 {
   "snapshots": [
     {
+      "at": "2026-09-14T19:50:55.361Z",
+      "clusters": [
+        {
+          "id": "ai-agent-ops",
+          "count": 58,
+          "score": 90,
+          "confidence": "high"
+        },
+        {
+          "id": "llm-evaluation-regression",
+          "count": 31,
+          "score": 90,
+          "confidence": "high"
+        },
+        {
+          "id": "usage-billing-operations",
+          "count": 45,
+          "score": 90,
+          "confidence": "high"
+        },
+        {
+          "id": "auth-sso-integration-debugging",
+          "count": 46,
+          "score": 90,
+          "confidence": "high"
+        },
+        {
+          "id": "soc2-evidence-automation",
+          "count": 30,
+          "score": 90,
+          "confidence": "high"
+        },
+        {
+          "id": "data-pipeline-reliability",
+          "count": 26,
+          "score": 86,
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
       "at": "2026-09-07T19:10:08.500Z",
       "clusters": [
         {
