@@ -1,6 +1,35 @@
 {
   "snapshots": [
     {
+      "at": "2026-10-12T22:29:43.941Z",
+      "clusters": [
+        {
+          "id": "ai-agent-ops",
+          "count": 50,
+          "score": 90,
+          "confidence": "high"
+        },
+        {
+          "id": "llm-evaluation-regression",
+          "count": 33,
+          "score": 90,
+          "confidence": "high"
+        },
+        {
+          "id": "usage-billing-operations",
+          "count": 46,
+          "score": 90,
+          "confidence": "high"
+        },
+        {
+          "id": "data-pipeline-reliability",
+          "count": 22,
+          "score": 62,
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
       "at": "2026-10-05T22:01:10.953Z",
       "clusters": [
         {
