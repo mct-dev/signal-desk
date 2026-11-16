@@ -1,6 +1,29 @@
 {
   "snapshots": [
     {
+      "at": "2026-11-16T23:44:33.652Z",
+      "clusters": [
+        {
+          "id": "llm-evaluation-regression",
+          "count": 36,
+          "score": 90,
+          "confidence": "high"
+        },
+        {
+          "id": "ai-agent-ops",
+          "count": 50,
+          "score": 90,
+          "confidence": "high"
+        },
+        {
+          "id": "usage-billing-operations",
+          "count": 41,
+          "score": 90,
+          "confidence": "high"
+        }
+      ]
+    },
+    {
       "at": "2026-11-09T23:46:41.869Z",
       "clusters": [
         {
